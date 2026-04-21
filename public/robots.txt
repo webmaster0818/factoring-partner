@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://factoring-partner.pages.dev/sitemap.xml
