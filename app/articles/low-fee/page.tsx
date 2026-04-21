@@ -634,6 +634,33 @@ export default function LowFeePage() {
           </div>
         </section>
 
+        {/* ── 手数料の内訳と隠れコスト ─── */}
+        <section className="mb-16">
+          <h3 className="mb-6 text-lg font-bold text-text-main md:text-xl">
+            手数料の内訳と隠れコストに注意
+          </h3>
+          <div className="space-y-4">
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">表面上の手数料以外にかかるコスト</h3>
+              <p className="leading-relaxed text-text-light">
+                ファクタリングでは表面上の手数料以外にも、事務手数料（5,000〜30,000円）、債権譲渡登記費用（数万円）、振込手数料などがかかる場合があります。契約前に必ず「総支払額」を確認し、想定外のコストが発生しないか注意しましょう。
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">「手数料1%〜」の広告に注意</h3>
+              <p className="leading-relaxed text-text-light">
+                「手数料1%〜」と表記されている場合、それは最低値であり実際の手数料は売掛先の信用力・売掛金の金額・支払い期日などによって変動します。手数料を正確に比較するには、見積もりを取得して「総支払額」ベースで比較することが重要です。
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">3社間と2社間の手数料差</h3>
+              <p className="leading-relaxed text-text-light">
+                3社間ファクタリングの方が手数料は安い（2〜9%）ですが、取引先に売掛金の売却を知られることになります。一方、2社間ファクタリングは取引先に知られませんが手数料は10〜20%と高めです。コストと秘匿性のバランスを考慮して選びましょう。
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-8 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">

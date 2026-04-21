@@ -602,6 +602,36 @@ export default function VsBankLoanPage() {
           </div>
         </section>
 
+        {/* ── 併用戦略 ─── */}
+        <section className="mb-16">
+          <h3 className="mb-6 text-lg font-bold text-text-main md:text-xl">
+            ファクタリングと銀行融資の併用戦略
+          </h3>
+          <p className="mb-4 leading-relaxed text-text-light">
+            ファクタリングと銀行融資は「どちらか一方」ではなく、<strong className="text-text-main">状況に応じて使い分ける</strong>のが最も効果的です。それぞれの強みを活かした併用戦略を紹介します。
+          </p>
+          <div className="rounded-lg border border-border bg-white p-6">
+            <ul className="space-y-3 text-sm leading-relaxed text-text-light">
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-primary">&#9679;</span>
+                <span><strong className="text-text-main">緊急時はファクタリング、計画的な資金調達は銀行融資</strong>：急な支払いにはファクタリングで即日対応し、設備投資など計画的な資金需要は金利の低い銀行融資を活用するのが理想です</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-primary">&#9679;</span>
+                <span><strong className="text-text-main">ファクタリングで資金繰りを安定させてから銀行審査へ</strong>：ファクタリングで短期の資金繰りを改善し、安定した状態で銀行融資の審査に臨むことで審査通過率が上がります</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-primary">&#9679;</span>
+                <span><strong className="text-text-main">ファクタリングは「負債」にならない</strong>：ファクタリングは売掛債権の売買であり、貸借対照表の負債に計上されないため、銀行融資の審査に悪影響を与えません</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-primary">&#9679;</span>
+                <span><strong className="text-text-main">黒字倒産の防止に有効</strong>：損益計算書は黒字でも、入金タイミングのズレで資金ショートする「黒字倒産」を防ぐのに、ファクタリングで入金を早めることが有効です</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-8 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">

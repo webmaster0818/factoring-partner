@@ -702,6 +702,33 @@ export default function ForSoleProprietorPage() {
           </div>
         </section>
 
+        {/* ── 審査に通るコツ ─── */}
+        <section className="mb-16">
+          <h3 className="mb-6 text-lg font-bold text-text-main md:text-xl">
+            個人事業主がファクタリング審査に通るためのコツ3つ
+          </h3>
+          <div className="space-y-4">
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">1. 確定申告書の提出で信頼性UP</h3>
+              <p className="leading-relaxed text-text-light">
+                個人事業主は法人と比べて信用情報が限られるため、確定申告書を提出することで事業の実態と安定性を証明できます。直近2〜3年分の確定申告書を用意しておくと、審査通過率が大幅にアップします。
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">2. 請求書だけでなく契約書も用意</h3>
+              <p className="leading-relaxed text-text-light">
+                請求書だけでなく、取引先との契約書や発注書も併せて提出すると、売掛金の実在性を強く証明でき審査に有利です。特に初回利用時は、取引の継続性を示す書類が多いほど好印象を与えられます。
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">3. 初回は少額で実績を作る</h3>
+              <p className="leading-relaxed text-text-light">
+                初回は少額（1〜10万円程度）で利用して実績を作り、2回目以降に増額していくのがおすすめです。例えばペイトナーファクタリングは初回25万円が上限ですが、2回目以降は利用実績に応じて上限額がアップしていく仕組みになっています。
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-8 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">

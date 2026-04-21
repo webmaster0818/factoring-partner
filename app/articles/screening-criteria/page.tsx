@@ -621,6 +621,35 @@ export default function ScreeningCriteriaPage() {
           </div>
         </section>
 
+        {/* ── 赤字・税金滞納でも利用可能か ─── */}
+        <section className="mb-16">
+          <h3 className="mb-6 text-lg font-bold text-text-main md:text-xl">
+            赤字・税金滞納でもファクタリングは利用できる？
+          </h3>
+          <p className="mb-4 leading-relaxed text-text-light">
+            銀行融資では審査が通らない状況でも、ファクタリングなら利用できるケースが多くあります。これはファクタリングの審査対象が<strong className="text-text-main">利用者ではなく売掛先の信用力</strong>であるためです。
+          </p>
+          <div className="rounded-lg border border-border bg-white p-6">
+            <ul className="space-y-3 text-sm leading-relaxed text-text-light">
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-secondary">&#10003;</span>
+                <span><strong className="text-text-main">赤字決算でも利用可能</strong>：審査対象は売掛先の信用力のため、自社が赤字でも問題ありません</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-secondary">&#10003;</span>
+                <span><strong className="text-text-main">税金滞納中でも基本的に利用可能</strong>：銀行融資は不可ですが、ファクタリングは売掛債権の売買のため税金滞納があっても対応可能です</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-secondary">&#10003;</span>
+                <span><strong className="text-text-main">債務超過でも対応する会社がある</strong>：ビートレーディング・アクセルファクター等は柔軟な審査で対応しています</span>
+              </li>
+            </ul>
+          </div>
+          <p className="mt-4 rounded-lg bg-amber-50 p-4 text-sm leading-relaxed text-text-light">
+            <strong className="text-text-main">注意点：</strong>ただし、売掛先の信用力が低い場合（倒産リスクが高い、支払い遅延の実績がある等）は、審査落ちの可能性があります。売掛先が上場企業や官公庁であるほど審査は通りやすくなります。
+          </p>
+        </section>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-8 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">

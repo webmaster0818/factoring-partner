@@ -660,6 +660,39 @@ export default function ForCorporationPage() {
           </div>
         </section>
 
+        {/* ── 審査で重視されるポイント ─── */}
+        <section className="mb-16">
+          <h3 className="mb-6 text-lg font-bold text-text-main md:text-xl">
+            法人ファクタリングの審査で重視されるポイント
+          </h3>
+          <div className="space-y-4">
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">売掛先の信用力が最重要</h3>
+              <p className="leading-relaxed text-text-light">
+                法人ファクタリングの審査で最も重視されるのは売掛先の信用力です。帝国データバンクや東京商工リサーチのスコアが参照されることが多く、上場企業や官公庁が売掛先であれば審査通過率・条件ともに有利になります。
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">売掛金の支払い期日</h3>
+              <p className="leading-relaxed text-text-light">
+                売掛金の支払い期日が短いほど、ファクタリング会社のリスクが低くなるため審査に有利です。一般的に支払い期日まで30〜60日程度が好まれ、90日を超えると手数料が上がるか買取対象外になるケースもあります。
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">継続的な取引実績</h3>
+              <p className="leading-relaxed text-text-light">
+                売掛先との間に継続的な取引実績があると、売掛金の信頼性が高いと判断され審査通過率がアップします。新規取引先の売掛金よりも、複数回の取引履歴がある売掛金の方が有利な条件を引き出せます。
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">3社間なら手数料2〜9%に抑えられる</h3>
+              <p className="leading-relaxed text-text-light">
+                3社間ファクタリングを選択すれば、手数料を2〜9%に抑えることが可能です。ただし、取引先（売掛先）の承諾が必要となるため、取引関係への影響を考慮した上で検討しましょう。取引先に知られたくない場合は2社間を選ぶことになりますが、手数料は10〜20%程度と高くなります。
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-8 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">

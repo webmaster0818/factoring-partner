@@ -733,6 +733,39 @@ export default function AccountingPage() {
           </div>
         </section>
 
+        {/* ── 消費税の扱いと決算期末の注意点 ─── */}
+        <section className="mb-16">
+          <h3 className="mb-6 text-lg font-bold text-text-main md:text-xl">
+            消費税の扱いと決算期末の注意点
+          </h3>
+          <div className="space-y-4">
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">ファクタリング手数料は非課税取引</h3>
+              <p className="leading-relaxed text-text-light">
+                ファクタリングの手数料は、金融商品の売買（債権の譲渡）に該当するため消費税は非課税です。仕訳上も「売上債権売却損」として非課税取引で処理します。消費税の申告時に課税売上に含めないよう注意しましょう。
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">消費税を上乗せする業者に注意</h3>
+              <p className="leading-relaxed text-text-light">
+                ファクタリング手数料に消費税を上乗せしてくる業者は、法的に問題がある可能性があります。非課税取引であるにもかかわらず消費税を請求する行為は不当な請求です。契約前に手数料の内訳をしっかり確認しましょう。
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">決算期末をまたぐ場合の注意</h3>
+              <p className="leading-relaxed text-text-light">
+                ファクタリングで売掛債権を譲渡した場合、決算期末をまたいでまだ入金されていなくても、譲渡時点で売上債権売却損が発生し課税対象となります。期末にファクタリングを利用する場合は、決算への影響を事前に確認しておきましょう。
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">税理士への事前相談を推奨</h3>
+              <p className="leading-relaxed text-text-light">
+                特に初めてファクタリングを利用する場合は、顧問税理士や会計事務所に事前相談することを強く推奨します。契約内容や利用頻度によって最適な会計処理が異なるため、専門家のアドバイスを受けることで正確な税務申告が可能になります。
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-8 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">

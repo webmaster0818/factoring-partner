@@ -614,6 +614,40 @@ export default function FeeGuidePage() {
           </div>
         </section>
 
+        {/* ── 手数料交渉術 ─── */}
+        <section className="mb-16">
+          <h3 className="mb-6 text-lg font-bold text-text-main md:text-xl">
+            手数料を下げるための交渉術
+          </h3>
+          <p className="mb-4 leading-relaxed text-text-light">
+            ファクタリングの手数料は固定ではなく、交渉次第で引き下げることが可能です。以下の5つのテクニックを活用しましょう。
+          </p>
+          <div className="rounded-lg border border-border bg-white p-6">
+            <ul className="space-y-3 text-sm leading-relaxed text-text-light">
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 font-bold text-primary">1.</span>
+                <span><strong className="text-text-main">複数業者から見積もりを取る</strong>：競合の見積もりを提示して交渉することで、手数料の引き下げに応じてもらいやすくなります</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 font-bold text-primary">2.</span>
+                <span><strong className="text-text-main">継続利用の意思を伝える</strong>：リピーターには割引が適用されやすく、2回目以降の利用で手数料が下がるケースが多いです</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 font-bold text-primary">3.</span>
+                <span><strong className="text-text-main">売掛先の信用力をアピール</strong>：売掛先が上場企業や官公庁であれば積極的に伝えましょう。信用力が高いほど手数料は低くなります</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 font-bold text-primary">4.</span>
+                <span><strong className="text-text-main">3社間への切り替えを検討</strong>：2社間から3社間に切り替えることで、手数料が半分以下になることもあります</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 font-bold text-primary">5.</span>
+                <span><strong className="text-text-main">支払いサイトが短い売掛金を選ぶ</strong>：支払いサイトが短い売掛金ほどリスクが低いため、手数料も低く設定されます</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-8 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">

@@ -639,6 +639,35 @@ export default function TwoVsThreePage() {
           </div>
         </section>
 
+        {/* ── 債権譲渡登記の費用と必要性 ─── */}
+        <section className="mb-16">
+          <h3 className="mb-6 text-lg font-bold text-text-main md:text-xl">
+            債権譲渡登記とは？費用と必要性
+          </h3>
+          <p className="mb-4 leading-relaxed text-text-light">
+            2社間ファクタリングでは、ファクタリング会社が法的な対抗要件を確保するために<strong className="text-text-main">債権譲渡登記</strong>を求めるケースがあります。登記の有無は会社選びの重要なポイントです。
+          </p>
+          <div className="rounded-lg border border-border bg-white p-6">
+            <ul className="space-y-3 text-sm leading-relaxed text-text-light">
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-primary">&#9679;</span>
+                <span><strong className="text-text-main">登記費用の内訳</strong>：登録免許税7,500円＋司法書士報酬で、合計数万円の費用が発生します</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-primary">&#9679;</span>
+                <span><strong className="text-text-main">取引先への影響</strong>：登記すると法人登記簿に記載されるため、取引先に知られるリスクは低いものの完全にゼロではありません</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-primary">&#9679;</span>
+                <span><strong className="text-text-main">登記不要の会社</strong>：QuQuMo・ペイトナー・ラボル・PAYTODAYなどのオンライン完結型は登記不要で利用でき、費用も抑えられます</span>
+              </li>
+            </ul>
+          </div>
+          <p className="mt-4 text-sm leading-relaxed text-text-light">
+            登記費用を節約したい場合や、取引先への情報漏洩リスクを避けたい場合は、登記不要のファクタリング会社を優先的に検討しましょう。
+          </p>
+        </section>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-8 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">

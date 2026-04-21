@@ -631,6 +631,33 @@ export default function EasyScreeningPage() {
           </div>
         </section>
 
+        {/* ── 審査なしは存在しない ─── */}
+        <section className="mb-16">
+          <h3 className="mb-6 text-lg font-bold text-text-main md:text-xl">
+            「審査なし」のファクタリングは存在しない
+          </h3>
+          <div className="space-y-4">
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">完全に審査なしは存在しない</h3>
+              <p className="leading-relaxed text-text-light">
+                ファクタリングは売掛債権の買取サービスであるため、売掛債権の実在性や売掛先の信用力の確認は必須です。完全に「審査なし」で買取を行うファクタリング会社は存在しません。
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">「審査なし」を謳う業者に注意</h3>
+              <p className="leading-relaxed text-text-light">
+                「審査なし」を全面に打ち出している業者は、悪徳業者やファクタリングを装った闇金業者の可能性が高いため注意が必要です。正規のファクタリング会社は必ず売掛債権の確認プロセスを設けています。
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">審査通過率が高い ≠ 審査が甘い</h3>
+              <p className="leading-relaxed text-text-light">
+                審査通過率が高いことと審査が甘いことは異なります。売掛先の信用力が高ければ、誰でも審査に通りやすくなります。JBLは審査通過率97%、アクセルファクターは93.3%と高い通過率を公表していますが、これは審査基準が明確で売掛先重視の審査を行っているためです。
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-8 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">

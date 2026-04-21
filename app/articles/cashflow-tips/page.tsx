@@ -552,6 +552,36 @@ export default function CashflowTipsPage() {
           </div>
         </section>
 
+        {/* ── 黒字倒産を防ぐキャッシュフロー管理 ─── */}
+        <section className="mb-16">
+          <h3 className="mb-6 text-lg font-bold text-text-main md:text-xl">
+            黒字倒産を防ぐためのキャッシュフロー管理
+          </h3>
+          <p className="mb-4 leading-relaxed text-text-light">
+            J-Net21のデータによると、<strong className="text-text-main">倒産企業の約47%が黒字倒産</strong>です。損益計算書上は利益が出ているにもかかわらず、手元の現金が不足して支払いができなくなるケースは決して珍しくありません。
+          </p>
+          <div className="rounded-lg border border-border bg-white p-6">
+            <ul className="space-y-3 text-sm leading-relaxed text-text-light">
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 font-bold text-primary">1.</span>
+                <span><strong className="text-text-main">原因は入金・出金サイクルのギャップ</strong>：売上は計上されていても、入金が2〜3ヶ月先になる一方、仕入れや人件費は毎月発生するため資金ショートが起きます</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 font-bold text-primary">2.</span>
+                <span><strong className="text-text-main">資金繰り表を毎月作成</strong>：3ヶ月先までの入出金を予測する資金繰り表を作成し、資金不足のリスクを事前に把握しましょう</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 font-bold text-primary">3.</span>
+                <span><strong className="text-text-main">「入金は早く、出金は遅く」が基本原則</strong>：入金サイクルを短縮し、支払い条件を見直すことでキャッシュフローを改善できます</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 font-bold text-primary">4.</span>
+                <span><strong className="text-text-main">ファクタリングは最も即効性の高い手段</strong>：入金を早める方法として、ファクタリングは最短即日で売掛金を現金化でき、最も即効性が高い資金繰り改善策です</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-8 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">

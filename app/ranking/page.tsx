@@ -1456,6 +1456,40 @@ export default function RankingPage() {
           </div>
         </section>
 
+        {/* ── 2026年トレンド ─── */}
+        <section className="mb-16">
+          <h3 className="mb-6 text-lg font-bold text-text-main md:text-xl">
+            ファクタリング業界の2026年トレンド
+          </h3>
+          <p className="mb-4 leading-relaxed text-text-light">
+            ファクタリング業界は急速に進化しており、2026年は以下のトレンドが顕著になっています。
+          </p>
+          <div className="rounded-lg border border-border bg-white p-6">
+            <ul className="space-y-3 text-sm leading-relaxed text-text-light">
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-primary">&#9679;</span>
+                <span><strong className="text-text-main">AI審査の普及</strong>：バイオン・PAYTODAY・OLTA等がAI審査を導入し、審査時間が大幅に短縮されています。最短数分で審査結果が出るサービスも登場しています</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-primary">&#9679;</span>
+                <span><strong className="text-text-main">オンライン完結が標準に</strong>：来店不要のサービスが主流となり、契約手続きから入金まですべてオンラインで完結できる会社が増えています</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-primary">&#9679;</span>
+                <span><strong className="text-text-main">手数料の低下傾向</strong>：業者間の競争激化により、手数料1%〜の会社が増加しています。利用者にとって有利な市場環境になっています</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-primary">&#9679;</span>
+                <span><strong className="text-text-main">フリーランス・個人事業主向けの充実</strong>：ペイトナーは累計申請件数50万件を突破。少額から利用できるサービスが充実し、個人でも気軽に利用できる環境が整っています</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-primary">&#9679;</span>
+                <span><strong className="text-text-main">注文書ファクタリングの登場</strong>：請求書発行前の注文書（発注書）段階で資金化できるサービスが登場し、より早い段階での資金調達が可能になっています</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-8 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">

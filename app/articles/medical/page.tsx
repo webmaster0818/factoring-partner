@@ -560,6 +560,37 @@ export default function MedicalPage() {
           </div>
         </section>
 
+        {/* ── 診療報酬ファクタリングの手数料が安い理由 ─── */}
+        <section className="mb-16">
+          <h3 className="mb-6 text-lg font-bold text-text-main md:text-xl">
+            診療報酬ファクタリングの手数料が安い理由
+          </h3>
+          <p className="mb-4 leading-relaxed text-text-light">
+            診療報酬ファクタリングの手数料は、一般的なファクタリング（2〜20%）と比べて<strong className="text-text-main">圧倒的に低い水準</strong>です。その理由は売掛先の信用力にあります。
+          </p>
+          <div className="rounded-lg border border-border bg-white p-6">
+            <p className="mb-3 font-bold text-text-main">手数料が安い理由</p>
+            <p className="mb-4 text-sm leading-relaxed text-text-light">
+              診療報酬の売掛先は<strong className="text-text-main">社会保険診療報酬支払基金（社保）</strong>や<strong className="text-text-main">国民健康保険団体連合会（国保連）</strong>です。これらは公的機関であり信用力が極めて高く、未払いリスクがほぼゼロのため、手数料は月0.2〜0.8%と非常に低く設定されています。
+            </p>
+            <p className="mb-3 font-bold text-text-main">主要サービスの手数料比較</p>
+            <ul className="space-y-2 text-sm text-text-light">
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-secondary">&#10003;</span>
+                <span><strong className="text-text-main">エヌエスパートナーズ</strong>：月0.2〜0.8%</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-secondary">&#10003;</span>
+                <span><strong className="text-text-main">カイポケ</strong>：最大0.8%</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-secondary">&#10003;</span>
+                <span><strong className="text-text-main">アクリーティブ</strong>：月0.25%〜</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-8 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">

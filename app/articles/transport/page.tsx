@@ -469,6 +469,35 @@ export default function TransportPage() {
           </div>
         </section>
 
+        {/* ── 2024年問題とファクタリング ─── */}
+        <section className="mb-16">
+          <h3 className="mb-6 text-lg font-bold text-text-main md:text-xl">
+            2024年問題とファクタリングの関係
+          </h3>
+          <p className="mb-4 leading-relaxed text-text-light">
+            2024年4月の働き方改革関連法の適用により、ドライバーの時間外労働規制が強化されました。この<strong className="text-text-main">「2024年問題」</strong>は運送業界の資金繰りに大きな影響を与えています。
+          </p>
+          <div className="rounded-lg border border-border bg-white p-6">
+            <ul className="space-y-3 text-sm leading-relaxed text-text-light">
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-primary">&#9679;</span>
+                <span><strong className="text-text-main">売上減少と人件費増加の二重苦</strong>：時間外労働の上限規制により稼働時間が減少する一方、ドライバー確保のための人件費は上昇し、資金繰りがさらに厳しくなっています</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-primary">&#9679;</span>
+                <span><strong className="text-text-main">赤字でも利用可能</strong>：ファクタリングは銀行融資と異なり、赤字決算でも利用できるため、経営改善期の資金繰りに最適な手段です</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-primary">&#9679;</span>
+                <span><strong className="text-text-main">燃料費高騰への対応</strong>：燃料費の急騰による一時的な資金不足にも、ファクタリングで迅速に対応できます。入金を待たずに運転資金を確保できるのが強みです</span>
+              </li>
+            </ul>
+          </div>
+          <p className="mt-4 text-sm leading-relaxed text-text-light">
+            2024年問題による経営環境の変化が続く中、ファクタリングは運送業の資金繰り改善に欠かせないツールとなっています。
+          </p>
+        </section>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-8 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">

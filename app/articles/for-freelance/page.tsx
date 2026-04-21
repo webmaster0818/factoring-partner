@@ -656,6 +656,33 @@ export default function ForFreelancePage() {
           </div>
         </section>
 
+        {/* ── エージェント経由の請求書 ─── */}
+        <section className="mb-16">
+          <h3 className="mb-6 text-lg font-bold text-text-main md:text-xl">
+            エージェント経由の請求書はファクタリング対象になる？
+          </h3>
+          <div className="space-y-4">
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">エージェント経由の請求書もファクタリング可能</h3>
+              <p className="leading-relaxed text-text-light">
+                レバテックやランサーズなどのエージェント経由で発行した請求書もファクタリングの対象になります。フリーランスエンジニアやデザイナーなど、エージェントを介して案件を受注している方も安心して利用できます。
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">売掛先はエージェント会社になる</h3>
+              <p className="leading-relaxed text-text-light">
+                エージェント経由の場合、売掛先はエンドクライアントではなくエージェント会社になります。そのため、審査ではエージェント会社の信用力が評価されます。大手エージェント（レバテック、ランサーズ等）経由であれば、売掛先の信用力が高いと判断され審査通過率は高い傾向にあります。
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">直接契約の方が手数料が安くなることも</h3>
+              <p className="leading-relaxed text-text-light">
+                直接クライアントと契約している場合、クライアント企業の信用力次第ではエージェント経由よりも手数料が安くなることがあります。特に上場企業や官公庁との直接取引であれば、より有利な条件を引き出せる可能性があります。
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-8 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">

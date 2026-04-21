@@ -485,6 +485,35 @@ export default function ConstructionPage() {
           </div>
         </section>
 
+        {/* ── 建設業特化型ファクタリング ─── */}
+        <section className="mb-16">
+          <h3 className="mb-6 text-lg font-bold text-text-main md:text-xl">
+            建設業特化型ファクタリングの特徴
+          </h3>
+          <p className="mb-4 leading-relaxed text-text-light">
+            建設業は入金サイトが60〜120日と長く、ファクタリングの恩恵が特に大きい業種です。近年は<strong className="text-text-main">建設業に特化したファクタリングサービス</strong>が登場し、業界特有のニーズに対応しています。
+          </p>
+          <div className="rounded-lg border border-border bg-white p-6">
+            <ul className="space-y-3 text-sm leading-relaxed text-text-light">
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-primary">&#9679;</span>
+                <span><strong className="text-text-main">けんせつくん</strong>：建設業に特化したファクタリング会社。注文書ファクタリングに対応しており、工事着手前の段階でも資金化が可能です</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-primary">&#9679;</span>
+                <span><strong className="text-text-main">土建くん</strong>：建設業専門のファクタリングサービス。最短即日での資金化に対応しています</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="mt-0.5 text-primary">&#9679;</span>
+                <span><strong className="text-text-main">注文書（発注書）ファクタリング</strong>：通常のファクタリングは請求書が必要ですが、建設業特化型では注文書の段階で資金化できる会社があります。工事の着工前に資金を確保でき、材料費や外注費の支払いに充てられます</span>
+              </li>
+            </ul>
+          </div>
+          <p className="mt-4 text-sm leading-relaxed text-text-light">
+            建設業は元請け→下請け→孫請けと多層構造になっており、下層ほど入金サイトが長くなる傾向があります。特化型サービスはこうした業界構造を理解した審査を行うため、スムーズな利用が期待できます。
+          </p>
+        </section>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-8 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">

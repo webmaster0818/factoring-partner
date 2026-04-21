@@ -637,6 +637,33 @@ export default function InstantFactoringPage() {
           </div>
         </section>
 
+        {/* ── 即日入金の条件 ─── */}
+        <section className="mb-16">
+          <h3 className="mb-6 text-lg font-bold text-text-main md:text-xl">
+            即日入金を成功させるための3つの条件
+          </h3>
+          <div className="space-y-4">
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">1. 午前中に申込みを完了する</h3>
+              <p className="leading-relaxed text-text-light">
+                銀行振込の締切時間は一般的に15時です。審査から入金までの時間を逆算すると、午前中（できれば10時まで）に申込みを完了させることが即日入金の大前提となります。午後の申込みでは翌営業日の入金になるケースが多いです。
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">2. 必要書類を事前に準備する</h3>
+              <p className="leading-relaxed text-text-light">
+                即日入金を実現するには、請求書・通帳（入出金明細）・身分証明書の3点を事前に準備しておくことが重要です。書類の不備があると再提出が必要になり、その分だけ入金が遅れます。スマホで撮影したものでもOKな会社が多いです。
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">3. 2社間ファクタリングを選ぶ</h3>
+              <p className="leading-relaxed text-text-light">
+                3社間ファクタリングは取引先の承諾が必要なため、即日対応は基本的に不可能です。即日入金を希望するなら2社間ファクタリングを選びましょう。なお、土日祝日に即日対応できる会社は限られますが、ラボルは24時間365日即日振込に対応しています。
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-8 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">

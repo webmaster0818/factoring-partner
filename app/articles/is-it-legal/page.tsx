@@ -503,6 +503,39 @@ export default function IsItLegalPage() {
           </div>
         </section>
 
+        {/* ── 金融庁・消費者庁の公式見解 ─── */}
+        <section className="mb-16">
+          <h3 className="mb-6 text-lg font-bold text-text-main md:text-xl">
+            金融庁・消費者庁の公式見解
+          </h3>
+          <div className="space-y-4">
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">金融庁の注意喚起</h3>
+              <p className="leading-relaxed text-text-light">
+                金融庁はファクタリングを装った高金利の貸付けに対して注意喚起を行っています（fsa.go.jp/user/factoring.html）。正規のファクタリングは売掛債権の売買であり貸金業には該当しませんが、実質的に貸付けと同様の仕組みで高金利を課す悪質業者が存在するため注意が必要です。
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">消費者庁・警視庁の警告</h3>
+              <p className="leading-relaxed text-text-light">
+                消費者庁は違法な貸付け（ファクタリング等を装ったもの）への注意を呼びかけています。また警視庁は、無登録で給与ファクタリングを行う業者について注意喚起を行っています。給与ファクタリングは貸金業に該当するため、貸金業登録のない業者による営業は違法です。
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">経済産業省はファクタリングを推奨</h3>
+              <p className="leading-relaxed text-text-light">
+                一方で、経済産業省は中小企業の資金調達手段として売掛債権の流動化（ファクタリング）を推奨しています。ファクタリング自体は完全に合法であり、適切に利用すれば経営の安定に貢献する有効な資金調達手段です。
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">闇金を見分けるポイント</h3>
+              <p className="leading-relaxed text-text-light">
+                手数料を年率に換算して数百%になる場合は、ファクタリングを装った闇金業者の可能性があります。正規のファクタリング会社であれば、手数料は2社間で10〜20%、3社間で2〜9%が相場です。極端に高い手数料や、償還請求権ありの契約には十分注意してください。
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-8 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">

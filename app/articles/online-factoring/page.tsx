@@ -632,6 +632,33 @@ export default function OnlineFactoringPage() {
           </div>
         </section>
 
+        {/* ── AI審査のメリットと注意点 ─── */}
+        <section className="mb-16">
+          <h3 className="mb-6 text-lg font-bold text-text-main md:text-xl">
+            AI審査のメリットと注意点
+          </h3>
+          <div className="space-y-4">
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">AI審査を採用している主な会社</h3>
+              <p className="leading-relaxed text-text-light">
+                バイオン、PAYTODAY、OLTAなどがAI審査を導入しています。AIによる自動審査により、従来の人手による審査と比べて大幅なスピードアップを実現しています。
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">AI審査のメリット</h3>
+              <p className="leading-relaxed text-text-light">
+                AI審査の最大のメリットは、24時間365日審査が可能な点です。深夜や休日でも申込みから審査結果の通知まで自動で行われます。また、人的バイアスがなく公平な審査が行われること、最短10〜30分で審査結果が出ることも大きな利点です。
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 text-lg font-bold text-primary">AI審査の注意点</h3>
+              <p className="leading-relaxed text-text-light">
+                複雑なケース（新規取引先の売掛金、大口案件、特殊な業種）はAIだけでは対応しきれないことがあります。AI審査に加えて人的チェックも行うハイブリッド型の審査体制を持つ会社が最も信頼性が高いと言えます。
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-8 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">
