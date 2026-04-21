@@ -23,7 +23,7 @@ const footerNav = [
     title: "サイト情報",
     links: [
       { label: "運営者情報", href: "/about/" },
-      { label: "プライバシーポリシー", href: "/privacy/" },
+      { label: "プライバシーポリシー", href: "/privacy-policy/" },
       { label: "お問い合わせ", href: "/contact/" },
     ],
   },
@@ -69,7 +69,12 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="mt-10 border-t border-gray-700 pt-6 text-center text-xs text-gray-500">
-          <p>&copy; 2026 ファクタリングパートナー All Rights Reserved.</p>
+          <div className="flex justify-center gap-6 mt-6">
+            <Link href="/terms/" className="text-xs text-blue-300 hover:text-white transition-colors">利用規約</Link>
+            <Link href="/privacy-policy/" className="text-xs text-blue-300 hover:text-white transition-colors">プライバシーポリシー</Link>
+            <Link href="/content-policy/" className="text-xs text-blue-300 hover:text-white transition-colors">記事制作ポリシー</Link>
+          </div>
+          <p className="mt-4">&copy; 2026 ファクタリングパートナー All Rights Reserved.</p>
         </div>
       </div>
     </footer>
