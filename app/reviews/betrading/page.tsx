@@ -315,7 +315,8 @@ export default function BetradingReviewPage() {
 
           {/* Disclaimer */}
           <div className="mb-8 rounded-lg border border-border bg-section-bg p-4 text-xs text-text-light leading-relaxed">
-            ※当サイトの口コミ傾向調査は、Google口コミ、みん評、ヒカカク、ファクログ等の公開情報をもとに分析したものです。個別の口コミは投稿者個人の意見であり、当サイトがその内容を保証するものではありません。また、口コミは調査時点のものであり、サービス内容は変更される場合があります。
+            ※掲載している口コミは、Google口コミ・みん評・ヒカカク・ファクログ等の投稿を参考に要約・再構成したものです。出典元の原文とは異なります。サービス内容は調査時点のものであり、変更される場合があります。
+            <p className="text-xs text-gray-400 mt-2">出典: <a href="https://maps.google.com/?cid=betrading" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-600">Google MAP口コミ</a> / <a href="https://faclog.jp/factor/betrading" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-600">ファクログ</a></p>
           </div>
 
           {/* Google MAP rating */}
