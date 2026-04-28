@@ -729,6 +729,21 @@ export default function ForSoleProprietorPage() {
           </div>
         </section>
 
+        {/* ── 関連ガイド ─── */}
+        <section className="py-8">
+          <div className="max-w-3xl mx-auto">
+            <h3 className="text-lg font-bold text-[#1e3a5f] mb-4">関連ガイド</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              <Link href="/articles/amount-hub/" className="block p-3 border border-[#d4dbe6] rounded-lg hover:bg-[#f7f9fc] transition-colors">
+                <p className="text-sm font-semibold text-[#1e3a5f]">金額別ファクタリングガイド（少額対応あり） →</p>
+              </Link>
+              <Link href="/articles/faq-all/" className="block p-3 border border-[#d4dbe6] rounded-lg hover:bg-[#f7f9fc] transition-colors">
+                <p className="text-sm font-semibold text-[#1e3a5f]">ファクタリングよくある質問50選 →</p>
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-8 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">
