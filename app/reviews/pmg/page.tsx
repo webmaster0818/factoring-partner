@@ -547,6 +547,17 @@ export default function PmgReviewPage() {
           </div>
         </section>
 
+        {/* ── 関連記事 ─── */}
+        <div className="bg-[#f7f9fc] border border-[#d4dbe6] rounded-lg p-5 my-8">
+          <h3 className="text-base font-bold text-[#1e3a5f] mb-3">関連記事</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+            <Link href="/articles/for-corporation/" className="text-sm text-[#1e3a5f] hover:text-[#e87c3e] transition-colors">{"\u2192"} 法人向けファクタリングおすすめ5選</Link>
+            <Link href="/articles/construction/" className="text-sm text-[#1e3a5f] hover:text-[#e87c3e] transition-colors">{"\u2192"} 建設業向けファクタリング完全ガイド</Link>
+            <Link href="/articles/large-amount/" className="text-sm text-[#1e3a5f] hover:text-[#e87c3e] transition-colors">{"\u2192"} 大口ファクタリングガイド</Link>
+            <Link href="/articles/betrading-vs-pmg/" className="text-sm text-[#1e3a5f] hover:text-[#e87c3e] transition-colors">{"\u2192"} ビートレーディング vs PMG比較</Link>
+          </div>
+        </div>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">

@@ -564,6 +564,17 @@ export default function SupportOrgReviewPage() {
           </p>
         </section>
 
+        {/* ── 関連記事 ─── */}
+        <div className="bg-[#f7f9fc] border border-[#d4dbe6] rounded-lg p-5 my-8">
+          <h3 className="text-base font-bold text-[#1e3a5f] mb-3">関連記事</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+            <Link href="/articles/for-corporation/" className="text-sm text-[#1e3a5f] hover:text-[#e87c3e] transition-colors">{"\u2192"} 法人向けファクタリングおすすめ5選</Link>
+            <Link href="/articles/screening-criteria/" className="text-sm text-[#1e3a5f] hover:text-[#e87c3e] transition-colors">{"\u2192"} ファクタリングの審査基準を徹底解説</Link>
+            <Link href="/articles/guarantee-type/" className="text-sm text-[#1e3a5f] hover:text-[#e87c3e] transition-colors">{"\u2192"} 保証型ファクタリングとは？</Link>
+            <Link href="/articles/low-fee/" className="text-sm text-[#1e3a5f] hover:text-[#e87c3e] transition-colors">{"\u2192"} 手数料が安いファクタリング会社ランキング</Link>
+          </div>
+        </div>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">

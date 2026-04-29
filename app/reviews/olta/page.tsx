@@ -547,6 +547,17 @@ export default function OltaReviewPage() {
           </div>
         </section>
 
+        {/* ── 関連記事 ─── */}
+        <div className="bg-[#f7f9fc] border border-[#d4dbe6] rounded-lg p-5 my-8">
+          <h3 className="text-base font-bold text-[#1e3a5f] mb-3">関連記事</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+            <Link href="/articles/online-factoring/" className="text-sm text-[#1e3a5f] hover:text-[#e87c3e] transition-colors">{"\u2192"} オンライン完結ファクタリング8選</Link>
+            <Link href="/articles/ququmo-vs-olta/" className="text-sm text-[#1e3a5f] hover:text-[#e87c3e] transition-colors">{"\u2192"} QuQuMo vs OLTA比較</Link>
+            <Link href="/articles/for-sole-proprietor/" className="text-sm text-[#1e3a5f] hover:text-[#e87c3e] transition-colors">{"\u2192"} 個人事業主向けファクタリング5選</Link>
+            <Link href="/articles/low-fee/" className="text-sm text-[#1e3a5f] hover:text-[#e87c3e] transition-colors">{"\u2192"} 手数料が安いファクタリング会社ランキング</Link>
+          </div>
+        </div>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">

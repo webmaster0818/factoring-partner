@@ -548,6 +548,17 @@ export default function AccelfactorReviewPage() {
           </div>
         </section>
 
+        {/* ── 関連記事 ─── */}
+        <div className="bg-[#f7f9fc] border border-[#d4dbe6] rounded-lg p-5 my-8">
+          <h3 className="text-base font-bold text-[#1e3a5f] mb-3">関連記事</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+            <Link href="/articles/easy-screening/" className="text-sm text-[#1e3a5f] hover:text-[#e87c3e] transition-colors">{"\u2192"} 審査が通りやすいファクタリング会社8選</Link>
+            <Link href="/articles/deficit-ok/" className="text-sm text-[#1e3a5f] hover:text-[#e87c3e] transition-colors">{"\u2192"} 赤字でも使えるファクタリング</Link>
+            <Link href="/articles/accel-vs-best/" className="text-sm text-[#1e3a5f] hover:text-[#e87c3e] transition-colors">{"\u2192"} アクセルファクター vs ベストファクター比較</Link>
+            <Link href="/articles/instant-factoring/" className="text-sm text-[#1e3a5f] hover:text-[#e87c3e] transition-colors">{"\u2192"} 即日ファクタリング10選</Link>
+          </div>
+        </div>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">
