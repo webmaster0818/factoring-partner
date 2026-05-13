@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -17,21 +18,49 @@ const targetCards = [
     description:
       "資金繰りの改善や急な支払いに対応。銀行融資が間に合わない場面でも最短即日で資金調達が可能です。",
     href: "/corporation/",
-    icon: "🏢",
+    icon: (
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <rect x="4" y="14" width="14" height="22" rx="1" stroke="#1e3a5f" strokeWidth="2" fill="none" />
+        <rect x="22" y="6" width="14" height="30" rx="1" stroke="#1e3a5f" strokeWidth="2" fill="none" />
+        <rect x="8" y="18" width="3" height="3" rx="0.5" fill="#e87c3e" />
+        <rect x="8" y="24" width="3" height="3" rx="0.5" fill="#e87c3e" />
+        <rect x="8" y="30" width="3" height="3" rx="0.5" fill="#e87c3e" />
+        <rect x="26" y="10" width="3" height="3" rx="0.5" fill="#e87c3e" />
+        <rect x="26" y="16" width="3" height="3" rx="0.5" fill="#e87c3e" />
+        <rect x="26" y="22" width="3" height="3" rx="0.5" fill="#e87c3e" />
+        <rect x="26" y="28" width="3" height="3" rx="0.5" fill="#e87c3e" />
+        <rect x="32" y="10" width="3" height="3" rx="0.5" fill="#1e3a5f" opacity="0.3" />
+        <rect x="32" y="16" width="3" height="3" rx="0.5" fill="#1e3a5f" opacity="0.3" />
+      </svg>
+    ),
   },
   {
     title: "個人事業主向け",
     description:
       "少額からの利用もOK。個人事業主でも審査に通りやすいファクタリング会社を厳選して紹介しています。",
     href: "/sole-proprietor/",
-    icon: "👤",
+    icon: (
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <circle cx="20" cy="14" r="6" stroke="#1e3a5f" strokeWidth="2" fill="none" />
+        <path d="M8 36c0-6.627 5.373-12 12-12s12 5.373 12 12" stroke="#1e3a5f" strokeWidth="2" fill="none" />
+        <circle cx="20" cy="14" r="2" fill="#e87c3e" />
+      </svg>
+    ),
   },
   {
     title: "フリーランス向け",
     description:
       "請求書1枚から利用可能。フリーランス特化型のサービスで手軽に資金調達ができます。",
     href: "/sole-proprietor/",
-    icon: "💻",
+    icon: (
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <rect x="6" y="8" width="28" height="20" rx="2" stroke="#1e3a5f" strokeWidth="2" fill="none" />
+        <path d="M6 14h28" stroke="#1e3a5f" strokeWidth="2" />
+        <rect x="10" y="18" width="8" height="2" rx="1" fill="#e87c3e" />
+        <rect x="10" y="22" width="12" height="2" rx="1" fill="#1e3a5f" opacity="0.3" />
+        <rect x="14" y="28" width="12" height="6" rx="1" stroke="#1e3a5f" strokeWidth="2" fill="none" />
+      </svg>
+    ),
   },
 ];
 
@@ -46,19 +75,43 @@ const reasons = [
     title: "徹底した比較調査",
     description:
       "手数料、入金スピード、審査通過率、対応エリア、オンライン完結の可否、買取可能額の6項目で各社を徹底比較。客観的なデータに基づいた情報を提供します。",
-    icon: "📊",
+    image: "/images/character/pointing.png",
+    imageAlt: "比較調査を説明するビジネスマン",
   },
   {
     title: "ニーズ別のおすすめ",
     description:
       "法人・個人事業主・フリーランスなど、利用者のタイプに合わせて最適なファクタリング会社をご紹介。あなたに合ったサービスが見つかります。",
-    icon: "🎯",
+    image: "/images/character/presenting.png",
+    imageAlt: "データを提示するビジネスマン",
   },
   {
     title: "最新情報を随時更新",
     description:
       "ファクタリング業界は変化が早い分野です。手数料の改定やサービスの変更など、最新情報をキャッチアップして記事に反映しています。",
-    icon: "🔄",
+    image: "/images/character/thumbsup.png",
+    imageAlt: "サムズアップするビジネスマン",
+  },
+];
+
+const steps = [
+  {
+    number: 1,
+    title: "ニーズを確認",
+    description:
+      "法人・個人事業主・フリーランスなど、あなたの事業形態に合ったカテゴリを選択します。",
+  },
+  {
+    number: 2,
+    title: "比較ランキングを確認",
+    description:
+      "手数料・入金スピード・審査通過率など6項目で比較したランキングから、条件に合う会社を探します。",
+  },
+  {
+    number: 3,
+    title: "最適な会社に申し込み",
+    description:
+      "詳細ページで口コミや評判を確認し、あなたに最適なファクタリング会社に申し込みましょう。",
   },
 ];
 
@@ -107,26 +160,87 @@ export default function Home() {
       />
 
       {/* Hero */}
-      <section className="section-primary-light py-16 md:py-24">
-        <div className="mx-auto max-w-6xl px-4 text-center">
-          <h1 className="text-3xl font-bold leading-tight text-primary md:text-5xl">
-            最適なファクタリング会社が見つかる
-          </h1>
-          <p className="mx-auto mt-4 max-w-2xl text-lg text-text-light md:text-xl">
-            49社以上のファクタリング会社を手数料・入金スピード・審査通過率など6項目で徹底比較。法人・個人事業主・フリーランスに最適な1社が見つかります。
-          </p>
-          <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Link href="/ranking/" className="btn-cta text-lg">
-              おすすめ比較ランキングを見る
-            </Link>
-            <Link href="/knowledge/" className="btn-outline">
-              ファクタリングの基礎知識
-            </Link>
+      <section className="hero-bg py-16 md:py-24">
+        <div className="relative z-10 mx-auto max-w-6xl px-4">
+          <div className="flex flex-col items-center gap-8 md:flex-row md:gap-12">
+            {/* Left: Text */}
+            <div className="flex-1 text-center md:text-left">
+              <p className="mb-3 text-sm font-semibold tracking-wider text-orange-300 uppercase">
+                ファクタリング会社 比較・おすすめ【2026年最新】
+              </p>
+              <h1 className="text-3xl font-bold leading-tight text-white md:text-5xl">
+                最適な
+                <span className="text-accent">ファクタリング会社</span>
+                が見つかる
+              </h1>
+              <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-blue-100 md:mx-0 md:text-lg">
+                49社以上のファクタリング会社を手数料・入金スピード・審査通過率など6項目で徹底比較。法人・個人事業主・フリーランスに最適な1社が見つかります。
+              </p>
+              <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row md:justify-start">
+                <Link href="/ranking/" className="btn-cta text-lg">
+                  おすすめ比較ランキングを見る
+                </Link>
+                <Link href="/knowledge/" className="btn-outline border-white/40 text-white hover:bg-white/10 hover:text-white">
+                  ファクタリングの基礎知識
+                </Link>
+              </div>
+            </div>
+            {/* Right: Character */}
+            <div className="flex-shrink-0">
+              <Image
+                src="/images/character/hero.png"
+                alt="ファクタリングパートナー - ビジネスマンキャラクター"
+                width={400}
+                height={400}
+                className="mx-auto w-[280px] drop-shadow-2xl md:w-[400px]"
+                priority
+              />
+            </div>
+          </div>
+
+          {/* Stats row */}
+          <div className="mt-12 grid grid-cols-3 gap-4 md:gap-8">
+            {stats.map((stat) => (
+              <div
+                key={stat.label}
+                className="rounded-lg border border-white/10 bg-white/5 px-4 py-4 text-center backdrop-blur-sm"
+              >
+                <div className="text-2xl font-bold text-accent md:text-3xl">
+                  {stat.value}
+                </div>
+                <div className="mt-1 text-xs font-medium text-blue-200 md:text-sm">
+                  {stat.label}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* Target Cards */}
+      {/* Trust indicators */}
+      <section className="border-b border-border py-10">
+        <div className="mx-auto max-w-6xl px-4">
+          <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
+            {[
+              { value: "49社+", label: "掲載会社数" },
+              { value: "6項目", label: "比較基準" },
+              { value: "最短即日", label: "入金対応" },
+              { value: "完全無料", label: "サイト利用料" },
+            ].map((item) => (
+              <div key={item.label} className="stat-card">
+                <div className="text-xl font-bold text-primary md:text-2xl">
+                  {item.value}
+                </div>
+                <div className="mt-1 text-xs font-medium text-text-light">
+                  {item.label}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Target audience cards */}
       <section className="py-16">
         <div className="mx-auto max-w-6xl px-4">
           <h2 className="text-center text-2xl font-bold text-text-main md:text-3xl">
@@ -136,15 +250,18 @@ export default function Home() {
           <div className="mt-10 grid gap-6 md:grid-cols-3">
             {targetCards.map((card) => (
               <Link key={card.title} href={card.href} className="card group">
-                <div className="mb-3 text-4xl">{card.icon}</div>
+                <div className="mb-4">{card.icon}</div>
                 <h3 className="text-lg font-bold text-text-main group-hover:text-primary">
                   {card.title}
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-text-light">
                   {card.description}
                 </p>
-                <span className="mt-4 inline-block text-sm font-semibold text-accent">
-                  詳しく見る →
+                <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-accent">
+                  詳しく見る
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                    <path d="M6.5 3.5L11 8l-4.5 4.5" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
                 </span>
               </Link>
             ))}
@@ -152,35 +269,25 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Stats */}
-      <section className="section-light py-16">
-        <div className="mx-auto max-w-4xl px-4">
-          <div className="grid gap-8 md:grid-cols-3">
-            {stats.map((stat) => (
-              <div key={stat.label} className="text-center">
-                <div className="text-4xl font-bold text-primary md:text-5xl">
-                  {stat.value}
-                </div>
-                <div className="mt-2 text-sm font-medium text-text-light">
-                  {stat.label}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Reasons */}
-      <section className="py-16">
+      {/* Why choose us */}
+      <section className="section-light section-diagonal py-16">
         <div className="mx-auto max-w-6xl px-4">
           <h2 className="text-center text-2xl font-bold text-text-main md:text-3xl">
             ファクタリングパートナーが
             <span className="text-gradient">選ばれる理由</span>
           </h2>
-          <div className="mt-10 grid gap-6 md:grid-cols-3">
+          <div className="mt-10 grid gap-8 md:grid-cols-3">
             {reasons.map((reason) => (
               <div key={reason.title} className="card text-center">
-                <div className="mb-4 text-4xl">{reason.icon}</div>
+                <div className="mx-auto mb-4 flex h-[140px] w-[140px] items-center justify-center">
+                  <Image
+                    src={reason.image}
+                    alt={reason.imageAlt}
+                    width={140}
+                    height={140}
+                    className="object-contain"
+                  />
+                </div>
                 <h3 className="text-lg font-bold text-text-main">
                   {reason.title}
                 </h3>
@@ -189,6 +296,39 @@ export default function Home() {
                 </p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* How it works */}
+      <section className="py-16">
+        <div className="mx-auto max-w-3xl px-4">
+          <h2 className="text-center text-2xl font-bold text-text-main md:text-3xl">
+            ご利用の流れ
+          </h2>
+          <div className="mt-10 space-y-0">
+            {steps.map((step, index) => (
+              <div key={step.number} className="relative flex gap-5 pb-10">
+                {/* Connector line */}
+                {index < steps.length - 1 && <div className="step-connector" />}
+                {/* Number */}
+                <div className="step-number">{step.number}</div>
+                {/* Content */}
+                <div className="pt-1">
+                  <h3 className="text-lg font-bold text-text-main">
+                    {step.title}
+                  </h3>
+                  <p className="mt-2 text-sm leading-relaxed text-text-light">
+                    {step.description}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div className="mt-4 text-center">
+            <Link href="/ranking/" className="btn-cta">
+              おすすめ比較ランキングを見る
+            </Link>
           </div>
         </div>
       </section>
@@ -208,7 +348,9 @@ export default function Home() {
                 <summary className="flex cursor-pointer items-center justify-between px-6 py-4 text-left font-medium text-text-main">
                   <span>{faq.question}</span>
                   <span className="ml-4 shrink-0 text-text-light transition-transform group-open:rotate-180">
-                    ▼
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <path d="M5.5 7.5L10 12l4.5-4.5" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
                   </span>
                 </summary>
                 <div className="px-6 pb-4 text-sm leading-relaxed text-text-light">
@@ -221,20 +363,31 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section className="bg-primary py-16 text-center text-white">
-        <div className="mx-auto max-w-3xl px-4">
-          <h2 className="text-2xl font-bold md:text-3xl">
-            あなたに最適なファクタリング会社を見つけましょう
-          </h2>
-          <p className="mt-4 text-base text-blue-100">
-            49社以上のファクタリング会社を徹底比較。手数料・入金スピード・審査通過率など6項目であなたに合った1社が見つかります。
-          </p>
-          <Link
-            href="/ranking/"
-            className="btn-cta mt-8 text-lg"
-          >
-            おすすめ比較ランキングを見る
-          </Link>
+      <section className="cta-section py-16 text-center text-white">
+        <div className="relative z-10 mx-auto flex max-w-4xl flex-col items-center px-4 md:flex-row md:gap-10 md:text-left">
+          <div className="mb-6 flex-shrink-0 md:mb-0">
+            <Image
+              src="/images/character/arms-crossed.png"
+              alt="ファクタリングパートナー"
+              width={160}
+              height={160}
+              className="mx-auto w-[120px] drop-shadow-lg md:w-[160px]"
+            />
+          </div>
+          <div className="flex-1">
+            <h2 className="text-2xl font-bold md:text-3xl">
+              あなたに最適なファクタリング会社を見つけましょう
+            </h2>
+            <p className="mt-4 text-base text-blue-100">
+              49社以上のファクタリング会社を徹底比較。手数料・入金スピード・審査通過率など6項目であなたに合った1社が見つかります。
+            </p>
+            <Link
+              href="/ranking/"
+              className="btn-cta mt-8 text-lg"
+            >
+              おすすめ比較ランキングを見る
+            </Link>
+          </div>
         </div>
       </section>
     </>
