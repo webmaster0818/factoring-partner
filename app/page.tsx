@@ -161,12 +161,23 @@ export default function Home() {
 
       {/* Hero */}
       <section className="relative overflow-hidden" style={{ minHeight: "520px" }}>
+        {/* PC */}
         <Image
           src="/images/character/hero.png"
           alt="ファクタリングパートナー"
           fill
           priority
-          className="hero-bg-img"
+          className="hidden md:block"
+          style={{ objectFit: "cover", objectPosition: "left center" }}
+        />
+        {/* SP - same person, cropped for mobile */}
+        <Image
+          src="/images/character/hero-sp.png"
+          alt="ファクタリングパートナー"
+          fill
+          priority
+          className="md:hidden"
+          style={{ objectFit: "cover", objectPosition: "center top" }}
         />
         {/* PC: gradient from right, SP: gradient from bottom */}
         <div className="absolute inset-0 hidden md:block bg-gradient-to-l from-[#1e3a5f]/90 via-[#1e3a5f]/70 to-transparent" />
