@@ -160,46 +160,41 @@ export default function Home() {
       />
 
       {/* Hero */}
-      <section className="hero-bg py-16 md:py-24">
-        <div className="relative z-10 mx-auto max-w-6xl px-4">
-          <div className="flex flex-col items-center gap-8 md:flex-row md:gap-12">
-            {/* Left: Text */}
-            <div className="flex-1 text-center md:text-left">
-              <p className="mb-3 text-sm font-semibold tracking-wider text-orange-300 uppercase">
-                ファクタリング会社 比較・おすすめ【2026年最新】
-              </p>
-              <h1 className="text-3xl font-bold leading-tight text-white md:text-5xl">
-                最適な
-                <span className="text-accent">ファクタリング会社</span>
-                が見つかる
-              </h1>
-              <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-blue-100 md:mx-0 md:text-lg">
-                49社以上のファクタリング会社を手数料・入金スピード・審査通過率など6項目で徹底比較。法人・個人事業主・フリーランスに最適な1社が見つかります。
-              </p>
-              <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row md:justify-start">
-                <Link href="/ranking/" className="btn-cta text-lg">
-                  おすすめ比較ランキングを見る
-                </Link>
-                <Link href="/knowledge/" className="btn-outline border-white/40 text-white hover:bg-white/10 hover:text-white">
-                  ファクタリングの基礎知識
-                </Link>
-              </div>
-            </div>
-            {/* Right: Character */}
-            <div className="flex-shrink-0">
-              <Image
-                src="/images/character/hero.png"
-                alt="ファクタリングパートナー - ビジネスマンキャラクター"
-                width={400}
-                height={400}
-                className="mx-auto w-[280px] drop-shadow-2xl md:w-[400px]"
-                priority
-              />
+      <section className="relative overflow-hidden" style={{ minHeight: "520px" }}>
+        <Image
+          src="/images/character/hero.png"
+          alt="ファクタリングパートナー"
+          fill
+          priority
+          style={{ objectFit: "cover", objectPosition: "center" }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#1e3a5f]/90 via-[#1e3a5f]/70 to-transparent" />
+        <div className="relative z-10 mx-auto flex min-h-[520px] max-w-6xl items-center px-4 py-16 md:py-24">
+          <div className="max-w-xl">
+            <p className="mb-3 text-sm font-semibold tracking-wider text-orange-300 uppercase">
+              ファクタリング会社 比較・おすすめ【2026年最新】
+            </p>
+            <h1 className="text-3xl font-bold leading-tight text-white md:text-5xl">
+              法人ファクタリング、<br />
+              最短即日で使える会社を<br />
+              <span className="text-accent">30秒診断。</span>
+            </h1>
+            <p className="mt-5 max-w-lg text-base leading-relaxed text-blue-100 md:text-lg">
+              請求書の金額・希望入金日・重視する条件を選ぶだけ。あなたの会社に合う候補を探せます。
+            </p>
+            <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row">
+              <a href="#" className="btn-cta text-lg">
+                条件に合う会社を無料診断する
+              </a>
             </div>
           </div>
+        </div>
+      </section>
 
-          {/* Stats row */}
-          <div className="mt-12 grid grid-cols-3 gap-4 md:gap-8">
+      {/* Stats row */}
+      <section className="hero-bg py-6">
+        <div className="mx-auto max-w-6xl px-4">
+          <div className="grid grid-cols-3 gap-4 md:gap-8">
             {stats.map((stat) => (
               <div
                 key={stat.label}
