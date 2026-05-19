@@ -75,22 +75,22 @@ const reasons = [
     title: "徹底した比較調査",
     description:
       "手数料、入金スピード、審査通過率、対応エリア、オンライン完結の可否、買取可能額の6項目で各社を徹底比較。客観的なデータに基づいた情報を提供します。",
-    image: "/images/character/pointing.png",
-    imageAlt: "比較調査を説明するビジネスマン",
+    image: "",
+    imageAlt: "",
   },
   {
     title: "ニーズ別のおすすめ",
     description:
       "法人・個人事業主・フリーランスなど、利用者のタイプに合わせて最適なファクタリング会社をご紹介。あなたに合ったサービスが見つかります。",
-    image: "/images/character/presenting.png",
-    imageAlt: "データを提示するビジネスマン",
+    image: "",
+    imageAlt: "",
   },
   {
     title: "最新情報を随時更新",
     description:
       "ファクタリング業界は変化が早い分野です。手数料の改定やサービスの変更など、最新情報をキャッチアップして記事に反映しています。",
-    image: "/images/character/thumbsup.png",
-    imageAlt: "サムズアップするビジネスマン",
+    image: "",
+    imageAlt: "",
   },
 ];
 
@@ -287,15 +287,6 @@ export default function Home() {
           <div className="mt-10 grid gap-8 md:grid-cols-3">
             {reasons.map((reason) => (
               <div key={reason.title} className="card text-center">
-                <div className="mx-auto mb-4 flex h-[140px] w-[140px] items-center justify-center">
-                  <Image
-                    src={reason.image}
-                    alt={reason.imageAlt}
-                    width={140}
-                    height={140}
-                    className="object-contain"
-                  />
-                </div>
                 <h3 className="text-lg font-bold text-text-main">
                   {reason.title}
                 </h3>
@@ -372,17 +363,8 @@ export default function Home() {
 
       {/* CTA */}
       <section className="cta-section py-16 text-center text-white">
-        <div className="relative z-10 mx-auto flex max-w-4xl flex-col items-center px-4 md:flex-row md:gap-10 md:text-left">
-          <div className="mb-6 flex-shrink-0 md:mb-0">
-            <Image
-              src="/images/character/arms-crossed.png"
-              alt="ファクタリングパートナー"
-              width={160}
-              height={160}
-              className="mx-auto w-[120px] drop-shadow-lg md:w-[160px]"
-            />
-          </div>
-          <div className="flex-1">
+        <div className="relative z-10 mx-auto max-w-4xl px-4">
+          <div>
             <h2 className="text-2xl font-bold md:text-3xl">
               あなたに最適なファクタリング会社を見つけましょう
             </h2>
