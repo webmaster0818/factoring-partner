@@ -161,16 +161,29 @@ export default function Home() {
 
       {/* Hero */}
       <section className="relative overflow-hidden" style={{ minHeight: "520px" }}>
+        {/* PC background */}
         <Image
           src="/images/character/hero.png"
           alt="ファクタリングパートナー"
           fill
           priority
-          style={{ objectFit: "cover", objectPosition: "center" }}
+          className="hidden md:block"
+          style={{ objectFit: "cover", objectPosition: "left center" }}
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#1e3a5f]/90 via-[#1e3a5f]/70 to-transparent" />
-        <div className="relative z-10 mx-auto flex min-h-[520px] max-w-6xl items-center px-4 py-16 md:py-24">
-          <div className="max-w-xl">
+        {/* SP background - show character */}
+        <Image
+          src="/images/character/hero-sp.png"
+          alt="ファクタリングパートナー"
+          fill
+          priority
+          className="md:hidden"
+          style={{ objectFit: "cover", objectPosition: "center 30%" }}
+        />
+        {/* PC: gradient from right, SP: gradient from top */}
+        <div className="absolute inset-0 hidden md:block bg-gradient-to-l from-[#1e3a5f]/90 via-[#1e3a5f]/70 to-transparent" />
+        <div className="absolute inset-0 md:hidden" style={{ background: "linear-gradient(to bottom, rgba(30,58,95,0.3) 0%, rgba(30,58,95,0.85) 60%, rgba(30,58,95,0.95) 100%)" }} />
+        <div className="relative z-10 mx-auto flex min-h-[520px] max-w-6xl items-center justify-end px-4 py-16 md:py-24">
+          <div className="max-w-xl text-center md:text-right">
             <p className="mb-3 text-sm font-semibold tracking-wider text-orange-300 uppercase">
               ファクタリング会社 比較・おすすめ【2026年最新】
             </p>
@@ -179,10 +192,10 @@ export default function Home() {
               最短即日で使える会社を<br />
               <span className="text-accent">30秒診断。</span>
             </h1>
-            <p className="mt-5 max-w-lg text-base leading-relaxed text-blue-100 md:text-lg">
+            <p className="mt-5 max-w-lg text-base leading-relaxed text-blue-100 md:text-lg md:ml-auto">
               請求書の金額・希望入金日・重視する条件を選ぶだけ。あなたの会社に合う候補を探せます。
             </p>
-            <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row">
+            <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row md:justify-end">
               <a href="#" className="btn-cta text-lg">
                 条件に合う会社を無料診断する
               </a>
