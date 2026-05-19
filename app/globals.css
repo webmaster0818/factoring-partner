@@ -216,3 +216,14 @@ body {
   );
   pointer-events: none;
 }
+
+/* Hero background image positioning */
+.hero-bg-img {
+  object-fit: cover;
+  object-position: left center;
+}
+@media (max-width: 767px) {
+  .hero-bg-img {
+    object-position: 35% 20%;
+  }
+}

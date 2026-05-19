@@ -161,25 +161,14 @@ export default function Home() {
 
       {/* Hero */}
       <section className="relative overflow-hidden" style={{ minHeight: "520px" }}>
-        {/* PC background */}
         <Image
           src="/images/character/hero.png"
           alt="ファクタリングパートナー"
           fill
           priority
-          className="hidden md:block"
-          style={{ objectFit: "cover", objectPosition: "left center" }}
+          className="hero-bg-img"
         />
-        {/* SP background - show character */}
-        <Image
-          src="/images/character/hero-sp.png"
-          alt="ファクタリングパートナー"
-          fill
-          priority
-          className="md:hidden"
-          style={{ objectFit: "cover", objectPosition: "center 30%" }}
-        />
-        {/* PC: gradient from right, SP: gradient from top */}
+        {/* PC: gradient from right, SP: gradient from bottom */}
         <div className="absolute inset-0 hidden md:block bg-gradient-to-l from-[#1e3a5f]/90 via-[#1e3a5f]/70 to-transparent" />
         <div className="absolute inset-0 md:hidden" style={{ background: "linear-gradient(to bottom, rgba(30,58,95,0.3) 0%, rgba(30,58,95,0.85) 60%, rgba(30,58,95,0.95) 100%)" }} />
         <div className="relative z-10 mx-auto flex min-h-[520px] max-w-6xl items-center justify-end px-4 py-16 md:py-24">
