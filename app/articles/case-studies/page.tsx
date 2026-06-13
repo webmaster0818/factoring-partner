@@ -62,12 +62,12 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
   headline: "ファクタリングの資金調達事例集｜業種別成功事例10選",
   description: "業種別のファクタリング成功事例10選。実際の活用シーンと成果を紹介。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
   publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/case-studies/" },
 };

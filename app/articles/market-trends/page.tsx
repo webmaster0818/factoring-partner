@@ -124,7 +124,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
   headline:
     "ファクタリング市場規模と2026年の最新動向｜今後の展望",
   description:
@@ -132,9 +132,9 @@ const articleSchema = {
   datePublished: "2026-04-24",
   dateModified: "2026-04-24",
   author: {
-    "@type": "Organization",
-    name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    "@type": "Person",
+    name: "ファクタリングパートナー 編集部",
+    url: "https://factoring-partner.pages.dev/about/",
   },
   publisher: {
     "@type": "Organization",

@@ -17,7 +17,7 @@ const targetCards = [
     title: "法人（中小企業）向け",
     description:
       "資金繰りの改善や急な支払いに対応。銀行融資が間に合わない場面でも最短即日で資金調達が可能です。",
-    href: "/corporation/",
+    href: "/articles/for-corporation/",
     icon: (
       <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
         <rect x="4" y="14" width="14" height="22" rx="1" stroke="#1e3a5f" strokeWidth="2" fill="none" />
@@ -38,7 +38,7 @@ const targetCards = [
     title: "個人事業主向け",
     description:
       "少額からの利用もOK。個人事業主でも審査に通りやすいファクタリング会社を厳選して紹介しています。",
-    href: "/sole-proprietor/",
+    href: "/articles/for-sole-proprietor/",
     icon: (
       <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
         <circle cx="20" cy="14" r="6" stroke="#1e3a5f" strokeWidth="2" fill="none" />
@@ -51,7 +51,7 @@ const targetCards = [
     title: "フリーランス向け",
     description:
       "請求書1枚から利用可能。フリーランス特化型のサービスで手軽に資金調達ができます。",
-    href: "/sole-proprietor/",
+    href: "/articles/for-sole-proprietor/",
     icon: (
       <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true">
         <rect x="6" y="8" width="28" height="20" rx="2" stroke="#1e3a5f" strokeWidth="2" fill="none" />

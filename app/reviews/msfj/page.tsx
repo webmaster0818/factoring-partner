@@ -171,7 +171,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
   headline:
     "MSFJの口コミ・評判｜手数料の安さと柔軟審査を検証",
   description:
@@ -179,9 +179,9 @@ const articleSchema = {
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
   author: {
-    "@type": "Organization",
-    name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    "@type": "Person",
+    name: "ファクタリングパートナー 編集部",
+    url: "https://factoring-partner.pages.dev/about/",
   },
   publisher: {
     "@type": "Organization",

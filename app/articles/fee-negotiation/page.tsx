@@ -138,7 +138,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
   headline:
     "ファクタリングの手数料を下げる交渉術5選｜コスト削減の方法",
   description:
@@ -146,9 +146,9 @@ const articleSchema = {
   datePublished: "2026-04-24",
   dateModified: "2026-04-24",
   author: {
-    "@type": "Organization",
-    name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    "@type": "Person",
+    name: "ファクタリングパートナー 編集部",
+    url: "https://factoring-partner.pages.dev/about/",
   },
   publisher: {
     "@type": "Organization",

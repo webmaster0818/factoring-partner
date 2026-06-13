@@ -140,16 +140,16 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
   headline: "ファクタリング 大阪のおすすめ業者8選｜関西エリア対応",
   description:
     "大阪・関西エリアで利用できるファクタリング会社8社を手数料・スピードで比較。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
   author: {
-    "@type": "Organization",
-    name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    "@type": "Person",
+    name: "ファクタリングパートナー 編集部",
+    url: "https://factoring-partner.pages.dev/about/",
   },
   publisher: {
     "@type": "Organization",

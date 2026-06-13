@@ -105,12 +105,12 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
   headline: "補助金入金待ちの資金繰りにファクタリングを使う方法",
   description: "補助金入金までのつなぎ資金にファクタリングを活用。方法と注意点を解説。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
   publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/subsidy-bridge/" },
 };

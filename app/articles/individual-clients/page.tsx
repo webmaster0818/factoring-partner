@@ -96,12 +96,12 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
   headline: "個人間取引でも使えるファクタリング｜売掛先が個人の場合の対応策",
   description: "売掛先が個人でもファクタリングは使える？対応会社の選び方と注意点を解説。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
   publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/individual-clients/" },
 };

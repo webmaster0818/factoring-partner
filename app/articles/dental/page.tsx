@@ -128,12 +128,12 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
   headline: "歯科医院向けファクタリング｜自費診療の売掛債権を現金化",
   description: "歯科医院の資金繰り課題とファクタリング活用法。レセプト債権の早期現金化を解説。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
   publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/dental/" },
 };

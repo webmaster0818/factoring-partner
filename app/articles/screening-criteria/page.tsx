@@ -165,16 +165,16 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
   headline: "ファクタリングの審査基準を徹底解説｜通過率を上げる方法",
   description:
     "ファクタリング審査で何を見る？売掛先の信用力・必要書類・審査落ちの原因と通過率アップのコツを解説。",
   datePublished: "2026-04-21",
   dateModified: "2026-04-21",
   author: {
-    "@type": "Organization",
-    name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    "@type": "Person",
+    name: "ファクタリングパートナー 編集部",
+    url: "https://factoring-partner.pages.dev/about/",
   },
   publisher: {
     "@type": "Organization",

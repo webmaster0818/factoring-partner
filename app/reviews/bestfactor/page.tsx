@@ -152,7 +152,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
   headline:
     "ベストファクターの口コミ・評判｜買取額30万〜1億円のファクタリング",
   description:
@@ -160,9 +160,9 @@ const articleSchema = {
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
   author: {
-    "@type": "Organization",
-    name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    "@type": "Person",
+    name: "ファクタリングパートナー 編集部",
+    url: "https://factoring-partner.pages.dev/about/",
   },
   publisher: {
     "@type": "Organization",

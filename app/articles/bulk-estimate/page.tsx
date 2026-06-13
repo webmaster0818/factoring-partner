@@ -102,12 +102,12 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
   headline: "ファクタリング一括見積もりサイト比較｜複数業者で最安を見つける方法",
   description: "ファクタリングの一括見積もりで最安値を見つける方法。仕組みとメリット・デメリットを解説。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
   publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/bulk-estimate/" },
 };

@@ -104,12 +104,12 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
   headline: "少額ファクタリング完全ガイド｜1万円から利用できるおすすめ5選",
   description: "1万円から利用可能な少額ファクタリングのおすすめ5社を比較。フリーランス・個人事業主に最適。",
   datePublished: "2026-04-24",
   dateModified: "2026-04-24",
-  author: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
   publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/small-amount/" },
 };

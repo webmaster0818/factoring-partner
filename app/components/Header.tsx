@@ -6,9 +6,9 @@ import { useState } from "react";
 const navItems = [
   { label: "トップ", href: "/" },
   { label: "おすすめ比較", href: "/ranking/" },
-  { label: "法人向け", href: "/corporation/" },
-  { label: "個人事業主向け", href: "/sole-proprietor/" },
-  { label: "基礎知識", href: "/knowledge/" },
+  { label: "法人向け", href: "/articles/for-corporation/" },
+  { label: "個人事業主向け", href: "/articles/for-sole-proprietor/" },
+  { label: "基礎知識", href: "/articles/what-is-factoring/" },
 ];
 
 export default function Header() {

@@ -179,16 +179,16 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
   headline: "ファクタリング 東京のおすすめ業者10選｜即日対応の会社比較",
   description:
     "東京エリアで即日対応可能なファクタリング会社10社を手数料・スピード・実績で比較。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
   author: {
-    "@type": "Organization",
-    name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    "@type": "Person",
+    name: "ファクタリングパートナー 編集部",
+    url: "https://factoring-partner.pages.dev/about/",
   },
   publisher: {
     "@type": "Organization",

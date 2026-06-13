@@ -256,7 +256,7 @@ const flowSteps = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
   headline:
     "個人事業主向けファクタリングおすすめ5選｜少額・即日対応を比較",
   description:
@@ -264,9 +264,9 @@ const articleSchema = {
   datePublished: "2026-04-21",
   dateModified: "2026-04-21",
   author: {
-    "@type": "Organization",
-    name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    "@type": "Person",
+    name: "ファクタリングパートナー 編集部",
+    url: "https://factoring-partner.pages.dev/about/",
   },
   publisher: {
     "@type": "Organization",

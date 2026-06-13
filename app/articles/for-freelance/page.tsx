@@ -205,7 +205,7 @@ const comparisonWithOther = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
   headline:
     "フリーランス向けファクタリング5選｜請求書を即日現金化する方法",
   description:
@@ -213,9 +213,9 @@ const articleSchema = {
   datePublished: "2026-04-21",
   dateModified: "2026-04-21",
   author: {
-    "@type": "Organization",
-    name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    "@type": "Person",
+    name: "ファクタリングパートナー 編集部",
+    url: "https://factoring-partner.pages.dev/about/",
   },
   publisher: {
     "@type": "Organization",

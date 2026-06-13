@@ -186,7 +186,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
   headline:
     "QuQuMo vs OLTA比較｜オンラインファクタリングはどっち？",
   description:
@@ -194,9 +194,9 @@ const articleSchema = {
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
   author: {
-    "@type": "Organization",
-    name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    "@type": "Person",
+    name: "ファクタリングパートナー 編集部",
+    url: "https://factoring-partner.pages.dev/about/",
   },
   publisher: {
     "@type": "Organization",

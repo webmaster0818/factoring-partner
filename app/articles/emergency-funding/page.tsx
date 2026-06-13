@@ -120,11 +120,11 @@ const faqs = [
 ];
 
 const articleSchema = {
-  "@context": "https://schema.org", "@type": "Article",
+  "@context": "https://schema.org", "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
   headline: "即日の資金調達方法6選｜今日中にお金が必要な経営者へ",
   description: "今日中に資金が必要な経営者向け。即日の資金調達方法6選を比較解説。",
   datePublished: "2026-04-24", dateModified: "2026-04-24",
-  author: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
   publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/emergency-funding/" },
 };

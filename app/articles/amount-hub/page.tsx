@@ -90,11 +90,11 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article",
+      "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
       headline: "金額別ファクタリングガイド｜少額1万円〜大口1億円超まで",
       datePublished: "2026-04-28",
       dateModified: "2026-04-28",
-      author: { "@type": "Organization", name: "ファクタリングパートナー編集部" },
+      author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
       publisher: {
         "@type": "Organization",
         name: "ファクタリングパートナー",

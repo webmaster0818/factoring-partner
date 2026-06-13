@@ -145,7 +145,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
   headline:
     "医療・介護ファクタリングガイド｜診療報酬・介護報酬の早期現金化",
   description:
@@ -153,9 +153,9 @@ const articleSchema = {
   datePublished: "2026-04-21",
   dateModified: "2026-04-21",
   author: {
-    "@type": "Organization",
-    name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    "@type": "Person",
+    name: "ファクタリングパートナー 編集部",
+    url: "https://factoring-partner.pages.dev/about/",
   },
   publisher: {
     "@type": "Organization",

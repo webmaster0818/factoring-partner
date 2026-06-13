@@ -136,16 +136,16 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
   headline: "運送業向けファクタリングガイド｜燃料費・人件費の資金繰り改善",
   description:
     "運送業の資金繰り課題とファクタリング活用法。おすすめ5社と事例を紹介。",
   datePublished: "2026-04-21",
   dateModified: "2026-04-21",
   author: {
-    "@type": "Organization",
-    name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    "@type": "Person",
+    name: "ファクタリングパートナー 編集部",
+    url: "https://factoring-partner.pages.dev/about/",
   },
   publisher: {
     "@type": "Organization",

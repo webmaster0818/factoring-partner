@@ -5,18 +5,18 @@ const footerNav = [
     title: "コンテンツ",
     links: [
       { label: "おすすめ比較ランキング", href: "/ranking/" },
-      { label: "法人向けファクタリング", href: "/corporation/" },
-      { label: "個人事業主向け", href: "/sole-proprietor/" },
-      { label: "基礎知識", href: "/knowledge/" },
+      { label: "法人向けファクタリング", href: "/articles/for-corporation/" },
+      { label: "個人事業主向け", href: "/articles/for-sole-proprietor/" },
+      { label: "ファクタリングとは", href: "/articles/what-is-factoring/" },
     ],
   },
   {
     title: "カテゴリ",
     links: [
-      { label: "2社間ファクタリング", href: "/knowledge/two-party/" },
-      { label: "3社間ファクタリング", href: "/knowledge/three-party/" },
-      { label: "手数料比較", href: "/knowledge/fees/" },
-      { label: "即日入金対応", href: "/knowledge/same-day/" },
+      { label: "2社間と3社間の違い", href: "/articles/2sha-vs-3sha/" },
+      { label: "2社間おすすめランキング", href: "/articles/2sha-ranking/" },
+      { label: "手数料の相場・比較", href: "/articles/fee-guide/" },
+      { label: "即日入金対応", href: "/articles/instant-factoring/" },
     ],
   },
   {

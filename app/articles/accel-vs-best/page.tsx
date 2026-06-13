@@ -149,7 +149,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
   headline:
     "アクセルファクター vs ベストファクター比較｜審査通過率で選ぶ",
   description:
@@ -157,9 +157,9 @@ const articleSchema = {
   datePublished: "2026-04-29",
   dateModified: "2026-04-29",
   author: {
-    "@type": "Organization",
-    name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    "@type": "Person",
+    name: "ファクタリングパートナー 編集部",
+    url: "https://factoring-partner.pages.dev/about/",
   },
   publisher: {
     "@type": "Organization",

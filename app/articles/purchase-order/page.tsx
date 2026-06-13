@@ -96,12 +96,12 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
   headline: "注文書ファクタリングとは？請求書発行前でも資金化できる仕組みを解説",
   description: "注文書（発注書）で請求書前に資金化できるファクタリングの仕組みとおすすめ会社を解説。",
   datePublished: "2026-04-24",
   dateModified: "2026-04-24",
-  author: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
   publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/purchase-order/" },
 };

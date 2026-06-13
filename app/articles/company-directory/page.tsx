@@ -104,7 +104,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
   headline:
     "ファクタリング会社一覧49社+｜業界最大級の比較データベース",
   description:
@@ -112,9 +112,9 @@ const articleSchema = {
   datePublished: "2026-04-24",
   dateModified: "2026-04-24",
   author: {
-    "@type": "Organization",
-    name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    "@type": "Person",
+    name: "ファクタリングパートナー 編集部",
+    url: "https://factoring-partner.pages.dev/about/",
   },
   publisher: {
     "@type": "Organization",

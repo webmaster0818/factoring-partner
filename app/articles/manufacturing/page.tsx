@@ -157,7 +157,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
   headline:
     "製造業向けファクタリングガイド｜仕入れ資金・設備投資の資金調達",
   description:
@@ -165,9 +165,9 @@ const articleSchema = {
   datePublished: "2026-04-24",
   dateModified: "2026-04-24",
   author: {
-    "@type": "Organization",
-    name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    "@type": "Person",
+    name: "ファクタリングパートナー 編集部",
+    url: "https://factoring-partner.pages.dev/about/",
   },
   publisher: {
     "@type": "Organization",

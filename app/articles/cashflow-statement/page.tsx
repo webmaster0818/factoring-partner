@@ -38,11 +38,11 @@ const faqs = [
 ];
 
 const articleSchema = {
-  "@context": "https://schema.org", "@type": "Article",
+  "@context": "https://schema.org", "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
   headline: "ファクタリングのキャッシュフロー計算書への影響と記載方法",
   description: "ファクタリングのCF計算書への影響。記載方法と仕訳例を解説。",
   datePublished: "2026-04-26", dateModified: "2026-04-26",
-  author: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
   publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/cashflow-statement/" },
 };
