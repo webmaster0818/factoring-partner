@@ -87,6 +87,59 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* 当サイトの位置づけ */}
+        <section className="mt-10">
+          <h2 className="text-xl font-bold text-gray-800 border-b-2 border-blue-600 pb-2">
+            当サイトの位置づけ
+          </h2>
+          <div className="mt-4 space-y-4 text-sm leading-relaxed text-gray-700">
+            <p>
+              ファクタリングパートナーは、ファクタリングに関する情報提供・比較を行う<strong>情報メディア</strong>です。当サイト自身がファクタリングを行う業者ではなく、また資金の貸付を行う貸金業者でもありません。
+            </p>
+            <p>
+              実際のサービス内容・手数料・契約条件は各ファクタリング会社によって異なります。ご契約にあたっては、必ず各社が交付する契約書面と最新の公式情報をご確認のうえ、ご自身の判断でご利用ください。
+            </p>
+          </div>
+        </section>
+
+        {/* 評価・比較の基準 */}
+        <section className="mt-10">
+          <h2 className="text-xl font-bold text-gray-800 border-b-2 border-blue-600 pb-2">
+            評価・比較の基準
+          </h2>
+          <div className="mt-4 space-y-4 text-sm leading-relaxed text-gray-700">
+            <p>
+              当サイトでは、各ファクタリング会社を次の6つの観点から調査・比較しています。
+            </p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li><strong>手数料：</strong>2社間・3社間それぞれの手数料水準や、諸費用の有無。</li>
+              <li><strong>入金スピード：</strong>申し込みから入金までの最短目安と、即日対応の可否。</li>
+              <li><strong>審査・対応のしやすさ：</strong>必要書類やオンライン完結の可否、対応のスムーズさ。</li>
+              <li><strong>対応金額：</strong>少額（請求書1枚）から高額まで、買取可能額の範囲。</li>
+              <li><strong>対応エリア・事業形態：</strong>法人・個人事業主・フリーランスへの対応状況。</li>
+              <li><strong>口コミ・評判：</strong>実際の利用者の声や、運営会社の信頼性に関する情報。</li>
+            </ul>
+            <p>
+              これらは各社の公式サイトや公開情報をもとに整理しており、サービス内容の変更にあわせて随時見直しています。
+            </p>
+          </div>
+        </section>
+
+        {/* 情報の参照について */}
+        <section className="mt-10">
+          <h2 className="text-xl font-bold text-gray-800 border-b-2 border-blue-600 pb-2">
+            情報の参照について
+          </h2>
+          <div className="mt-4 space-y-4 text-sm leading-relaxed text-gray-700">
+            <p>
+              ファクタリングの仕組みや法的な位置づけ（債権譲渡に関する民法の規定、金融庁による注意喚起など）については、法令や公的機関が公表する情報を参照しています。各ファクタリング会社のサービス内容・手数料・実績は、各社の公式サイトおよび公開情報にもとづいて記載しています。
+            </p>
+            <p>
+              法令や制度の解釈、個別の契約の適法性に関わる判断については、最新の公的情報や弁護士などの専門家にご確認いただくことをおすすめします。
+            </p>
+          </div>
+        </section>
+
         {/* 編集方針 */}
         <section className="mt-10">
           <h2 className="text-xl font-bold text-gray-800 border-b-2 border-blue-600 pb-2">

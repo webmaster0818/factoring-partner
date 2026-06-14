@@ -136,6 +136,21 @@ const faqs = [
     answer:
       "はい、多くのファクタリング会社が即日入金に対応しています。オンライン完結型のサービスであれば、申し込みから最短2時間で入金されるケースもあります。ただし、初回利用時は審査に時間がかかる場合があります。",
   },
+  {
+    question: "ファクタリングは借入（融資）になりますか？",
+    answer:
+      "いいえ。ファクタリングは売掛債権を売却して資金化する「債権の売買」であり、金銭の貸し借り（融資）ではありません。負債として計上されず、保証人や担保も原則不要です。法的にも民法上の債権譲渡（民法第466条等）にもとづく取引で、貸金業には該当しません。ただし「償還請求権あり（買い戻し義務あり）」の契約は実質的な貸付とみなされる場合があるため、契約内容の確認が大切です。",
+  },
+  {
+    question: "2社間ファクタリングと3社間ファクタリングの違いは何ですか？",
+    answer:
+      "2社間は利用者とファクタリング会社の2者で契約し、売掛先に知られずに利用できますが、手数料はやや高め（目安8〜18%程度）です。3社間は売掛先の承諾・通知を得る方式で、手数料は低め（目安1〜9%程度）ですが、売掛先にファクタリング利用が伝わります。スピードと秘密性を重視するなら2社間、手数料の低さを重視するなら3社間が一般的な選び方です。",
+  },
+  {
+    question: "給与ファクタリングは利用しても大丈夫ですか？",
+    answer:
+      "個人が給与を対象にする「給与ファクタリング」は、実質的に貸付に当たるとして貸金業法の規制対象になり得ると金融庁が注意喚起しています。高額な手数料や違法な取り立てのトラブルも報告されているため、利用はおすすめしません。事業者向けの売掛債権ファクタリングとは別物ですのでご注意ください。",
+  },
 ];
 
 const faqSchema = {
@@ -296,6 +311,188 @@ export default function Home() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ファクタリングとは（基礎解説） */}
+      <section className="py-16">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-center text-2xl font-bold text-text-main md:text-3xl">
+            <span className="text-gradient">ファクタリング</span>とは？
+            仕組みをわかりやすく解説
+          </h2>
+          <div className="mt-8 space-y-4 text-sm leading-relaxed text-text-light md:text-base">
+            <p>
+              ファクタリングとは、企業や個人事業主が保有する<strong>売掛債権（請求書・未回収の売上）</strong>をファクタリング会社に売却し、支払期日を待たずに資金化する資金調達の方法です。取引先からの入金が1〜2か月先になる場合でも、ファクタリングを使えば早ければ申込当日に現金を受け取れます。
+            </p>
+            <p>
+              最大の特徴は、<strong>融資（借入）ではなく「債権の売買」</strong>である点です。銀行融資のように負債が増えることはなく、原則として保証人や不動産担保も不要。法的には民法上の<strong>債権譲渡（民法第466条ほか）</strong>にもとづく正当な取引で、貸金業（お金の貸し借り）とは異なります。そのため、赤字や税金の滞納があっても、売掛先の信用力が高ければ利用できるケースがあります。
+            </p>
+          </div>
+
+          {/* 融資との違い */}
+          <div className="mt-8 grid gap-5 md:grid-cols-2">
+            <div className="card">
+              <h3 className="text-base font-bold text-primary">ファクタリング</h3>
+              <ul className="mt-3 space-y-2 text-sm text-text-light">
+                <li>◎ 売掛債権の「売買」で資金化（負債にならない）</li>
+                <li>◎ 原則、担保・保証人が不要</li>
+                <li>◎ 最短即日のスピード資金化</li>
+                <li>◎ 審査は主に「売掛先」の信用力を見る</li>
+                <li>△ 手数料は融資の金利より割高になりやすい</li>
+              </ul>
+            </div>
+            <div className="card">
+              <h3 className="text-base font-bold text-text-main">銀行融資</h3>
+              <ul className="mt-3 space-y-2 text-sm text-text-light">
+                <li>・ 金銭の「借入」（負債として計上される）</li>
+                <li>・ 担保・保証人を求められることが多い</li>
+                <li>・ 実行までに数週間かかることがある</li>
+                <li>・ 審査は主に「自社」の信用力を見る</li>
+                <li>・ 金利は低め（長期の資金調達向き）</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 2社間・3社間の違い */}
+      <section className="section-light py-16">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-center text-2xl font-bold text-text-main md:text-3xl">
+            2社間・3社間ファクタリングの違い
+          </h2>
+          <p className="mt-4 text-center text-sm text-text-light">
+            契約方式によって、手数料・スピード・売掛先への通知の有無が変わります。
+          </p>
+          <div className="mt-8 overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-primary text-white">
+                  <th className="px-4 py-3 text-left font-semibold">比較項目</th>
+                  <th className="px-4 py-3 text-left font-semibold">2社間ファクタリング</th>
+                  <th className="px-4 py-3 text-left font-semibold">3社間ファクタリング</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-border bg-white">
+                  <th className="px-4 py-3 text-left font-medium text-text-main">契約する当事者</th>
+                  <td className="px-4 py-3 text-text-light">利用者とファクタリング会社</td>
+                  <td className="px-4 py-3 text-text-light">利用者・ファクタリング会社・売掛先</td>
+                </tr>
+                <tr className="border-b border-border bg-[#f8fafc]">
+                  <th className="px-4 py-3 text-left font-medium text-text-main">売掛先への通知</th>
+                  <td className="px-4 py-3 text-text-light">不要（知られずに利用できる）</td>
+                  <td className="px-4 py-3 text-text-light">必要（承諾・通知が前提）</td>
+                </tr>
+                <tr className="border-b border-border bg-white">
+                  <th className="px-4 py-3 text-left font-medium text-text-main">手数料の目安</th>
+                  <td className="px-4 py-3 text-text-light">やや高め（一般に8〜18%程度）</td>
+                  <td className="px-4 py-3 text-text-light">低め（一般に1〜9%程度）</td>
+                </tr>
+                <tr className="border-b border-border bg-[#f8fafc]">
+                  <th className="px-4 py-3 text-left font-medium text-text-main">入金スピード</th>
+                  <td className="px-4 py-3 text-text-light">速い（最短即日）</td>
+                  <td className="px-4 py-3 text-text-light">やや時間がかかる傾向</td>
+                </tr>
+                <tr className="bg-white">
+                  <th className="px-4 py-3 text-left font-medium text-text-main">向いている人</th>
+                  <td className="px-4 py-3 text-text-light">取引先に知られたくない・急ぎたい</td>
+                  <td className="px-4 py-3 text-text-light">手数料を抑えたい・売掛先の協力を得られる</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="mt-3 text-xs text-text-light">
+            ※ 手数料の数値は一般的な目安であり、売掛先の信用力・取引金額・契約条件により変動します。実際の条件は各社にご確認ください。
+          </p>
+        </div>
+      </section>
+
+      {/* メリット・デメリット */}
+      <section className="py-16">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-center text-2xl font-bold text-text-main md:text-3xl">
+            ファクタリングのメリット・デメリット
+          </h2>
+          <div className="mt-8 grid gap-6 md:grid-cols-2">
+            <div className="card border-t-4" style={{ borderTopColor: "#1e3a5f" }}>
+              <h3 className="text-lg font-bold text-primary">メリット</h3>
+              <ul className="mt-4 space-y-3 text-sm leading-relaxed text-text-light">
+                <li><strong>最短即日で資金化できる：</strong>支払期日前の売掛金をすぐ現金化でき、急な支払いにも対応しやすい。</li>
+                <li><strong>負債が増えない：</strong>借入ではないため、貸借対照表上の負債が増えず、信用情報にも影響しにくい。</li>
+                <li><strong>担保・保証人が原則不要：</strong>自社の業績よりも売掛先の信用力が重視される。</li>
+                <li><strong>売掛先の倒産リスクに備えられる：</strong>償還請求権なし（ノンリコース）の契約なら、売掛先が倒産しても買い戻し義務を負わないのが一般的。</li>
+              </ul>
+            </div>
+            <div className="card border-t-4" style={{ borderTopColor: "#e87c3e" }}>
+              <h3 className="text-lg font-bold text-accent">デメリット・注意点</h3>
+              <ul className="mt-4 space-y-3 text-sm leading-relaxed text-text-light">
+                <li><strong>手数料が割高になりやすい：</strong>融資の金利と比べてコストが高く、繰り返し使うと資金繰りを圧迫することも。</li>
+                <li><strong>売掛金の範囲でしか調達できない：</strong>保有する請求書の金額が上限になる。</li>
+                <li><strong>3社間では取引先に知られる：</strong>取引関係への配慮が必要な場合がある。</li>
+                <li><strong>悪質業者に注意：</strong>法外な手数料や、実質貸付の「偽装ファクタリング」を行う業者も存在する（次の項目で解説）。</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 違法業者・偽装ファクタリングへの注意 */}
+      <section className="section-light py-16">
+        <div className="mx-auto max-w-4xl px-4">
+          <div className="rounded-xl border border-accent/40 bg-[#fff8f2] p-6 md:p-8">
+            <h2 className="text-xl font-bold text-text-main md:text-2xl">
+              ⚠ 悪質業者・偽装ファクタリングにご注意ください
+            </h2>
+            <div className="mt-5 space-y-4 text-sm leading-relaxed text-text-light md:text-base">
+              <p>
+                正規のファクタリングは売掛債権の売買ですが、なかには<strong>実質的な貸付（融資）をファクタリングと偽る「偽装ファクタリング」</strong>や、法外な手数料を請求する悪質な業者も存在します。金融庁も、こうした取引や個人向けの「給与ファクタリング」について注意喚起を行っています。
+              </p>
+              <p>次のような業者・契約には特に注意しましょう。</p>
+              <ul className="list-disc space-y-2 pl-6">
+                <li><strong>償還請求権あり（買い戻し義務あり）の契約：</strong>売掛先が支払えない場合に利用者へ請求される契約は、実質的な貸付＝貸金業登録が必要な取引の可能性があります。</li>
+                <li><strong>「給与ファクタリング」：</strong>個人の給与を対象にする取引は貸金業法の規制対象になり得るとされ、高金利・違法取り立てのトラブルが報告されています。</li>
+                <li><strong>契約書を交付しない／手数料が不透明：</strong>契約内容や手数料を書面で明示しない業者は避けましょう。</li>
+                <li><strong>分割での支払いを求められる：</strong>売買であるはずのファクタリングで分割返済を求めるのは、貸付の疑いがあります。</li>
+              </ul>
+              <p className="text-xs">
+                ※ 一般的な注意事項をまとめたものです。個別の契約の適法性や具体的なご判断については、金融庁の公表情報や、弁護士などの専門家にご確認ください。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 選び方のポイント */}
+      <section className="py-16">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-center text-2xl font-bold text-text-main md:text-3xl">
+            失敗しないファクタリング会社の選び方
+          </h2>
+          <div className="mt-8 grid gap-5 md:grid-cols-2">
+            {[
+              { t: "手数料の水準と内訳", d: "提示された手数料に加え、事務手数料・登記費用・出張費などの諸費用が含まれるかを確認。総額で比較しましょう。" },
+              { t: "入金スピード", d: "「最短即日」でも、初回や書類不備があると時間がかかります。希望の入金日に間に合うか事前に相談を。" },
+              { t: "2社間か3社間か", d: "取引先に知られたくないなら2社間、手数料を抑えたいなら3社間。自社の状況に合う方式を選びます。" },
+              { t: "償還請求権の有無", d: "原則は「償還請求権なし（ノンリコース）」が安心。買い戻し義務のある契約は実質貸付の可能性に注意。" },
+              { t: "契約内容の明示", d: "手数料・債権譲渡の範囲・支払い条件を書面で明示してくれるか。説明が不透明な業者は避けましょう。" },
+              { t: "対応実績・口コミ", d: "事業形態（法人/個人事業主/フリーランス）や業種への対応実績、利用者の評判も判断材料になります。" },
+            ].map((p, i) => (
+              <div key={p.t} className="card flex gap-4">
+                <div className="shrink-0 text-lg font-bold text-accent">{i + 1}</div>
+                <div>
+                  <h3 className="text-base font-bold text-text-main">{p.t}</h3>
+                  <p className="mt-1 text-sm leading-relaxed text-text-light">{p.d}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <p className="mt-8 text-center text-sm text-text-light">
+            当サイトでは、これらの観点をふまえて各社を比較しています。具体的な比較は
+            <Link href="/ranking/" className="font-semibold text-primary hover:underline">おすすめ比較ランキング</Link>
+            をご覧ください。
+          </p>
         </div>
       </section>
 
