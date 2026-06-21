@@ -28,3 +28,10 @@
 - GSC: 所有権確認はCF Pagesが.htmlを308除去するためFILE方式NG→**META方式**(layout.tsx verification.google)に切替。siteverification API insert→VERIFIED、sites().add()でプロパティ追加(siteOwner)、sitemap送信完了。全自動(gsc-token=siteverification scope有)
 - ⚠️ドメイン名hyogo-shihoushoshi.jp(兵庫・司法書士)とサイト内容(ファクタリング)は不一致だがMediaXAI承認の上で確定。将来別ドメインに変える場合は同手順で再置換
 - 残: トップ/about増強(B-1/B-2は6/14実施済)・GSC観測後のCTR改善。問い合わせフォームは現状維持指示
+
+## 2026-06-21 ②収益核CV強化（フュージョン戦略・MediaXAI「②進めよう」承認）
+- 精査結果: 28reviewsは既に向く人/向かない人・ranking CTA・調査日(26/28)完備。真の不足=広告(PR)開示が全28に無い(景表法/ステマ規制gap)＋結論ファースト(top)が26/28無い
+- 全28reviewにPR広告開示+調査時点の透明化ブロックをスクリプト一括挿入(basic-info直前)。dokenkun/msfjの調査日欠落も同時解消。報酬が評価・順位に影響しない旨明記
+- 優先8業者(bestfactor/paytner/labol/olta/ququmo/betrading/freenance/pmg=業者名×評判の勝ち筋)に結論ファーストboxを並列agentで追加。各ページの既存事実から2-3文要約(架空数値なし)+「向き不向き詳細(#recommended)」「他社と比較(ranking)」の2リンク=CV導線
+- 料金表・業者紹介文言は一切不変更。sitemap lastmod28件・本番200/開示28・結論box8をcurl検証・GSC再送信
+- 残②: 残20reviewの結論box(必要時) / rankingの条件別早見ナビ。残フェーズ: ③moat(手数料シミュレーター=最大空白/審査済み業者DB)・①索引登録(GSCコンソール=ユーザー操作)
