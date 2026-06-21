@@ -19,7 +19,10 @@ export const metadata: Metadata = {
   },
   description:
     "ファクタリング会社49社以上を徹底比較。手数料・入金スピード・審査通過率など6項目で比較し、法人・個人事業主・フリーランスに最適なファクタリング会社が見つかります。",
-  metadataBase: new URL("https://factoring-partner.pages.dev"),
+  metadataBase: new URL("https://hyogo-shihoushoshi.jp"),
+  verification: {
+    google: "Q47s8IbhwTnjpJyfenJEUn6Rad_1n5gbluK1stsBbSc",
+  },
   robots: {
     index: true,
     follow: true,
@@ -43,16 +46,16 @@ const schemaOrg = {
     {
       "@type": "WebSite",
       name: "ファクタリングパートナー",
-      url: "https://factoring-partner.pages.dev",
+      url: "https://hyogo-shihoushoshi.jp",
       description:
         "ファクタリング会社49社以上を徹底比較。手数料・入金スピード・審査通過率など6項目で比較し、最適なファクタリング会社が見つかります。",
-      publisher: { "@id": "https://factoring-partner.pages.dev/#organization" },
+      publisher: { "@id": "https://hyogo-shihoushoshi.jp/#organization" },
     },
     {
       "@type": "Organization",
-      "@id": "https://factoring-partner.pages.dev/#organization",
+      "@id": "https://hyogo-shihoushoshi.jp/#organization",
       name: "株式会社MediaX",
-      url: "https://factoring-partner.pages.dev",
+      url: "https://hyogo-shihoushoshi.jp",
       address: {
         "@type": "PostalAddress",
         addressLocality: "渋谷区",

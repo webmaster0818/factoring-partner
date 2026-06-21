@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "ファクタリングと銀行融資の違いを比較表で徹底解説。審査基準・スピード・金利vs手数料・担保・信用情報・会計処理の違い、それぞれが向いているケース、併用という選択肢まで詳しく紹介します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/vs-bank-loan/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/vs-bank-loan/",
   },
   openGraph: {
     title: "ファクタリング vs 銀行融資｜メリット・デメリットを徹底比較",
     description:
       "ファクタリングと銀行融資の違いを比較表で徹底解説。それぞれが向いているケースも紹介。",
-    url: "https://factoring-partner.pages.dev/articles/vs-bank-loan/",
+    url: "https://hyogo-shihoushoshi.jp/articles/vs-bank-loan/",
     type: "article",
   },
 };
@@ -169,7 +169,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "ファクタリング vs 銀行融資｜メリット・デメリットを徹底比較",
   description:
     "ファクタリングと銀行融資の違いを比較表で徹底解説。それぞれが向いているケースも紹介。",
@@ -178,16 +178,16 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://factoring-partner.pages.dev/articles/vs-bank-loan/",
+    "@id": "https://hyogo-shihoushoshi.jp/articles/vs-bank-loan/",
   },
 };
 
@@ -212,19 +212,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "ファクタリング vs 銀行融資",
-      item: "https://factoring-partner.pages.dev/articles/vs-bank-loan/",
+      item: "https://hyogo-shihoushoshi.jp/articles/vs-bank-loan/",
     },
   ],
 };

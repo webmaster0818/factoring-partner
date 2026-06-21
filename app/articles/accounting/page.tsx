@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "ファクタリングの会計処理・仕訳方法を2社間・3社間別に解説。勘定科目（売上債権売却損）、消費税の扱い（非課税）、決算書への影響、税務上の注意点を初心者にもわかりやすく紹介します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/accounting/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/accounting/",
   },
   openGraph: {
     title: "ファクタリングの会計処理・仕訳方法｜勘定科目と税務上の注意点",
     description:
       "ファクタリングの仕訳を2社間・3社間別に解説。消費税の扱いや決算書への影響も紹介。",
-    url: "https://factoring-partner.pages.dev/articles/accounting/",
+    url: "https://hyogo-shihoushoshi.jp/articles/accounting/",
     type: "article",
   },
 };
@@ -50,7 +50,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "ファクタリングの会計処理・仕訳方法｜勘定科目と税務上の注意点",
   description:
@@ -60,16 +60,16 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://factoring-partner.pages.dev/articles/accounting/",
+    "@id": "https://hyogo-shihoushoshi.jp/articles/accounting/",
   },
 };
 
@@ -94,19 +94,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "会計処理・仕訳方法",
-      item: "https://factoring-partner.pages.dev/articles/accounting/",
+      item: "https://hyogo-shihoushoshi.jp/articles/accounting/",
     },
   ],
 };

@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "法人向けファクタリング会社おすすめ5社を徹底比較。中小企業の資金調達に最適なサービスを手数料・入金スピード・買取上限額で比較し、2社間・3社間の使い分けや審査ポイントも解説します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/for-corporation/",
+      "https://hyogo-shihoushoshi.jp/articles/for-corporation/",
   },
   openGraph: {
     title:
       "法人向けファクタリングおすすめ5選｜中小企業の資金調達を比較",
     description:
       "法人向けファクタリング会社おすすめ5社を徹底比較。中小企業の資金調達に最適なサービスを手数料・入金スピード・買取上限額で比較します。",
-    url: "https://factoring-partner.pages.dev/articles/for-corporation/",
+    url: "https://hyogo-shihoushoshi.jp/articles/for-corporation/",
     type: "article",
   },
 };
@@ -192,7 +192,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "法人向けファクタリングおすすめ5選｜中小企業の資金調達を比較",
   description:
@@ -202,17 +202,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/for-corporation/",
+      "https://hyogo-shihoushoshi.jp/articles/for-corporation/",
   },
 };
 

@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     "ファクタリングの審査基準・審査で見るポイント（売掛先の信用力が最重要）、必要書類、審査落ちの原因5つ、赤字・税金滞納でもOKな理由、通過率を上げるコツを徹底解説します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/screening-criteria/",
+      "https://hyogo-shihoushoshi.jp/articles/screening-criteria/",
   },
   openGraph: {
     title: "ファクタリングの審査基準を徹底解説｜通過率を上げる方法",
     description:
       "ファクタリング審査で何を見る？売掛先の信用力・必要書類・審査落ちの原因と通過率アップのコツを解説。",
-    url: "https://factoring-partner.pages.dev/articles/screening-criteria/",
+    url: "https://hyogo-shihoushoshi.jp/articles/screening-criteria/",
     type: "article",
   },
 };
@@ -165,7 +165,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "ファクタリングの審査基準を徹底解説｜通過率を上げる方法",
   description:
     "ファクタリング審査で何を見る？売掛先の信用力・必要書類・審査落ちの原因と通過率アップのコツを解説。",
@@ -174,17 +174,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/screening-criteria/",
+      "https://hyogo-shihoushoshi.jp/articles/screening-criteria/",
   },
 };
 
@@ -209,19 +209,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "ファクタリングの審査基準",
-      item: "https://factoring-partner.pages.dev/articles/screening-criteria/",
+      item: "https://hyogo-shihoushoshi.jp/articles/screening-criteria/",
     },
   ],
 };

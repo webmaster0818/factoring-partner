@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "2社間ファクタリングと3社間ファクタリングの違いを徹底比較。仕組みの図解、手数料・速度・審査難易度の比較表、それぞれのメリット・デメリット、選び方の判断チャート、債権譲渡登記について解説します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/2sha-vs-3sha/",
+      "https://hyogo-shihoushoshi.jp/articles/2sha-vs-3sha/",
   },
   openGraph: {
     title:
       "2社間ファクタリングと3社間ファクタリングの違い｜メリット・デメリット比較",
     description:
       "2社間と3社間ファクタリングの違いを図解で解説。比較表・メリデメ・選び方の判断チャートも掲載。",
-    url: "https://factoring-partner.pages.dev/articles/2sha-vs-3sha/",
+    url: "https://hyogo-shihoushoshi.jp/articles/2sha-vs-3sha/",
     type: "article",
   },
 };
@@ -170,7 +170,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "2社間ファクタリングと3社間ファクタリングの違い｜メリット・デメリット比較",
   description:
@@ -180,17 +180,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/2sha-vs-3sha/",
+      "https://hyogo-shihoushoshi.jp/articles/2sha-vs-3sha/",
   },
 };
 

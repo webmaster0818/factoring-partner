@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description:
     "黒字倒産の原因とファクタリングを使った防止策を解説。売上はあるのに資金が足りない状況を回避するための具体的な方法と、資金繰り管理のポイントを紹介します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/prevent-bankruptcy/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/prevent-bankruptcy/",
   },
   openGraph: {
     title: "ファクタリングを使った黒字倒産の防ぎ方",
     description: "黒字倒産を防ぐファクタリング活用法。原因と対策を分かりやすく解説。",
-    url: "https://factoring-partner.pages.dev/articles/prevent-bankruptcy/",
+    url: "https://hyogo-shihoushoshi.jp/articles/prevent-bankruptcy/",
     type: "article",
   },
 };
@@ -104,14 +104,14 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "ファクタリングを使った黒字倒産の防ぎ方",
   description: "黒字倒産を防ぐファクタリング活用法。原因と対策を分かりやすく解説。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
-  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/prevent-bankruptcy/" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
+  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/prevent-bankruptcy/" },
 };
 
 const faqSchema = {
@@ -124,9 +124,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "黒字倒産の防ぎ方", item: "https://factoring-partner.pages.dev/articles/prevent-bankruptcy/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
+    { "@type": "ListItem", position: 3, name: "黒字倒産の防ぎ方", item: "https://hyogo-shihoushoshi.jp/articles/prevent-bankruptcy/" },
   ],
 };
 

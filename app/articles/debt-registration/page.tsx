@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "ファクタリングの債権譲渡登記について、仕組み・費用（登録免許税7,500円＋司法書士報酬）・必要性・デメリット・登記不要の会社一覧まで徹底解説。登記が不要なQuQuMo・ペイトナー・ラボル・OLTAも紹介します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/debt-registration/",
+      "https://hyogo-shihoushoshi.jp/articles/debt-registration/",
   },
   openGraph: {
     title:
       "ファクタリングの債権譲渡登記とは？費用・必要性・登記不要の会社を解説",
     description:
       "債権譲渡登記の仕組み・費用・デメリットと、登記不要のファクタリング会社を解説。",
-    url: "https://factoring-partner.pages.dev/articles/debt-registration/",
+    url: "https://hyogo-shihoushoshi.jp/articles/debt-registration/",
     type: "article",
   },
 };
@@ -225,7 +225,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "ファクタリングの債権譲渡登記とは？費用・必要性・登記不要の会社を解説",
   description:
@@ -235,17 +235,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/debt-registration/",
+      "https://hyogo-shihoushoshi.jp/articles/debt-registration/",
   },
 };
 
@@ -270,19 +270,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "債権譲渡登記とは",
-      item: "https://factoring-partner.pages.dev/articles/debt-registration/",
+      item: "https://hyogo-shihoushoshi.jp/articles/debt-registration/",
     },
   ],
 };

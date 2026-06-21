@@ -6,8 +6,8 @@ export const metadata: Metadata = {
   title: "経営者保証なしの資金調達方法5選｜個人保証不要の選択肢",
   description:
     "経営者保証（個人保証）なしで資金調達できる方法5選を解説。ファクタリング・経営者保証免除特例融資・クラウドファンディング・補助金・ABLのメリット・デメリットを比較します。",
-  alternates: { canonical: "https://factoring-partner.pages.dev/articles/no-guarantee/" },
-  openGraph: { title: "経営者保証なしの資金調達方法5選｜個人保証不要の選択肢", description: "個人保証不要の資金調達方法5選を比較。", url: "https://factoring-partner.pages.dev/articles/no-guarantee/", type: "article" },
+  alternates: { canonical: "https://hyogo-shihoushoshi.jp/articles/no-guarantee/" },
+  openGraph: { title: "経営者保証なしの資金調達方法5選｜個人保証不要の選択肢", description: "個人保証不要の資金調達方法5選を比較。", url: "https://hyogo-shihoushoshi.jp/articles/no-guarantee/", type: "article" },
 };
 
 const methods = [
@@ -32,9 +32,9 @@ const faqs = [
   { question: "経営者保証に関するガイドラインの改訂内容は？", answer: "2023年の改訂では、①経営者保証に依存しない融資慣行のさらなる推進②保証徴求時の説明義務の強化③保証解除の申出に対する金融機関の対応の明確化が盛り込まれました。金融機関は経営者保証を求める場合に「なぜ保証が必要か」の説明義務が強化されています。" },
 ];
 
-const articleSchema = { "@context": "https://schema.org", "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png", headline: "経営者保証なしの資金調達方法5選｜個人保証不要の選択肢", description: "個人保証不要の資金調達方法5選を比較。", datePublished: "2026-04-26", dateModified: "2026-04-26", author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" }, publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" }, mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/no-guarantee/" } };
+const articleSchema = { "@context": "https://schema.org", "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png", headline: "経営者保証なしの資金調達方法5選｜個人保証不要の選択肢", description: "個人保証不要の資金調達方法5選を比較。", datePublished: "2026-04-26", dateModified: "2026-04-26", author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" }, publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" }, mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/no-guarantee/" } };
 const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map((faq) => ({ "@type": "Question", name: faq.question, acceptedAnswer: { "@type": "Answer", text: faq.answer } })) };
-const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" }, { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" }, { "@type": "ListItem", position: 3, name: "経営者保証なしの資金調達", item: "https://factoring-partner.pages.dev/articles/no-guarantee/" }] };
+const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" }, { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" }, { "@type": "ListItem", position: 3, name: "経営者保証なしの資金調達", item: "https://hyogo-shihoushoshi.jp/articles/no-guarantee/" }] };
 
 export default function NoGuaranteePage() {
   return (

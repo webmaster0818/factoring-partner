@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "給与ファクタリングが違法とされる理由を金融庁・警視庁の見解を基に解説。貸金業法違反・出資法違反のポイント、被害事例、安全な代替手段（正規のファクタリング・公的融資制度）を紹介します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/salary-factoring-illegal/",
+      "https://hyogo-shihoushoshi.jp/articles/salary-factoring-illegal/",
   },
   openGraph: {
     title:
       "給与ファクタリングが違法な理由｜金融庁・警視庁の見解と安全な代替手段",
     description:
       "給与ファクタリングが違法とされる理由と安全な代替手段を解説。",
-    url: "https://factoring-partner.pages.dev/articles/salary-factoring-illegal/",
+    url: "https://hyogo-shihoushoshi.jp/articles/salary-factoring-illegal/",
     type: "article",
   },
 };
@@ -133,7 +133,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "給与ファクタリングが違法な理由｜金融庁・警視庁の見解と安全な代替手段",
   description:
@@ -143,17 +143,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/salary-factoring-illegal/",
+      "https://hyogo-shihoushoshi.jp/articles/salary-factoring-illegal/",
   },
 };
 
@@ -178,19 +178,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "給与ファクタリングが違法な理由",
-      item: "https://factoring-partner.pages.dev/articles/salary-factoring-illegal/",
+      item: "https://hyogo-shihoushoshi.jp/articles/salary-factoring-illegal/",
     },
   ],
 };

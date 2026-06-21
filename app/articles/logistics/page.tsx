@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description:
     "物流・倉庫業向けファクタリングを徹底解説。配送代金・運送料の入金サイトの長さを解消し、燃料費・人件費の支払いに対応する方法を紹介。おすすめのファクタリング会社5選も比較。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/logistics/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/logistics/",
   },
   openGraph: {
     title: "物流・倉庫業向けファクタリング｜配送代金の早期現金化",
     description: "物流・倉庫業の資金繰り改善にファクタリングを活用。配送代金の早期現金化方法を解説。",
-    url: "https://factoring-partner.pages.dev/articles/logistics/",
+    url: "https://hyogo-shihoushoshi.jp/articles/logistics/",
     type: "article",
   },
 };
@@ -146,14 +146,14 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "物流・倉庫業向けファクタリング｜配送代金の早期現金化",
   description: "物流・倉庫業の資金繰り改善にファクタリングを活用。配送代金の早期現金化方法を解説。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
-  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/logistics/" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
+  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/logistics/" },
 };
 
 const faqSchema = {
@@ -166,9 +166,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "物流・倉庫業向けファクタリング", item: "https://factoring-partner.pages.dev/articles/logistics/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
+    { "@type": "ListItem", position: 3, name: "物流・倉庫業向けファクタリング", item: "https://hyogo-shihoushoshi.jp/articles/logistics/" },
   ],
 };
 

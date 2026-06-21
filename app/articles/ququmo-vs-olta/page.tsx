@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "QuQuMoとOLTAをオンラインファクタリング視点で徹底比較。手数料・入金速度・必要書類・審査方法・実績の5項目で比較。手数料1-14.8%のQuQuMoとAI審査のOLTA、最適なサービスがわかります。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/ququmo-vs-olta/",
+      "https://hyogo-shihoushoshi.jp/articles/ququmo-vs-olta/",
   },
   openGraph: {
     title:
       "QuQuMo vs OLTA比較｜オンラインファクタリングはどっち？",
     description:
       "QuQuMoとOLTAをオンラインファクタリング視点で徹底比較。5項目の比較表とシーン別おすすめを掲載。",
-    url: "https://factoring-partner.pages.dev/articles/ququmo-vs-olta/",
+    url: "https://hyogo-shihoushoshi.jp/articles/ququmo-vs-olta/",
     type: "article",
   },
 };
@@ -186,7 +186,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "QuQuMo vs OLTA比較｜オンラインファクタリングはどっち？",
   description:
@@ -196,17 +196,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/ququmo-vs-olta/",
+      "https://hyogo-shihoushoshi.jp/articles/ququmo-vs-olta/",
   },
 };
 
@@ -231,13 +231,13 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "比較",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",

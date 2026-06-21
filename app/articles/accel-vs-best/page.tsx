@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "アクセルファクターとベストファクターを徹底比較。審査通過率93.3%のアクセルファクターと柔軟対応のベストファクター、手数料・入金速度・審査・実績の7項目で比較しシーン別おすすめを紹介します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/accel-vs-best/",
+      "https://hyogo-shihoushoshi.jp/articles/accel-vs-best/",
   },
   openGraph: {
     title:
       "アクセルファクター vs ベストファクター比較｜審査通過率で選ぶ",
     description:
       "アクセルファクターとベストファクターを7項目で徹底比較。審査通過率・手数料・スピードで最適を判定。",
-    url: "https://factoring-partner.pages.dev/articles/accel-vs-best/",
+    url: "https://hyogo-shihoushoshi.jp/articles/accel-vs-best/",
     type: "article",
   },
 };
@@ -149,7 +149,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "アクセルファクター vs ベストファクター比較｜審査通過率で選ぶ",
   description:
@@ -159,17 +159,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/accel-vs-best/",
+      "https://hyogo-shihoushoshi.jp/articles/accel-vs-best/",
   },
 };
 
@@ -194,13 +194,13 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "比較",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",

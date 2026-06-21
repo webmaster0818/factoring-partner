@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "ファクタリングに必要な書類を種類別に解説。請求書のみで利用できる会社や書類が少ない会社のランキング、書類準備のチェックリスト、「請求書だけでOK」の本当の意味まで徹底解説します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/required-documents/",
+      "https://hyogo-shihoushoshi.jp/articles/required-documents/",
   },
   openGraph: {
     title:
       "ファクタリングの必要書類一覧｜請求書のみでOKな会社は？",
     description:
       "ファクタリングの必要書類を解説。請求書のみでOKな会社や書類準備のチェックリストも紹介。",
-    url: "https://factoring-partner.pages.dev/articles/required-documents/",
+    url: "https://hyogo-shihoushoshi.jp/articles/required-documents/",
     type: "article",
   },
 };
@@ -233,7 +233,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "ファクタリングの必要書類一覧｜請求書のみでOKな会社は？",
   description:
@@ -243,17 +243,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/required-documents/",
+      "https://hyogo-shihoushoshi.jp/articles/required-documents/",
   },
 };
 
@@ -278,19 +278,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "ファクタリングの必要書類",
-      item: "https://factoring-partner.pages.dev/articles/required-documents/",
+      item: "https://hyogo-shihoushoshi.jp/articles/required-documents/",
     },
   ],
 };

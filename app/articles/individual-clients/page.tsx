@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "売掛先が個人（個人事業主・一般消費者）の場合にファクタリングは利用できるのか。個人間取引の売掛金をファクタリングする際の注意点、対応している会社の特徴、審査のポイント、代替手段まで詳しく解説します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/individual-clients/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/individual-clients/",
   },
   openGraph: {
     title: "個人間取引でも使えるファクタリング｜売掛先が個人の場合の対応策",
     description:
       "売掛先が個人でもファクタリングは使える？対応会社の選び方と注意点を解説。",
-    url: "https://factoring-partner.pages.dev/articles/individual-clients/",
+    url: "https://hyogo-shihoushoshi.jp/articles/individual-clients/",
     type: "article",
   },
 };
@@ -96,14 +96,14 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "個人間取引でも使えるファクタリング｜売掛先が個人の場合の対応策",
   description: "売掛先が個人でもファクタリングは使える？対応会社の選び方と注意点を解説。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
-  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/individual-clients/" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
+  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/individual-clients/" },
 };
 
 const faqSchema = {
@@ -120,9 +120,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "個人間取引ファクタリング", item: "https://factoring-partner.pages.dev/articles/individual-clients/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
+    { "@type": "ListItem", position: 3, name: "個人間取引ファクタリング", item: "https://hyogo-shihoushoshi.jp/articles/individual-clients/" },
   ],
 };
 

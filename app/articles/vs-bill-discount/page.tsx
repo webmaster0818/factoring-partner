@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "ファクタリングと手形割引の違いを徹底比較。仕組み・手数料・審査基準・償還請求権・会計処理の違い、それぞれのメリット・デメリット、どちらを選ぶべきかを分かりやすく解説します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/vs-bill-discount/",
+      "https://hyogo-shihoushoshi.jp/articles/vs-bill-discount/",
   },
   openGraph: {
     title:
       "ファクタリング vs 手形割引｜違いとメリット・デメリットを比較",
     description:
       "ファクタリングと手形割引の違いを比較表で解説。それぞれのメリット・デメリットも紹介。",
-    url: "https://factoring-partner.pages.dev/articles/vs-bill-discount/",
+    url: "https://hyogo-shihoushoshi.jp/articles/vs-bill-discount/",
     type: "article",
   },
 };
@@ -147,7 +147,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "ファクタリング vs 手形割引｜違いとメリット・デメリットを比較",
   description:
@@ -157,17 +157,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/vs-bill-discount/",
+      "https://hyogo-shihoushoshi.jp/articles/vs-bill-discount/",
   },
 };
 
@@ -192,19 +192,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "ファクタリング vs 手形割引",
-      item: "https://factoring-partner.pages.dev/articles/vs-bill-discount/",
+      item: "https://hyogo-shihoushoshi.jp/articles/vs-bill-discount/",
     },
   ],
 };

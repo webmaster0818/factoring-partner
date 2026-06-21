@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "面談なし・電話なしで完全非対面のファクタリング会社を5社厳選。オンライン完結で来店不要、電話対応も不要なサービスの特徴、メリット・デメリット、利用の流れを詳しく解説。忙しい事業者や対面が苦手な方に最適な資金調達方法です。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/no-interview/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/no-interview/",
   },
   openGraph: {
     title: "面談なし・電話なしのファクタリング5選｜完全非対面で資金調達",
     description:
       "完全非対面のファクタリング会社5選。面談も電話も不要で、オンラインだけで資金調達する方法。",
-    url: "https://factoring-partner.pages.dev/articles/no-interview/",
+    url: "https://hyogo-shihoushoshi.jp/articles/no-interview/",
     type: "article",
   },
 };
@@ -111,15 +111,15 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "面談なし・電話なしのファクタリング5選｜完全非対面で資金調達",
   description:
     "完全非対面のファクタリング会社5選。面談も電話も不要で、オンラインだけで資金調達する方法。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
-  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/no-interview/" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
+  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/no-interview/" },
 };
 
 const faqSchema = {
@@ -136,9 +136,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "面談なしファクタリング", item: "https://factoring-partner.pages.dev/articles/no-interview/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
+    { "@type": "ListItem", position: 3, name: "面談なしファクタリング", item: "https://hyogo-shihoushoshi.jp/articles/no-interview/" },
   ],
 };
 

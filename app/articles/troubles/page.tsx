@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "ファクタリングで実際に起きたトラブル事例7選を紹介。偽装融資・高額手数料・追加費用請求・契約書不備・売掛先への無断通知など、各トラブルの対処法と安全な業者の見分け方を解説します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/troubles/",
+      "https://hyogo-shihoushoshi.jp/articles/troubles/",
   },
   openGraph: {
     title:
       "ファクタリングのトラブル事例7選｜契約前に知るべき注意点",
     description:
       "ファクタリングのトラブル事例7選と対処法。安全な業者の見分け方も解説。",
-    url: "https://factoring-partner.pages.dev/articles/troubles/",
+    url: "https://hyogo-shihoushoshi.jp/articles/troubles/",
     type: "article",
   },
 };
@@ -222,7 +222,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "ファクタリングのトラブル事例7選｜契約前に知るべき注意点",
   description:
@@ -232,17 +232,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/troubles/",
+      "https://hyogo-shihoushoshi.jp/articles/troubles/",
   },
 };
 
@@ -267,19 +267,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "ファクタリングのトラブル事例",
-      item: "https://factoring-partner.pages.dev/articles/troubles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/troubles/",
     },
   ],
 };

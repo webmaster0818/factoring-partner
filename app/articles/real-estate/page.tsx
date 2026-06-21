@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "不動産業向けファクタリングを徹底解説。家賃収入債権・売買仲介手数料の早期資金化方法、不動産業特有の資金繰り課題、活用事例、注意点をわかりやすく紹介。物件購入・リフォーム費用の調達に悩む不動産事業者必見です。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/real-estate/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/real-estate/",
   },
   openGraph: {
     title: "不動産業向けファクタリング｜家賃収入債権の活用ガイド",
     description:
       "不動産業の資金繰り課題を家賃収入債権ファクタリングで解決。活用事例と注意点を解説。",
-    url: "https://factoring-partner.pages.dev/articles/real-estate/",
+    url: "https://hyogo-shihoushoshi.jp/articles/real-estate/",
     type: "article",
   },
 };
@@ -91,7 +91,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "不動産業向けファクタリング｜家賃収入債権の活用ガイド",
   description:
     "不動産業の資金繰り課題を家賃収入債権ファクタリングで解決。活用事例と注意点を解説。",
@@ -100,16 +100,16 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://factoring-partner.pages.dev/articles/real-estate/",
+    "@id": "https://hyogo-shihoushoshi.jp/articles/real-estate/",
   },
 };
 
@@ -134,19 +134,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "不動産業向けファクタリング",
-      item: "https://factoring-partner.pages.dev/articles/real-estate/",
+      item: "https://hyogo-shihoushoshi.jp/articles/real-estate/",
     },
   ],
 };

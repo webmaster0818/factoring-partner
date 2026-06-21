@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description:
     "補助金・助成金の入金待ち期間の資金繰りにファクタリングを活用する方法を解説。つなぎ資金としての活用法、注意点、おすすめの会社を紹介します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/subsidy-bridge/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/subsidy-bridge/",
   },
   openGraph: {
     title: "補助金入金待ちの資金繰りにファクタリングを使う方法",
     description: "補助金入金までのつなぎ資金にファクタリングを活用。方法と注意点を解説。",
-    url: "https://factoring-partner.pages.dev/articles/subsidy-bridge/",
+    url: "https://hyogo-shihoushoshi.jp/articles/subsidy-bridge/",
     type: "article",
   },
 };
@@ -105,14 +105,14 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "補助金入金待ちの資金繰りにファクタリングを使う方法",
   description: "補助金入金までのつなぎ資金にファクタリングを活用。方法と注意点を解説。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
-  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/subsidy-bridge/" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
+  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/subsidy-bridge/" },
 };
 
 const faqSchema = {
@@ -125,9 +125,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "補助金入金待ちのファクタリング活用法", item: "https://factoring-partner.pages.dev/articles/subsidy-bridge/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
+    { "@type": "ListItem", position: 3, name: "補助金入金待ちのファクタリング活用法", item: "https://hyogo-shihoushoshi.jp/articles/subsidy-bridge/" },
   ],
 };
 

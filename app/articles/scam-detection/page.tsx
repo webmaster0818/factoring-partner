@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "ファクタリングの悪質業者・闇金業者を見分けるためのチェックリスト10項目を解説。手数料の不透明さ・契約内容の問題点・会社情報の確認方法など、安全な業者選びのための実践的なガイドです。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/scam-detection/",
+      "https://hyogo-shihoushoshi.jp/articles/scam-detection/",
   },
   openGraph: {
     title:
       "ファクタリング悪質業者の見分け方チェックリスト10項目",
     description:
       "ファクタリング悪質業者を見抜くチェックリスト10項目。闇金まがいの業者を避けるための実践的な判断基準を紹介。",
-    url: "https://factoring-partner.pages.dev/articles/scam-detection/",
+    url: "https://hyogo-shihoushoshi.jp/articles/scam-detection/",
     type: "article",
   },
 };
@@ -224,7 +224,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "ファクタリング悪質業者の見分け方チェックリスト10項目",
   description:
@@ -234,17 +234,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/scam-detection/",
+      "https://hyogo-shihoushoshi.jp/articles/scam-detection/",
   },
 };
 
@@ -269,13 +269,13 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",

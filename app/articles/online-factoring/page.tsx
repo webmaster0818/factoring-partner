@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "オンライン完結で来店不要のファクタリング会社8社を徹底比較。メリット・必要書類・電子契約の安全性・AI審査の仕組みまで詳しく解説します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/online-factoring/",
+      "https://hyogo-shihoushoshi.jp/articles/online-factoring/",
   },
   openGraph: {
     title:
       "オンライン完結ファクタリング8選｜来店不要で即日資金化",
     description:
       "オンライン完結・来店不要のファクタリング会社8社を比較。メリット・必要書類・AI審査の仕組みを解説。",
-    url: "https://factoring-partner.pages.dev/articles/online-factoring/",
+    url: "https://hyogo-shihoushoshi.jp/articles/online-factoring/",
     type: "article",
   },
 };
@@ -193,7 +193,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "オンライン完結ファクタリング8選｜来店不要で即日資金化",
   description:
@@ -203,17 +203,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/online-factoring/",
+      "https://hyogo-shihoushoshi.jp/articles/online-factoring/",
   },
 };
 

@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "日本中小企業金融サポート機構の口コミ・評判を徹底調査。審査通過率95%（公式）、手数料1.5〜10%の一般社団法人が運営するファクタリングを利用者の声で検証します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/reviews/support-org/",
+      "https://hyogo-shihoushoshi.jp/reviews/support-org/",
   },
   openGraph: {
     title:
       "日本中小企業金融サポート機構の口コミ・評判｜非営利法人のファクタリングを検証",
     description:
       "日本中小企業金融サポート機構の口コミ・評判を徹底調査。非営利法人のファクタリングを検証。",
-    url: "https://factoring-partner.pages.dev/reviews/support-org/",
+    url: "https://hyogo-shihoushoshi.jp/reviews/support-org/",
     type: "article",
   },
 };
@@ -153,7 +153,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "日本中小企業金融サポート機構の口コミ・評判｜非営利法人のファクタリングを検証",
   description:
@@ -163,16 +163,16 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://factoring-partner.pages.dev/reviews/support-org/",
+    "@id": "https://hyogo-shihoushoshi.jp/reviews/support-org/",
   },
 };
 
@@ -252,6 +252,11 @@ export default function SupportOrgReviewPage() {
         </nav>
 
         {/* ── 基本情報 ─── */}
+        {/* 広告・調査時点の開示 */}
+        <p className="mb-10 rounded-lg border border-gray-200 bg-gray-50 px-4 py-3 text-xs leading-relaxed text-gray-500">
+          ※本ページには広告（アフィリエイトリンク）が含まれます。当サイトは一部の事業者と提携し、リンク経由のお申し込みで報酬を受け取る場合があります。ただし、報酬の有無や金額が評価・順位に影響することはなく、各社の公式・公開情報にもとづいて公平に解説しています。掲載内容は調査時点のものであり、手数料・条件などの最新情報は各公式サイトでご確認ください。
+        </p>
+
         <section id="basic-info" className="mb-16">
           <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">
             日本中小企業金融サポート機構の基本情報

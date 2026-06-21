@@ -8,14 +8,14 @@ export const metadata: Metadata = {
   description:
     "PMGの口コミ・評判を徹底調査。年間取引8,600件、Pマーク・ISO27001取得の大手ファクタリング会社の手数料・審査・対応を利用者の声で検証します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/reviews/pmg/",
+    canonical: "https://hyogo-shihoushoshi.jp/reviews/pmg/",
   },
   openGraph: {
     title:
       "PMGの口コミ・評判｜年間取引8,600件の大手ファクタリングを検証",
     description:
       "PMGの口コミ・評判を徹底調査。年間8,600件の大手ファクタリング会社を検証。",
-    url: "https://factoring-partner.pages.dev/reviews/pmg/",
+    url: "https://hyogo-shihoushoshi.jp/reviews/pmg/",
     type: "article",
   },
 };
@@ -152,7 +152,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "PMGの口コミ・評判｜年間取引8,600件の大手ファクタリングを検証",
   description:
@@ -162,16 +162,16 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://factoring-partner.pages.dev/reviews/pmg/",
+    "@id": "https://hyogo-shihoushoshi.jp/reviews/pmg/",
   },
 };
 
@@ -235,6 +235,19 @@ export default function PmgReviewPage() {
       </section>
 
       <div className="mx-auto max-w-4xl px-4 py-10 md:py-14">
+        {/* ── 結論ファースト ─── */}
+        <div className="mb-8 rounded-xl border-2 border-primary/30 bg-primary-light/40 p-5 md:p-6">
+          <p className="mb-2 text-sm font-bold text-primary">結論</p>
+          <p className="text-sm leading-relaxed text-text-main">
+            PMGは年間取引8,600件以上の実績と、Pマーク・ISO27001のダブル認証による万全なセキュリティ体制を持つ大手ファクタリング会社です。大口案件に強く、来店・出張・オンラインの柔軟な対応が可能なため、情報セキュリティや実績、対面での丁寧な対応を重視する法人に向いています。一方で2社間の手数料は2〜15%と上限がやや高めで、営業連絡が積極的な点は事前に理解しておきましょう。
+          </p>
+          <p className="mt-3 text-sm">
+            <a href="#recommended" className="text-primary hover:underline">向き・不向きの詳細</a>
+            <span className="mx-2 text-text-light">／</span>
+            <Link href="/ranking/" className="text-primary hover:underline">他社と条件で比較</Link>
+          </p>
+        </div>
+
         {/* ── 目次 ─── */}
         <nav className="mb-12 rounded-lg border border-border bg-section-bg p-6">
           <p className="mb-4 text-lg font-bold text-text-main">この記事の目次</p>
@@ -251,6 +264,11 @@ export default function PmgReviewPage() {
         </nav>
 
         {/* ── 基本情報 ─── */}
+        {/* 広告・調査時点の開示 */}
+        <p className="mb-10 rounded-lg border border-gray-200 bg-gray-50 px-4 py-3 text-xs leading-relaxed text-gray-500">
+          ※本ページには広告（アフィリエイトリンク）が含まれます。当サイトは一部の事業者と提携し、リンク経由のお申し込みで報酬を受け取る場合があります。ただし、報酬の有無や金額が評価・順位に影響することはなく、各社の公式・公開情報にもとづいて公平に解説しています。掲載内容は調査時点のものであり、手数料・条件などの最新情報は各公式サイトでご確認ください。
+        </p>
+
         <section id="basic-info" className="mb-16">
           <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">
             PMGの基本情報

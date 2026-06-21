@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     "ファクタリングに関する専門用語50語を解説。売掛債権・2社間/3社間・償還請求権・ノンリコース・債権譲渡登記・ABL・でんさい・支払いサイトなど、初心者にもわかりやすく説明します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/glossary/",
+      "https://hyogo-shihoushoshi.jp/articles/glossary/",
   },
   openGraph: {
     title: "ファクタリング用語集｜知っておきたい専門用語50選",
     description:
       "ファクタリングに関する専門用語50語を初心者にもわかりやすく解説します。",
-    url: "https://factoring-partner.pages.dev/articles/glossary/",
+    url: "https://hyogo-shihoushoshi.jp/articles/glossary/",
     type: "article",
   },
 };
@@ -135,21 +135,21 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+      "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
       headline: "ファクタリング用語集｜知っておきたい専門用語50選",
       datePublished: "2026-04-28",
       dateModified: "2026-04-28",
-      author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
+      author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
       publisher: {
         "@type": "Organization",
         name: "ファクタリングパートナー",
-        url: "https://factoring-partner.pages.dev",
+        url: "https://hyogo-shihoushoshi.jp",
       },
       description:
         "ファクタリングに関する専門用語50語を初心者にもわかりやすく解説します。",
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": "https://factoring-partner.pages.dev/articles/glossary/",
+        "@id": "https://hyogo-shihoushoshi.jp/articles/glossary/",
       },
     },
     {
@@ -163,8 +163,8 @@ const jsonLd = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-        { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
+        { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+        { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
         { "@type": "ListItem", position: 3, name: "ファクタリング用語集" },
       ],
     },

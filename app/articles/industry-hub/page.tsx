@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     "建設業・運送業・医療・IT・製造業・介護・人材派遣・クリエイティブ・飲食・不動産・美容・ECなど19業種のファクタリング活用ガイドを網羅。業界特有の資金繰り課題と最適なファクタリング会社が見つかります。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/industry-hub/",
+      "https://hyogo-shihoushoshi.jp/articles/industry-hub/",
   },
   openGraph: {
     title: "業種別ファクタリングガイド一覧｜あなたの業界に最適な会社が見つかる",
     description:
       "19業種のファクタリング活用ガイドを網羅。業界特有の資金繰り課題と最適なファクタリング会社が見つかります。",
-    url: "https://factoring-partner.pages.dev/articles/industry-hub/",
+    url: "https://hyogo-shihoushoshi.jp/articles/industry-hub/",
     type: "article",
   },
 };
@@ -167,21 +167,21 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+      "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
       headline: "業種別ファクタリングガイド一覧｜あなたの業界に最適な会社が見つかる",
       datePublished: "2026-04-28",
       dateModified: "2026-04-28",
-      author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
+      author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
       publisher: {
         "@type": "Organization",
         name: "ファクタリングパートナー",
-        url: "https://factoring-partner.pages.dev",
+        url: "https://hyogo-shihoushoshi.jp",
       },
       description:
         "19業種のファクタリング活用ガイドを網羅。業界特有の資金繰り課題と最適なファクタリング会社が見つかります。",
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": "https://factoring-partner.pages.dev/articles/industry-hub/",
+        "@id": "https://hyogo-shihoushoshi.jp/articles/industry-hub/",
       },
     },
     {
@@ -195,8 +195,8 @@ const jsonLd = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-        { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
+        { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+        { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
         { "@type": "ListItem", position: 3, name: "業種別ファクタリングガイド一覧" },
       ],
     },

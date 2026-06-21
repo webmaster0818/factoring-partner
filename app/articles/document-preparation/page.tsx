@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "ファクタリング審査に必要な書類を完全網羅。請求書・本人確認書類・通帳コピー・決算書など必須書類の準備方法と、審査をスムーズに通過するための書類作成のコツを解説します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/document-preparation/",
+      "https://hyogo-shihoushoshi.jp/articles/document-preparation/",
   },
   openGraph: {
     title:
       "ファクタリング審査に必要な書類の準備ガイド｜スムーズに通過するコツ",
     description:
       "ファクタリング審査に必要な書類一覧と準備のコツ。請求書・通帳・本人確認書類の正しい準備方法を解説。",
-    url: "https://factoring-partner.pages.dev/articles/document-preparation/",
+    url: "https://hyogo-shihoushoshi.jp/articles/document-preparation/",
     type: "article",
   },
 };
@@ -227,7 +227,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "ファクタリング審査に必要な書類の準備ガイド｜スムーズに通過するコツ",
   description:
@@ -237,17 +237,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/document-preparation/",
+      "https://hyogo-shihoushoshi.jp/articles/document-preparation/",
   },
 };
 
@@ -272,13 +272,13 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",

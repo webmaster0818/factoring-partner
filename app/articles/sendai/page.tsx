@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description:
     "仙台でおすすめのファクタリング会社5社を徹底比較。仙台駅周辺で対面相談可能な業者やオンライン完結型サービスを紹介。東北全域対応の会社も含め、手数料・入金スピードで厳選。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/sendai/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/sendai/",
   },
   openGraph: {
     title: "ファクタリング 仙台のおすすめ業者5選｜東北エリア対応",
     description: "仙台・東北エリアのファクタリング会社5社を手数料・スピードで比較。",
-    url: "https://factoring-partner.pages.dev/articles/sendai/",
+    url: "https://hyogo-shihoushoshi.jp/articles/sendai/",
     type: "article",
   },
 };
@@ -143,14 +143,14 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "ファクタリング 仙台のおすすめ業者5選｜東北エリア対応",
   description: "仙台・東北エリアのファクタリング会社5社を手数料・スピードで比較。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
-  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/sendai/" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
+  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/sendai/" },
 };
 
 const faqSchema = {
@@ -163,9 +163,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "仙台のファクタリング会社", item: "https://factoring-partner.pages.dev/articles/sendai/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
+    { "@type": "ListItem", position: 3, name: "仙台のファクタリング会社", item: "https://hyogo-shihoushoshi.jp/articles/sendai/" },
   ],
 };
 

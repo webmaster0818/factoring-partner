@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description:
     "即日で資金調達できる方法6選を徹底比較。ファクタリング・ビジネスローン・カードローン・手形割引など、今日中にお金が必要な経営者向けに各手段のメリット・デメリット・審査スピード・コストを解説します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/emergency-funding/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/emergency-funding/",
   },
   openGraph: {
     title: "即日の資金調達方法6選｜今日中にお金が必要な経営者へ",
     description: "今日中に資金が必要な経営者向け。即日の資金調達方法6選を比較解説。",
-    url: "https://factoring-partner.pages.dev/articles/emergency-funding/",
+    url: "https://hyogo-shihoushoshi.jp/articles/emergency-funding/",
     type: "article",
   },
 };
@@ -120,13 +120,13 @@ const faqs = [
 ];
 
 const articleSchema = {
-  "@context": "https://schema.org", "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@context": "https://schema.org", "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "即日の資金調達方法6選｜今日中にお金が必要な経営者へ",
   description: "今日中に資金が必要な経営者向け。即日の資金調達方法6選を比較解説。",
   datePublished: "2026-04-24", dateModified: "2026-04-24",
-  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
-  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/emergency-funding/" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
+  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/emergency-funding/" },
 };
 
 const faqSchema = {
@@ -137,9 +137,9 @@ const faqSchema = {
 const breadcrumbSchema = {
   "@context": "https://schema.org", "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "即日の資金調達方法", item: "https://factoring-partner.pages.dev/articles/emergency-funding/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
+    { "@type": "ListItem", position: 3, name: "即日の資金調達方法", item: "https://hyogo-shihoushoshi.jp/articles/emergency-funding/" },
   ],
 };
 

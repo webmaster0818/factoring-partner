@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "飲食業向けファクタリングを徹底解説。クレジットカード売上債権の活用方法、飲食業特有の資金繰り課題、おすすめ会社5選、活用事例、注意点をわかりやすく紹介。仕入れ費や人件費の支払いに悩む飲食店経営者必見です。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/restaurant/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/restaurant/",
   },
   openGraph: {
     title: "飲食業向けファクタリング｜クレジットカード債権で資金調達",
     description:
       "飲食業の資金繰り課題をクレジットカード債権ファクタリングで解決。おすすめ会社と活用事例を紹介。",
-    url: "https://factoring-partner.pages.dev/articles/restaurant/",
+    url: "https://hyogo-shihoushoshi.jp/articles/restaurant/",
     type: "article",
   },
 };
@@ -96,7 +96,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "飲食業向けファクタリング｜クレジットカード債権で資金調達",
   description:
     "飲食業の資金繰り課題をクレジットカード債権ファクタリングで解決。おすすめ会社と活用事例を紹介。",
@@ -105,16 +105,16 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://factoring-partner.pages.dev/articles/restaurant/",
+    "@id": "https://hyogo-shihoushoshi.jp/articles/restaurant/",
   },
 };
 
@@ -139,19 +139,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "飲食業向けファクタリング",
-      item: "https://factoring-partner.pages.dev/articles/restaurant/",
+      item: "https://hyogo-shihoushoshi.jp/articles/restaurant/",
     },
   ],
 };

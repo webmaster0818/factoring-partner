@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description:
     "ファクタリングがキャッシュフロー計算書（CF計算書）に与える影響と正しい記載方法を解説。営業活動・財務活動のどちらに分類されるか、2社間・3社間での違い、仕訳例を紹介します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/cashflow-statement/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/cashflow-statement/",
   },
   openGraph: {
     title: "ファクタリングのキャッシュフロー計算書への影響と記載方法",
     description: "ファクタリングのCF計算書への影響。記載方法と仕訳例を解説。",
-    url: "https://factoring-partner.pages.dev/articles/cashflow-statement/",
+    url: "https://hyogo-shihoushoshi.jp/articles/cashflow-statement/",
     type: "article",
   },
 };
@@ -38,19 +38,19 @@ const faqs = [
 ];
 
 const articleSchema = {
-  "@context": "https://schema.org", "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@context": "https://schema.org", "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "ファクタリングのキャッシュフロー計算書への影響と記載方法",
   description: "ファクタリングのCF計算書への影響。記載方法と仕訳例を解説。",
   datePublished: "2026-04-26", dateModified: "2026-04-26",
-  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
-  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/cashflow-statement/" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
+  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/cashflow-statement/" },
 };
 const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map((faq) => ({ "@type": "Question", name: faq.question, acceptedAnswer: { "@type": "Answer", text: faq.answer } })) };
 const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
-  { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-  { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
-  { "@type": "ListItem", position: 3, name: "CF計算書への影響", item: "https://factoring-partner.pages.dev/articles/cashflow-statement/" },
+  { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+  { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
+  { "@type": "ListItem", position: 3, name: "CF計算書への影響", item: "https://hyogo-shihoushoshi.jp/articles/cashflow-statement/" },
 ] };
 
 export default function CashflowStatementPage() {

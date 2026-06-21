@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description:
     "ファクタリングを利用した場合の資金繰り表への反映方法を解説。キャッシュフロー計算書との違い、2社間・3社間別の記載例、資金繰り予測への活用法まで経理担当者向けに詳しく紹介します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/cashflow-sheet/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/cashflow-sheet/",
   },
   openGraph: {
     title: "ファクタリングの資金繰り表への反映方法｜経理処理ガイド",
     description: "ファクタリング利用時の資金繰り表の記載方法。2社間・3社間別に解説。",
-    url: "https://factoring-partner.pages.dev/articles/cashflow-sheet/",
+    url: "https://hyogo-shihoushoshi.jp/articles/cashflow-sheet/",
     type: "article",
   },
 };
@@ -67,14 +67,14 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "ファクタリングの資金繰り表への反映方法｜経理処理ガイド",
   description: "ファクタリング利用時の資金繰り表の記載方法。2社間・3社間別に解説。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
-  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/cashflow-sheet/" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
+  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/cashflow-sheet/" },
 };
 
 const faqSchema = {
@@ -87,9 +87,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "資金繰り表への反映", item: "https://factoring-partner.pages.dev/articles/cashflow-sheet/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
+    { "@type": "ListItem", position: 3, name: "資金繰り表への反映", item: "https://hyogo-shihoushoshi.jp/articles/cashflow-sheet/" },
   ],
 };
 

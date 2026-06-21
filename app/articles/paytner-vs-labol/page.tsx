@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "ペイトナーとラボルをフリーランス向けに徹底比較。手数料・入金速度・買取上限・対応時間・審査の5項目で比較。最短10分のペイトナーと24時間365日対応のラボル、どちらが自分に合うか判断できます。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/paytner-vs-labol/",
+      "https://hyogo-shihoushoshi.jp/articles/paytner-vs-labol/",
   },
   openGraph: {
     title:
       "ペイトナー vs ラボル比較｜フリーランスにおすすめはどっち？",
     description:
       "ペイトナーとラボルをフリーランス向けに徹底比較。5項目の比較表とシーン別おすすめを掲載。",
-    url: "https://factoring-partner.pages.dev/articles/paytner-vs-labol/",
+    url: "https://hyogo-shihoushoshi.jp/articles/paytner-vs-labol/",
     type: "article",
   },
 };
@@ -181,7 +181,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "ペイトナー vs ラボル比較｜フリーランスにおすすめはどっち？",
   description:
@@ -191,17 +191,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/paytner-vs-labol/",
+      "https://hyogo-shihoushoshi.jp/articles/paytner-vs-labol/",
   },
 };
 
@@ -226,13 +226,13 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "比較",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",

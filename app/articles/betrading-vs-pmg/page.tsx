@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "ビートレーディングとPMGを法人向け大口ファクタリングの観点で徹底比較。手数料・入金速度・買取上限・対応業種・実績など7項目で比較し、大口案件に最適なサービスを紹介します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/betrading-vs-pmg/",
+      "https://hyogo-shihoushoshi.jp/articles/betrading-vs-pmg/",
   },
   openGraph: {
     title:
       "ビートレーディング vs PMG比較｜法人向け大口ファクタリング",
     description:
       "ビートレーディングとPMGを7項目で徹底比較。法人向け大口ファクタリングに最適なサービスを判定。",
-    url: "https://factoring-partner.pages.dev/articles/betrading-vs-pmg/",
+    url: "https://hyogo-shihoushoshi.jp/articles/betrading-vs-pmg/",
     type: "article",
   },
 };
@@ -154,7 +154,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "ビートレーディング vs PMG比較｜法人向け大口ファクタリング",
   description:
@@ -164,17 +164,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/betrading-vs-pmg/",
+      "https://hyogo-shihoushoshi.jp/articles/betrading-vs-pmg/",
   },
 };
 
@@ -199,13 +199,13 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "比較",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",

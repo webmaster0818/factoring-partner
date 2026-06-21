@@ -8,14 +8,14 @@ export const metadata: Metadata = {
   description:
     "ファクタリング会社49社以上を一覧で比較。手数料・入金速度・買取可能額・対象・オンライン対応・特徴を網羅した業界最大級のデータベースで最適な会社を見つけましょう。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/company-directory/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/company-directory/",
   },
   openGraph: {
     title:
       "ファクタリング会社一覧49社+｜業界最大級の比較データベース",
     description:
       "ファクタリング会社49社以上を一覧で比較。業界最大級のデータベース。",
-    url: "https://factoring-partner.pages.dev/articles/company-directory/",
+    url: "https://hyogo-shihoushoshi.jp/articles/company-directory/",
     type: "article",
   },
 };
@@ -104,7 +104,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "ファクタリング会社一覧49社+｜業界最大級の比較データベース",
   description:
@@ -114,16 +114,16 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://factoring-partner.pages.dev/articles/company-directory/",
+    "@id": "https://hyogo-shihoushoshi.jp/articles/company-directory/",
   },
 };
 
@@ -144,8 +144,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
     { "@type": "ListItem", position: 3, name: "ファクタリング会社一覧" },
   ],
 };

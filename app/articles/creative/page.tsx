@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description:
     "広告代理店・Web制作・デザイン・映像制作などクリエイティブ業向けファクタリングを解説。外注費の先払い、入金サイトの長さなどの課題とおすすめ5社、活用事例を紹介します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/creative/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/creative/",
   },
   openGraph: {
     title: "広告・クリエイティブ業向けファクタリング｜制作費の資金繰り改善",
     description: "クリエイティブ業の資金繰り課題をファクタリングで解決。おすすめ5社と活用事例。",
-    url: "https://factoring-partner.pages.dev/articles/creative/",
+    url: "https://hyogo-shihoushoshi.jp/articles/creative/",
     type: "article",
   },
 };
@@ -153,14 +153,14 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "広告・クリエイティブ業向けファクタリング｜制作費の資金繰り改善",
   description: "クリエイティブ業の資金繰り課題をファクタリングで解決。おすすめ5社と活用事例。",
   datePublished: "2026-04-24",
   dateModified: "2026-04-24",
-  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
-  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/creative/" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
+  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/creative/" },
 };
 
 const faqSchema = {
@@ -177,9 +177,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "広告・クリエイティブ業向けファクタリング", item: "https://factoring-partner.pages.dev/articles/creative/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
+    { "@type": "ListItem", position: 3, name: "広告・クリエイティブ業向けファクタリング", item: "https://hyogo-shihoushoshi.jp/articles/creative/" },
   ],
 };
 

@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "ファクタリングを利用した個人事業主の確定申告方法を解説。仕訳例、手数料の勘定科目（売上債権売却損）、経費計上のルール、消費税の扱い、青色申告・白色申告での処理方法まで詳しく紹介します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/tax-return/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/tax-return/",
   },
   openGraph: {
     title: "ファクタリングの確定申告ガイド｜個人事業主の仕訳と経費計上",
     description:
       "ファクタリング利用時の確定申告方法。仕訳例と経費計上のルールを解説。",
-    url: "https://factoring-partner.pages.dev/articles/tax-return/",
+    url: "https://hyogo-shihoushoshi.jp/articles/tax-return/",
     type: "article",
   },
 };
@@ -94,14 +94,14 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "ファクタリングの確定申告ガイド｜個人事業主の仕訳と経費計上",
   description: "ファクタリング利用時の確定申告方法。仕訳例と経費計上のルールを解説。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
-  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/tax-return/" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
+  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/tax-return/" },
 };
 
 const faqSchema = {
@@ -118,9 +118,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "確定申告ガイド", item: "https://factoring-partner.pages.dev/articles/tax-return/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
+    { "@type": "ListItem", position: 3, name: "確定申告ガイド", item: "https://hyogo-shihoushoshi.jp/articles/tax-return/" },
   ],
 };
 

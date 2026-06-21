@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "大阪でおすすめのファクタリング会社8社を徹底比較。梅田・難波・本町エリアの対面対応可能な業者や、関西全域に対応するオンライン完結型サービスを紹介。手数料・入金スピード・審査通過率で厳選。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/osaka/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/osaka/",
   },
   openGraph: {
     title: "ファクタリング 大阪のおすすめ業者8選｜関西エリア対応",
     description:
       "大阪・関西エリアで利用できるファクタリング会社8社を手数料・スピードで比較。",
-    url: "https://factoring-partner.pages.dev/articles/osaka/",
+    url: "https://hyogo-shihoushoshi.jp/articles/osaka/",
     type: "article",
   },
 };
@@ -140,7 +140,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "ファクタリング 大阪のおすすめ業者8選｜関西エリア対応",
   description:
     "大阪・関西エリアで利用できるファクタリング会社8社を手数料・スピードで比較。",
@@ -149,16 +149,16 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://factoring-partner.pages.dev/articles/osaka/",
+    "@id": "https://hyogo-shihoushoshi.jp/articles/osaka/",
   },
 };
 
@@ -183,19 +183,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "大阪のファクタリング会社",
-      item: "https://factoring-partner.pages.dev/articles/osaka/",
+      item: "https://hyogo-shihoushoshi.jp/articles/osaka/",
     },
   ],
 };

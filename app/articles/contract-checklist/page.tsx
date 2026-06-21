@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "ファクタリング契約書で確認すべき10項目をチェックリスト形式で解説。償還請求権・手数料の内訳・債権譲渡登記・契約解除条件など、悪質業者を見抜くためのポイントと注意点を詳しく紹介します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/contract-checklist/",
+      "https://hyogo-shihoushoshi.jp/articles/contract-checklist/",
   },
   openGraph: {
     title:
       "ファクタリングの契約書チェックリスト｜契約前に確認すべき10項目",
     description:
       "ファクタリング契約前に確認すべき10項目をチェックリスト形式で解説。悪質業者を見抜くポイントも紹介。",
-    url: "https://factoring-partner.pages.dev/articles/contract-checklist/",
+    url: "https://hyogo-shihoushoshi.jp/articles/contract-checklist/",
     type: "article",
   },
 };
@@ -169,7 +169,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "ファクタリングの契約書チェックリスト｜契約前に確認すべき10項目",
   description:
@@ -179,17 +179,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/contract-checklist/",
+      "https://hyogo-shihoushoshi.jp/articles/contract-checklist/",
   },
 };
 
@@ -214,19 +214,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "契約書チェックリスト",
-      item: "https://factoring-partner.pages.dev/articles/contract-checklist/",
+      item: "https://hyogo-shihoushoshi.jp/articles/contract-checklist/",
     },
   ],
 };

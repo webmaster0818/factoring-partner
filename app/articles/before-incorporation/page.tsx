@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description:
     "個人事業主が法人成り（法人化）する前にファクタリングを活用する方法を解説。法人成り前後の資金繰り課題、タイミング別の活用法、注意点を詳しく紹介します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/before-incorporation/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/before-incorporation/",
   },
   openGraph: {
     title: "個人事業主が法人成りする前のファクタリング活用法",
     description: "法人成り前の資金繰り課題をファクタリングで解決。活用法と注意点を解説。",
-    url: "https://factoring-partner.pages.dev/articles/before-incorporation/",
+    url: "https://hyogo-shihoushoshi.jp/articles/before-incorporation/",
     type: "article",
   },
 };
@@ -94,14 +94,14 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "個人事業主が法人成りする前のファクタリング活用法",
   description: "法人成り前の資金繰り課題をファクタリングで解決。活用法と注意点を解説。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
-  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/before-incorporation/" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
+  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/before-incorporation/" },
 };
 
 const faqSchema = {
@@ -114,9 +114,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "法人成り前のファクタリング活用法", item: "https://factoring-partner.pages.dev/articles/before-incorporation/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
+    { "@type": "ListItem", position: 3, name: "法人成り前のファクタリング活用法", item: "https://hyogo-shihoushoshi.jp/articles/before-incorporation/" },
   ],
 };
 

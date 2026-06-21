@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "美容・エステ業向けファクタリングを徹底解説。クレジットカード売上・法人契約の売掛金を活用した資金調達方法、美容業特有の資金繰り課題、活用事例、注意点をわかりやすく紹介。設備投資や広告費の資金不足に悩むサロン経営者必見です。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/beauty/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/beauty/",
   },
   openGraph: {
     title: "美容・エステ業向けファクタリング｜運転資金の調達方法",
     description:
       "美容・エステ業の資金繰り課題をファクタリングで解決。活用事例と注意点を解説。",
-    url: "https://factoring-partner.pages.dev/articles/beauty/",
+    url: "https://hyogo-shihoushoshi.jp/articles/beauty/",
     type: "article",
   },
 };
@@ -96,7 +96,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "美容・エステ業向けファクタリング｜運転資金の調達方法",
   description:
     "美容・エステ業の資金繰り課題をファクタリングで解決。活用事例と注意点を解説。",
@@ -105,16 +105,16 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://factoring-partner.pages.dev/articles/beauty/",
+    "@id": "https://hyogo-shihoushoshi.jp/articles/beauty/",
   },
 };
 
@@ -139,19 +139,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "美容・エステ業向けファクタリング",
-      item: "https://factoring-partner.pages.dev/articles/beauty/",
+      item: "https://hyogo-shihoushoshi.jp/articles/beauty/",
     },
   ],
 };

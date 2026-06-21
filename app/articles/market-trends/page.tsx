@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "ファクタリングの市場規模と2026年の最新動向を解説。国内市場の成長要因、世界市場との比較、AI審査・オンライン化などの最新トレンド、法整備の動き、今後の市場展望を詳しく紹介します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/market-trends/",
+      "https://hyogo-shihoushoshi.jp/articles/market-trends/",
   },
   openGraph: {
     title:
       "ファクタリング市場規模と2026年の最新動向｜今後の展望",
     description:
       "ファクタリング市場の最新動向と今後の展望を解説。",
-    url: "https://factoring-partner.pages.dev/articles/market-trends/",
+    url: "https://hyogo-shihoushoshi.jp/articles/market-trends/",
     type: "article",
   },
 };
@@ -124,7 +124,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "ファクタリング市場規模と2026年の最新動向｜今後の展望",
   description:
@@ -134,17 +134,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/market-trends/",
+      "https://hyogo-shihoushoshi.jp/articles/market-trends/",
   },
 };
 
@@ -169,19 +169,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "市場規模と最新動向",
-      item: "https://factoring-partner.pages.dev/articles/market-trends/",
+      item: "https://hyogo-shihoushoshi.jp/articles/market-trends/",
     },
   ],
 };

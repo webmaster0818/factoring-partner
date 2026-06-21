@@ -8,14 +8,14 @@ export const metadata: Metadata = {
   description:
     "PAYTODAY(ペイトゥデイ)の口コミ・評判を徹底調査。AI審査で最短30分入金、手数料1〜9.5%、オンライン完結のファクタリングサービスを利用者の声で検証します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/reviews/paytoday/",
+    canonical: "https://hyogo-shihoushoshi.jp/reviews/paytoday/",
   },
   openGraph: {
     title:
       "PAYTODAYの口コミ・評判｜AI審査で最短30分のファクタリングを検証",
     description:
       "PAYTODAYの口コミ・評判を徹底調査。AI審査で最短30分入金のファクタリングを検証。",
-    url: "https://factoring-partner.pages.dev/reviews/paytoday/",
+    url: "https://hyogo-shihoushoshi.jp/reviews/paytoday/",
     type: "article",
   },
 };
@@ -159,7 +159,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "PAYTODAYの口コミ・評判｜AI審査で最短30分のファクタリングを検証",
   description:
@@ -169,16 +169,16 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://factoring-partner.pages.dev/reviews/paytoday/",
+    "@id": "https://hyogo-shihoushoshi.jp/reviews/paytoday/",
   },
 };
 
@@ -199,8 +199,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "業者レビュー", item: "https://factoring-partner.pages.dev/reviews/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "業者レビュー", item: "https://hyogo-shihoushoshi.jp/reviews/" },
     { "@type": "ListItem", position: 3, name: "PAYTODAY" },
   ],
 };
@@ -272,6 +272,11 @@ export default function PaytodayReviewPage() {
         </nav>
 
         {/* ── 基本情報 ─── */}
+        {/* 広告・調査時点の開示 */}
+        <p className="mb-10 rounded-lg border border-gray-200 bg-gray-50 px-4 py-3 text-xs leading-relaxed text-gray-500">
+          ※本ページには広告（アフィリエイトリンク）が含まれます。当サイトは一部の事業者と提携し、リンク経由のお申し込みで報酬を受け取る場合があります。ただし、報酬の有無や金額が評価・順位に影響することはなく、各社の公式・公開情報にもとづいて公平に解説しています。掲載内容は調査時点のものであり、手数料・条件などの最新情報は各公式サイトでご確認ください。
+        </p>
+
         <section id="basic-info" className="mb-16">
           <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">
             PAYTODAYの基本情報

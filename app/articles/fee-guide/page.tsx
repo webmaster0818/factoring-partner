@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "ファクタリング手数料の相場を2社間（10〜30%）・3社間（2〜20%）別に解説。計算方法の具体例、手数料の内訳（買取手数料・事務手数料・債権譲渡登記費用）、手数料を安くする5つのコツを紹介します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/fee-guide/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/fee-guide/",
   },
   openGraph: {
     title: "ファクタリング手数料の相場と計算方法｜安くするコツ5選",
     description:
       "ファクタリング手数料の相場を2社間・3社間別に解説。計算例と安くするコツ5選も紹介。",
-    url: "https://factoring-partner.pages.dev/articles/fee-guide/",
+    url: "https://hyogo-shihoushoshi.jp/articles/fee-guide/",
     type: "article",
   },
 };
@@ -111,7 +111,7 @@ const tips = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "ファクタリング手数料の相場と計算方法｜安くするコツ5選",
   description:
     "ファクタリング手数料の相場を2社間・3社間別に解説。計算例と安くするコツ5選も紹介。",
@@ -120,16 +120,16 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://factoring-partner.pages.dev/articles/fee-guide/",
+    "@id": "https://hyogo-shihoushoshi.jp/articles/fee-guide/",
   },
 };
 
@@ -154,19 +154,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "ファクタリング手数料の相場と計算方法",
-      item: "https://factoring-partner.pages.dev/articles/fee-guide/",
+      item: "https://hyogo-shihoushoshi.jp/articles/fee-guide/",
     },
   ],
 };

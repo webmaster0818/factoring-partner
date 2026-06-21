@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "ファクタリングの手数料内訳を徹底解説。買取手数料・事務手数料・債権譲渡登記費用・振込手数料など全コストを項目別に分解し、2社間・3社間の相場比較と手数料を安くする具体的な方法を紹介します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/fee-breakdown/",
+      "https://hyogo-shihoushoshi.jp/articles/fee-breakdown/",
   },
   openGraph: {
     title:
       "ファクタリング手数料の内訳を徹底解説｜買取手数料・事務手数料・登記費用",
     description:
       "ファクタリング手数料の内訳を項目別に分解。買取手数料・事務手数料・登記費用の相場と節約方法を解説。",
-    url: "https://factoring-partner.pages.dev/articles/fee-breakdown/",
+    url: "https://hyogo-shihoushoshi.jp/articles/fee-breakdown/",
     type: "article",
   },
 };
@@ -227,7 +227,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "ファクタリング手数料の内訳を徹底解説｜買取手数料・事務手数料・登記費用",
   description:
@@ -237,17 +237,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/fee-breakdown/",
+      "https://hyogo-shihoushoshi.jp/articles/fee-breakdown/",
   },
 };
 
@@ -272,13 +272,13 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",

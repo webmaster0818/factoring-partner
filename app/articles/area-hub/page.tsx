@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     "東京・大阪・福岡・名古屋・横浜・札幌・仙台・広島の8エリア別にファクタリング会社を紹介。対面相談可能な地域密着型からオンライン完結の全国対応型まで、お近くの業者が見つかります。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/area-hub/",
+      "https://hyogo-shihoushoshi.jp/articles/area-hub/",
   },
   openGraph: {
     title: "エリア別ファクタリング会社一覧｜お近くの業者を探す",
     description:
       "8エリア別にファクタリング会社を紹介。対面相談可能な地域密着型からオンライン完結の全国対応型まで。",
-    url: "https://factoring-partner.pages.dev/articles/area-hub/",
+    url: "https://hyogo-shihoushoshi.jp/articles/area-hub/",
     type: "article",
   },
 };
@@ -117,21 +117,21 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+      "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
       headline: "エリア別ファクタリング会社一覧｜お近くの業者を探す",
       datePublished: "2026-04-28",
       dateModified: "2026-04-28",
-      author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
+      author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
       publisher: {
         "@type": "Organization",
         name: "ファクタリングパートナー",
-        url: "https://factoring-partner.pages.dev",
+        url: "https://hyogo-shihoushoshi.jp",
       },
       description:
         "8エリア別にファクタリング会社を紹介。対面相談可能な地域密着型からオンライン完結の全国対応型まで。",
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": "https://factoring-partner.pages.dev/articles/area-hub/",
+        "@id": "https://hyogo-shihoushoshi.jp/articles/area-hub/",
       },
     },
     {
@@ -145,8 +145,8 @@ const jsonLd = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-        { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
+        { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+        { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
         { "@type": "ListItem", position: 3, name: "エリア別ファクタリング会社一覧" },
       ],
     },

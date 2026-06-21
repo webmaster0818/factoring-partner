@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "土日祝日でも即日入金に対応したファクタリング会社5社を徹底比較。ラボルの24時間365日対応やペイトナーの土日審査、休日に即日入金を成功させるコツ、ネット銀行活用術まで解説します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/weekend-factoring/",
+      "https://hyogo-shihoushoshi.jp/articles/weekend-factoring/",
   },
   openGraph: {
     title:
       "土日祝日対応のファクタリング会社5選｜休日でも即日入金",
     description:
       "土日祝日に即日入金できるファクタリング会社5社を比較。休日に資金調達を成功させるコツも解説。",
-    url: "https://factoring-partner.pages.dev/articles/weekend-factoring/",
+    url: "https://hyogo-shihoushoshi.jp/articles/weekend-factoring/",
     type: "article",
   },
 };
@@ -180,7 +180,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "土日祝日対応のファクタリング会社5選｜休日でも即日入金",
   description:
@@ -190,17 +190,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/weekend-factoring/",
+      "https://hyogo-shihoushoshi.jp/articles/weekend-factoring/",
   },
 };
 
@@ -225,19 +225,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "土日祝日対応のファクタリング",
-      item: "https://factoring-partner.pages.dev/articles/weekend-factoring/",
+      item: "https://hyogo-shihoushoshi.jp/articles/weekend-factoring/",
     },
   ],
 };

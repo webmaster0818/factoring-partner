@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description:
     "ファクタリング市場の将来性を解説。2030年の市場規模予測、テクノロジーの進化、法整備の動向、海外市場との比較など最新トレンドを紹介します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/future-outlook/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/future-outlook/",
   },
   openGraph: {
     title: "ファクタリングの将来性｜2030年の市場予測と最新トレンド",
     description: "ファクタリング市場の将来性と2030年の市場規模予測を解説。",
-    url: "https://factoring-partner.pages.dev/articles/future-outlook/",
+    url: "https://hyogo-shihoushoshi.jp/articles/future-outlook/",
     type: "article",
   },
 };
@@ -98,14 +98,14 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "ファクタリングの将来性｜2030年の市場予測と最新トレンド",
   description: "ファクタリング市場の将来性と2030年の市場規模予測を解説。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
-  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/future-outlook/" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
+  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/future-outlook/" },
 };
 
 const faqSchema = {
@@ -118,9 +118,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "ファクタリングの将来性", item: "https://factoring-partner.pages.dev/articles/future-outlook/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
+    { "@type": "ListItem", position: 3, name: "ファクタリングの将来性", item: "https://hyogo-shihoushoshi.jp/articles/future-outlook/" },
   ],
 };
 

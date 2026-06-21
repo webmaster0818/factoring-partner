@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description:
     "赤字決算・債務超過でもファクタリングが利用できる理由を徹底解説。審査で重視されるポイント、赤字企業向けおすすめ会社5選、活用事例、注意点を紹介。銀行融資が通らない企業でも売掛金があれば資金調達可能です。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/deficit-ok/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/deficit-ok/",
   },
   openGraph: {
     title: "赤字でも使えるファクタリング｜債務超過でもOKな理由と注意点",
     description: "赤字・債務超過でもファクタリングが使える理由とおすすめ5社を解説。",
-    url: "https://factoring-partner.pages.dev/articles/deficit-ok/",
+    url: "https://hyogo-shihoushoshi.jp/articles/deficit-ok/",
     type: "article",
   },
 };
@@ -110,14 +110,14 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "赤字でも使えるファクタリング｜債務超過でもOKな理由と注意点",
   description: "赤字・債務超過でもファクタリングが使える理由とおすすめ5社を解説。",
   datePublished: "2026-04-24",
   dateModified: "2026-04-24",
-  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
-  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/deficit-ok/" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
+  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/deficit-ok/" },
 };
 
 const faqSchema = {
@@ -130,9 +130,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "赤字でも使えるファクタリング", item: "https://factoring-partner.pages.dev/articles/deficit-ok/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
+    { "@type": "ListItem", position: 3, name: "赤字でも使えるファクタリング", item: "https://hyogo-shihoushoshi.jp/articles/deficit-ok/" },
   ],
 };
 

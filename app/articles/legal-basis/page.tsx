@@ -6,8 +6,8 @@ export const metadata: Metadata = {
   title: "ファクタリングの法的根拠｜民法466条の債権譲渡を解説",
   description:
     "ファクタリングの法的根拠を民法466条の債権譲渡から解説。2020年民法改正の影響、債権譲渡禁止特約の扱い、ファクタリングと貸金業法の関係、違法業者の見分け方を紹介します。",
-  alternates: { canonical: "https://factoring-partner.pages.dev/articles/legal-basis/" },
-  openGraph: { title: "ファクタリングの法的根拠｜民法466条の債権譲渡を解説", description: "ファクタリングの法的根拠を民法466条から解説。", url: "https://factoring-partner.pages.dev/articles/legal-basis/", type: "article" },
+  alternates: { canonical: "https://hyogo-shihoushoshi.jp/articles/legal-basis/" },
+  openGraph: { title: "ファクタリングの法的根拠｜民法466条の債権譲渡を解説", description: "ファクタリングの法的根拠を民法466条から解説。", url: "https://hyogo-shihoushoshi.jp/articles/legal-basis/", type: "article" },
 };
 
 const legalFoundations = [
@@ -38,9 +38,9 @@ const faqs = [
   { question: "ファクタリングに関する法改正の動向は？", answer: "2020年の民法改正が最も大きな変更でしたが、今後もファクタリングに関する法整備が進む可能性があります。経済産業省は中小企業の資金調達手段としてファクタリングを推進しており、業界の健全化と利用者保護のための規制が検討されています。最新の法改正情報は金融庁や経済産業省のウェブサイトで確認できます。" },
 ];
 
-const articleSchema = { "@context": "https://schema.org", "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png", headline: "ファクタリングの法的根拠｜民法466条の債権譲渡を解説", description: "ファクタリングの法的根拠を民法466条から解説。", datePublished: "2026-04-26", dateModified: "2026-04-26", author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" }, publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" }, mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/legal-basis/" } };
+const articleSchema = { "@context": "https://schema.org", "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png", headline: "ファクタリングの法的根拠｜民法466条の債権譲渡を解説", description: "ファクタリングの法的根拠を民法466条から解説。", datePublished: "2026-04-26", dateModified: "2026-04-26", author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" }, publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" }, mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/legal-basis/" } };
 const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map((faq) => ({ "@type": "Question", name: faq.question, acceptedAnswer: { "@type": "Answer", text: faq.answer } })) };
-const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" }, { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" }, { "@type": "ListItem", position: 3, name: "ファクタリングの法的根拠", item: "https://factoring-partner.pages.dev/articles/legal-basis/" }] };
+const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" }, { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" }, { "@type": "ListItem", position: 3, name: "ファクタリングの法的根拠", item: "https://hyogo-shihoushoshi.jp/articles/legal-basis/" }] };
 
 export default function LegalBasisPage() {
   return (

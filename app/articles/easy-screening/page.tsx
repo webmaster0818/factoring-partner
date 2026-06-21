@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "審査が通りやすいファクタリング会社8社を審査通過率順に紹介。ファクタリングの審査基準、赤字・債務超過でもOKな会社、審査落ちの原因と対策まで徹底解説します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/easy-screening/",
+      "https://hyogo-shihoushoshi.jp/articles/easy-screening/",
   },
   openGraph: {
     title:
       "審査が通りやすいファクタリング会社8選｜審査基準と通過のコツ",
     description:
       "審査が通りやすいファクタリング会社8社を紹介。審査基準・赤字でもOKな会社・審査落ち対策まで解説。",
-    url: "https://factoring-partner.pages.dev/articles/easy-screening/",
+    url: "https://hyogo-shihoushoshi.jp/articles/easy-screening/",
     type: "article",
   },
 };
@@ -163,7 +163,7 @@ const approvalStories = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "審査が通りやすいファクタリング会社8選｜審査基準と通過のコツ",
   description:
@@ -173,17 +173,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/easy-screening/",
+      "https://hyogo-shihoushoshi.jp/articles/easy-screening/",
   },
 };
 

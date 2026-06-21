@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "ファクタリング会社49社以上を徹底比較。手数料・入金スピード・審査通過率など6項目で比較し、法人・個人事業主・フリーランスに最適なファクタリング会社が見つかります。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/",
+    canonical: "https://hyogo-shihoushoshi.jp/",
   },
 };
 
@@ -198,13 +198,16 @@ export default function Home() {
         <div className="absolute inset-0 hidden md:block bg-gradient-to-l from-[#1e3a5f]/90 via-[#1e3a5f]/70 to-transparent" />
         <div className="absolute inset-0 md:hidden" style={{ background: "linear-gradient(to bottom, rgba(30,58,95,0.3) 0%, rgba(30,58,95,0.85) 60%, rgba(30,58,95,0.95) 100%)" }} />
         <div className="relative z-10 mx-auto flex min-h-[520px] max-w-6xl items-center justify-end px-4 py-16 md:py-24">
-          <div className="max-w-xl text-center md:text-right">
+          <div className="max-w-2xl text-center md:text-right">
             <p className="mb-3 text-sm font-semibold tracking-wider text-orange-300 uppercase">
               ファクタリング会社 比較・おすすめ【2026年最新】
             </p>
             <h1 className="text-3xl font-bold leading-tight text-white md:text-5xl">
-              法人ファクタリング、<br />
-              最短即日で使える会社を<br />
+              最短即日、<br />
+              <span className="md:whitespace-nowrap">
+                いますぐ使える<br className="md:hidden" />ファクタリングを
+              </span>
+              <br />
               <span className="text-accent">30秒診断。</span>
             </h1>
             <p className="mt-5 max-w-lg text-base leading-relaxed text-blue-100 md:text-lg md:ml-auto">

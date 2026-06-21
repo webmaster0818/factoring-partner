@@ -8,14 +8,14 @@ export const metadata: Metadata = {
   description:
     "ファクタリング会社おすすめ15社を手数料・入金速度・審査通過率・買取可能額・オンライン対応の5項目で徹底比較。法人・個人事業主・フリーランスに最適なファクタリング会社をランキング形式で紹介します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/ranking/",
+    canonical: "https://hyogo-shihoushoshi.jp/ranking/",
   },
   openGraph: {
     title:
       "【2026年最新】ファクタリング会社おすすめ15選を徹底比較！手数料・入金速度・審査で選ぶ",
     description:
       "ファクタリング会社おすすめ15社を手数料・入金速度・審査通過率・買取可能額・オンライン対応の5項目で徹底比較。",
-    url: "https://factoring-partner.pages.dev/ranking/",
+    url: "https://hyogo-shihoushoshi.jp/ranking/",
     type: "article",
   },
 };
@@ -565,7 +565,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "【2026年最新】ファクタリング会社おすすめ15選を徹底比較！手数料・入金速度・審査で選ぶ",
   description:
@@ -575,16 +575,16 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://factoring-partner.pages.dev/ranking/",
+    "@id": "https://hyogo-shihoushoshi.jp/ranking/",
   },
 };
 

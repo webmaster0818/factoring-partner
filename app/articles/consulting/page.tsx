@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description:
     "コンサルティング会社・士業（税理士・弁護士・社労士など）向けのファクタリングを徹底解説。プロジェクト報酬・顧問料の入金サイトの長さを解消し、事務所運営費の支払いに対応する方法を紹介。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/consulting/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/consulting/",
   },
   openGraph: {
     title: "コンサル・士業向けファクタリング｜報酬の早期入金",
     description: "コンサル・士業の報酬を早期入金。ファクタリング活用法と注意点を解説。",
-    url: "https://factoring-partner.pages.dev/articles/consulting/",
+    url: "https://hyogo-shihoushoshi.jp/articles/consulting/",
     type: "article",
   },
 };
@@ -142,14 +142,14 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "コンサル・士業向けファクタリング｜報酬の早期入金",
   description: "コンサル・士業の報酬を早期入金。ファクタリング活用法と注意点を解説。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
-  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/consulting/" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
+  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/consulting/" },
 };
 
 const faqSchema = {
@@ -162,9 +162,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "コンサル・士業向けファクタリング", item: "https://factoring-partner.pages.dev/articles/consulting/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
+    { "@type": "ListItem", position: 3, name: "コンサル・士業向けファクタリング", item: "https://hyogo-shihoushoshi.jp/articles/consulting/" },
   ],
 };
 

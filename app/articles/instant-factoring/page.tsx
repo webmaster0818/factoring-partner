@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "即日入金に対応したファクタリング会社おすすめ10社を入金スピード順にランキング。最短10分〜当日入金の条件、土日対応の可否、注意点まで徹底解説します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/instant-factoring/",
+      "https://hyogo-shihoushoshi.jp/articles/instant-factoring/",
   },
   openGraph: {
     title:
       "即日ファクタリング10選｜最短10分〜当日入金のおすすめ会社",
     description:
       "即日入金に対応したファクタリング会社10社を入金スピード順にランキング。最短10分入金の条件や注意点も解説。",
-    url: "https://factoring-partner.pages.dev/articles/instant-factoring/",
+    url: "https://hyogo-shihoushoshi.jp/articles/instant-factoring/",
     type: "article",
   },
 };
@@ -168,7 +168,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "即日ファクタリング10選｜最短10分〜当日入金のおすすめ会社",
   description:
@@ -178,17 +178,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/instant-factoring/",
+      "https://hyogo-shihoushoshi.jp/articles/instant-factoring/",
   },
 };
 

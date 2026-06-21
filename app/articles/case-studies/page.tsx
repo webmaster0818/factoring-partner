@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description:
     "ファクタリングで資金調達に成功した10の事例を業種別に紹介。建設業・IT・製造業・医療・飲食業など、実際の活用シーンと成果を詳しく解説します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/case-studies/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/case-studies/",
   },
   openGraph: {
     title: "ファクタリングの資金調達事例集｜業種別成功事例10選",
     description: "業種別のファクタリング成功事例10選。実際の活用シーンと成果を紹介。",
-    url: "https://factoring-partner.pages.dev/articles/case-studies/",
+    url: "https://hyogo-shihoushoshi.jp/articles/case-studies/",
     type: "article",
   },
 };
@@ -62,14 +62,14 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "ファクタリングの資金調達事例集｜業種別成功事例10選",
   description: "業種別のファクタリング成功事例10選。実際の活用シーンと成果を紹介。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
-  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/case-studies/" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
+  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/case-studies/" },
 };
 
 const faqSchema = {
@@ -82,9 +82,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "ファクタリング資金調達事例集", item: "https://factoring-partner.pages.dev/articles/case-studies/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
+    { "@type": "ListItem", position: 3, name: "ファクタリング資金調達事例集", item: "https://hyogo-shihoushoshi.jp/articles/case-studies/" },
   ],
 };
 

@@ -18,7 +18,7 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
       position: index + 1,
       name: item.label,
       ...(item.href
-        ? { item: `https://factoring-partner.pages.dev${item.href}` }
+        ? { item: `https://hyogo-shihoushoshi.jp${item.href}` }
         : {}),
     })),
   };

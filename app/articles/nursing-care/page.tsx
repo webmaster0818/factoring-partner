@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "介護事業向けファクタリング（介護報酬ファクタリング）を徹底解説。国保連への請求から入金まで2ヶ月かかる介護報酬を最短即日で現金化。おすすめ5社、手数料相場、活用事例、注意点を紹介します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/nursing-care/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/nursing-care/",
   },
   openGraph: {
     title: "介護事業向けファクタリング｜介護報酬の早期現金化ガイド",
     description:
       "介護報酬の入金を最短即日に。おすすめ5社と活用事例を紹介。",
-    url: "https://factoring-partner.pages.dev/articles/nursing-care/",
+    url: "https://hyogo-shihoushoshi.jp/articles/nursing-care/",
     type: "article",
   },
 };
@@ -154,7 +154,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "介護事業向けファクタリング｜介護報酬の早期現金化ガイド",
   description:
     "介護報酬の入金を最短即日に。おすすめ5社と活用事例を紹介。",
@@ -163,16 +163,16 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://factoring-partner.pages.dev/articles/nursing-care/",
+    "@id": "https://hyogo-shihoushoshi.jp/articles/nursing-care/",
   },
 };
 
@@ -190,9 +190,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "介護事業向けファクタリング", item: "https://factoring-partner.pages.dev/articles/nursing-care/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
+    { "@type": "ListItem", position: 3, name: "介護事業向けファクタリング", item: "https://hyogo-shihoushoshi.jp/articles/nursing-care/" },
   ],
 };
 

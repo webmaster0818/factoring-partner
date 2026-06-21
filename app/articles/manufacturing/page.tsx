@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "製造業向けファクタリングを徹底解説。原材料の仕入れ資金、設備投資、長い入金サイトなど製造業特有の課題、おすすめファクタリング会社5選、活用事例、手数料相場を詳しく紹介します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/manufacturing/",
+      "https://hyogo-shihoushoshi.jp/articles/manufacturing/",
   },
   openGraph: {
     title:
       "製造業向けファクタリングガイド｜仕入れ資金・設備投資の資金調達",
     description:
       "製造業の資金繰り課題をファクタリングで解決。おすすめ5社と活用事例を紹介。",
-    url: "https://factoring-partner.pages.dev/articles/manufacturing/",
+    url: "https://hyogo-shihoushoshi.jp/articles/manufacturing/",
     type: "article",
   },
 };
@@ -157,7 +157,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "製造業向けファクタリングガイド｜仕入れ資金・設備投資の資金調達",
   description:
@@ -167,17 +167,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/manufacturing/",
+      "https://hyogo-shihoushoshi.jp/articles/manufacturing/",
   },
 };
 
@@ -202,19 +202,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "製造業向けファクタリング",
-      item: "https://factoring-partner.pages.dev/articles/manufacturing/",
+      item: "https://hyogo-shihoushoshi.jp/articles/manufacturing/",
     },
   ],
 };

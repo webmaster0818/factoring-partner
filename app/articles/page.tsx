@@ -8,14 +8,14 @@ export const metadata: Metadata = {
   description:
     "ファクタリングパートナーの記事一覧ページです。ファクタリングの基礎知識、対象者別ガイド、手数料・審査、即日・スピード、業種別、エリア別、お悩み・トラブル、会社比較・ランキングまで115記事をカテゴリ別に整理しています。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/",
   },
   openGraph: {
     title:
       "ファクタリング記事一覧｜基礎知識・手数料・審査・業種別ガイドまとめ",
     description:
       "ファクタリングの基礎知識から手数料・審査・業種別・エリア別・会社比較まで、115記事をカテゴリ別に整理した記事一覧ページです。",
-    url: "https://factoring-partner.pages.dev/articles/",
+    url: "https://hyogo-shihoushoshi.jp/articles/",
     type: "website",
   },
 };
@@ -236,16 +236,16 @@ const collectionSchema = {
   name: "ファクタリング記事一覧",
   description:
     "ファクタリングの基礎知識・手数料・審査・業種別・エリア別・会社比較まで網羅した記事一覧ページです。",
-  url: "https://factoring-partner.pages.dev/articles/",
+  url: "https://hyogo-shihoushoshi.jp/articles/",
   isPartOf: {
     "@type": "WebSite",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
 };
 

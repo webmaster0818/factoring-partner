@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description:
     "福岡でおすすめのファクタリング会社5社を徹底比較。博多・天神エリアの対面対応可能な業者やオンライン完結型サービスを紹介。九州全域対応の会社も含め、手数料・入金スピードで厳選。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/fukuoka/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/fukuoka/",
   },
   openGraph: {
     title: "ファクタリング 福岡のおすすめ業者5選｜九州エリア対応",
     description: "福岡・九州エリアのファクタリング会社5社を手数料・スピードで比較。",
-    url: "https://factoring-partner.pages.dev/articles/fukuoka/",
+    url: "https://hyogo-shihoushoshi.jp/articles/fukuoka/",
     type: "article",
   },
 };
@@ -129,14 +129,14 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "ファクタリング 福岡のおすすめ業者5選｜九州エリア対応",
   description: "福岡・九州エリアのファクタリング会社5社を手数料・スピードで比較。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
-  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/fukuoka/" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
+  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/fukuoka/" },
 };
 
 const faqSchema = {
@@ -149,9 +149,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "福岡のファクタリング会社", item: "https://factoring-partner.pages.dev/articles/fukuoka/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
+    { "@type": "ListItem", position: 3, name: "福岡のファクタリング会社", item: "https://hyogo-shihoushoshi.jp/articles/fukuoka/" },
   ],
 };
 

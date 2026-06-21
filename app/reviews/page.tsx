@@ -8,14 +8,14 @@ export const metadata: Metadata = {
   description:
     "ファクタリングパートナーが調査したファクタリング会社28社の口コミ・評判レビュー一覧です。フリーランス向け・法人向け大口・オンライン完結・業種特化など、各社の手数料・審査・入金スピードを検証しています。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/reviews/",
+    canonical: "https://hyogo-shihoushoshi.jp/reviews/",
   },
   openGraph: {
     title:
       "ファクタリング会社の口コミ・評判レビュー一覧｜28社を徹底検証",
     description:
       "ファクタリング会社28社の口コミ・評判レビュー一覧。手数料・審査・入金スピードを各社ごとに検証しています。",
-    url: "https://factoring-partner.pages.dev/reviews/",
+    url: "https://hyogo-shihoushoshi.jp/reviews/",
     type: "website",
   },
 };
@@ -106,16 +106,16 @@ const collectionSchema = {
   name: "ファクタリング会社の口コミ・評判レビュー一覧",
   description:
     "ファクタリング会社28社の口コミ・評判レビュー一覧ページです。手数料・審査・入金スピードを各社ごとに検証しています。",
-  url: "https://factoring-partner.pages.dev/reviews/",
+  url: "https://hyogo-shihoushoshi.jp/reviews/",
   isPartOf: {
     "@type": "WebSite",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
 };
 

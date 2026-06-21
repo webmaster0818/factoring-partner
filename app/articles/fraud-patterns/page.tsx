@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "ファクタリングを装った詐欺の手口を一覧で解説。偽装ファクタリング・高額手数料詐取・給与ファクタリングなど、悪質業者が使う7つの手口と被害を防ぐための対策を詳しく紹介します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/fraud-patterns/",
+      "https://hyogo-shihoushoshi.jp/articles/fraud-patterns/",
   },
   openGraph: {
     title:
       "ファクタリング詐欺の手口一覧｜こんな業者には要注意",
     description:
       "ファクタリング詐欺の手口7パターンを解説。偽装ファクタリング・闇金まがいの業者を避ける方法を紹介。",
-    url: "https://factoring-partner.pages.dev/articles/fraud-patterns/",
+    url: "https://hyogo-shihoushoshi.jp/articles/fraud-patterns/",
     type: "article",
   },
 };
@@ -184,7 +184,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "ファクタリング詐欺の手口一覧｜こんな業者には要注意",
   description:
@@ -194,17 +194,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/fraud-patterns/",
+      "https://hyogo-shihoushoshi.jp/articles/fraud-patterns/",
   },
 };
 
@@ -229,13 +229,13 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",

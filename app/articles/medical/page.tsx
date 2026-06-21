@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "医療・介護ファクタリング（診療報酬ファクタリング）を徹底解説。レセプト債権の早期現金化の仕組み、通常ファクタリングとの違い、おすすめ3社（セゾン・AGビジネスサポート・三菱UFJファクター）、メリット、注意点を紹介。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/medical/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/medical/",
   },
   openGraph: {
     title: "医療・介護ファクタリングガイド｜診療報酬・介護報酬の早期現金化",
     description:
       "診療報酬ファクタリングの仕組みとおすすめ3社。手数料が安い理由も解説。",
-    url: "https://factoring-partner.pages.dev/articles/medical/",
+    url: "https://hyogo-shihoushoshi.jp/articles/medical/",
     type: "article",
   },
 };
@@ -145,7 +145,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "医療・介護ファクタリングガイド｜診療報酬・介護報酬の早期現金化",
   description:
@@ -155,16 +155,16 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://factoring-partner.pages.dev/articles/medical/",
+    "@id": "https://hyogo-shihoushoshi.jp/articles/medical/",
   },
 };
 
@@ -189,19 +189,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "医療・介護ファクタリング",
-      item: "https://factoring-partner.pages.dev/articles/medical/",
+      item: "https://hyogo-shihoushoshi.jp/articles/medical/",
     },
   ],
 };

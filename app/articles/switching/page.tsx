@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description:
     "ファクタリング会社の乗り換え方法を徹底解説。手数料を下げるための会社変更のタイミング、乗り換え手順、注意点、交渉のコツ、おすすめの乗り換え先を紹介します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/switching/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/switching/",
   },
   openGraph: {
     title: "ファクタリング乗り換えガイド｜手数料を下げる会社変更の方法",
     description: "ファクタリング会社の乗り換えで手数料を下げる方法。タイミング・手順・注意点を解説。",
-    url: "https://factoring-partner.pages.dev/articles/switching/",
+    url: "https://hyogo-shihoushoshi.jp/articles/switching/",
     type: "article",
   },
 };
@@ -124,14 +124,14 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "ファクタリング乗り換えガイド｜手数料を下げる会社変更の方法",
   description: "ファクタリング会社の乗り換えで手数料を下げる方法。タイミング・手順・注意点を解説。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
-  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/switching/" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
+  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/switching/" },
 };
 
 const faqSchema = {
@@ -144,9 +144,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "ファクタリング乗り換えガイド", item: "https://factoring-partner.pages.dev/articles/switching/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
+    { "@type": "ListItem", position: 3, name: "ファクタリング乗り換えガイド", item: "https://hyogo-shihoushoshi.jp/articles/switching/" },
   ],
 };
 

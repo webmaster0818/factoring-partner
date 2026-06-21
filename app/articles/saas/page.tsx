@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description:
     "システム開発会社・SaaS企業向けファクタリングを徹底解説。受託開発費やSaaS利用料の入金サイトの長さを解消し、エンジニア人件費の支払いに対応する方法を紹介。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/saas/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/saas/",
   },
   openGraph: {
     title: "システム開発・SaaS企業向けファクタリング｜月額課金の資金繰り",
     description: "IT企業の資金繰り改善にファクタリングを活用。開発費・SaaS利用料の早期現金化を解説。",
-    url: "https://factoring-partner.pages.dev/articles/saas/",
+    url: "https://hyogo-shihoushoshi.jp/articles/saas/",
     type: "article",
   },
 };
@@ -142,14 +142,14 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "システム開発・SaaS企業向けファクタリング｜月額課金の資金繰り",
   description: "IT企業の資金繰り改善にファクタリングを活用。開発費・SaaS利用料の早期現金化を解説。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
-  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/saas/" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
+  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/saas/" },
 };
 
 const faqSchema = {
@@ -162,9 +162,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "システム開発・SaaS向けファクタリング", item: "https://factoring-partner.pages.dev/articles/saas/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
+    { "@type": "ListItem", position: 3, name: "システム開発・SaaS向けファクタリング", item: "https://hyogo-shihoushoshi.jp/articles/saas/" },
   ],
 };
 

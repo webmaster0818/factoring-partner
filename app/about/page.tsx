@@ -6,13 +6,13 @@ export const metadata: Metadata = {
   description:
     "ファクタリングパートナーの運営者情報です。運営会社・編集方針・お問い合わせ先をご確認いただけます。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/about/",
+    canonical: "https://hyogo-shihoushoshi.jp/about/",
   },
   openGraph: {
     title: "運営者情報 | ファクタリングパートナー",
     description:
       "ファクタリングパートナーの運営者情報です。運営会社・編集方針・お問い合わせ先をご確認いただけます。",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
     type: "article",
   },
 };

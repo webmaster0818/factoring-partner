@@ -8,14 +8,14 @@ export const metadata: Metadata = {
   description:
     "ベストファクターの口コミ・評判を徹底調査。買取額30万〜1億円、最短即日入金、手数料2%〜、法人・個人事業主対応のファクタリングを利用者の声で検証します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/reviews/bestfactor/",
+    canonical: "https://hyogo-shihoushoshi.jp/reviews/bestfactor/",
   },
   openGraph: {
     title:
       "ベストファクターの口コミ・評判｜買取額30万〜1億円のファクタリング",
     description:
       "ベストファクターの口コミ・評判を徹底調査。買取額30万〜1億円のファクタリングを検証。",
-    url: "https://factoring-partner.pages.dev/reviews/bestfactor/",
+    url: "https://hyogo-shihoushoshi.jp/reviews/bestfactor/",
     type: "article",
   },
 };
@@ -152,7 +152,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "ベストファクターの口コミ・評判｜買取額30万〜1億円のファクタリング",
   description:
@@ -162,16 +162,16 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://factoring-partner.pages.dev/reviews/bestfactor/",
+    "@id": "https://hyogo-shihoushoshi.jp/reviews/bestfactor/",
   },
 };
 
@@ -192,8 +192,8 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "業者レビュー", item: "https://factoring-partner.pages.dev/reviews/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "業者レビュー", item: "https://hyogo-shihoushoshi.jp/reviews/" },
     { "@type": "ListItem", position: 3, name: "ベストファクター" },
   ],
 };
@@ -249,6 +249,22 @@ export default function BestfactorReviewPage() {
       </section>
 
       <div className="mx-auto max-w-4xl px-4 py-10 md:py-14">
+        {/* ── 結論ファースト ─── */}
+        <div className="mb-8 rounded-xl border-2 border-primary/30 bg-primary-light/40 p-5 md:p-6">
+          <p className="mb-2 text-sm font-bold text-primary">結論</p>
+          <p className="text-sm leading-relaxed text-text-main">
+            ベストファクターは、手数料2%〜の低水準と審査通過率92%以上の柔軟な審査が特徴で、他社で審査に落ちた方や30万円からの少額を資金化したい法人・個人事業主に向いています。担当者の丁寧な対応も口コミで評価され、初めての方でも安心です。一方、完全オンライン完結ではない場合があり、手数料の上限が非公開な点には注意が必要です。
+          </p>
+          <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm font-semibold text-primary">
+            <a href="#recommended" className="hover:underline">
+              向き・不向きの詳細を見る
+            </a>
+            <a href="/ranking/" className="hover:underline">
+              他社と条件で比較する
+            </a>
+          </div>
+        </div>
+
         {/* ── 目次 ─── */}
         <nav className="mb-12 rounded-lg border border-border bg-section-bg p-6">
           <p className="mb-4 text-lg font-bold text-text-main">この記事の目次</p>
@@ -265,6 +281,11 @@ export default function BestfactorReviewPage() {
         </nav>
 
         {/* ── 基本情報 ─── */}
+        {/* 広告・調査時点の開示 */}
+        <p className="mb-10 rounded-lg border border-gray-200 bg-gray-50 px-4 py-3 text-xs leading-relaxed text-gray-500">
+          ※本ページには広告（アフィリエイトリンク）が含まれます。当サイトは一部の事業者と提携し、リンク経由のお申し込みで報酬を受け取る場合があります。ただし、報酬の有無や金額が評価・順位に影響することはなく、各社の公式・公開情報にもとづいて公平に解説しています。掲載内容は調査時点のものであり、手数料・条件などの最新情報は各公式サイトでご確認ください。
+        </p>
+
         <section id="basic-info" className="mb-16">
           <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">
             ベストファクターの基本情報

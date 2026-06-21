@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "ビートレーディングの口コミ・評判を徹底調査。Google MAP★4.0（145件）、累計取引9.1万社の実績を持つ大手ファクタリング会社の手数料・審査・入金スピードを利用者の声で検証します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/reviews/betrading/",
+      "https://hyogo-shihoushoshi.jp/reviews/betrading/",
   },
   openGraph: {
     title:
       "ビートレーディングの口コミ・評判｜手数料や審査を利用者の声で検証",
     description:
       "ビートレーディングの口コミ・評判を徹底調査。累計取引9.1万社・買取額1,824億円の大手ファクタリング会社を検証。",
-    url: "https://factoring-partner.pages.dev/reviews/betrading/",
+    url: "https://hyogo-shihoushoshi.jp/reviews/betrading/",
     type: "article",
   },
 };
@@ -153,7 +153,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "ビートレーディングの口コミ・評判｜手数料や審査を利用者の声で検証",
   description:
@@ -163,16 +163,16 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://factoring-partner.pages.dev/reviews/betrading/",
+    "@id": "https://hyogo-shihoushoshi.jp/reviews/betrading/",
   },
 };
 
@@ -236,6 +236,19 @@ export default function BetradingReviewPage() {
       </section>
 
       <div className="mx-auto max-w-4xl px-4 py-10 md:py-14">
+        {/* ── 結論ファースト ─── */}
+        <div className="mb-8 rounded-xl border-2 border-primary/30 bg-primary-light/40 p-5 md:p-6">
+          <p className="mb-2 text-sm font-bold text-primary">結論</p>
+          <p className="text-sm leading-relaxed text-text-main">
+            ビートレーディングは累計取引9.1万社・買取額1,824億円の業界トップクラスの実績を持ち、最短2時間の入金スピードと金額制限なしの柔軟な対応が強みのファクタリング会社です。2社間（4〜12%）・3社間（2〜9%）の両方に対応し、Google MAPでも★4.0（145件）と高評価を得ています。一方で、メール対応にムラがある点や、売掛先が個人事業主の場合は審査が通りにくい点には注意が必要です。
+          </p>
+          <p className="mt-3 text-sm text-primary">
+            <a href="#recommended" className="hover:underline">向き・不向きの詳細</a>
+            {" ／ "}
+            <a href="/ranking/" className="hover:underline">他社と条件で比較</a>
+          </p>
+        </div>
+
         {/* ── 目次 ─── */}
         <nav className="mb-12 rounded-lg border border-border bg-section-bg p-6">
           <p className="mb-4 text-lg font-bold text-text-main">この記事の目次</p>
@@ -254,6 +267,11 @@ export default function BetradingReviewPage() {
         </nav>
 
         {/* ── 基本情報 ─── */}
+        {/* 広告・調査時点の開示 */}
+        <p className="mb-10 rounded-lg border border-gray-200 bg-gray-50 px-4 py-3 text-xs leading-relaxed text-gray-500">
+          ※本ページには広告（アフィリエイトリンク）が含まれます。当サイトは一部の事業者と提携し、リンク経由のお申し込みで報酬を受け取る場合があります。ただし、報酬の有無や金額が評価・順位に影響することはなく、各社の公式・公開情報にもとづいて公平に解説しています。掲載内容は調査時点のものであり、手数料・条件などの最新情報は各公式サイトでご確認ください。
+        </p>
+
         <section id="basic-info" className="mb-16">
           <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">
             ビートレーディングの基本情報

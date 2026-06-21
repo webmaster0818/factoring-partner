@@ -8,14 +8,14 @@ export const metadata: Metadata = {
   description:
     "ファクタリングは違法？やばい？民法466条で認められた合法取引です。違法になるケース（給与ファクタリング・偽装融資）、悪徳業者の特徴5つ、安全な業者の見分け方、金融庁の見解、トラブル時の相談先を解説します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/is-it-legal/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/is-it-legal/",
   },
   openGraph: {
     title:
       "ファクタリングは違法？やばい？安全な利用方法と悪徳業者の見分け方",
     description:
       "ファクタリングの合法性を民法466条から解説。悪徳業者の見分け方も紹介。",
-    url: "https://factoring-partner.pages.dev/articles/is-it-legal/",
+    url: "https://hyogo-shihoushoshi.jp/articles/is-it-legal/",
     type: "article",
   },
 };
@@ -164,7 +164,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "ファクタリングは違法？やばい？安全な利用方法と悪徳業者の見分け方",
   description:
@@ -174,16 +174,16 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://factoring-partner.pages.dev/articles/is-it-legal/",
+    "@id": "https://hyogo-shihoushoshi.jp/articles/is-it-legal/",
   },
 };
 
@@ -208,19 +208,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "ファクタリングは違法？安全な利用方法",
-      item: "https://factoring-partner.pages.dev/articles/is-it-legal/",
+      item: "https://hyogo-shihoushoshi.jp/articles/is-it-legal/",
     },
   ],
 };

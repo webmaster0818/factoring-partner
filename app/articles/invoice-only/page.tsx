@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "請求書のみ（または最小限の書類）で申し込めるファクタリング会社を5社厳選して紹介。必要書類が少ないメリット、審査の特徴、利用時の注意点、各社の比較まで詳しく解説します。書類準備の手間を省きたい事業者必見。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/invoice-only/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/invoice-only/",
   },
   openGraph: {
     title: "請求書のみで申し込めるファクタリング5選｜必要書類が少ない会社",
     description:
       "必要書類が最小限のファクタリング会社5選。請求書だけで申し込める手軽さの秘密を解説。",
-    url: "https://factoring-partner.pages.dev/articles/invoice-only/",
+    url: "https://hyogo-shihoushoshi.jp/articles/invoice-only/",
     type: "article",
   },
 };
@@ -111,7 +111,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "請求書のみで申し込めるファクタリング5選｜必要書類が少ない会社",
   description:
     "必要書類が最小限のファクタリング会社5選。請求書だけで申し込める手軽さの秘密を解説。",
@@ -120,16 +120,16 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://factoring-partner.pages.dev/articles/invoice-only/",
+    "@id": "https://hyogo-shihoushoshi.jp/articles/invoice-only/",
   },
 };
 
@@ -147,9 +147,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "請求書のみファクタリング", item: "https://factoring-partner.pages.dev/articles/invoice-only/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
+    { "@type": "ListItem", position: 3, name: "請求書のみファクタリング", item: "https://hyogo-shihoushoshi.jp/articles/invoice-only/" },
   ],
 };
 

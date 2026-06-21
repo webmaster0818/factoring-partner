@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description:
     "札幌でおすすめのファクタリング会社5社を徹底比較。札幌駅・大通りエリアで対面相談可能な業者やオンライン完結型サービスを紹介。北海道全域対応の会社も含め、手数料・入金スピードで厳選。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/sapporo/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/sapporo/",
   },
   openGraph: {
     title: "ファクタリング 札幌のおすすめ業者5選｜北海道エリア対応",
     description: "札幌・北海道エリアのファクタリング会社5社を手数料・スピードで比較。",
-    url: "https://factoring-partner.pages.dev/articles/sapporo/",
+    url: "https://hyogo-shihoushoshi.jp/articles/sapporo/",
     type: "article",
   },
 };
@@ -143,14 +143,14 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "ファクタリング 札幌のおすすめ業者5選｜北海道エリア対応",
   description: "札幌・北海道エリアのファクタリング会社5社を手数料・スピードで比較。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
-  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/sapporo/" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
+  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/sapporo/" },
 };
 
 const faqSchema = {
@@ -163,9 +163,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "札幌のファクタリング会社", item: "https://factoring-partner.pages.dev/articles/sapporo/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
+    { "@type": "ListItem", position: 3, name: "札幌のファクタリング会社", item: "https://hyogo-shihoushoshi.jp/articles/sapporo/" },
   ],
 };
 

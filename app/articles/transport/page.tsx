@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "運送業向けファクタリングを徹底解説。燃料費高騰・ドライバー不足・入金サイトの長さなど運送業特有の課題、おすすめ5社、活用事例、利用時の注意点を紹介します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/transport/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/transport/",
   },
   openGraph: {
     title: "運送業向けファクタリングガイド｜燃料費・人件費の資金繰り改善",
     description:
       "運送業の資金繰り課題とファクタリング活用法。おすすめ5社と事例を紹介。",
-    url: "https://factoring-partner.pages.dev/articles/transport/",
+    url: "https://hyogo-shihoushoshi.jp/articles/transport/",
     type: "article",
   },
 };
@@ -136,7 +136,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "運送業向けファクタリングガイド｜燃料費・人件費の資金繰り改善",
   description:
     "運送業の資金繰り課題とファクタリング活用法。おすすめ5社と事例を紹介。",
@@ -145,16 +145,16 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://factoring-partner.pages.dev/articles/transport/",
+    "@id": "https://hyogo-shihoushoshi.jp/articles/transport/",
   },
 };
 
@@ -179,19 +179,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "運送業向けファクタリング",
-      item: "https://factoring-partner.pages.dev/articles/transport/",
+      item: "https://hyogo-shihoushoshi.jp/articles/transport/",
     },
   ],
 };

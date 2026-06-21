@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "ファクタリングの審査に落ちる原因5つと、審査を通過するための具体的な対策を徹底解説。売掛先の信用力・請求書の不備・二重譲渡など主要な審査落ち理由と、リカバリー方法を紹介します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/screening-failure/",
+      "https://hyogo-shihoushoshi.jp/articles/screening-failure/",
   },
   openGraph: {
     title:
       "ファクタリングの審査落ちの原因5選と通過するための対策",
     description:
       "ファクタリング審査落ちの原因5つと通過対策を解説。売掛先の信用力不足・書類不備への具体的な対処法を紹介。",
-    url: "https://factoring-partner.pages.dev/articles/screening-failure/",
+    url: "https://hyogo-shihoushoshi.jp/articles/screening-failure/",
     type: "article",
   },
 };
@@ -190,7 +190,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "ファクタリングの審査落ちの原因5選と通過するための対策",
   description:
@@ -200,17 +200,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/screening-failure/",
+      "https://hyogo-shihoushoshi.jp/articles/screening-failure/",
   },
 };
 
@@ -235,13 +235,13 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",

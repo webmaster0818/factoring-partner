@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "個人事業主向けファクタリング会社おすすめ5社を徹底比較。1万円〜の少額対応・即日入金・必要書類・審査ポイント・確定申告への影響まで詳しく解説します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/for-sole-proprietor/",
+      "https://hyogo-shihoushoshi.jp/articles/for-sole-proprietor/",
   },
   openGraph: {
     title:
       "個人事業主向けファクタリングおすすめ5選｜少額・即日対応を比較",
     description:
       "個人事業主向けファクタリング会社おすすめ5社を徹底比較。少額・即日対応・必要書類・確定申告への影響まで解説。",
-    url: "https://factoring-partner.pages.dev/articles/for-sole-proprietor/",
+    url: "https://hyogo-shihoushoshi.jp/articles/for-sole-proprietor/",
     type: "article",
   },
 };
@@ -256,7 +256,7 @@ const flowSteps = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "個人事業主向けファクタリングおすすめ5選｜少額・即日対応を比較",
   description:
@@ -266,17 +266,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/for-sole-proprietor/",
+      "https://hyogo-shihoushoshi.jp/articles/for-sole-proprietor/",
   },
 };
 

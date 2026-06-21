@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     "ファクタリングに関するよくある質問50選を基本・手数料・審査・契約・会計・法律・業種別の7カテゴリで網羅的に解説。初心者から経験者まで、ファクタリングの疑問を全て解消します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/faq-all/",
+      "https://hyogo-shihoushoshi.jp/articles/faq-all/",
   },
   openGraph: {
     title: "ファクタリングのよくある質問50選｜総合FAQ",
     description:
       "ファクタリングに関するよくある質問50選を7カテゴリで網羅的に解説。疑問を全て解消します。",
-    url: "https://factoring-partner.pages.dev/articles/faq-all/",
+    url: "https://hyogo-shihoushoshi.jp/articles/faq-all/",
     type: "article",
   },
 };
@@ -137,21 +137,21 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+      "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
       headline: "ファクタリングのよくある質問50選｜総合FAQ",
       datePublished: "2026-04-28",
       dateModified: "2026-04-28",
-      author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
+      author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
       publisher: {
         "@type": "Organization",
         name: "ファクタリングパートナー",
-        url: "https://factoring-partner.pages.dev",
+        url: "https://hyogo-shihoushoshi.jp",
       },
       description:
         "ファクタリングに関するよくある質問50選を7カテゴリで網羅的に解説。",
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": "https://factoring-partner.pages.dev/articles/faq-all/",
+        "@id": "https://hyogo-shihoushoshi.jp/articles/faq-all/",
       },
     },
     {
@@ -165,8 +165,8 @@ const jsonLd = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-        { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
+        { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+        { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
         { "@type": "ListItem", position: 3, name: "ファクタリングのよくある質問50選" },
       ],
     },

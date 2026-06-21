@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "ファクタリングとビジネスローンの違いを比較表で徹底解説。審査基準・スピード・金利vs手数料・担保・返済方法の違い、それぞれが向いているケースを詳しく紹介します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/vs-business-loan/",
+      "https://hyogo-shihoushoshi.jp/articles/vs-business-loan/",
   },
   openGraph: {
     title:
       "ファクタリング vs ビジネスローン｜どちらが有利？徹底比較",
     description:
       "ファクタリングとビジネスローンを比較表で解説。どちらが有利かケース別に紹介。",
-    url: "https://factoring-partner.pages.dev/articles/vs-business-loan/",
+    url: "https://hyogo-shihoushoshi.jp/articles/vs-business-loan/",
     type: "article",
   },
 };
@@ -152,7 +152,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "ファクタリング vs ビジネスローン｜どちらが有利？徹底比較",
   description:
@@ -162,17 +162,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/vs-business-loan/",
+      "https://hyogo-shihoushoshi.jp/articles/vs-business-loan/",
   },
 };
 
@@ -197,19 +197,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "ファクタリング vs ビジネスローン",
-      item: "https://factoring-partner.pages.dev/articles/vs-business-loan/",
+      item: "https://hyogo-shihoushoshi.jp/articles/vs-business-loan/",
     },
   ],
 };

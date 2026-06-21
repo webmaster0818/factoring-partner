@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "東京でおすすめのファクタリング会社10社を徹底比較。即日入金対応・手数料の安さ・審査通過率で厳選。新宿・渋谷・銀座エリアの対面対応可能な業者から、オンライン完結型まで幅広く紹介します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/tokyo/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/tokyo/",
   },
   openGraph: {
     title: "ファクタリング 東京のおすすめ業者10選｜即日対応の会社比較",
     description:
       "東京エリアで即日対応可能なファクタリング会社10社を手数料・スピード・実績で比較。",
-    url: "https://factoring-partner.pages.dev/articles/tokyo/",
+    url: "https://hyogo-shihoushoshi.jp/articles/tokyo/",
     type: "article",
   },
 };
@@ -179,7 +179,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "ファクタリング 東京のおすすめ業者10選｜即日対応の会社比較",
   description:
     "東京エリアで即日対応可能なファクタリング会社10社を手数料・スピード・実績で比較。",
@@ -188,16 +188,16 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://factoring-partner.pages.dev/articles/tokyo/",
+    "@id": "https://hyogo-shihoushoshi.jp/articles/tokyo/",
   },
 };
 
@@ -222,19 +222,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "東京のファクタリング会社",
-      item: "https://factoring-partner.pages.dev/articles/tokyo/",
+      item: "https://hyogo-shihoushoshi.jp/articles/tokyo/",
     },
   ],
 };

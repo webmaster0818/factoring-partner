@@ -6,13 +6,13 @@ export const metadata: Metadata = {
   description:
     "ファクタリングパートナーの利用規約です。当サイトをご利用いただく前に、本規約をよくお読みください。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/terms/",
+    canonical: "https://hyogo-shihoushoshi.jp/terms/",
   },
   openGraph: {
     title: "利用規約 | ファクタリングパートナー",
     description:
       "ファクタリングパートナーの利用規約です。当サイトをご利用いただく前に、本規約をよくお読みください。",
-    url: "https://factoring-partner.pages.dev/terms/",
+    url: "https://hyogo-shihoushoshi.jp/terms/",
     type: "article",
   },
 };

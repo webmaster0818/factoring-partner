@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "IT業界（SES・受託開発・Web制作）向けファクタリングを徹底解説。人件費先行の資金繰り課題、おすすめファクタリング会社5選、活用事例、注意点を紹介。売掛金の早期現金化でキャッシュフローを改善する方法を解説します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/it-industry/",
+      "https://hyogo-shihoushoshi.jp/articles/it-industry/",
   },
   openGraph: {
     title:
       "IT業界向けファクタリング完全ガイド｜SES・受託開発の資金繰り改善",
     description:
       "IT業界の資金繰り課題とファクタリング活用法。SES・受託開発に最適なおすすめ5社を紹介。",
-    url: "https://factoring-partner.pages.dev/articles/it-industry/",
+    url: "https://hyogo-shihoushoshi.jp/articles/it-industry/",
     type: "article",
   },
 };
@@ -157,7 +157,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "IT業界向けファクタリング完全ガイド｜SES・受託開発の資金繰り改善",
   description:
@@ -167,17 +167,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/it-industry/",
+      "https://hyogo-shihoushoshi.jp/articles/it-industry/",
   },
 };
 
@@ -202,19 +202,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "IT業界向けファクタリング",
-      item: "https://factoring-partner.pages.dev/articles/it-industry/",
+      item: "https://hyogo-shihoushoshi.jp/articles/it-industry/",
     },
   ],
 };

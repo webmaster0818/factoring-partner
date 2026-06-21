@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "中小企業の資金繰り改善方法を7つ紹介。ファクタリング・銀行融資・ビジネスローン・補助金助成金・クラウドファンディング・手形割引・リースバックを比較表で解説。状況別おすすめも紹介。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/cashflow-tips/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/cashflow-tips/",
   },
   openGraph: {
     title: "中小企業の資金繰り改善方法7選｜ファクタリング以外の選択肢も解説",
     description:
       "資金繰り改善方法7選を比較表で解説。状況別おすすめも紹介。",
-    url: "https://factoring-partner.pages.dev/articles/cashflow-tips/",
+    url: "https://hyogo-shihoushoshi.jp/articles/cashflow-tips/",
     type: "article",
   },
 };
@@ -185,7 +185,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "中小企業の資金繰り改善方法7選｜ファクタリング以外の選択肢も解説",
   description:
@@ -195,16 +195,16 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://factoring-partner.pages.dev/articles/cashflow-tips/",
+    "@id": "https://hyogo-shihoushoshi.jp/articles/cashflow-tips/",
   },
 };
 
@@ -229,19 +229,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "資金繰り改善方法7選",
-      item: "https://factoring-partner.pages.dev/articles/cashflow-tips/",
+      item: "https://hyogo-shihoushoshi.jp/articles/cashflow-tips/",
     },
   ],
 };

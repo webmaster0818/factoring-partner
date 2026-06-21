@@ -6,8 +6,8 @@ export const metadata: Metadata = {
   title: "ファクタリング vs でんさい（電子記録債権）の違いと使い分け",
   description:
     "ファクタリングとでんさい（電子記録債権）の違いを徹底比較。仕組み・手数料・メリット・デメリット・利用条件の違い、使い分けの基準を分かりやすく解説します。",
-  alternates: { canonical: "https://factoring-partner.pages.dev/articles/vs-densai/" },
-  openGraph: { title: "ファクタリング vs でんさい（電子記録債権）の違いと使い分け", description: "ファクタリングとでんさいの違いを比較解説。", url: "https://factoring-partner.pages.dev/articles/vs-densai/", type: "article" },
+  alternates: { canonical: "https://hyogo-shihoushoshi.jp/articles/vs-densai/" },
+  openGraph: { title: "ファクタリング vs でんさい（電子記録債権）の違いと使い分け", description: "ファクタリングとでんさいの違いを比較解説。", url: "https://hyogo-shihoushoshi.jp/articles/vs-densai/", type: "article" },
 };
 
 const differences = [
@@ -35,9 +35,9 @@ const faqs = [
   { question: "個人事業主はでんさいを利用できますか？", answer: "でんさいネットへの加入は法人が対象で、個人事業主は加入できない場合があります（金融機関による）。個人事業主の場合は、ファクタリングの方が利用しやすい選択肢です。ラボルやQuQuMoなど個人事業主対応のファクタリング会社を利用しましょう。" },
 ];
 
-const articleSchema = { "@context": "https://schema.org", "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png", headline: "ファクタリング vs でんさい（電子記録債権）の違いと使い分け", description: "ファクタリングとでんさいの違いを比較解説。", datePublished: "2026-04-26", dateModified: "2026-04-26", author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" }, publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" }, mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/vs-densai/" } };
+const articleSchema = { "@context": "https://schema.org", "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png", headline: "ファクタリング vs でんさい（電子記録債権）の違いと使い分け", description: "ファクタリングとでんさいの違いを比較解説。", datePublished: "2026-04-26", dateModified: "2026-04-26", author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" }, publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" }, mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/vs-densai/" } };
 const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map((faq) => ({ "@type": "Question", name: faq.question, acceptedAnswer: { "@type": "Answer", text: faq.answer } })) };
-const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" }, { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" }, { "@type": "ListItem", position: 3, name: "vs でんさい", item: "https://factoring-partner.pages.dev/articles/vs-densai/" }] };
+const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" }, { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" }, { "@type": "ListItem", position: 3, name: "vs でんさい", item: "https://hyogo-shihoushoshi.jp/articles/vs-densai/" }] };
 
 export default function VsDensaiPage() {
   return (

@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description:
     "薬局向けファクタリングを徹底解説。調剤報酬（レセプト債権）の早期現金化の仕組み、メリット・デメリット、手数料相場、おすすめサービス、活用事例を紹介。調剤薬局の資金繰り改善に。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/pharmacy/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/pharmacy/",
   },
   openGraph: {
     title: "薬局向けファクタリング｜調剤報酬の早期現金化ガイド",
     description: "調剤薬局の資金繰り課題とファクタリング活用法。調剤報酬の早期現金化を解説。",
-    url: "https://factoring-partner.pages.dev/articles/pharmacy/",
+    url: "https://hyogo-shihoushoshi.jp/articles/pharmacy/",
     type: "article",
   },
 };
@@ -111,14 +111,14 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "薬局向けファクタリング｜調剤報酬の早期現金化ガイド",
   description: "調剤薬局の資金繰り課題とファクタリング活用法。調剤報酬の早期現金化を解説。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
-  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/pharmacy/" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
+  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/pharmacy/" },
 };
 
 const faqSchema = {
@@ -131,9 +131,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "薬局向けファクタリング", item: "https://factoring-partner.pages.dev/articles/pharmacy/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
+    { "@type": "ListItem", position: 3, name: "薬局向けファクタリング", item: "https://hyogo-shihoushoshi.jp/articles/pharmacy/" },
   ],
 };
 

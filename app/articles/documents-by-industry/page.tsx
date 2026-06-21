@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description:
     "ファクタリングの必要書類を業種別に徹底解説。建設業・医療業・IT業・製造業・運送業など業種ごとの追加書類、書類を減らすコツ、オンライン提出の方法を紹介します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/documents-by-industry/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/documents-by-industry/",
   },
   openGraph: {
     title: "ファクタリングの必要書類一覧｜業種別チェックリスト",
     description: "ファクタリングの必要書類を業種別に解説。チェックリスト付きで準備がスムーズに。",
-    url: "https://factoring-partner.pages.dev/articles/documents-by-industry/",
+    url: "https://hyogo-shihoushoshi.jp/articles/documents-by-industry/",
     type: "article",
   },
 };
@@ -133,14 +133,14 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "ファクタリングの必要書類一覧｜業種別チェックリスト",
   description: "ファクタリングの必要書類を業種別に解説。チェックリスト付きで準備がスムーズに。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
-  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/documents-by-industry/" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
+  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/documents-by-industry/" },
 };
 
 const faqSchema = {
@@ -153,9 +153,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "必要書類一覧（業種別）", item: "https://factoring-partner.pages.dev/articles/documents-by-industry/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
+    { "@type": "ListItem", position: 3, name: "必要書類一覧（業種別）", item: "https://hyogo-shihoushoshi.jp/articles/documents-by-industry/" },
   ],
 };
 

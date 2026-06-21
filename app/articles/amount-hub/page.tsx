@@ -8,13 +8,13 @@ export const metadata: Metadata = {
     "ファクタリングの買取金額を少額（1万円〜100万円）・中額（100万円〜1000万円）・大口（1000万円〜1億円超）に分けて、最適なファクタリング会社の選び方を解説。注文書ファクタリングも紹介。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/amount-hub/",
+      "https://hyogo-shihoushoshi.jp/articles/amount-hub/",
   },
   openGraph: {
     title: "金額別ファクタリングガイド｜少額1万円〜大口1億円超まで",
     description:
       "少額1万円から大口1億円超まで、買取金額別にファクタリング会社の選び方を解説。",
-    url: "https://factoring-partner.pages.dev/articles/amount-hub/",
+    url: "https://hyogo-shihoushoshi.jp/articles/amount-hub/",
     type: "article",
   },
 };
@@ -90,21 +90,21 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+      "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
       headline: "金額別ファクタリングガイド｜少額1万円〜大口1億円超まで",
       datePublished: "2026-04-28",
       dateModified: "2026-04-28",
-      author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
+      author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
       publisher: {
         "@type": "Organization",
         name: "ファクタリングパートナー",
-        url: "https://factoring-partner.pages.dev",
+        url: "https://hyogo-shihoushoshi.jp",
       },
       description:
         "少額1万円から大口1億円超まで、買取金額別にファクタリング会社の選び方を解説。",
       mainEntityOfPage: {
         "@type": "WebPage",
-        "@id": "https://factoring-partner.pages.dev/articles/amount-hub/",
+        "@id": "https://hyogo-shihoushoshi.jp/articles/amount-hub/",
       },
     },
     {
@@ -118,8 +118,8 @@ const jsonLd = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-        { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
+        { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+        { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
         { "@type": "ListItem", position: 3, name: "金額別ファクタリングガイド" },
       ],
     },

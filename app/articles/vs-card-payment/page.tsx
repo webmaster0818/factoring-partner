@@ -6,8 +6,8 @@ export const metadata: Metadata = {
   title: "ファクタリング vs 請求書カード払い（UPSIDER等）を比較",
   description:
     "ファクタリングと請求書カード払い（UPSIDER・支払い.com等）を徹底比較。仕組みの違い、手数料、メリット・デメリット、使い分けの基準を解説します。",
-  alternates: { canonical: "https://factoring-partner.pages.dev/articles/vs-card-payment/" },
-  openGraph: { title: "ファクタリング vs 請求書カード払い（UPSIDER等）を比較", description: "ファクタリングと請求書カード払いの違いを比較解説。", url: "https://factoring-partner.pages.dev/articles/vs-card-payment/", type: "article" },
+  alternates: { canonical: "https://hyogo-shihoushoshi.jp/articles/vs-card-payment/" },
+  openGraph: { title: "ファクタリング vs 請求書カード払い（UPSIDER等）を比較", description: "ファクタリングと請求書カード払いの違いを比較解説。", url: "https://hyogo-shihoushoshi.jp/articles/vs-card-payment/", type: "article" },
 };
 
 const differences = [
@@ -42,9 +42,9 @@ const faqs = [
   { question: "請求書カード払いは信用情報に影響しますか？", answer: "はい、クレジットカードの利用は信用情報機関に記録されます。カードの支払いを延滞すると信用情報に傷がつき、将来の融資審査に影響する可能性があります。一方、ファクタリングは信用情報に記録されません。この点はファクタリングのメリットです。" },
 ];
 
-const articleSchema = { "@context": "https://schema.org", "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png", headline: "ファクタリング vs 請求書カード払い（UPSIDER等）を比較", description: "ファクタリングと請求書カード払いの違いを比較解説。", datePublished: "2026-04-26", dateModified: "2026-04-26", author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" }, publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" }, mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/vs-card-payment/" } };
+const articleSchema = { "@context": "https://schema.org", "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png", headline: "ファクタリング vs 請求書カード払い（UPSIDER等）を比較", description: "ファクタリングと請求書カード払いの違いを比較解説。", datePublished: "2026-04-26", dateModified: "2026-04-26", author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" }, publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" }, mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/vs-card-payment/" } };
 const faqSchema = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: faqs.map((faq) => ({ "@type": "Question", name: faq.question, acceptedAnswer: { "@type": "Answer", text: faq.answer } })) };
-const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" }, { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" }, { "@type": "ListItem", position: 3, name: "vs 請求書カード払い", item: "https://factoring-partner.pages.dev/articles/vs-card-payment/" }] };
+const breadcrumbSchema = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" }, { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" }, { "@type": "ListItem", position: 3, name: "vs 請求書カード払い", item: "https://hyogo-shihoushoshi.jp/articles/vs-card-payment/" }] };
 
 export default function VsCardPaymentPage() {
   return (

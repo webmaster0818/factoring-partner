@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "売掛金の回収サイトを短縮してキャッシュフローを改善する実践的な方法を解説。回収サイト短縮交渉のコツ、請求業務の効率化、ファクタリングの活用法、売掛金管理のベストプラクティスを紹介します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/receivables-management/",
+      "https://hyogo-shihoushoshi.jp/articles/receivables-management/",
   },
   openGraph: {
     title:
       "売掛金の回収サイト改善方法｜キャッシュフローを改善する実践術",
     description:
       "売掛金の回収サイトを短縮してキャッシュフローを改善する実践的な方法を解説。",
-    url: "https://factoring-partner.pages.dev/articles/receivables-management/",
+    url: "https://hyogo-shihoushoshi.jp/articles/receivables-management/",
     type: "article",
   },
 };
@@ -134,7 +134,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "売掛金の回収サイト改善方法｜キャッシュフローを改善する実践術",
   description:
@@ -144,17 +144,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/receivables-management/",
+      "https://hyogo-shihoushoshi.jp/articles/receivables-management/",
   },
 };
 
@@ -179,19 +179,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "売掛金の回収サイト改善",
-      item: "https://factoring-partner.pages.dev/articles/receivables-management/",
+      item: "https://hyogo-shihoushoshi.jp/articles/receivables-management/",
     },
   ],
 };

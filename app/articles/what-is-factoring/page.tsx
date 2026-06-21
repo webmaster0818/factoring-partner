@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "ファクタリングとは売掛債権を早期に現金化するサービスです。2社間・3社間の仕組み、メリット5つ・デメリット3つ、種類（買取型・保証型・一括・医療・国際）、銀行融資との違いをわかりやすく解説します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/what-is-factoring/",
+      "https://hyogo-shihoushoshi.jp/articles/what-is-factoring/",
   },
   openGraph: {
     title:
       "ファクタリングとは？仕組み・種類・メリット・デメリットをわかりやすく解説",
     description:
       "ファクタリングの仕組み・種類・メリット・デメリットを図解でわかりやすく解説。銀行融資との比較表も。",
-    url: "https://factoring-partner.pages.dev/articles/what-is-factoring/",
+    url: "https://hyogo-shihoushoshi.jp/articles/what-is-factoring/",
     type: "article",
   },
 };
@@ -127,7 +127,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "ファクタリングとは？仕組み・種類・メリット・デメリットをわかりやすく解説",
   description:
@@ -137,17 +137,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/what-is-factoring/",
+      "https://hyogo-shihoushoshi.jp/articles/what-is-factoring/",
   },
 };
 

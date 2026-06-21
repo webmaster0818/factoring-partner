@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "建設業向けファクタリングを徹底解説。入金サイトの長さや材料費先払いなど建設業特有の資金繰り課題、おすすめ5社（けんせつくん・土建くん・ビートレーディング・PMG・アクセルファクター）、活用事例3つ、注意点を紹介。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/construction/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/construction/",
   },
   openGraph: {
     title: "建設業向けファクタリング完全ガイド｜おすすめ5選と活用事例",
     description:
       "建設業の資金繰り課題とファクタリング活用法。おすすめ5社と事例を紹介。",
-    url: "https://factoring-partner.pages.dev/articles/construction/",
+    url: "https://hyogo-shihoushoshi.jp/articles/construction/",
     type: "article",
   },
 };
@@ -144,7 +144,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "建設業向けファクタリング完全ガイド｜おすすめ5選と活用事例",
   description:
     "建設業の資金繰り課題とファクタリング活用法。おすすめ5社と事例を紹介。",
@@ -153,16 +153,16 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://factoring-partner.pages.dev/articles/construction/",
+    "@id": "https://hyogo-shihoushoshi.jp/articles/construction/",
   },
 };
 
@@ -187,19 +187,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "建設業向けファクタリング",
-      item: "https://factoring-partner.pages.dev/articles/construction/",
+      item: "https://hyogo-shihoushoshi.jp/articles/construction/",
     },
   ],
 };

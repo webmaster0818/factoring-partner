@@ -8,14 +8,14 @@ export const metadata: Metadata = {
   description:
     "ペイトナー（旧yup）の口コミ・評判を徹底調査。みずほ銀行Innovation Award受賞、累計申込50万件のフリーランス向けファクタリングの手数料・審査・入金スピードを検証します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/reviews/paytner/",
+    canonical: "https://hyogo-shihoushoshi.jp/reviews/paytner/",
   },
   openGraph: {
     title:
       "ペイトナーの口コミ・評判｜最短10分のフリーランス向けファクタリングを検証",
     description:
       "ペイトナーの口コミ・評判を徹底調査。累計申込50万件のフリーランス向けファクタリングを検証。",
-    url: "https://factoring-partner.pages.dev/reviews/paytner/",
+    url: "https://hyogo-shihoushoshi.jp/reviews/paytner/",
     type: "article",
   },
 };
@@ -152,7 +152,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "ペイトナーの口コミ・評判｜最短10分のフリーランス向けファクタリングを検証",
   description:
@@ -162,16 +162,16 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://factoring-partner.pages.dev/reviews/paytner/",
+    "@id": "https://hyogo-shihoushoshi.jp/reviews/paytner/",
   },
 };
 
@@ -235,6 +235,19 @@ export default function PaytnerReviewPage() {
       </section>
 
       <div className="mx-auto max-w-4xl px-4 py-10 md:py-14">
+        {/* ── 結論ファースト ─── */}
+        <div className="mb-8 rounded-xl border-2 border-primary/30 bg-primary-light/40 p-5 md:p-6">
+          <p className="mb-2 text-sm font-bold text-primary">結論</p>
+          <p className="text-sm leading-relaxed text-text-main">
+            ペイトナーは、フリーランス・個人事業主が少額（1万円〜）の請求書を、電話面談なしの完全オンラインで現金化したい人に向いたサービスです。手数料は一律10%で事前に確定し、AI審査で最短10分の入金に対応します。一方、初回25万円・最大300万円の上限があるため、大口の資金調達には不向きです。
+          </p>
+          <p className="mt-3 text-sm font-semibold text-primary">
+            <a href="#recommended" className="hover:underline">向き・不向きの詳細</a>
+            <span className="mx-2 text-text-light">／</span>
+            <a href="/ranking/" className="hover:underline">他社と条件で比較</a>
+          </p>
+        </div>
+
         {/* ── 目次 ─── */}
         <nav className="mb-12 rounded-lg border border-border bg-section-bg p-6">
           <p className="mb-4 text-lg font-bold text-text-main">この記事の目次</p>
@@ -251,6 +264,11 @@ export default function PaytnerReviewPage() {
         </nav>
 
         {/* ── 基本情報 ─── */}
+        {/* 広告・調査時点の開示 */}
+        <p className="mb-10 rounded-lg border border-gray-200 bg-gray-50 px-4 py-3 text-xs leading-relaxed text-gray-500">
+          ※本ページには広告（アフィリエイトリンク）が含まれます。当サイトは一部の事業者と提携し、リンク経由のお申し込みで報酬を受け取る場合があります。ただし、報酬の有無や金額が評価・順位に影響することはなく、各社の公式・公開情報にもとづいて公平に解説しています。掲載内容は調査時点のものであり、手数料・条件などの最新情報は各公式サイトでご確認ください。
+        </p>
+
         <section id="basic-info" className="mb-16">
           <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">
             ペイトナーの基本情報

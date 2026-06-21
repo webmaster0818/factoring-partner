@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "フリーランス向けファクタリング会社おすすめ5社を徹底比較。請求書を即日現金化する方法、手数料比較、確定申告・会計処理、エージェント経由の請求書への対応まで詳しく解説します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/for-freelance/",
+      "https://hyogo-shihoushoshi.jp/articles/for-freelance/",
   },
   openGraph: {
     title:
       "フリーランス向けファクタリング5選｜請求書を即日現金化する方法",
     description:
       "フリーランス向けファクタリング会社おすすめ5社を徹底比較。請求書の即日現金化・手数料・確定申告まで解説。",
-    url: "https://factoring-partner.pages.dev/articles/for-freelance/",
+    url: "https://hyogo-shihoushoshi.jp/articles/for-freelance/",
     type: "article",
   },
 };
@@ -205,7 +205,7 @@ const comparisonWithOther = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "フリーランス向けファクタリング5選｜請求書を即日現金化する方法",
   description:
@@ -215,17 +215,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/for-freelance/",
+      "https://hyogo-shihoushoshi.jp/articles/for-freelance/",
   },
 };
 

@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "ビートレーディングとQuQuMoを徹底比較。累計9.1万社の大手ビートレーディングと手数料1%〜のオンライン型QuQuMo、手数料・入金速度・審査・実績の7項目で比較し、シーン別おすすめを紹介します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/betrading-vs-ququmo/",
+      "https://hyogo-shihoushoshi.jp/articles/betrading-vs-ququmo/",
   },
   openGraph: {
     title:
       "ビートレーディング vs QuQuMo比較｜大手 vs オンライン型どっち？",
     description:
       "ビートレーディングとQuQuMoを7項目で徹底比較。大手の信頼性vsオンライン型の手軽さ、どちらが最適か。",
-    url: "https://factoring-partner.pages.dev/articles/betrading-vs-ququmo/",
+    url: "https://hyogo-shihoushoshi.jp/articles/betrading-vs-ququmo/",
     type: "article",
   },
 };
@@ -149,7 +149,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "ビートレーディング vs QuQuMo比較｜大手 vs オンライン型どっち？",
   description:
@@ -159,17 +159,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/betrading-vs-ququmo/",
+      "https://hyogo-shihoushoshi.jp/articles/betrading-vs-ququmo/",
   },
 };
 
@@ -194,13 +194,13 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "比較",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",

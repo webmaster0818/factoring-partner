@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "ファクタリングの手数料を下げる交渉術を5つ紹介。複数社への相見積もり、継続利用による信頼構築、売掛先の信用力アピールなど、手数料を安くするための具体的な方法とコスト削減のコツを解説します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/fee-negotiation/",
+      "https://hyogo-shihoushoshi.jp/articles/fee-negotiation/",
   },
   openGraph: {
     title:
       "ファクタリングの手数料を下げる交渉術5選｜コスト削減の方法",
     description:
       "ファクタリングの手数料を下げる交渉術を5つ紹介。コスト削減の具体的な方法を解説。",
-    url: "https://factoring-partner.pages.dev/articles/fee-negotiation/",
+    url: "https://hyogo-shihoushoshi.jp/articles/fee-negotiation/",
     type: "article",
   },
 };
@@ -138,7 +138,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "ファクタリングの手数料を下げる交渉術5選｜コスト削減の方法",
   description:
@@ -148,17 +148,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/fee-negotiation/",
+      "https://hyogo-shihoushoshi.jp/articles/fee-negotiation/",
   },
 };
 
@@ -183,19 +183,19 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "コラム",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",
       position: 3,
       name: "手数料交渉術",
-      item: "https://factoring-partner.pages.dev/articles/fee-negotiation/",
+      item: "https://hyogo-shihoushoshi.jp/articles/fee-negotiation/",
     },
   ],
 };

@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   description:
     "ファクタリングを初めて利用する方向けの完全ガイド。仕組み・種類・メリット・デメリット・手数料相場・必要書類・利用の流れ・会社の選び方を超初心者にも分かるように一から丁寧に解説します。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/articles/beginners-guide/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/beginners-guide/",
   },
   openGraph: {
     title: "初めてのファクタリング完全ガイド｜超初心者向けに一から解説",
     description: "ファクタリング初心者向け完全ガイド。仕組み・種類・手数料・選び方を徹底解説。",
-    url: "https://factoring-partner.pages.dev/articles/beginners-guide/",
+    url: "https://hyogo-shihoushoshi.jp/articles/beginners-guide/",
     type: "article",
   },
 };
@@ -107,14 +107,14 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline: "初めてのファクタリング完全ガイド｜超初心者向けに一から解説",
   description: "ファクタリング初心者向け完全ガイド。仕組み・種類・手数料・選び方を徹底解説。",
   datePublished: "2026-04-26",
   dateModified: "2026-04-26",
-  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://factoring-partner.pages.dev/about/" },
-  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://factoring-partner.pages.dev" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://factoring-partner.pages.dev/articles/beginners-guide/" },
+  author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
+  publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/beginners-guide/" },
 };
 
 const faqSchema = {
@@ -127,9 +127,9 @@ const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://factoring-partner.pages.dev/" },
-    { "@type": "ListItem", position: 2, name: "コラム", item: "https://factoring-partner.pages.dev/articles/" },
-    { "@type": "ListItem", position: 3, name: "初めてのファクタリング完全ガイド", item: "https://factoring-partner.pages.dev/articles/beginners-guide/" },
+    { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
+    { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
+    { "@type": "ListItem", position: 3, name: "初めてのファクタリング完全ガイド", item: "https://hyogo-shihoushoshi.jp/articles/beginners-guide/" },
   ],
 };
 

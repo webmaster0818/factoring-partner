@@ -6,13 +6,13 @@ export const metadata: Metadata = {
   description:
     "ファクタリングパートナーのプライバシーポリシーです。個人情報の取り扱いについて定めています。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/privacy-policy/",
+    canonical: "https://hyogo-shihoushoshi.jp/privacy-policy/",
   },
   openGraph: {
     title: "プライバシーポリシー | ファクタリングパートナー",
     description:
       "ファクタリングパートナーのプライバシーポリシーです。個人情報の取り扱いについて定めています。",
-    url: "https://factoring-partner.pages.dev/privacy-policy/",
+    url: "https://hyogo-shihoushoshi.jp/privacy-policy/",
     type: "article",
   },
 };

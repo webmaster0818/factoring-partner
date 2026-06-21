@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "えんナビとビートレーディングを手数料・入金速度・買取額・対応時間・審査・特徴の6項目で徹底比較。24時間365日対応のえんナビと最短2時間入金のビートレーディング、どちらが自社に合うか判断できます。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/ennavi-vs-betrading/",
+      "https://hyogo-shihoushoshi.jp/articles/ennavi-vs-betrading/",
   },
   openGraph: {
     title:
       "えんナビ vs ビートレーディング比較｜どっちがおすすめ？",
     description:
       "えんナビとビートレーディングを6項目で徹底比較。それぞれの強み・弱みとおすすめユーザーを解説。",
-    url: "https://factoring-partner.pages.dev/articles/ennavi-vs-betrading/",
+    url: "https://hyogo-shihoushoshi.jp/articles/ennavi-vs-betrading/",
     type: "article",
   },
 };
@@ -186,7 +186,7 @@ const faqs = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "えんナビ vs ビートレーディング比較｜どっちがおすすめ？",
   description:
@@ -196,17 +196,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/ennavi-vs-betrading/",
+      "https://hyogo-shihoushoshi.jp/articles/ennavi-vs-betrading/",
   },
 };
 
@@ -231,13 +231,13 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "ホーム",
-      item: "https://factoring-partner.pages.dev/",
+      item: "https://hyogo-shihoushoshi.jp/",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "比較",
-      item: "https://factoring-partner.pages.dev/articles/",
+      item: "https://hyogo-shihoushoshi.jp/articles/",
     },
     {
       "@type": "ListItem",

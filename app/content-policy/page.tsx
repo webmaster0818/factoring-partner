@@ -6,13 +6,13 @@ export const metadata: Metadata = {
   description:
     "ファクタリングパートナーの記事制作ポリシーです。正確で信頼性の高いファクタリング情報を提供するための編集方針を定めています。",
   alternates: {
-    canonical: "https://factoring-partner.pages.dev/content-policy/",
+    canonical: "https://hyogo-shihoushoshi.jp/content-policy/",
   },
   openGraph: {
     title: "記事制作ポリシー | ファクタリングパートナー",
     description:
       "ファクタリングパートナーの記事制作ポリシーです。正確で信頼性の高いファクタリング情報を提供するための編集方針を定めています。",
-    url: "https://factoring-partner.pages.dev/content-policy/",
+    url: "https://hyogo-shihoushoshi.jp/content-policy/",
     type: "article",
   },
 };

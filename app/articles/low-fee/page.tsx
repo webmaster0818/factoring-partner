@@ -9,14 +9,14 @@ export const metadata: Metadata = {
     "手数料が安いファクタリング会社10社をランキング形式で紹介。2社間・3社間の手数料相場、手数料を下げるコツ5つ、計算方法、隠れコストの注意点まで徹底解説します。",
   alternates: {
     canonical:
-      "https://factoring-partner.pages.dev/articles/low-fee/",
+      "https://hyogo-shihoushoshi.jp/articles/low-fee/",
   },
   openGraph: {
     title:
       "手数料が安いファクタリング会社ランキング10選｜相場と節約術",
     description:
       "手数料が安いファクタリング会社10社をランキング。手数料相場・計算方法・節約術まで解説。",
-    url: "https://factoring-partner.pages.dev/articles/low-fee/",
+    url: "https://hyogo-shihoushoshi.jp/articles/low-fee/",
     type: "article",
   },
 };
@@ -177,7 +177,7 @@ const mistakesToAvoid = [
 
 const articleSchema = {
   "@context": "https://schema.org",
-  "@type": "Article", image: "https://factoring-partner.pages.dev/og-image.png",
+  "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
     "手数料が安いファクタリング会社ランキング10選｜相場と節約術",
   description:
@@ -187,17 +187,17 @@ const articleSchema = {
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
-    url: "https://factoring-partner.pages.dev/about/",
+    url: "https://hyogo-shihoushoshi.jp/about/",
   },
   publisher: {
     "@type": "Organization",
     name: "ファクタリングパートナー",
-    url: "https://factoring-partner.pages.dev",
+    url: "https://hyogo-shihoushoshi.jp",
   },
   mainEntityOfPage: {
     "@type": "WebPage",
     "@id":
-      "https://factoring-partner.pages.dev/articles/low-fee/",
+      "https://hyogo-shihoushoshi.jp/articles/low-fee/",
   },
 };
 
