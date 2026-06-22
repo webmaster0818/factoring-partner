@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "QuQuMo（ククモ）の口コミ・評判｜手数料1%〜のオンラインファクタリングを検証",
   description:
-    "QuQuMo（ククモ）の口コミ・評判を徹底調査。手数料1〜14.8%、最短2時間入金、必要書類3点のみのオンラインファクタリングを利用者の声で検証します。",
+    "QuQuMo（ククモ）の口コミ・評判を徹底調査。手数料1%〜（公式サイトにて2026年6月確認・上限非公表）、最短2時間入金、必要書類3点のみのオンラインファクタリングを利用者の声で検証します。",
   alternates: {
     canonical: "https://hyogo-shihoushoshi.jp/reviews/ququmo/",
   },
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title:
       "QuQuMo（ククモ）の口コミ・評判｜手数料1%〜のオンラインファクタリングを検証",
     description:
-      "QuQuMoの口コミ・評判を徹底調査。手数料1〜14.8%のオンラインファクタリングを検証。",
+      "QuQuMoの口コミ・評判を徹底調査。手数料1%〜（公式サイトにて2026年6月確認）のオンラインファクタリングを検証。",
     url: "https://hyogo-shihoushoshi.jp/reviews/ququmo/",
     type: "article",
   },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 /* ── Data ─────────────────────────────────────────── */
 
 const basicInfo = [
-  { label: "手数料", value: "1%〜14.8%" },
+  { label: "手数料", value: "1%〜（公式サイトにて2026年6月確認。上限は非公表のため詳細は公式サイトで）" },
   { label: "入金スピード", value: "最短2時間" },
   { label: "買取可能額", value: "制限なし（少額〜大口対応）" },
   { label: "対象", value: "法人・個人事業主" },
@@ -78,7 +78,7 @@ const merits = [
   {
     title: "手数料1%〜の低水準",
     description:
-      "手数料の下限が1%と業界でもトップクラスの低水準です。上限14.8%も業界平均と比較して抑えめの設定。売掛先が大手企業で金額が大きい案件ほど、低い手数料が適用される傾向があります。",
+      "公式サイトでは手数料「1%〜」と案内されており（公式サイトにて2026年6月確認）、下限が1%と業界でもトップクラスの低水準です。上限は公式サイトでは非公表で、実際の手数料は売掛金額・売掛先・審査結果により変動するため、詳細は公式サイトでご確認ください。売掛先が大手企業で金額が大きい案件ほど、低い手数料が適用される傾向があります。",
   },
   {
     title: "必要書類がわずか3点",
@@ -126,7 +126,7 @@ const faqs = [
   {
     question: "QuQuMo（ククモ）の手数料は実際にいくらですか？",
     answer:
-      "手数料は1〜14.8%の範囲で、売掛先の信用力・売掛金の金額・支払いサイトなどにより決まります。売掛先が大手企業で金額が大きいほど低い手数料が適用される傾向があります。正確な手数料は無料見積もりで確認できます。",
+      "公式サイトでは手数料「1%〜」と案内されています（公式サイトにて2026年6月確認）。上限は公式サイトでは非公表で、実際の手数料は売掛先の信用力・売掛金の金額・支払いサイトなどにより決まります。売掛先が大手企業で金額が大きいほど低い手数料が適用される傾向があります。正確な手数料は無料見積もりで確認でき、詳細は公式サイトでご確認ください。",
   },
   {
     question: "QuQuMoは個人事業主でも利用できますか？",
@@ -156,7 +156,7 @@ const articleSchema = {
   headline:
     "QuQuMo（ククモ）の口コミ・評判｜手数料1%〜のオンラインファクタリングを検証",
   description:
-    "QuQuMoの口コミ・評判を徹底調査。手数料1〜14.8%のオンラインファクタリングを検証。",
+    "QuQuMoの口コミ・評判を徹底調査。手数料1%〜（公式サイトにて2026年6月確認）のオンラインファクタリングを検証。",
   datePublished: "2026-04-23",
   dateModified: "2026-04-23",
   author: {
@@ -189,7 +189,7 @@ const faqSchema = {
 };
 
 const comparisonData = [
-  { name: "QuQuMo", fee: "1%〜14.8%", speed: "最短2時間", amount: "制限なし", online: "◎" },
+  { name: "QuQuMo", fee: "1%〜（上限非公表）", speed: "最短2時間", amount: "制限なし", online: "◎" },
   { name: "OLTA", fee: "2%〜9%", speed: "最短即日", amount: "制限なし", online: "◎" },
   { name: "ビートレーディング", fee: "4%〜12%", speed: "最短2時間", amount: "制限なし", online: "◎" },
   { name: "ペイトナー", fee: "一律10%", speed: "最短10分", amount: "1万〜300万円", online: "◎" },
@@ -229,7 +229,7 @@ export default function QuqumoReviewPage() {
             手数料1%〜のオンラインファクタリングを検証
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-base text-text-light md:text-lg">
-            手数料1〜14.8%、最短2時間入金、必要書類わずか3点のオンラインファクタリング「QuQuMo」の口コミ・評判を徹底調査します。
+            手数料1%〜（公式サイトにて2026年6月確認・上限非公表）、最短2時間入金、必要書類わずか3点のオンラインファクタリング「QuQuMo」の口コミ・評判を徹底調査します。
           </p>
         </div>
       </section>
@@ -239,7 +239,7 @@ export default function QuqumoReviewPage() {
         <div className="mb-8 rounded-xl border-2 border-primary/30 bg-primary-light/40 p-5 md:p-6">
           <p className="mb-2 text-sm font-bold text-primary">結論</p>
           <p className="text-sm leading-relaxed text-text-main">
-            QuQuMo（ククモ）は、手数料1〜14.8%・必要書類3点のみで申込から入金まで完全オンライン完結する2社間ファクタリング専門サービスです。最短2時間入金で買取可能額に制限がなく、少額から大口まで対応します。一方で土日祝日には非対応で、3社間ファクタリングは利用できない点に注意が必要です。
+            QuQuMo（ククモ）は、手数料1%〜（公式サイトにて2026年6月確認・上限非公表）・必要書類3点のみで申込から入金まで完全オンライン完結する2社間ファクタリング専門サービスです。最短2時間入金で買取可能額に制限がなく、少額から大口まで対応します。一方で土日祝日には非対応で、3社間ファクタリングは利用できない点に注意が必要です。
           </p>
           <p className="mt-3 text-sm">
             <a href="#recommended" className="text-primary hover:underline">向き・不向きの詳細</a>
@@ -295,7 +295,7 @@ export default function QuqumoReviewPage() {
             QuQuMoの会社概要と特徴
           </h2>
           <p className="mb-4 leading-relaxed text-text-light">
-            QuQuMo（ククモ）は、株式会社アクティブサポートが運営するオンライン完結型のファクタリングサービスです。手数料1〜14.8%という業界でもトップクラスの低水準を実現しており、コストを重視する事業者から支持されています。
+            QuQuMo（ククモ）は、株式会社アクティブサポートが運営するオンライン完結型のファクタリングサービスです。公式サイトでは手数料「1%〜」と案内されており（公式サイトにて2026年6月確認・上限非公表）、下限が業界でもトップクラスの低水準を実現しているため、コストを重視する事業者から支持されています。
           </p>
           <p className="mb-4 leading-relaxed text-text-light">
             最大の特徴は必要書類の少なさです。請求書・通帳コピー・本人確認書類のわずか3点で申込可能で、決算書や登記簿謄本などの準備が不要です。書類の手間を最小限に抑えながら、最短2時間での入金を実現しています。
@@ -308,7 +308,7 @@ export default function QuqumoReviewPage() {
             <ul className="space-y-2 text-sm text-text-light">
               <li className="flex items-start gap-2">
                 <span className="mt-0.5 text-secondary">&#10003;</span>
-                <span>手数料1〜14.8%の業界トップクラスの低水準</span>
+                <span>手数料1%〜（2026年6月確認・上限非公表）の業界トップクラスの低水準</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-0.5 text-secondary">&#10003;</span>
@@ -611,7 +611,7 @@ export default function QuqumoReviewPage() {
             <div className="rounded-lg border border-border bg-white p-5">
               <p className="mb-2 font-semibold text-text-main">手数料の違い</p>
               <p className="text-sm leading-relaxed text-text-light">
-                QuQuMoは1〜14.8%、OLTAは2〜9%です。下限はQuQuMoの方が低い（1%）ですが、上限はOLTAの方が低い（9%）です。最悪のケースを想定するとOLTAの方がリスクが低く、最良のケースではQuQuMoの方が有利になる可能性があります。
+                QuQuMoは公式サイトで「1%〜」と案内（公式サイトにて2026年6月確認・上限非公表）、OLTAは2〜9%です。下限はQuQuMoの方が低い（1%）です。QuQuMoの上限は公式に公表されていないため、上限重視で比較したい場合は各社の無料見積もりで確認することをおすすめします。最良のケースではQuQuMoの方が有利になる可能性があります。
               </p>
             </div>
             <div className="rounded-lg border border-border bg-white p-5">
@@ -638,7 +638,7 @@ export default function QuqumoReviewPage() {
             QuQuMoの総合評価
           </h2>
           <p className="mb-4 leading-relaxed text-text-light">
-            QuQuMoは、手数料1〜14.8%の低水準と必要書類3点のみの手軽さを両立したオンラインファクタリングサービスです。担当者の丁寧な対応も口コミで高く評価されており、ファクタリング初心者にも安心して利用できるサービスです。
+            QuQuMoは、手数料1%〜（公式サイトにて2026年6月確認・上限非公表）の低水準と必要書類3点のみの手軽さを両立したオンラインファクタリングサービスです。担当者の丁寧な対応も口コミで高く評価されており、ファクタリング初心者にも安心して利用できるサービスです。
           </p>
           <p className="mb-4 leading-relaxed text-text-light">
             クラウドサインを採用した電子契約や、金額制限なしの柔軟な対応も魅力です。オンラインで完結できるため、全国どこからでも利用可能です。
@@ -654,7 +654,7 @@ export default function QuqumoReviewPage() {
             QuQuMoの無料見積もりはこちら
           </h2>
           <p className="mb-6 text-sm text-white/80">
-            手数料1%〜、最短2時間入金。必要書類3点で始められるオンラインファクタリング。
+            手数料1%〜（2026年6月確認）、最短2時間入金。必要書類3点で始められるオンラインファクタリング。
           </p>
           <a
             href="https://ququmo.net/"
@@ -672,7 +672,7 @@ export default function QuqumoReviewPage() {
             QuQuMoの手数料シミュレーション
           </h2>
           <p className="mb-4 leading-relaxed text-text-light">
-            QuQuMoの手数料（1〜14.8%）が実際にどの程度のコストになるか、シミュレーションしてみましょう。
+            QuQuMoの公式手数料は「1%〜」（公式サイトにて2026年6月確認・上限非公表）です。下限1%を起点に、各手数料率で実際にどの程度のコストになるか、目安としてシミュレーションしてみましょう（5%・10%・15%は上限非公表のため仮の試算値です。正確な手数料は公式サイトの無料見積もりでご確認ください）。
           </p>
           <div className="overflow-x-auto rounded-lg border border-border">
             <table className="w-full text-sm">
@@ -682,7 +682,7 @@ export default function QuqumoReviewPage() {
                   <th className="px-4 py-3 text-right font-semibold">手数料1%</th>
                   <th className="px-4 py-3 text-right font-semibold">手数料5%</th>
                   <th className="px-4 py-3 text-right font-semibold">手数料10%</th>
-                  <th className="px-4 py-3 text-right font-semibold">手数料14.8%</th>
+                  <th className="px-4 py-3 text-right font-semibold">手数料15%（仮）</th>
                 </tr>
               </thead>
               <tbody>
@@ -691,28 +691,28 @@ export default function QuqumoReviewPage() {
                   <td className="px-4 py-3 text-right">1万円</td>
                   <td className="px-4 py-3 text-right">5万円</td>
                   <td className="px-4 py-3 text-right">10万円</td>
-                  <td className="px-4 py-3 text-right">14.8万円</td>
+                  <td className="px-4 py-3 text-right">15万円</td>
                 </tr>
                 <tr className="bg-white">
                   <td className="px-4 py-3 font-semibold">300万円</td>
                   <td className="px-4 py-3 text-right">3万円</td>
                   <td className="px-4 py-3 text-right">15万円</td>
                   <td className="px-4 py-3 text-right">30万円</td>
-                  <td className="px-4 py-3 text-right">44.4万円</td>
+                  <td className="px-4 py-3 text-right">45万円</td>
                 </tr>
                 <tr className="bg-section-bg">
                   <td className="px-4 py-3 font-semibold">500万円</td>
                   <td className="px-4 py-3 text-right">5万円</td>
                   <td className="px-4 py-3 text-right">25万円</td>
                   <td className="px-4 py-3 text-right">50万円</td>
-                  <td className="px-4 py-3 text-right">74万円</td>
+                  <td className="px-4 py-3 text-right">75万円</td>
                 </tr>
                 <tr className="bg-white">
                   <td className="px-4 py-3 font-semibold">1,000万円</td>
                   <td className="px-4 py-3 text-right">10万円</td>
                   <td className="px-4 py-3 text-right">50万円</td>
                   <td className="px-4 py-3 text-right">100万円</td>
-                  <td className="px-4 py-3 text-right">148万円</td>
+                  <td className="px-4 py-3 text-right">150万円</td>
                 </tr>
               </tbody>
             </table>

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 /* ── Data ─────────────────────────────────────────── */
 
 const basicInfo = [
-  { label: "手数料", value: "一律10%" },
+  { label: "手数料", value: "一律10%（公式サイトにて2026年6月確認）" },
   { label: "入金スピード", value: "最短10分" },
   { label: "買取可能額", value: "初回：1万〜25万円 / 2回目以降：上限300万円" },
   { label: "対象", value: "フリーランス・個人事業主" },

@@ -61,6 +61,11 @@ export default function SimulatorPage() {
         <p className="mt-4 leading-relaxed text-text-light">
           売掛金（請求書）の金額と契約方式を入力するだけで、ファクタリングの<strong>概算手数料</strong>と<strong>入金額の目安</strong>がすぐに分かります。手数料の仕組みを理解したうえで、複数社の比較にお役立てください。
         </p>
+        <p className="mt-4 rounded-lg border border-accent/40 bg-[#fff8f2] px-4 py-3 text-sm leading-relaxed text-text-light">
+          <strong className="text-accent">ご注意：</strong>手数料は<strong>ファクタリング会社ごとに異なります</strong>（「一律◯%」「◯%〜」など各社で設定）。本シミュレーターは一般的な手数料レンジにもとづく<strong>概算の目安</strong>です。各社の正確な手数料は
+          <Link href="/ranking/" className="text-primary underline">おすすめ比較ランキング</Link>
+          の各社情報や公式サイトでご確認ください。
+        </p>
 
         <div className="mt-8">
           <Simulator />

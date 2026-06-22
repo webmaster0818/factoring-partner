@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 /* ── Data ─────────────────────────────────────────── */
 
 const basicInfo = [
-  { label: "手数料", value: "2%〜9%" },
+  { label: "手数料", value: "2%〜9%（公式サイトにて2026年6月確認）" },
   { label: "入金スピード", value: "最短即日" },
   { label: "買取可能額", value: "制限なし" },
   { label: "対象", value: "法人・個人事業主" },

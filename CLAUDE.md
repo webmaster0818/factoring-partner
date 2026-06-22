@@ -35,3 +35,9 @@
 - 優先8業者(bestfactor/paytner/labol/olta/ququmo/betrading/freenance/pmg=業者名×評判の勝ち筋)に結論ファーストboxを並列agentで追加。各ページの既存事実から2-3文要約(架空数値なし)+「向き不向き詳細(#recommended)」「他社と比較(ranking)」の2リンク=CV導線
 - 料金表・業者紹介文言は一切不変更。sitemap lastmod28件・本番200/開示28・結論box8をcurl検証・GSC再送信
 - 残②: 残20reviewの結論box(必要時) / rankingの条件別早見ナビ。残フェーズ: ③moat(手数料シミュレーター=最大空白/審査済み業者DB)・①索引登録(GSCコンソール=ユーザー操作)
+
+## 2026-06-21 ③moat 手数料シミュレーター新設✅（MediaXAI「続けて進めて」承認）
+- /simulator/ 新設: app/simulator/Simulator.tsx(use client・状態)＋page.tsx(metadata/FAQ schema/手数料の仕組み表)。売掛金額×2社間(8-18%)/3社間(1-9%)→概算手数料・入金額の目安を即計算。クライアント側完結=コストゼロ
+- 数値は「目安」明示＋免責(実際は売掛先信用力・契約で変動・各社見積で確定・複数社比較推奨)。ranking CTAでCV送客。Headerナビに「手数料計算」追加=全156ページから到達(孤立回避)
+- ⚠️発見：サイト内で手数料レンジが不統一(fee-guide=2社間10-30%/3社間2-20% vs homepage FAQ/simulator=8-18%/1-9%)。simulatorはhomepage準拠を採用、fee-guideとの数値衝突回避のためinlineリンクは見送り。要・運営判断で標準化
+- 本番200/計算動作/Headerリンクをスクショ+curl検証。sitemap157。残③: 審査済み業者DB / 残②: 残20review結論box・ranking条件別ナビ

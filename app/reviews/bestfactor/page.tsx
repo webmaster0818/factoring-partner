@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 /* ── Data ─────────────────────────────────────────── */
 
 const basicInfo = [
-  { label: "手数料", value: "2%〜" },
+  { label: "手数料", value: "2%〜（公式サイトにて2026年6月確認・上限は非公開）" },
   { label: "入金スピード", value: "最短即日" },
   { label: "買取可能額", value: "30万円〜1億円" },
   { label: "対象", value: "法人・個人事業主" },
@@ -126,7 +126,7 @@ const faqs = [
   {
     question: "ベストファクターの手数料は実際にいくらですか？",
     answer:
-      "ベストファクターの手数料は2%〜です。実際の手数料は、売掛先の信用力、売掛金の金額、支払いサイトなどの条件によって変動します。具体的な手数料は見積もりを取って確認する必要があります。",
+      "ベストファクターの手数料は2%〜です（公式サイトにて2026年6月確認）。上限は公式に明示されていないため、詳細は公式サイトで確認してください。実際の手数料は、売掛先の信用力、売掛金の金額、支払いサイトなどの条件によって変動します。具体的な手数料は見積もりを取って確認する必要があります。",
   },
   {
     question: "ベストファクターは個人事業主でも利用できますか？",
@@ -253,7 +253,7 @@ export default function BestfactorReviewPage() {
         <div className="mb-8 rounded-xl border-2 border-primary/30 bg-primary-light/40 p-5 md:p-6">
           <p className="mb-2 text-sm font-bold text-primary">結論</p>
           <p className="text-sm leading-relaxed text-text-main">
-            ベストファクターは、手数料2%〜の低水準と審査通過率92%以上の柔軟な審査が特徴で、他社で審査に落ちた方や30万円からの少額を資金化したい法人・個人事業主に向いています。担当者の丁寧な対応も口コミで評価され、初めての方でも安心です。一方、完全オンライン完結ではない場合があり、手数料の上限が非公開な点には注意が必要です。
+            ベストファクターは、手数料2%〜（公式サイトにて2026年6月確認・上限は非公開）の低水準と審査通過率92%以上の柔軟な審査が特徴で、他社で審査に落ちた方や30万円からの少額を資金化したい法人・個人事業主に向いています。担当者の丁寧な対応も口コミで評価され、初めての方でも安心です。一方、完全オンライン完結ではない場合があり、手数料の上限が非公開な点には注意が必要です。
           </p>
           <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm font-semibold text-primary">
             <a href="#recommended" className="hover:underline">
