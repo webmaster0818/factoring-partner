@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "日本中小企業金融サポート機構の口コミ・評判｜非営利法人のファクタリングを検証",
   description:
-    "日本中小企業金融サポート機構の口コミ・評判を徹底調査。審査通過率95%（公式）、手数料1.5〜10%の一般社団法人が運営するファクタリングを利用者の声で検証します。",
+    "日本中小企業金融サポート機構の口コミ・評判を徹底調査。審査通過率95%（公式）、手数料1.5%〜（公式表記・上限非公表）の一般社団法人が運営するファクタリングを利用者の声で検証します。",
   alternates: {
     canonical:
       "https://hyogo-shihoushoshi.jp/reviews/support-org/",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 /* ── Data ─────────────────────────────────────────── */
 
 const basicInfo = [
-  { label: "手数料", value: "1.5%〜10%" },
+  { label: "手数料", value: "1.5%〜（公式表記・上限非公表／詳細は公式サイトで・公式サイトにて2026年6月確認）" },
   { label: "入金スピード", value: "最短即日（3時間程度）" },
   { label: "買取可能額", value: "制限なし" },
   { label: "対象", value: "法人・個人事業主" },
@@ -43,7 +43,7 @@ const goodReviews = [
   {
     title: "手数料が安い",
     detail:
-      "「1.5%〜10%と他社より安い手数料で利用できた」「非営利法人だけあって手数料が良心的だった」という口コミがあります。手数料の上限が10%に抑えられている点が評価されています。",
+      "「公式表記は手数料1.5%〜（上限非公表）で他社より安く利用できた」「非営利法人だけあって手数料が良心的だった」という口コミがあります。手数料の安さが評価されています。詳細は公式サイトでご確認ください（公式サイトにて2026年6月確認）。",
   },
   {
     title: "電話対応が丁寧",
@@ -87,9 +87,9 @@ const merits = [
       "公式発表の審査通過率95%は業界でもトップクラスの水準です。中小企業の資金繰りを支援するという設立趣旨から、柔軟な審査が行われており、他社で審査落ちした案件でも対応可能なケースがあります。",
   },
   {
-    title: "手数料1.5〜10%の低水準",
+    title: "手数料1.5%〜の低水準",
     description:
-      "手数料の上限が10%に設定されており、一般的な2社間ファクタリングの相場（8〜18%）と比較して低水準です。非営利法人ならではの良心的な手数料体系が魅力です。",
+      "公式サイトでは手数料1.5%〜と表記されています（上限は公式に明記されていません）。一般的な2社間ファクタリングの相場と比較して下限が低水準です。非営利法人ならではの良心的な手数料体系が魅力です。詳細は公式サイトでご確認ください（公式サイトにて2026年6月確認）。",
   },
   {
     title: "郵送ファクタリングに対応",
@@ -190,7 +190,7 @@ const faqSchema = {
 };
 
 const comparisonData = [
-  { name: "日本中小企業金融サポート機構", fee: "1.5%〜10%", speed: "最短即日", amount: "制限なし", passRate: "95%" },
+  { name: "日本中小企業金融サポート機構", fee: "1.5%〜（上限非公表）", speed: "最短即日", amount: "制限なし", passRate: "95%" },
   { name: "アクセルファクター", fee: "0.5%〜", speed: "最短即日", amount: "30万〜1億円", passRate: "93.3%" },
   { name: "ビートレーディング", fee: "4%〜12%", speed: "最短2時間", amount: "制限なし", passRate: "非公開" },
   { name: "OLTA", fee: "2%〜9%", speed: "最短即日", amount: "制限なし", passRate: "非公開" },
@@ -230,7 +230,7 @@ export default function SupportOrgReviewPage() {
             口コミ・評判を検証
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-base text-text-light md:text-lg">
-            審査通過率95%（公式）、手数料1.5〜10%の一般社団法人が運営するファクタリング「日本中小企業金融サポート機構」の口コミ・評判を徹底調査します。
+            審査通過率95%（公式）、手数料1.5%〜（公式表記・上限非公表）の一般社団法人が運営するファクタリング「日本中小企業金融サポート機構」の口コミ・評判を徹底調査します。
           </p>
         </div>
       </section>
@@ -286,7 +286,7 @@ export default function SupportOrgReviewPage() {
             日本中小企業金融サポート機構は、一般社団法人として設立された非営利法人が運営するファクタリングサービスです。中小企業の資金繰り支援を目的とした組織であり、営利企業が運営するファクタリング会社とは異なる立場からサービスを提供しています。
           </p>
           <p className="mb-4 leading-relaxed text-text-light">
-            審査通過率95%（公式発表）と業界でもトップクラスの通過率を誇り、中小企業の資金調達をより広く支援する姿勢が表れています。手数料も1.5〜10%と低水準で、非営利法人ならではの良心的な料金体系です。
+            審査通過率95%（公式発表）と業界でもトップクラスの通過率を誇り、中小企業の資金調達をより広く支援する姿勢が表れています。手数料も公式表記で1.5%〜（上限非公表）と下限が低水準で、非営利法人ならではの良心的な料金体系です。詳細は公式サイトでご確認ください（公式サイトにて2026年6月確認）。
           </p>
           <p className="mb-4 leading-relaxed text-text-light">
             オンラインだけでなくFAX・郵送でも手続き可能な点は、IT操作に不慣れな経営者にとって大きなメリットです。全国の中小企業を支援対象としており、東京の事務所への来店が難しい地方の事業者でも、郵送やオンラインで利用できます。
@@ -296,7 +296,7 @@ export default function SupportOrgReviewPage() {
             <ul className="space-y-2 text-sm text-text-light">
               <li className="flex items-start gap-2">
                 <span className="mt-0.5 text-secondary">&#10003;</span>
-                <span>一般社団法人（非営利法人）運営による安心感と良心的な手数料</span>
+                <span>一般社団法人（非営利法人）運営による安心感と良心的な手数料（公式表記1.5%〜）</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-0.5 text-secondary">&#10003;</span>
@@ -615,7 +615,7 @@ export default function SupportOrgReviewPage() {
             <div className="rounded-lg border border-border bg-white p-5">
               <p className="mb-2 font-semibold text-text-main">非営利法人のメリット</p>
               <p className="text-sm leading-relaxed text-text-light">
-                一般社団法人は株主への配当義務がなく、事業で得た収益を利益として分配することを目的としません。そのため、手数料を必要最低限に抑えたサービス提供が期待できます。実際に手数料は1.5〜10%と業界平均を下回る水準に設定されています。
+                一般社団法人は株主への配当義務がなく、事業で得た収益を利益として分配することを目的としません。そのため、手数料を必要最低限に抑えたサービス提供が期待できます。公式サイトでは手数料1.5%〜（上限非公表）と表記されており、下限は業界平均を下回る水準です。詳細は公式サイトでご確認ください（公式サイトにて2026年6月確認）。
               </p>
             </div>
             <div className="rounded-lg border border-border bg-white p-5">
@@ -639,7 +639,7 @@ export default function SupportOrgReviewPage() {
             日本中小企業金融サポート機構の総合評価
           </h2>
           <p className="mb-4 leading-relaxed text-text-light">
-            日本中小企業金融サポート機構は、一般社団法人という非営利の運営形態で安心感があり、審査通過率95%・手数料1.5〜10%と利用者にとって有利な条件を提供するファクタリングサービスです。
+            日本中小企業金融サポート機構は、一般社団法人という非営利の運営形態で安心感があり、審査通過率95%・手数料1.5%〜（公式表記・上限非公表）と利用者にとって有利な条件を提供するファクタリングサービスです。詳細は公式サイトでご確認ください（公式サイトにて2026年6月確認）。
           </p>
           <p className="mb-4 leading-relaxed text-text-light">
             特に、民間のファクタリング会社に対して不安を感じる方や、他社で審査に落ちた経験がある方にとって、信頼できる選択肢となっています。郵送ファクタリングにも対応しており、IT操作に不慣れな方でも利用しやすい点も評価できます。
@@ -683,7 +683,7 @@ export default function SupportOrgReviewPage() {
               <p className="text-sm"><span className="font-semibold text-primary">スピード重視なら →</span> <span className="text-text-light">ビートレーディング（最短2時間）/ ペイトナー（最短10分）</span></p>
             </div>
             <div className="rounded-lg border border-border bg-white p-4">
-              <p className="text-sm"><span className="font-semibold text-primary">手数料重視なら →</span> <span className="text-text-light">OLTA（2〜9%）/ QuQuMo（1〜14.8%）</span></p>
+              <p className="text-sm"><span className="font-semibold text-primary">手数料重視なら →</span> <span className="text-text-light">OLTA（2〜9%）/ QuQuMo（1%〜・上限非公表）</span></p>
             </div>
             <div className="rounded-lg border border-border bg-white p-4">
               <p className="text-sm"><span className="font-semibold text-primary">審査に不安があるなら →</span> <span className="text-text-light">日本中小企業金融サポート機構（95%）/ アクセルファクター（93.3%）</span></p>

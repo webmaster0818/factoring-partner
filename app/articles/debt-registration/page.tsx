@@ -102,7 +102,7 @@ const registrationDemerits = [
 const noRegistrationCompanies = [
   {
     name: "QuQuMo",
-    fee: "1%〜14.8%",
+    fee: "1%〜",
     speed: "最短2時間",
     target: "個人・法人",
     note: "債権譲渡登記不要を明確にうたっている。オンライン完結型で電子契約対応。登記費用がかからないため、実質的な手数料を低く抑えられる。手数料1%〜の低コストが魅力。",

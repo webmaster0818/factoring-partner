@@ -75,7 +75,7 @@ const top5 = [
   {
     rank: 4,
     name: "日本中小企業金融サポート機構",
-    fee: "1.5%〜10%",
+    fee: "1.5%〜",
     speed: "最短即日",
     maxAmount: "上限なし",
     type: "2社間・3社間",
@@ -525,7 +525,7 @@ export default function ForCorporationPage() {
               <tbody>
                 <tr className="border-t border-border">
                   <td className="bg-section-bg px-4 py-3 font-semibold text-text-main">手数料</td>
-                  <td className="px-4 py-3">10%〜30%</td>
+                  <td className="px-4 py-3">8%〜18%</td>
                   <td className="px-4 py-3">1%〜9%</td>
                 </tr>
                 <tr className="border-t border-border">

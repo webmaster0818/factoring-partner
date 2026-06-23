@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "ファクトルの口コミ・評判｜最短40分のAIファクタリングを検証",
   description:
-    "ファクトルの口コミ・評判を徹底調査。AI審査で最短40分入金、手数料1%〜のオンライン完結ファクタリングを利用者の声で検証します。",
+    "ファクトルの口コミ・評判を徹底調査。AI審査で最短40分入金、手数料1.5%〜のオンライン完結ファクタリングを利用者の声で検証します。",
   alternates: {
     canonical: "https://hyogo-shihoushoshi.jp/reviews/factoru/",
   },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 /* ── Data ─────────────────────────────────────────── */
 
 const basicInfo = [
-  { label: "手数料", value: "1%〜" },
+  { label: "手数料", value: "1.5%〜（公式サイトにて2026年6月確認）" },
   { label: "入金スピード", value: "最短40分" },
   { label: "買取可能額", value: "30万〜1億円" },
   { label: "対象", value: "法人・個人事業主" },
@@ -60,7 +60,7 @@ const badReviews = [
   {
     title: "初回は手数料が高めになるケースがある",
     detail:
-      "物流業の利用者からは「手数料1%〜と期待したが初回は5%程度だった」「継続利用で下がると説明されたが初回のインパクトは大きかった」という声があります。最低手数料が適用されるのは好条件が揃った場合に限られるようです。",
+      "物流業の利用者からは「手数料1.5%〜と期待したが初回はもう少し高めだった」「継続利用で下がると説明されたが初回のインパクトは大きかった」という声があります。最低手数料が適用されるのは好条件が揃った場合に限られるようです。",
   },
   {
     title: "電話でのサポートが限られる",
@@ -81,9 +81,9 @@ const merits = [
       "AI審査を活用することで、申込から最短40分での入金を実現しています。一般的なファクタリング会社の即日対応と比較しても圧倒的に速く、急ぎの資金需要に最適です。書類が揃っていれば午前中の申込で午前中の入金も可能です。",
   },
   {
-    title: "手数料1%〜の低水準",
+    title: "手数料1.5%〜の低水準",
     description:
-      "手数料が1%からという業界トップクラスの低水準を実現しています。AI審査により人件費を抑え、その分を手数料の低減に反映しています。売掛先が大手企業で金額が大きい案件ほど低い手数料が適用される傾向があります。",
+      "手数料が1.5%からという業界トップクラスの低水準を実現しています（公式サイトにて2026年6月確認）。AI審査により人件費を抑え、その分を手数料の低減に反映しています。売掛先が大手企業で金額が大きい案件ほど低い手数料が適用される傾向があります。",
   },
   {
     title: "完全オンライン完結で来店不要",
@@ -99,9 +99,9 @@ const merits = [
 
 const demerits = [
   {
-    title: "最低手数料1%の適用条件が限定的",
+    title: "最低手数料1.5%の適用条件が限定的",
     description:
-      "手数料1%〜を掲げていますが、実際に最低水準が適用されるのは売掛先が上場企業で金額が大きいなど、好条件が揃った場合に限られます。一般的な案件では3〜8%程度になるケースが多く、期待値とのギャップが生じることがあります。",
+      "手数料1.5%〜を掲げていますが、実際に最低水準が適用されるのは売掛先が上場企業で金額が大きいなど、好条件が揃った場合に限られます。一般的な案件では数%以上になるケースが多く、期待値とのギャップが生じることがあります。",
   },
   {
     title: "対面サポートがない",
@@ -126,7 +126,7 @@ const faqs = [
   {
     question: "ファクトルの手数料は実際にいくらですか？",
     answer:
-      "手数料は1%〜で、売掛先の信用力・金額・支払いサイトなどにより決まります。初回利用では3〜8%程度が多く、継続利用や好条件の案件では1〜3%程度まで下がるケースがあります。事前に無料見積もりで確認できます。",
+      "手数料は1.5%〜で、売掛先の信用力・金額・支払いサイトなどにより決まります（公式サイトにて2026年6月確認、上限の記載はありません）。最低水準が適用されるのは好条件が揃った場合に限られ、実際の手数料は案件ごとに異なります。事前に無料見積もりで確認できます。",
   },
   {
     question: "本当に40分で入金されますか？",
@@ -199,9 +199,9 @@ const breadcrumbSchema = {
 };
 
 const comparisonData = [
-  { name: "ファクトル", fee: "1%〜", speed: "最短40分", amount: "30万〜1億円", online: "◎" },
+  { name: "ファクトル", fee: "1.5%〜", speed: "最短40分", amount: "30万〜1億円", online: "◎" },
   { name: "OLTA", fee: "2%〜9%", speed: "最短即日", amount: "制限なし", online: "◎" },
-  { name: "QuQuMo", fee: "1%〜14.8%", speed: "最短2時間", amount: "制限なし", online: "◎" },
+  { name: "QuQuMo", fee: "1%〜", speed: "最短2時間", amount: "制限なし", online: "◎" },
   { name: "ペイトナー", fee: "一律10%", speed: "最短10分", amount: "1万〜300万円", online: "◎" },
 ];
 
@@ -243,7 +243,7 @@ export default function FactoruReviewPage() {
             最短40分のAIファクタリングを検証
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-base text-text-light md:text-lg">
-            AI審査で最短40分入金、手数料1%〜のオンライン完結ファクタリング「ファクトル」の口コミ・評判を徹底調査します。
+            AI審査で最短40分入金、手数料1.5%〜のオンライン完結ファクタリング「ファクトル」の口コミ・評判を徹底調査します。
           </p>
         </div>
       </section>
@@ -299,7 +299,7 @@ export default function FactoruReviewPage() {
             ファクトルは、AI技術を活用した次世代型のオンラインファクタリングサービスです。従来のファクタリングでは数日かかっていた審査プロセスをAIで自動化し、最短40分での入金を実現しています。
           </p>
           <p className="mb-4 leading-relaxed text-text-light">
-            手数料1%〜という業界最低水準の料金設定も大きな特徴です。AI審査により人件費を大幅に削減し、そのコスト削減分を利用者への手数料低減に還元するビジネスモデルを採用しています。
+            手数料1.5%〜（公式サイトにて2026年6月確認）という業界最低水準の料金設定も大きな特徴です。AI審査により人件費を大幅に削減し、そのコスト削減分を利用者への手数料低減に還元するビジネスモデルを採用しています。
           </p>
           <p className="mb-4 leading-relaxed text-text-light">
             完全オンライン完結のサービスのため、来店不要で全国どこからでも利用可能です。スマートフォンからでも手続きが完了するため、忙しい経営者でもスキマ時間に申込ができます。
@@ -313,7 +313,7 @@ export default function FactoruReviewPage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-0.5 text-secondary">&#10003;</span>
-                <span>手数料1%〜の業界トップクラスの低水準</span>
+                <span>手数料1.5%〜の業界トップクラスの低水準</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-0.5 text-secondary">&#10003;</span>
@@ -443,7 +443,7 @@ export default function FactoruReviewPage() {
             <div className="rounded-lg border border-border bg-white p-5">
               <p className="mb-2 font-semibold text-text-main">コスト削減のメカニズム</p>
               <p className="text-sm leading-relaxed text-text-light">
-                AI審査の導入により審査担当者の人件費を大幅に削減しています。このコスト削減が手数料1%〜という低水準を可能にしています。利用者にとっては、スピードと低コストの両方を享受できるメリットがあります。
+                AI審査の導入により審査担当者の人件費を大幅に削減しています。このコスト削減が手数料1.5%〜という低水準を可能にしています。利用者にとっては、スピードと低コストの両方を享受できるメリットがあります。
               </p>
             </div>
             <div className="rounded-lg border border-border bg-white p-5">
@@ -470,7 +470,7 @@ export default function FactoruReviewPage() {
             <div className="rounded-lg border border-border bg-white p-5">
               <p className="mb-2 font-semibold text-text-main">手数料コストを最小化したい場合</p>
               <p className="text-sm leading-relaxed text-text-light">
-                ファクタリングを定期的に利用する場合、手数料の差が年間で大きなコスト差になります。手数料1%〜のファクトルなら、年間の資金調達コストを最小限に抑えられます。
+                ファクタリングを定期的に利用する場合、手数料の差が年間で大きなコスト差になります。手数料1.5%〜のファクトルなら、年間の資金調達コストを最小限に抑えられます。
               </p>
             </div>
             <div className="rounded-lg border border-border bg-white p-5">
@@ -601,7 +601,7 @@ export default function FactoruReviewPage() {
             <div className="rounded-lg border border-border bg-white p-5">
               <p className="mb-2 font-semibold text-text-main">手数料の競争力</p>
               <p className="text-sm leading-relaxed text-text-light">
-                手数料1%〜はOLTAの2%〜やPAYTODAYの1%〜と同等以上の競争力があります。AI審査による人件費削減を手数料の低減に還元するモデルは共通ですが、ファクトルはスピードと手数料の両面で高い水準を維持しています。
+                手数料1.5%〜はOLTAの2%〜やPAYTODAYの1%〜と同等以上の競争力があります。AI審査による人件費削減を手数料の低減に還元するモデルは共通ですが、ファクトルはスピードと手数料の両面で高い水準を維持しています。
               </p>
             </div>
           </div>
@@ -613,7 +613,7 @@ export default function FactoruReviewPage() {
             ファクトルの総合評価
           </h2>
           <p className="mb-4 leading-relaxed text-text-light">
-            ファクトルは、AI審査による最短40分入金と手数料1%〜という、スピードとコストの両面で業界トップクラスの競争力を持つファクタリングサービスです。
+            ファクトルは、AI審査による最短40分入金と手数料1.5%〜という、スピードとコストの両面で業界トップクラスの競争力を持つファクタリングサービスです。
           </p>
           <p className="mb-4 leading-relaxed text-text-light">
             完全オンライン完結のため来店不要で全国対応しており、デジタルに慣れている事業者にとっては非常に使いやすいサービスです。特にIT・Web業界の事業者からの評価が高く、スピード感のある資金調達手段として活用されています。
@@ -629,7 +629,7 @@ export default function FactoruReviewPage() {
             ファクトルの無料見積もりはこちら
           </h2>
           <p className="mb-6 text-sm text-white/80">
-            AI審査で最短40分入金。手数料1%〜のオンラインファクタリング。
+            AI審査で最短40分入金。手数料1.5%〜のオンラインファクタリング。
           </p>
           <a
             href="https://factoru.jp/"

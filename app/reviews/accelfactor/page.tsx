@@ -192,7 +192,7 @@ const faqSchema = {
 const comparisonData = [
   { name: "アクセルファクター", fee: "0.5%〜", speed: "最短即日", amount: "30万〜1億円", passRate: "93.3%" },
   { name: "ビートレーディング", fee: "4%〜12%", speed: "最短2時間", amount: "制限なし", passRate: "非公開" },
-  { name: "日本中小企業金融サポート機構", fee: "1.5%〜10%", speed: "最短即日", amount: "制限なし", passRate: "95%" },
+  { name: "日本中小企業金融サポート機構", fee: "1.5%〜", speed: "最短即日", amount: "制限なし", passRate: "95%" },
   { name: "OLTA", fee: "2%〜9%", speed: "最短即日", amount: "制限なし", passRate: "非公開" },
 ];
 

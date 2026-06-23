@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "SHIKIN+の口コミ・評判｜オンライン完結ファクタリング",
   description:
-    "SHIKIN+（シキンプラス）の口コミ・評判を徹底調査。オンライン完結・法人向け・手数料1%〜のファクタリングサービスを利用者の声で検証します。",
+    "SHIKIN+（シキンプラス）の口コミ・評判を徹底調査。オンライン完結・法人向け・手数料1.0%〜10.0%のファクタリングサービスを利用者の声で検証します。",
   alternates: {
     canonical: "https://hyogo-shihoushoshi.jp/reviews/shikinplus/",
   },
@@ -23,14 +23,14 @@ export const metadata: Metadata = {
 /* ── Data ─────────────────────────────────────────── */
 
 const basicInfo = [
-  { label: "手数料", value: "1%〜" },
+  { label: "手数料", value: "1.0%〜10.0%（公式サイトにて2026年6月確認）" },
   { label: "入金スピード", value: "最短即日" },
   { label: "買取可能額", value: "要相談" },
   { label: "対象", value: "法人向け" },
   { label: "契約方式", value: "2社間" },
   { label: "オンライン対応", value: "◎（完全オンライン完結）" },
   { label: "対応エリア", value: "全国" },
-  { label: "運営会社", value: "SHIKIN+運営会社" },
+  { label: "運営会社", value: "株式会社Biz Forward" },
 ];
 
 const goodReviews = [
@@ -40,9 +40,9 @@ const goodReviews = [
       "「申込から契約・入金まで完全にオンラインで完結した」「来店不要で地方からでも問題なく利用できた」という声があります。完全オンライン対応のため、場所を選ばず利用できる利便性が高く評価されています。",
   },
   {
-    title: "手数料1%〜は業界最安クラス",
+    title: "手数料の負担を抑えられた",
     detail:
-      "「手数料が他社より圧倒的に安かった」「1%台の手数料が適用されてコストを大幅に削減できた」という口コミがあります。手数料1%〜は業界でもトップクラスの低水準として注目されています。",
+      "「手数料が他社より抑えられた」「想定よりコストを削減できた」という口コミがあります。公式の手数料は1.0%〜10.0%（公式サイトにて2026年6月確認）で、条件次第で低めの水準が適用される点が注目されています。",
   },
   {
     title: "手続きがシンプルで分かりやすい",
@@ -58,9 +58,9 @@ const goodReviews = [
 
 const badReviews = [
   {
-    title: "手数料1%の適用条件が厳しい",
+    title: "低い手数料の適用条件が厳しい",
     detail:
-      "「1%〜と書いてあるが実際は条件によって高くなる」「売掛先の信用力が高くないと最低手数料は適用されにくい」という声があります。最低手数料1%が適用されるのは好条件の案件に限られるようです。",
+      "「公式は1.0%〜10.0%だが実際は条件によって高くなる」「売掛先の信用力が高くないと下限の手数料は適用されにくい」という声があります。下限に近い手数料が適用されるのは好条件の案件に限られるようです。",
   },
   {
     title: "個人事業主は利用できない",
@@ -76,9 +76,9 @@ const badReviews = [
 
 const merits = [
   {
-    title: "手数料1%〜の業界最低水準",
+    title: "手数料1.0%〜10.0%の明確な料金体系",
     description:
-      "SHIKIN+の手数料は1%〜で、業界でもトップクラスの低水準です。特に売掛先の信用力が高い大口案件では、低い手数料が適用される傾向があり、コスト削減効果が大きくなります。2社間ファクタリングでこの水準は非常に競争力があります。",
+      "SHIKIN+の手数料は1.0%〜10.0%（公式サイトにて2026年6月確認）です。特に売掛先の信用力が高い大口案件では、低めの手数料が適用される傾向があり、コスト削減効果が期待できます。2社間ファクタリングでこの水準は競争力があります。",
   },
   {
     title: "完全オンライン完結で全国対応",
@@ -99,9 +99,9 @@ const merits = [
 
 const demerits = [
   {
-    title: "最低手数料の適用は限定的",
+    title: "下限手数料の適用は限定的",
     description:
-      "手数料1%〜と掲げていますが、最低水準が適用されるのは売掛先が大手企業で金額が大きいなど、好条件が揃った場合に限られます。一般的な案件では、手数料がもう少し高くなるケースが多いと考えられます。",
+      "手数料1.0%〜10.0%（公式サイトにて2026年6月確認）と公表していますが、下限に近い水準が適用されるのは売掛先が大手企業で金額が大きいなど、好条件が揃った場合に限られます。一般的な案件では、手数料がもう少し高くなるケースが多いと考えられます。",
   },
   {
     title: "法人限定で個人事業主は利用不可",
@@ -126,7 +126,7 @@ const faqs = [
   {
     question: "SHIKIN+の手数料は実際にいくらですか？",
     answer:
-      "SHIKIN+の手数料は1%〜です。実際の手数料率は、売掛先の信用力、売掛金の金額、支払いサイトなどの条件によって変動します。売掛先が上場企業で金額が大きい案件ほど、低い手数料が適用される傾向があります。",
+      "SHIKIN+の手数料は1.0%〜10.0%（公式サイトにて2026年6月確認）です。実際の手数料率は、売掛先の信用力、売掛金の金額、支払いサイトなどの条件によって変動します。売掛先が上場企業で金額が大きい案件ほど、低めの手数料が適用される傾向があります。",
   },
   {
     question: "SHIKIN+は個人事業主でも利用できますか？",
@@ -146,7 +146,7 @@ const faqs = [
   {
     question: "SHIKIN+と他のオンライン完結型ファクタリングの違いは？",
     answer:
-      "SHIKIN+の最大の特徴は手数料1%〜という業界最低水準の料金設定です。OLTAは2〜9%、QuQuMoは1〜14.8%であるのに対し、SHIKIN+は1%〜と下限が低く設定されています。ただし、法人限定という制約があります。",
+      "SHIKIN+の特徴は手数料1.0%〜10.0%（公式サイトにて2026年6月確認）という明確な料金設定です。オンライン完結の2社間ファクタリングで、条件次第で下限に近い水準が適用される可能性があります。ただし、法人限定という制約があります。",
   },
 ];
 
@@ -199,9 +199,9 @@ const breadcrumbSchema = {
 };
 
 const comparisonData = [
-  { name: "SHIKIN+", fee: "1%〜", speed: "最短即日", amount: "要相談", online: "◎" },
+  { name: "SHIKIN+", fee: "1.0%〜10.0%", speed: "最短即日", amount: "要相談", online: "◎" },
   { name: "OLTA", fee: "2%〜9%", speed: "最短即日", amount: "制限なし", online: "◎" },
-  { name: "QuQuMo", fee: "1%〜14.8%", speed: "最短2時間", amount: "制限なし", online: "◎" },
+  { name: "QuQuMo", fee: "1%〜", speed: "最短2時間", amount: "制限なし", online: "◎" },
   { name: "ビートレーディング", fee: "4%〜12%", speed: "最短2時間", amount: "制限なし", online: "◎" },
 ];
 
@@ -243,7 +243,7 @@ export default function ShikinplusReviewPage() {
             オンライン完結ファクタリングを検証
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-base text-text-light md:text-lg">
-            オンライン完結・手数料1%〜・法人向けファクタリング「SHIKIN+」の口コミ・評判を徹底調査します。
+            オンライン完結・手数料1.0%〜10.0%・法人向けファクタリング「SHIKIN+」の口コミ・評判を徹底調査します。
           </p>
         </div>
       </section>
@@ -296,7 +296,7 @@ export default function ShikinplusReviewPage() {
             SHIKIN+の会社概要と特徴
           </h2>
           <p className="mb-4 leading-relaxed text-text-light">
-            SHIKIN+（シキンプラス）は、法人向けのオンライン完結型ファクタリングサービスです。手数料1%〜という業界最低水準の料金設定と、完全オンライン完結の利便性を両立しています。
+            SHIKIN+（シキンプラス）は、法人向けのオンライン完結型ファクタリングサービスです。手数料1.0%〜10.0%（公式サイトにて2026年6月確認）という明確な料金設定と、完全オンライン完結の利便性を両立しています。
           </p>
           <p className="mb-4 leading-relaxed text-text-light">
             申込から審査・契約・入金まで全てWeb上で完結するため、来店や対面での手続きは一切不要です。全国どこからでも利用可能で、時間や場所を問わず手続きを進められるのが特徴です。
@@ -309,7 +309,7 @@ export default function ShikinplusReviewPage() {
             <ul className="space-y-2 text-sm text-text-light">
               <li className="flex items-start gap-2">
                 <span className="mt-0.5 text-secondary">&#10003;</span>
-                <span>手数料1%〜の業界最低水準</span>
+                <span>手数料1.0%〜10.0%の明確な料金体系</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-0.5 text-secondary">&#10003;</span>
@@ -434,7 +434,7 @@ export default function ShikinplusReviewPage() {
             <div className="rounded-lg border border-border bg-white p-5">
               <p className="mb-2 font-semibold text-text-main">手数料コストを最小限に抑えたい法人の場合</p>
               <p className="text-sm leading-relaxed text-text-light">
-                手数料1%〜は業界最低水準です。特に売掛先が上場企業や大手企業の場合、非常に低い手数料が適用される可能性があります。定期的にファクタリングを利用する法人にとっては、年間コストの大幅な削減が期待できます。
+                手数料は1.0%〜10.0%（公式サイトにて2026年6月確認）です。特に売掛先が上場企業や大手企業の場合、下限に近い手数料が適用される可能性があります。定期的にファクタリングを利用する法人にとっては、年間コストの削減が期待できます。
               </p>
             </div>
             <div className="rounded-lg border border-border bg-white p-5">
@@ -452,7 +452,7 @@ export default function ShikinplusReviewPage() {
             <div className="rounded-lg border border-border bg-white p-5">
               <p className="mb-2 font-semibold text-text-main">売掛先が大手企業・上場企業の場合</p>
               <p className="text-sm leading-relaxed text-text-light">
-                売掛先の信用力が高いほど低い手数料が適用される傾向があります。大手企業や上場企業への売掛金がある法人は、SHIKIN+の最低手数料1%に近い水準で利用できる可能性があります。
+                売掛先の信用力が高いほど低い手数料が適用される傾向があります。大手企業や上場企業への売掛金がある法人は、SHIKIN+の手数料下限（1.0%、公式サイトにて2026年6月確認）に近い水準で利用できる可能性があります。
               </p>
             </div>
           </div>
@@ -595,13 +595,13 @@ export default function ShikinplusReviewPage() {
             SHIKIN+の総合評価
           </h2>
           <p className="mb-4 leading-relaxed text-text-light">
-            SHIKIN+は、手数料1%〜の業界最低水準の料金設定と完全オンライン完結の利便性を兼ね備えた、法人向けファクタリングサービスです。
+            SHIKIN+は、手数料1.0%〜10.0%（公式サイトにて2026年6月確認）の明確な料金設定と完全オンライン完結の利便性を兼ね備えた、法人向けファクタリングサービスです。
           </p>
           <p className="mb-4 leading-relaxed text-text-light">
             特に売掛先が上場企業や大手企業の法人にとっては、非常に低い手数料で利用できる可能性があり、コスト面で大きなメリットがあります。オンライン完結のため、来店の手間もなく効率的に利用できます。
           </p>
           <p className="leading-relaxed text-text-light">
-            一方で、法人限定であること、最低手数料1%の適用が限定的であること、対面相談ができないことは留意が必要です。手数料の安さとオンラインの利便性を重視する法人にとっては、有力な選択肢の一つです。
+            一方で、法人限定であること、手数料下限（1.0%）の適用が限定的であること、対面相談ができないことは留意が必要です。手数料の水準とオンラインの利便性を重視する法人にとっては、有力な選択肢の一つです。
           </p>
         </section>
 
@@ -611,7 +611,7 @@ export default function ShikinplusReviewPage() {
             SHIKIN+の無料見積もりはこちら
           </h2>
           <p className="mb-6 text-sm text-white/80">
-            手数料1%〜。オンライン完結で最短即日入金のファクタリング。
+            手数料1.0%〜10.0%（公式サイトにて2026年6月確認）。オンライン完結で最短即日入金のファクタリング。
           </p>
           <a
             href="https://shikinplus.jp/"
@@ -663,7 +663,7 @@ export default function ShikinplusReviewPage() {
             ファクタリング手数料を低く抑えるコツ
           </h2>
           <p className="mb-4 leading-relaxed text-text-light">
-            SHIKIN+のように手数料1%〜を掲げるサービスでも、実際の適用条件はケースバイケースです。手数料を低く抑えるためのポイントを紹介します。
+            SHIKIN+のように手数料1.0%〜10.0%（公式サイトにて2026年6月確認）を掲げるサービスでも、実際の適用条件はケースバイケースです。手数料を低く抑えるためのポイントを紹介します。
           </p>
           <ul className="space-y-2 text-sm text-text-light">
             <li className="flex items-start gap-2">

@@ -200,7 +200,7 @@ const breadcrumbSchema = {
 
 const comparisonData = [
   { name: "ベストファクター", fee: "2%〜", speed: "最短即日", amount: "30万〜1億円", online: "○" },
-  { name: "アクセルファクター", fee: "2%〜20%", speed: "最短即日", amount: "30万〜1億円", online: "○" },
+  { name: "アクセルファクター", fee: "0.5%〜12.0%", speed: "最短即日", amount: "30万〜1億円", online: "○" },
   { name: "ビートレーディング", fee: "4%〜12%", speed: "最短2時間", amount: "制限なし", online: "◎" },
   { name: "OLTA", fee: "2%〜9%", speed: "最短即日", amount: "制限なし", online: "◎" },
 ];

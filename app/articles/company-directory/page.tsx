@@ -24,14 +24,14 @@ export const metadata: Metadata = {
 
 const companies = [
   { name: "ビートレーディング", fee: "2%〜12%", speed: "最短2時間", amount: "制限なし", target: "法人・個人", online: "◎", feature: "累計9.1万社・買取額1,824億円の業界最大手" },
-  { name: "QuQuMo（ククモ）", fee: "1%〜14.8%", speed: "最短2時間", amount: "制限なし", target: "法人・個人", online: "◎", feature: "手数料1%〜・オンライン完結" },
+  { name: "QuQuMo（ククモ）", fee: "1%〜", speed: "最短2時間", amount: "制限なし", target: "法人・個人", online: "◎", feature: "手数料1%〜・オンライン完結" },
   { name: "ペイトナー", fee: "一律10%", speed: "最短10分", amount: "1万〜300万円", target: "フリーランス", online: "◎", feature: "最短10分・フリーランス特化" },
   { name: "ラボル", fee: "一律10%", speed: "最短60分", amount: "1万円〜", target: "フリーランス", online: "◎", feature: "24時間365日振込・東証プライム上場子会社" },
-  { name: "アクセルファクター", fee: "2%〜20%", speed: "最短即日", amount: "30万〜1億円", target: "法人・個人", online: "○", feature: "審査通過率93%・柔軟な審査" },
-  { name: "日本中小企業金融サポート機構", fee: "1.5%〜10%", speed: "最短即日", amount: "制限なし", target: "法人・個人", online: "○", feature: "一般社団法人運営・非営利" },
+  { name: "アクセルファクター", fee: "0.5%〜12.0%", speed: "最短即日", amount: "30万〜1億円", target: "法人・個人", online: "○", feature: "審査通過率93%・柔軟な審査" },
+  { name: "日本中小企業金融サポート機構", fee: "1.5%〜", speed: "最短即日", amount: "制限なし", target: "法人・個人", online: "○", feature: "一般社団法人運営・非営利" },
   { name: "OLTA（オルタ）", fee: "2%〜9%", speed: "最短即日", amount: "制限なし", target: "法人・個人", online: "◎", feature: "AI審査・メガバンク提携" },
   { name: "PMG", fee: "2%〜", speed: "最短即日", amount: "50万〜2億円", target: "法人・個人", online: "○", feature: "年間取扱高500億円・大口対応" },
-  { name: "ベストファクター", fee: "2%〜20%", speed: "最短即日", amount: "30万〜1億円", target: "法人・個人", online: "○", feature: "審査通過率92%・資金繰りコンサル" },
+  { name: "ベストファクター", fee: "2%〜", speed: "最短即日", amount: "30万〜1億円", target: "法人・個人", online: "○", feature: "審査通過率92%・資金繰りコンサル" },
   { name: "トップ・マネジメント", fee: "0.5%〜12.5%", speed: "最短即日", amount: "30万〜3億円", target: "法人・個人", online: "○", feature: "手数料0.5%〜・注文書ファクタリング対応" },
   { name: "FREENANCE（フリーナンス）", fee: "3%〜10%", speed: "最短即日", amount: "1万円〜", target: "フリーランス", online: "◎", feature: "GMO系・あんしん補償付き" },
   { name: "AGビジネスサポート", fee: "2%〜", speed: "最短即日", amount: "制限なし", target: "法人・個人", online: "○", feature: "アイフルグループ・事業者ローンも" },
@@ -41,7 +41,7 @@ const companies = [
   { name: "メンターキャピタル", fee: "2%〜", speed: "最短即日", amount: "30万〜2億円", target: "法人・個人", online: "○", feature: "柔軟な審査・幅広い業種対応" },
   { name: "JTC", fee: "1.2%〜10%", speed: "最短即日", amount: "100万〜", target: "法人", online: "○", feature: "法人専門・月間契約100件以上" },
   { name: "ジャパンマネジメント", fee: "3%〜20%", speed: "最短即日", amount: "30万〜5,000万円", target: "法人・個人", online: "○", feature: "福岡・東京2拠点・全国対応" },
-  { name: "マネーフォワード アーリーペイメント", fee: "1%〜10%", speed: "最短2営業日", amount: "50万円〜数億円", target: "法人", online: "◎", feature: "マネーフォワード連携・大手企業向け" },
+  { name: "マネーフォワード アーリーペイメント", fee: "0.5%〜", speed: "最短2営業日", amount: "50万円〜数億円", target: "法人", online: "◎", feature: "マネーフォワード連携・大手企業向け" },
   { name: "GMO BtoB早払い", fee: "1%〜12%", speed: "最短2営業日", amount: "100万円〜1億円", target: "法人", online: "◎", feature: "GMOグループ運営・大企業取引向け" },
   { name: "バイオン", fee: "10%〜", speed: "最短60分", amount: "5万円〜", target: "法人・個人", online: "◎", feature: "AI審査24h365日・少額対応" },
   { name: "えんナビ", fee: "5%〜", speed: "最短即日", amount: "50万〜5,000万円", target: "法人・個人", online: "○", feature: "24時間対応・土日祝日も相談可" },
@@ -83,7 +83,7 @@ const faqs = [
   {
     question: "手数料が安いファクタリング会社はどこですか？",
     answer:
-      "手数料が低い主なサービスとしては、トップ・マネジメント（0.5%〜）、PAYTODAY（1%〜9.5%）、QuQuMo（1%〜14.8%）、マネーフォワード アーリーペイメント（1%〜10%）、日本中小企業金融サポート機構（1.5%〜10%）、OLTA（2%〜9%）などがあります。ただし最低手数料が適用される条件は限られるため、必ず見積もりを取って実際の手数料を確認しましょう。",
+      "手数料が低い主なサービスとしては、トップ・マネジメント（0.5%〜）、PAYTODAY（1%〜9.5%）、QuQuMo（1%〜）、マネーフォワード アーリーペイメント（0.5%〜）、日本中小企業金融サポート機構（1.5%〜）、OLTA（2%〜9%）などがあります。ただし最低手数料が適用される条件は限られるため、必ず見積もりを取って実際の手数料を確認しましょう。",
   },
   {
     question: "即日入金に対応しているファクタリング会社はどこですか？",
@@ -367,7 +367,7 @@ export default function CompanyDirectoryPage() {
                     </tr>
                     <tr className="bg-section-bg">
                       <td className="px-3 py-2 font-semibold text-primary">日本中小企業金融サポート機構</td>
-                      <td className="px-3 py-2">1.5%〜10%</td>
+                      <td className="px-3 py-2">1.5%〜</td>
                       <td className="px-3 py-2 text-xs">非営利法人で低手数料</td>
                     </tr>
                   </tbody>

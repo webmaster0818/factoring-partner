@@ -284,7 +284,7 @@ export default function BankruptcyRiskPage() {
                 </tr>
                 <tr className="bg-white">
                   <td className="border border-border p-3 font-semibold">コスト</td>
-                  <td className="border border-border p-3">手数料2%〜20%</td>
+                  <td className="border border-border p-3">手数料1%〜18%程度</td>
                   <td className="border border-border p-3">保証料1%〜5%</td>
                 </tr>
               </tbody>

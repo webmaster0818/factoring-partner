@@ -24,12 +24,12 @@ export const metadata: Metadata = {
 /* ── Data ─────────────────────────────────────────── */
 
 const feeRanking = [
-  { rank: 1, name: "日本中小企業金融サポート機構", fee: "1.5%〜10%", type: "2社間・3社間", note: "一般社団法人運営で非営利だからこその低手数料" },
+  { rank: 1, name: "日本中小企業金融サポート機構", fee: "1.5%〜", type: "2社間・3社間", note: "一般社団法人運営で非営利だからこその低手数料" },
   { rank: 2, name: "PAYTODAY", fee: "1%〜9.5%", type: "2社間", note: "AI審査で人件費を抑え低手数料を実現" },
-  { rank: 3, name: "QuQuMo", fee: "1%〜14.8%", type: "2社間", note: "オンライン完結で運営コストを削減" },
+  { rank: 3, name: "QuQuMo", fee: "1%〜", type: "2社間", note: "オンライン完結で運営コストを削減" },
   { rank: 4, name: "PMG", fee: "1%〜12.8%", type: "2社間・3社間", note: "3社間なら1%〜の低手数料" },
   { rank: 5, name: "ビートレーディング", fee: "2%〜12%", type: "2社間・3社間", note: "大手の安心感と適正な手数料" },
-  { rank: 6, name: "アクセルファクター", fee: "2%〜20%", type: "2社間", note: "審査通過率93.3%。少額でも対応" },
+  { rank: 6, name: "アクセルファクター", fee: "0.5%〜12.0%", type: "2社間", note: "審査通過率93.3%。少額でも対応" },
   { rank: 7, name: "FREENANCE", fee: "3%〜10%", type: "2社間", note: "フリーランス向け。保険付きで実質コスパ良し" },
   { rank: 8, name: "トップ・マネジメント", fee: "3.5%〜12.5%", type: "2社間・3社間", note: "大口案件なら手数料交渉が可能" },
   { rank: 9, name: "ペイトナー", fee: "一律10%", type: "2社間", note: "明朗会計。少額ならコスパ良好" },
@@ -145,7 +145,7 @@ const faqs = [
 ];
 
 const feeByAmount = [
-  { amount: "〜50万円", twoSha: "15%〜20%", threeSha: "5%〜9%", note: "少額は手数料率が高くなりがち" },
+  { amount: "〜50万円", twoSha: "14%〜18%", threeSha: "5%〜9%", note: "少額は手数料率が高くなりがち" },
   { amount: "50万〜100万円", twoSha: "10%〜18%", threeSha: "3%〜8%", note: "個人事業主の多くがこの価格帯" },
   { amount: "100万〜500万円", twoSha: "8%〜15%", threeSha: "2%〜7%", note: "中小企業で最も多い価格帯" },
   { amount: "500万〜1,000万円", twoSha: "5%〜12%", threeSha: "1%〜5%", note: "大口優遇が受けやすい" },
@@ -620,7 +620,7 @@ export default function LowFeePage() {
             <ul className="space-y-2 text-sm text-text-light">
               <li className="flex items-start gap-2">
                 <span className="mt-0.5 text-primary font-bold">&#9654;</span>
-                <span><strong className="text-text-main">手数料最安を狙うなら</strong> → PAYTODAY（1%〜9.5%）または日本中小企業金融サポート機構（1.5%〜10%）</span>
+                <span><strong className="text-text-main">手数料最安を狙うなら</strong> → PAYTODAY（1%〜9.5%）または日本中小企業金融サポート機構（1.5%〜）</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-0.5 text-primary font-bold">&#9654;</span>

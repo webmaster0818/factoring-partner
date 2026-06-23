@@ -369,7 +369,7 @@ export default function WhatIsFactoringPage() {
               <div className="grid gap-3 text-sm md:grid-cols-3">
                 <div>
                   <p className="font-semibold text-text-main">手数料</p>
-                  <p className="text-text-light">10%〜30%（相場）</p>
+                  <p className="text-text-light">8%〜18%（相場・会社による）</p>
                 </div>
                 <div>
                   <p className="font-semibold text-text-main">入金速度</p>
@@ -447,7 +447,7 @@ export default function WhatIsFactoringPage() {
               <div className="grid gap-3 text-sm md:grid-cols-3">
                 <div>
                   <p className="font-semibold text-text-main">手数料</p>
-                  <p className="text-text-light">2%〜20%（相場）</p>
+                  <p className="text-text-light">1%〜9%（相場・会社による）</p>
                 </div>
                 <div>
                   <p className="font-semibold text-text-main">入金速度</p>
@@ -489,8 +489,8 @@ export default function WhatIsFactoringPage() {
                     <td className="bg-section-bg px-4 py-3 font-semibold text-text-main">
                       手数料相場
                     </td>
-                    <td className="px-4 py-3">10%〜30%</td>
-                    <td className="px-4 py-3">2%〜20%</td>
+                    <td className="px-4 py-3">8%〜18%（目安）</td>
+                    <td className="px-4 py-3">1%〜9%（目安）</td>
                   </tr>
                   <tr className="border-t border-border">
                     <td className="bg-section-bg px-4 py-3 font-semibold text-text-main">

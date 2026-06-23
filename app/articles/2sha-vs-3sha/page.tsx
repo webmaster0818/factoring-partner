@@ -525,7 +525,7 @@ export default function TwoVsThreePage() {
                   <td className="px-4 py-3 font-semibold text-text-main">日本中小企業金融サポート機構</td>
                   <td className="px-4 py-3 text-secondary font-bold">対応</td>
                   <td className="px-4 py-3 text-secondary font-bold">対応</td>
-                  <td className="px-4 py-3">1.5%〜10%</td>
+                  <td className="px-4 py-3">1.5%〜</td>
                   <td className="px-4 py-3 text-text-light">非営利法人。手数料が安い</td>
                 </tr>
                 <tr className="border-t border-border bg-section-bg">

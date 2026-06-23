@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 /* ── Data ─────────────────────────────────────────── */
 
 const basicInfo = [
-  { label: "手数料", value: "1%〜9.5%" },
+  { label: "手数料", value: "1〜9.5%（公式サイトにて2026年6月確認）" },
   { label: "入金スピード", value: "最短30分" },
   { label: "買取可能額", value: "10万円〜上限なし" },
   { label: "対象", value: "法人・個人事業主・フリーランス" },
@@ -208,7 +208,7 @@ const breadcrumbSchema = {
 const comparisonData = [
   { name: "PAYTODAY", fee: "1%〜9.5%", speed: "最短30分", amount: "10万円〜上限なし", online: "◎" },
   { name: "OLTA", fee: "2%〜9%", speed: "最短即日", amount: "制限なし", online: "◎" },
-  { name: "QuQuMo", fee: "1%〜14.8%", speed: "最短2時間", amount: "制限なし", online: "◎" },
+  { name: "QuQuMo", fee: "1%〜", speed: "最短2時間", amount: "制限なし", online: "◎" },
   { name: "ビートレーディング", fee: "4%〜12%", speed: "最短2時間", amount: "制限なし", online: "◎" },
 ];
 

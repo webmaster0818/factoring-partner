@@ -190,7 +190,7 @@ const faqSchema = {
 
 const comparisonData = [
   { name: "OLTA", fee: "2%〜9%", speed: "最短即日", amount: "制限なし", online: "◎" },
-  { name: "QuQuMo", fee: "1%〜14.8%", speed: "最短2時間", amount: "制限なし", online: "◎" },
+  { name: "QuQuMo", fee: "1%〜", speed: "最短2時間", amount: "制限なし", online: "◎" },
   { name: "ビートレーディング", fee: "4%〜12%", speed: "最短2時間", amount: "制限なし", online: "◎" },
   { name: "ペイトナー", fee: "一律10%", speed: "最短10分", amount: "1万〜300万円", online: "◎" },
 ];

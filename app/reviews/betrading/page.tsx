@@ -192,7 +192,7 @@ const faqSchema = {
 const comparisonData = [
   { name: "ビートレーディング", fee: "4%〜12%", speed: "最短2時間", amount: "制限なし", online: "◎" },
   { name: "OLTA", fee: "2%〜9%", speed: "最短即日", amount: "制限なし", online: "◎" },
-  { name: "QuQuMo", fee: "1%〜14.8%", speed: "最短2時間", amount: "制限なし", online: "◎" },
+  { name: "QuQuMo", fee: "1%〜", speed: "最短2時間", amount: "制限なし", online: "◎" },
   { name: "アクセルファクター", fee: "0.5%〜", speed: "最短即日", amount: "30万〜1億円", online: "○" },
 ];
 

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
 const comparisonItems = [
   { label: "資金調達スピード", factoring: "最短即日〜数日", subsidy: "数ヶ月〜1年以上" },
-  { label: "コスト", factoring: "手数料2%〜20%", subsidy: "無料（返済不要）" },
+  { label: "コスト", factoring: "手数料1%〜18%程度", subsidy: "無料（返済不要）" },
   { label: "審査基準", factoring: "売掛先の信用力", subsidy: "事業計画の内容・要件適合" },
   { label: "返済義務", factoring: "なし（売掛金の売却）", subsidy: "なし（原則返済不要）" },
   { label: "受給のタイミング", factoring: "契約後即日〜数日", subsidy: "事業実施後の精算（後払い）" },
@@ -189,7 +189,7 @@ export default function VsSubsidyPage() {
                 <div className="rounded-lg bg-orange-50 p-4">
                   <p className="text-sm font-semibold text-accent">デメリット</p>
                   <ul className="mt-1 space-y-1 text-sm text-text-light">
-                    <li>- 手数料が発生（2%〜20%）</li>
+                    <li>- 手数料が発生（1%〜18%程度）</li>
                     <li>- 売掛金の範囲内でしか調達できない</li>
                     <li>- 恒常利用はコスト増</li>
                   </ul>
@@ -291,7 +291,7 @@ export default function VsSubsidyPage() {
                 <tr className="bg-white">
                   <td className="border border-border p-3 font-semibold">ファクタリング</td>
                   <td className="border border-border p-3">即日〜数日</td>
-                  <td className="border border-border p-3">手数料2%〜20%</td>
+                  <td className="border border-border p-3">手数料1%〜18%程度</td>
                   <td className="border border-border p-3">急ぎの運転資金</td>
                 </tr>
                 <tr className="bg-section-bg">

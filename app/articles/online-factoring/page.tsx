@@ -60,7 +60,7 @@ const top8 = [
   {
     rank: 4,
     name: "QuQuMo",
-    fee: "1%〜14.8%",
+    fee: "1%〜",
     speed: "最短2時間",
     online: "完全オンライン",
     aiReview: "一部あり",
@@ -93,7 +93,7 @@ const top8 = [
   {
     rank: 7,
     name: "日本中小企業金融サポート機構",
-    fee: "1.5%〜10%",
+    fee: "1.5%〜",
     speed: "最短即日",
     online: "オンライン対応",
     aiReview: "なし",
@@ -104,7 +104,7 @@ const top8 = [
   {
     rank: 8,
     name: "アクセルファクター",
-    fee: "2%〜20%",
+    fee: "0.5%〜12.0%",
     speed: "最短3時間",
     online: "オンライン対応",
     aiReview: "なし",

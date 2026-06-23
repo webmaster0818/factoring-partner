@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 /* ── Data ─────────────────────────────────────────── */
 
 const basicInfo = [
-  { label: "手数料", value: "5%〜15%" },
+  { label: "手数料", value: "5%〜15%（公式サイトにて2026年6月確認）" },
   { label: "入金スピード", value: "最短90分" },
   { label: "買取可能額", value: "15万円〜5,000万円" },
   { label: "対象", value: "法人・個人事業主" },
@@ -208,7 +208,7 @@ const breadcrumbSchema = {
 const comparisonData = [
   { name: "GoodPlus", fee: "5%〜15%", speed: "最短90分", amount: "15万〜5,000万円", online: "◎" },
   { name: "PAYTODAY", fee: "1%〜9.5%", speed: "最短30分", amount: "10万円〜上限なし", online: "◎" },
-  { name: "QuQuMo", fee: "1%〜14.8%", speed: "最短2時間", amount: "制限なし", online: "◎" },
+  { name: "QuQuMo", fee: "1%〜", speed: "最短2時間", amount: "制限なし", online: "◎" },
   { name: "ビートレーディング", fee: "4%〜12%", speed: "最短2時間", amount: "制限なし", online: "◎" },
 ];
 
@@ -561,7 +561,7 @@ export default function GoodplusReviewPage() {
             <div className="rounded-lg border border-border bg-white p-5">
               <p className="mb-2 font-semibold text-text-main">GoodPlus vs QuQuMo</p>
               <p className="text-sm leading-relaxed text-text-light">
-                QuQuMo（ククモ）は手数料1〜14.8%で買取上限なし。入金速度は最短2時間です。GoodPlusの方が入金は速い（90分 vs 2時間）ですが、手数料下限と買取上限ではQuQuMoに優位性があります。大口案件はQuQuMo、スピード重視ならGoodPlusが向いています。
+                QuQuMo（ククモ）は手数料1%〜（上限非公表）で買取上限なし。入金速度は最短2時間です。GoodPlusの方が入金は速い（90分 vs 2時間）ですが、手数料下限の低さと買取上限ではQuQuMoに優位性があります。大口案件はQuQuMo、スピード重視ならGoodPlusが向いています。
               </p>
             </div>
           </div>

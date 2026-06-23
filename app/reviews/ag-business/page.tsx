@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 /* ── Data ─────────────────────────────────────────── */
 
 const basicInfo = [
-  { label: "手数料", value: "2%〜" },
+  { label: "手数料", value: "2%〜9.9%（公式サイトにて2026年6月確認）" },
   { label: "入金スピード", value: "最短2日" },
   { label: "買取可能額", value: "制限なし（要相談）" },
   { label: "対象", value: "法人" },
@@ -83,7 +83,7 @@ const merits = [
   {
     title: "3社間ファクタリングで低手数料",
     description:
-      "3社間ファクタリングを採用しているため、手数料2%〜という低水準を実現しています。2社間ファクタリングの相場（8〜18%）と比較すると大幅にコストを抑えられるため、手数料を重視する法人にとって魅力的です。",
+      "公式サイトでは手数料2%〜9.9%（公式サイトにて2026年6月確認）と表記されており、低水準を実現しています。手数料を重視する法人にとって魅力的です。",
   },
   {
     title: "買取額に上限がない",
@@ -126,7 +126,7 @@ const faqs = [
   {
     question: "AGビジネスサポートのファクタリング手数料はいくらですか？",
     answer:
-      "手数料は2%〜で、売掛先の信用力・売掛金の金額・支払いサイトなどにより決定されます。3社間ファクタリングのため、2社間と比較して低い手数料が設定されています。具体的な手数料は無料見積もりで確認できます。",
+      "公式サイトでは手数料2%〜9.9%（公式サイトにて2026年6月確認）と表記されており、売掛先の信用力・売掛金の金額・支払いサイトなどにより決定されます。具体的な手数料は無料見積もりで確認できます。詳細は公式サイトでご確認ください。",
   },
   {
     question: "AGビジネスサポートは旧アイフルビジネスファイナンスですか？",
@@ -199,10 +199,10 @@ const breadcrumbSchema = {
 };
 
 const comparisonData = [
-  { name: "AGビジネスサポート", fee: "2%〜", speed: "最短2日", amount: "制限なし", online: "○" },
+  { name: "AGビジネスサポート", fee: "2%〜9.9%", speed: "最短2日", amount: "制限なし", online: "○" },
   { name: "ビートレーディング", fee: "4%〜12%", speed: "最短2時間", amount: "制限なし", online: "◎" },
   { name: "OLTA", fee: "2%〜9%", speed: "最短即日", amount: "制限なし", online: "◎" },
-  { name: "QuQuMo", fee: "1%〜14.8%", speed: "最短2時間", amount: "制限なし", online: "◎" },
+  { name: "QuQuMo", fee: "1%〜", speed: "最短2時間", amount: "制限なし", online: "◎" },
 ];
 
 /* ── Component ────────────────────────────────────── */
@@ -302,7 +302,7 @@ export default function AgBusinessReviewPage() {
             最大の特徴は、東証プライム市場に上場するアイフルグループの一員であるという信頼性です。ファクタリング業界には中小規模の企業が多い中、大手金融グループが運営するサービスは、コンプライアンスや契約の透明性において大きな安心感を提供します。
           </p>
           <p className="mb-4 leading-relaxed text-text-light">
-            3社間ファクタリングに特化しているため、手数料2%〜という低水準を実現しています。即日入金には対応していませんが、コストを重視する法人にとっては非常に魅力的な選択肢です。
+            公式サイトでは手数料2%〜9.9%（公式サイトにて2026年6月確認）という低水準を表記しています。即日入金には対応していませんが、コストを重視する法人にとっては非常に魅力的な選択肢です。
           </p>
           <div className="rounded-lg border border-secondary/30 bg-teal-50 p-6">
             <p className="mb-3 font-bold text-secondary">AGビジネスサポートの3つの強み</p>
@@ -313,7 +313,7 @@ export default function AgBusinessReviewPage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-0.5 text-secondary">&#10003;</span>
-                <span>3社間ファクタリングで手数料2%〜の低水準</span>
+                <span>公式表記の手数料2%〜9.9%という低水準</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-0.5 text-secondary">&#10003;</span>
@@ -622,7 +622,7 @@ export default function AgBusinessReviewPage() {
             AGビジネスサポートは、アイフルグループという大手金融グループの信頼性と、3社間ファクタリングによる低手数料が最大の魅力です。コンプライアンス体制が充実しており、契約の透明性と安全性を重視する法人にとって最適な選択肢です。
           </p>
           <p className="mb-4 leading-relaxed text-text-light">
-            手数料2%〜という低水準は、定期的にファクタリングを利用する法人にとって年間コストの大幅な削減につながります。買取額に上限がないため、大口案件にも安定して対応できます。
+            手数料2%〜9.9%（公式サイトにて2026年6月確認）という低水準は、定期的にファクタリングを利用する法人にとって年間コストの大幅な削減につながります。買取額に上限がないため、大口案件にも安定して対応できます。
           </p>
           <p className="leading-relaxed text-text-light">
             一方で、即日入金ができない点や法人限定のサービスである点、売掛先への通知が必要な3社間方式である点は事前に理解しておく必要があります。信頼性と低コストを最重視する法人には、強くおすすめできるサービスです。
@@ -635,7 +635,7 @@ export default function AgBusinessReviewPage() {
             AGビジネスサポートの無料相談はこちら
           </h2>
           <p className="mb-6 text-sm text-white/80">
-            アイフルグループの信頼性。手数料2%〜の3社間ファクタリング。
+            アイフルグループの信頼性。手数料2%〜9.9%のファクタリング。
           </p>
           <a
             href="https://www.aiful-bf.co.jp/"

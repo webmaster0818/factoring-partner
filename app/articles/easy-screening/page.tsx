@@ -24,14 +24,14 @@ export const metadata: Metadata = {
 /* ── Data ─────────────────────────────────────────── */
 
 const top8 = [
-  { rank: 1, name: "アクセルファクター", passRate: "93.3%", fee: "2%〜20%", speed: "最短3時間", note: "業界最高水準の審査通過率。少額30万円〜対応で間口が広い" },
+  { rank: 1, name: "アクセルファクター", passRate: "93.3%", fee: "0.5%〜12.0%", speed: "最短3時間", note: "業界最高水準の審査通過率。少額30万円〜対応で間口が広い" },
   { rank: 2, name: "ビートレーディング", passRate: "非公開（高い）", fee: "2%〜12%", speed: "最短2時間", note: "累計5.8万社の実績。柔軟な審査で多くの企業に対応" },
   { rank: 3, name: "ペイトナー", passRate: "非公開（高い）", fee: "一律10%", speed: "最短10分", note: "AI審査で個人事業主・フリーランスにも門戸を広く開放" },
   { rank: 4, name: "ラボル", passRate: "非公開（高い）", fee: "一律10%", speed: "最短30分", note: "24時間365日対応。必要書類が少なく審査ハードルが低い" },
-  { rank: 5, name: "QuQuMo", passRate: "非公開", fee: "1%〜14.8%", speed: "最短2時間", note: "オンライン完結で審査がスピーディー" },
+  { rank: 5, name: "QuQuMo", passRate: "非公開", fee: "1%〜", speed: "最短2時間", note: "オンライン完結で審査がスピーディー" },
   { rank: 6, name: "PMG", passRate: "非公開", fee: "1%〜12.8%", speed: "最短即日", note: "柔軟な審査。乗り換え利用にも積極的に対応" },
   { rank: 7, name: "FREENANCE", passRate: "非公開", fee: "3%〜10%", speed: "最短即日", note: "フリーランス特化。GMOグループの安心感" },
-  { rank: 8, name: "日本中小企業金融サポート機構", passRate: "非公開", fee: "1.5%〜10%", speed: "最短即日", note: "非営利法人ならではの柔軟な対応。経営相談もOK" },
+  { rank: 8, name: "日本中小企業金融サポート機構", passRate: "非公開", fee: "1.5%〜", speed: "最短即日", note: "非営利法人ならではの柔軟な対応。経営相談もOK" },
 ];
 
 const screeningPoints = [

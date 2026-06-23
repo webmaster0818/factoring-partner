@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 const comparisonItems = [
   { label: "目的", guarantee: "売掛金の未回収リスクの保証", purchase: "売掛金の早期資金化" },
   { label: "資金化タイミング", guarantee: "倒産時に保証金を受け取る", purchase: "即日〜数日で買取代金を受け取る" },
-  { label: "コスト", guarantee: "保証料1%〜5%程度", purchase: "手数料2%〜20%程度" },
+  { label: "コスト", guarantee: "保証料1%〜5%程度", purchase: "手数料1%〜18%程度" },
   { label: "売掛先の通知", guarantee: "不要（売掛先に知られない）", purchase: "2社間は不要、3社間は必要" },
   { label: "利用シーン", guarantee: "倒産リスクが心配な場合", purchase: "すぐに現金が必要な場合" },
   { label: "売掛金の所有権", guarantee: "利用者が保持", purchase: "ファクタリング会社に移転" },

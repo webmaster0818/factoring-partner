@@ -188,13 +188,13 @@ const reductionTips = [
 
 const companyFees = [
   { name: "ビートレーディング", twoSha: "4%〜12%", threeSha: "2%〜9%", others: "登記不要・事務手数料無料", note: "業界大手。リピート利用で手数料交渉可能" },
-  { name: "QuQuMo", twoSha: "1%〜14.8%", threeSha: "ー", others: "登記不要・手数料以外の費用なし", note: "下限1%は業界最安水準。オンライン完結" },
+  { name: "QuQuMo", twoSha: "1%〜", threeSha: "ー", others: "登記不要・手数料以外の費用なし", note: "下限1%は業界最安水準。オンライン完結" },
   { name: "OLTA", twoSha: "2%〜9%", threeSha: "ー", others: "登記不要・手数料以外の費用なし", note: "上限9%の安心感。AI審査" },
   { name: "ペイトナー", twoSha: "一律10%", threeSha: "ー", others: "登記不要・手数料以外の費用なし", note: "手数料が明瞭で分かりやすい" },
   { name: "ラボル", twoSha: "一律10%", threeSha: "ー", others: "登記不要・手数料以外の費用なし", note: "24時間365日対応" },
-  { name: "アクセルファクター", twoSha: "2%〜20%", threeSha: "ー", others: "登記不要のケースあり", note: "審査通過率93.3%。少額対応" },
+  { name: "アクセルファクター", twoSha: "0.5%〜12.0%", threeSha: "ー", others: "登記不要のケースあり", note: "審査通過率93.3%。少額対応" },
   { name: "PMG", twoSha: "1%〜12.8%", threeSha: "1%〜5%", others: "要確認", note: "大口案件に強い。法人向け" },
-  { name: "日本中小企業金融サポート機構", twoSha: "1.5%〜10%", threeSha: "1.5%〜10%", others: "登記不要・手数料以外の費用なし", note: "非営利法人。手数料が良心的" },
+  { name: "日本中小企業金融サポート機構", twoSha: "1.5%〜", threeSha: "1.5%〜", others: "登記不要・手数料以外の費用なし", note: "非営利法人。手数料が良心的" },
 ];
 
 const faqs = [

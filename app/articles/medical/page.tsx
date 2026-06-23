@@ -566,7 +566,7 @@ export default function MedicalPage() {
             診療報酬ファクタリングの手数料が安い理由
           </h3>
           <p className="mb-4 leading-relaxed text-text-light">
-            診療報酬ファクタリングの手数料は、一般的なファクタリング（2〜20%）と比べて<strong className="text-text-main">圧倒的に低い水準</strong>です。その理由は売掛先の信用力にあります。
+            診療報酬ファクタリングの手数料は、一般的なファクタリング（1〜18%）と比べて<strong className="text-text-main">圧倒的に低い水準</strong>です。その理由は売掛先の信用力にあります。
           </p>
           <div className="rounded-lg border border-border bg-white p-6">
             <p className="mb-3 font-bold text-text-main">手数料が安い理由</p>

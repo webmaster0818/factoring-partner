@@ -5,7 +5,7 @@ import Breadcrumb from "../../components/Breadcrumb";
 export const metadata: Metadata = {
   title: "ファクタリング手数料の相場と計算方法｜安くするコツ5選",
   description:
-    "ファクタリング手数料の相場を2社間（10〜30%）・3社間（2〜20%）別に解説。計算方法の具体例、手数料の内訳（買取手数料・事務手数料・債権譲渡登記費用）、手数料を安くする5つのコツを紹介します。",
+    "ファクタリング手数料の相場を2社間（8〜18%）・3社間（1〜9%）別に解説。手数料は会社によって異なるため、目安として把握しましょう。計算方法の具体例、手数料の内訳（買取手数料・事務手数料・債権譲渡登記費用）、手数料を安くする5つのコツを紹介します。",
   alternates: {
     canonical: "https://hyogo-shihoushoshi.jp/articles/fee-guide/",
   },
@@ -24,7 +24,7 @@ const faqs = [
   {
     question: "ファクタリングの手数料相場はどのくらいですか？",
     answer:
-      "2社間ファクタリングの手数料相場は10%〜30%、3社間ファクタリングの手数料相場は2%〜20%が一般的です。売掛先の信用力や利用金額、利用回数によって手数料は変動します。オンライン完結型のサービスを利用すると、比較的安い手数料で利用できる傾向があります。",
+      "2社間ファクタリングの手数料相場は8%〜18%、3社間ファクタリングの手数料相場は1%〜9%が一般的な目安です。ただし手数料は会社によって異なり、各社の公式表記をご確認ください。売掛先の信用力や利用金額、利用回数によって手数料は変動します。オンライン完結型のサービスを利用すると、比較的安い手数料で利用できる傾向があります。",
   },
   {
     question: "手数料以外にかかる費用はありますか？",
@@ -52,8 +52,8 @@ const costBreakdown = [
   {
     name: "買取手数料",
     description:
-      "ファクタリング手数料のメインとなる費用です。売掛金額に対する一定割合で設定され、2社間では10%〜30%、3社間では2%〜20%が相場です。売掛先の信用力、売掛金額、支払いサイトの長さ、利用実績などによって料率が決まります。",
-    range: "2%〜30%",
+      "ファクタリング手数料のメインとなる費用です。売掛金額に対する一定割合で設定され、2社間では8%〜18%、3社間では1%〜9%が目安です（手数料は会社によって異なります）。売掛先の信用力、売掛金額、支払いサイトの長さ、利用実績などによって料率が決まります。",
+    range: "1%〜18%",
   },
   {
     name: "事務手数料",
@@ -85,7 +85,7 @@ const tips = [
   {
     title: "3社間ファクタリングを選択する",
     description:
-      "3社間ファクタリングは売掛先の承諾が必要ですが、手数料は2%〜20%と2社間（10%〜30%）よりも大幅に安くなります。売掛先がファクタリングに理解がある場合や、大手企業で取引関係が安定している場合は3社間を検討しましょう。入金までに時間がかかるデメリットはありますが、コスト面では圧倒的に有利です。",
+      "3社間ファクタリングは売掛先の承諾が必要ですが、手数料は1%〜9%と2社間（8%〜18%）よりも大幅に安くなります。売掛先がファクタリングに理解がある場合や、大手企業で取引関係が安定している場合は3社間を検討しましょう。入金までに時間がかかるデメリットはありますが、コスト面では圧倒的に有利です。",
   },
   {
     title: "複数のファクタリング会社から見積もりを取る",
@@ -209,7 +209,7 @@ export default function FeeGuidePage() {
             安くするコツ5選
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-base text-text-light md:text-lg">
-            ファクタリングの手数料は2社間で10%〜30%、3社間で2%〜20%が相場です。計算方法の具体例と、手数料を安くするための5つのコツを詳しく解説します。
+            ファクタリングの手数料は2社間で8%〜18%、3社間で1%〜9%が目安です（会社によって異なります）。計算方法の具体例と、手数料を安くするための5つのコツを詳しく解説します。
           </p>
         </div>
       </section>
@@ -266,7 +266,7 @@ export default function FeeGuidePage() {
             ファクタリングの手数料は、契約形態（2社間・3社間）によって大きく異なります。まずは各契約形態の手数料相場を把握しましょう。
           </p>
           <p className="mb-8 leading-relaxed text-text-light">
-            手数料は売掛金額に対する割合で設定されるのが一般的です。例えば、100万円の売掛金に対して手数料が10%の場合、10万円が手数料として差し引かれ、90万円を受け取ることになります。
+            手数料は売掛金額に対する割合で設定されるのが一般的です。例えば、100万円の売掛金に対して手数料が10%の場合、10万円が手数料として差し引かれ、90万円を受け取ることになります。なお、下記の相場はあくまで一般的な目安であり、実際の手数料率は<strong className="text-text-main">ファクタリング会社ごとに異なります</strong>。各社の具体的な手数料は公式サイトの表記でご確認ください。
           </p>
 
           <div className="mb-8 overflow-x-auto rounded-lg border border-border">
@@ -283,15 +283,15 @@ export default function FeeGuidePage() {
                   <td className="bg-section-bg px-4 py-3 font-semibold text-text-main">
                     手数料相場
                   </td>
-                  <td className="px-4 py-3 font-bold text-accent">10%〜30%</td>
-                  <td className="px-4 py-3 font-bold text-secondary">2%〜20%</td>
+                  <td className="px-4 py-3 font-bold text-accent">8%〜18%</td>
+                  <td className="px-4 py-3 font-bold text-secondary">1%〜9%</td>
                 </tr>
                 <tr className="border-t border-border">
                   <td className="bg-section-bg px-4 py-3 font-semibold text-text-main">
                     平均的な手数料
                   </td>
-                  <td className="px-4 py-3">15%〜20%</td>
-                  <td className="px-4 py-3">5%〜10%</td>
+                  <td className="px-4 py-3">12%〜16%</td>
+                  <td className="px-4 py-3">3%〜7%</td>
                 </tr>
                 <tr className="border-t border-border">
                   <td className="bg-section-bg px-4 py-3 font-semibold text-text-main">
