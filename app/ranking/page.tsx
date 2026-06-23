@@ -477,6 +477,67 @@ const typeRecommendations = [
   },
 ];
 
+// 状況・目的 → 相性の良い1社（公式情報に基づく事実ベース）→ レビューページへ送客
+const situationNav = [
+  {
+    label: "とにかく早く資金化したい",
+    company: "ペイトナー",
+    href: "/reviews/paytner/",
+    point: "最短10分入金・手数料一律10%",
+  },
+  {
+    label: "手数料をできるだけ抑えたい",
+    company: "QuQuMo",
+    href: "/reviews/ququmo/",
+    point: "手数料1%〜・完全オンライン完結",
+  },
+  {
+    label: "フリーランス・個人事業主",
+    company: "ラボル",
+    href: "/reviews/labol/",
+    point: "1万円〜・土日祝も24時間即日振込",
+  },
+  {
+    label: "法人で大口を調達したい",
+    company: "ビートレーディング",
+    href: "/reviews/betrading/",
+    point: "買取上限なし・累計9.1万社の業界最大手",
+  },
+  {
+    label: "審査に不安がある",
+    company: "アクセルファクター",
+    href: "/reviews/accelfactor/",
+    point: "審査通過率93.3%を公表",
+  },
+  {
+    label: "建設業で利用したい",
+    company: "けんせつくん",
+    href: "/reviews/kensetsukun/",
+    point: "建設業特化・手数料2%〜・注文書も対応",
+  },
+  {
+    label: "上限が明示で安心したい",
+    company: "OLTA",
+    href: "/reviews/olta/",
+    point: "手数料2%〜9%と上限を明示",
+  },
+  {
+    label: "オンラインで完結したい",
+    company: "PAYTODAY",
+    href: "/reviews/paytoday/",
+    point: "AI審査・最短30分・手数料1%〜9.5%",
+  },
+];
+
+// タイプ別おすすめの会社名 → レビューページ
+const typeReviewHref: Record<string, string> = {
+  ペイトナー: "/reviews/paytner/",
+  QuQuMo: "/reviews/ququmo/",
+  ビートレーディング: "/reviews/betrading/",
+  ラボル: "/reviews/labol/",
+  アクセルファクター: "/reviews/accelfactor/",
+};
+
 const steps = [
   {
     step: 1,
@@ -636,6 +697,42 @@ export default function RankingPage() {
           <p className="mx-auto mt-4 max-w-2xl text-base text-text-light md:text-lg">
             手数料・入金速度・審査通過率・買取可能額・オンライン対応の5つの基準で15社を徹底比較。あなたに最適なファクタリング会社が見つかります。
           </p>
+        </div>
+      </section>
+
+      {/* ── 状況・目的から選ぶ クイックナビ ─── */}
+      <section className="border-b border-border bg-section-bg py-10 md:py-12">
+        <div className="mx-auto max-w-4xl px-4">
+          <h2 className="text-center text-lg font-bold text-text-main md:text-xl">
+            状況・目的から選ぶ｜あなたに合う1社
+          </h2>
+          <p className="mx-auto mt-2 mb-7 max-w-2xl text-center text-sm text-text-light">
+            当てはまる状況をタップすると、相性の良い会社の詳しいレビューに移動できます。手数料はいずれも各社の公式表記（2026年6月確認）に基づいています。
+          </p>
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            {situationNav.map((s) => (
+              <Link
+                key={s.label}
+                href={s.href}
+                className="group flex items-center justify-between gap-3 rounded-lg border border-border bg-white p-4 transition-shadow hover:shadow-md"
+              >
+                <span className="min-w-0">
+                  <span className="block text-sm font-bold text-text-main">
+                    {s.label}
+                  </span>
+                  <span className="mt-0.5 block text-xs text-text-light">
+                    {s.point}
+                  </span>
+                </span>
+                <span className="flex shrink-0 items-center gap-1 text-sm font-bold text-primary">
+                  {s.company}
+                  <span aria-hidden className="transition-transform group-hover:translate-x-0.5">
+                    &rarr;
+                  </span>
+                </span>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 
@@ -1260,6 +1357,15 @@ export default function RankingPage() {
                 <p className="text-sm leading-relaxed text-text-light">
                   {rec.reason}
                 </p>
+                {typeReviewHref[rec.company] && (
+                  <Link
+                    href={typeReviewHref[rec.company]}
+                    className="mt-3 inline-flex items-center gap-1 text-sm font-bold text-primary hover:underline"
+                  >
+                    {rec.company}の詳しいレビューを見る
+                    <span aria-hidden>&rarr;</span>
+                  </Link>
+                )}
               </div>
             ))}
           </div>
