@@ -91,7 +91,7 @@ const top5 = [
   {
     rank: 5,
     name: "トップ・マネジメント",
-    fee: "3.5%〜12.5%",
+    fee: "3.5%〜",
     speed: "最短即日",
     maxAmount: "3億円",
     type: "2社間・3社間",

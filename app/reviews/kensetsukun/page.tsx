@@ -207,7 +207,7 @@ const breadcrumbSchema = {
 
 const comparisonData = [
   { name: "けんせつくん", fee: "2%〜", speed: "最短即日", amount: "制限なし", online: "○", note: "建設業特化" },
-  { name: "トップ・マネジメント", fee: "0.5%〜12.5%", speed: "最短即日", amount: "30万〜3億円", online: "○", note: "注文書対応" },
+  { name: "トップ・マネジメント", fee: "0.5%〜", speed: "最短即日", amount: "30万〜3億円", online: "○", note: "注文書対応" },
   { name: "ビートレーディング", fee: "4%〜12%", speed: "最短2時間", amount: "制限なし", online: "◎", note: "全業種対応" },
   { name: "アクセルファクター", fee: "0.5%〜12.0%", speed: "最短即日", amount: "30万〜1億円", online: "○", note: "全業種対応" },
 ];

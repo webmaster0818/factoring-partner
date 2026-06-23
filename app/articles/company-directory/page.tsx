@@ -352,7 +352,7 @@ export default function CompanyDirectoryPage() {
                   <tbody>
                     <tr className="border-b border-border">
                       <td className="px-3 py-2 font-semibold text-primary">トップ・マネジメント</td>
-                      <td className="px-3 py-2">0.5%〜12.5%</td>
+                      <td className="px-3 py-2">0.5%〜</td>
                       <td className="px-3 py-2 text-xs">3社間なら0.5%〜の最安水準</td>
                     </tr>
                     <tr className="border-b border-border bg-section-bg">

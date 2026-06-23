@@ -33,7 +33,7 @@ const speedRanking = [
   { rank: 7, name: "FREENANCE", speed: "最短即日", fee: "3%〜10%", target: "個人中心", online: "完全対応", note: "損害賠償保険が無料付帯のフリーランス向け" },
   { rank: 8, name: "日本中小企業金融サポート機構", speed: "最短即日", fee: "1.5%〜", target: "法人中心", online: "対応", note: "一般社団法人運営。手数料が安い" },
   { rank: 9, name: "PMG", speed: "最短即日", fee: "1%〜12.8%", target: "法人中心", online: "対応", note: "大口案件（2億円まで）に即日対応" },
-  { rank: 10, name: "トップ・マネジメント", speed: "最短即日", fee: "3.5%〜12.5%", target: "法人中心", online: "対応", note: "老舗の安定感。3億円までの大口も可" },
+  { rank: 10, name: "トップ・マネジメント", speed: "最短即日", fee: "3.5%〜", target: "法人中心", online: "対応", note: "老舗の安定感。3億円までの大口も可" },
 ];
 
 const instantConditions = [
