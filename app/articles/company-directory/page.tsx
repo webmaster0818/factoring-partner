@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
+import DirectoryTable from "./DirectoryTable";
 
 export const metadata: Metadata = {
   title:
@@ -265,40 +266,11 @@ export default function CompanyDirectoryPage() {
             ファクタリング会社一覧表（49社+）
           </h2>
           <p className="mb-6 text-sm text-text-light">
-            以下の表は横スクロールに対応しています。スマートフォンの場合は左右にスワイプして全項目をご確認ください。
+            会社名で検索、対象・オンライン対応で絞り込み、手数料の安い順や入金の速い順に並び替えできます。表は横スクロールにも対応しています。
           </p>
-          <div className="overflow-x-auto rounded-lg border border-border">
-            <table className="w-full text-sm whitespace-nowrap">
-              <thead className="bg-primary text-white">
-                <tr>
-                  <th className="sticky left-0 z-10 bg-primary px-4 py-3 text-left font-semibold min-w-[160px]">会社名</th>
-                  <th className="px-4 py-3 text-left font-semibold min-w-[120px]">手数料</th>
-                  <th className="px-4 py-3 text-left font-semibold min-w-[100px]">入金速度</th>
-                  <th className="px-4 py-3 text-left font-semibold min-w-[140px]">買取可能額</th>
-                  <th className="px-4 py-3 text-center font-semibold min-w-[90px]">対象</th>
-                  <th className="px-4 py-3 text-center font-semibold min-w-[80px]">オンライン</th>
-                  <th className="px-4 py-3 text-left font-semibold min-w-[220px]">特徴</th>
-                </tr>
-              </thead>
-              <tbody>
-                {companies.map((company, i) => (
-                  <tr key={i} className={`${i % 2 === 0 ? "bg-section-bg" : "bg-white"} hover:bg-blue-50/50 transition-colors`}>
-                    <td className="sticky left-0 z-10 px-4 py-3 font-semibold text-primary" style={{ backgroundColor: i % 2 === 0 ? '#f7f9fc' : '#ffffff' }}>
-                      {company.name}
-                    </td>
-                    <td className="px-4 py-3 text-text-light">{company.fee}</td>
-                    <td className="px-4 py-3 text-text-light">{company.speed}</td>
-                    <td className="px-4 py-3 text-text-light">{company.amount}</td>
-                    <td className="px-4 py-3 text-center text-text-light text-xs">{company.target}</td>
-                    <td className="px-4 py-3 text-center text-text-light">{company.online}</td>
-                    <td className="px-4 py-3 text-text-light text-xs">{company.feature}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+          <DirectoryTable companies={companies} />
           <p className="mt-4 text-xs text-gray-400">
-            ※情報は2026年4月時点の公開情報に基づいています。最新情報は各社公式サイトでご確認ください。
+            ※手数料は2026年6月に各社公式サイトで確認した表記、その他の情報は公開情報に基づきます。最新の手数料・サービス内容は各社公式サイトでご確認ください。
           </p>
         </section>
 
