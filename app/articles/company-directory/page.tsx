@@ -4,17 +4,17 @@ import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
-    "ファクタリング会社一覧49社+｜業界最大級の比較データベース",
+    "ファクタリング会社49社+を審査基準で比較｜手数料を公式確認した業者データベース【2026年6月】",
   description:
-    "ファクタリング会社49社以上を一覧で比較。手数料・入金速度・買取可能額・対象・オンライン対応・特徴を網羅した業界最大級のデータベースで最適な会社を見つけましょう。",
+    "ファクタリング会社49社以上を当サイトの6つの審査・掲載基準で選定。手数料は2026年6月に各社公式サイトで確認済み。入金速度・買取可能額・対象・契約形態まで網羅した、信頼できる業者データベースです。",
   alternates: {
     canonical: "https://hyogo-shihoushoshi.jp/articles/company-directory/",
   },
   openGraph: {
     title:
-      "ファクタリング会社一覧49社+｜業界最大級の比較データベース",
+      "ファクタリング会社49社+を審査基準で比較｜手数料を公式確認した業者データベース",
     description:
-      "ファクタリング会社49社以上を一覧で比較。業界最大級のデータベース。",
+      "ファクタリング会社49社以上を6つの審査・掲載基準で選定。手数料は2026年6月に各社公式確認済みの業者データベース。",
     url: "https://hyogo-shihoushoshi.jp/articles/company-directory/",
     type: "article",
   },
@@ -180,15 +180,15 @@ export default function CompanyDirectoryPage() {
       <section className="bg-primary-light py-12 md:py-16">
         <div className="mx-auto max-w-5xl px-4 text-center">
           <p className="mb-3 inline-block rounded-full bg-primary px-4 py-1 text-sm font-bold text-white">
-            会社一覧
+            審査済み業者データベース
           </p>
           <h1 className="text-2xl font-bold leading-tight text-primary md:text-4xl">
-            ファクタリング会社一覧49社+
+            ファクタリング会社49社+を審査基準で比較
             <br className="hidden md:block" />
-            業界最大級の比較データベース
+            手数料を公式確認した業者データベース
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-base text-text-light md:text-lg">
-            日本国内のファクタリング会社49社以上を手数料・入金速度・買取可能額・対象・オンライン対応・特徴で一覧比較。最適なファクタリング会社を見つけましょう。
+            日本国内のファクタリング会社49社以上を、当サイトの6つの審査・掲載基準で選定。手数料は2026年6月に各社公式サイトで確認した表記に統一しています。
           </p>
         </div>
       </section>
@@ -198,11 +198,12 @@ export default function CompanyDirectoryPage() {
         <nav className="mb-12 rounded-lg border border-border bg-section-bg p-6">
           <p className="mb-4 text-lg font-bold text-text-main">この記事の目次</p>
           <ol className="space-y-2 text-sm text-primary">
-            <li><a href="#all-companies" className="hover:underline">1. ファクタリング会社一覧表（49社+）</a></li>
-            <li><a href="#how-to-choose" className="hover:underline">2. ファクタリング会社の選び方</a></li>
-            <li><a href="#by-type" className="hover:underline">3. タイプ別おすすめファクタリング会社</a></li>
-            <li><a href="#caution" className="hover:underline">4. ファクタリング会社を選ぶ際の注意点</a></li>
-            <li><a href="#faq" className="hover:underline">5. よくある質問</a></li>
+            <li><a href="#criteria" className="hover:underline">1. 当データベースの審査・掲載基準</a></li>
+            <li><a href="#all-companies" className="hover:underline">2. ファクタリング会社一覧表（49社+）</a></li>
+            <li><a href="#how-to-choose" className="hover:underline">3. ファクタリング会社の選び方</a></li>
+            <li><a href="#by-type" className="hover:underline">4. タイプ別おすすめファクタリング会社</a></li>
+            <li><a href="#caution" className="hover:underline">5. ファクタリング会社を選ぶ際の注意点</a></li>
+            <li><a href="#faq" className="hover:underline">6. よくある質問</a></li>
           </ol>
         </nav>
 
@@ -218,6 +219,42 @@ export default function CompanyDirectoryPage() {
             <p className="mb-2 font-bold text-accent">本一覧表のご利用にあたって</p>
             <p className="text-sm text-text-light">
               掲載情報は各社の公式サイトや公開情報を基に作成していますが、最新の手数料やサービス内容は各社に直接お問い合わせください。手数料の「〜」表記は条件により変動することを意味し、実際の手数料は見積もりで確認する必要があります。
+            </p>
+          </div>
+        </section>
+
+        {/* ── 審査・掲載基準 ─── */}
+        <section id="criteria" className="mb-16">
+          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">
+            当データベースの審査・掲載基準
+          </h2>
+          <p className="mb-6 leading-relaxed text-text-light">
+            ファクタリング業界は貸金業のような登録制ではなく、玉石混交です。そこで当データベースでは、以下の6つの基準で各社を確認・整理しています。掲載は推奨や提携を意味するものではなく、利用判断は必ずご自身で各社の見積もり・契約内容をご確認ください。
+          </p>
+          <div className="grid gap-4 md:grid-cols-2">
+            {[
+              { n: "01", t: "運営会社の実在性", d: "運営会社名・所在地など、事業者の実在が公式サイトや公開情報で確認できること。" },
+              { n: "02", t: "契約形態の明示", d: "2社間・3社間など契約形態が明示され、サービス内容が説明されていること。" },
+              { n: "03", t: "手数料の透明性（公式確認済み）", d: "手数料が公式情報で確認でき、当サイトが2026年6月に各社公式サイトで確認した表記に統一していること（確認できない項目は「非公開」「要相談」と明記）。" },
+              { n: "04", t: "健全な契約（ノンリコース原則）", d: "原則として償還請求権なし（ノンリコース）で、実質的な貸付（給与・偽装ファクタリング等）に該当しないこと。" },
+              { n: "05", t: "違法・悪質性がないこと", d: "相場を著しく超える手数料の常態化、不透明な追加費用、強引な取り立てなどが確認されないこと。" },
+              { n: "06", t: "実績・利用者の評価", d: "一定の取引実績や、利用者の口コミ・評価が確認できること。" },
+            ].map((c) => (
+              <div key={c.n} className="rounded-lg border border-border bg-white p-5">
+                <div className="mb-2 flex items-center gap-3">
+                  <span className="text-lg font-bold text-primary">{c.n}</span>
+                  <h3 className="font-bold text-text-main">{c.t}</h3>
+                </div>
+                <p className="text-sm leading-relaxed text-text-light">{c.d}</p>
+              </div>
+            ))}
+          </div>
+          <div className="mt-6 rounded-lg border border-secondary/30 bg-teal-50 p-6">
+            <p className="mb-2 font-bold text-secondary">手数料は2026年6月に各社公式サイトで確認済み</p>
+            <p className="text-sm leading-relaxed text-text-light">
+              本データベースおよび当サイトの各社レビューの手数料は、2026年6月に各社の公式サイトで確認した表記に統一しています。第三者サイトの推定値は採用せず、公式に確認できない上限などは「非公開」と明記しています。ただし実際に適用される手数料は売掛先の信用力・金額・支払いサイトで変動するため、最終的な金額は各社の見積もりで確定します。悪質業者の見分け方は
+              <a href="#caution" className="font-medium text-primary underline">「選ぶ際の注意点」</a>
+              もあわせてご確認ください。
             </p>
           </div>
         </section>
