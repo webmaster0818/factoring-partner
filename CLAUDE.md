@@ -104,3 +104,10 @@
 - 実施: sitemap種類別4分割(sitemapindex+core8/reviews29/articles116)してGSCへ4本再送信・deploy両push。CFのbot403回避でinspectは公開sitemapでなくローカルpublic/sitemap.xmlを読む実装
 - MediaXAIにコンソール作業依頼: 登録リクエスト(API無・コンソール限定)を収益核→moat→主要レビュー/記事の優先順10件。私側は登録リクエスト不可のためここだけ手作業
 - 次推奨: P1-2 E-E-A-T(運営者=情報メディア明示/methodologyページ/実在監修)でcrawled-not-indexed24本を採用させる。GSCトークンにURL Inspection API有効と判明=今後の各サイトindex診断に使える
+
+## 2026-06-25 P1-2 E-E-A-T（MediaXAI「進めてください」）✅
+- crawled-not-indexed24本を“採用させる”ための信頼信号を強化。★架空の監修者・資格は作らず、編集部体制の事実のみ（fusion留保＝実在・許諾済みのみ厳守）
+- /verification-policy/ 新設＝「情報の調査・検証ポリシー」。手数料の公式確認プロセス(2026年6月全社公式確認・第三者値不採用・非公開は明記・確認日)/掲載審査6基準/評価6基準/編集検証体制(一次情報ベース・複数名レビュー・料金は承認制・定期再確認)/広告PR開示/免責を集約した“引用資産”。WebPage+Organization schema・about/DB/rankingへ相互リンク
+- Footerに運営者明示(株式会社MediaX＝情報メディアであり業者・貸金業者でない＋手数料は2026年6月公式確認)＋検証ポリシーリンクを全156ページ表示。Footerサイト情報・ranking状況ナビにもリンク。about(運営者情報)は6/14時点で既に位置づけ/編集方針/基準/免責/広告開示を完備
+- build157/sitemap-coreにverification-policy追加・再送信・deploy両push
+- ※新設verification-policyも初期はunknown→次回indexリクエスト対象に追加。残P1: P1-3ハブ&スポーク(6クラスタpillar+残44記事moat導線+社数基準明示)・P1-4意図別内部リンク再配線。MediaXAI側コンソールの登録リクエスト10件と並行で収益核の再評価が早まる
