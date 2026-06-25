@@ -79,3 +79,9 @@
 - title/h1/descを「審査基準で比較・手数料を公式確認した業者データベース」に刷新(moat KW=審査基準/公式確認/データベース)。目次に審査基準を追加。架空データなし・既存49社テーブル/料金/業者文言不変更・セクション追加のみ
 - build156/sitemap lastmod1件(153不変)・deploy=factoring-partner-deploy両push・本番に審査基準/公式確認透明化の反映をcurl検証
 - 残: 審査基準を満たす度合いの可視化(各社に確認日バッジ等)・絞り込みUI(client)・GSC観測後のCTR/刈り取り。①索引はGSCコンソール(ユーザー操作)
+
+## 2026-06-25 ③moat続き: 業者DB→レビュー送客＋公式確認済バッジ✅（MediaXAI「続けよう」）
+- DirectoryTable.tsxにREVIEW_SLUGマップ(28社)を追加し、DB内の会社名を /reviews/<slug>/ にリンク=「DB→reviews→ranking」のCV funnelを開通(従来DBは送客リンク0だった)。手数料を2026年6月に公式確認した28社に「✓手数料 公式確認済」バッジを表示し審査済み度合いを可視化＋凡例追記
+- 残21社(うりかけ堂/Next One/JPS等=レビュー未作成)はリンク無し・バッジ無し(正直表示)。架空データ/料金/業者文言不変更
+- build156/sitemap lastmod(company-directory)→2026-06-25・deploy両push・本番でバッジ/reviewリンク/送客先200をcurl検証
+- 残③候補: 絞り込みに「手数料◯%以下」レンジ・確認済のみ表示トグル / DB↔ranking相互リンク / GSC観測後CTR
