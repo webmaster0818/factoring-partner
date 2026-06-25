@@ -91,3 +91,9 @@
 - DB↔ranking相互リンク開通: company-directory末に「おすすめランキングを見る」CTA、ranking状況ナビ末に「49社+の審査済み業者データベースで絞り込む」導線。収益核⇔DBの回遊強化
 - build156/sitemap lastmod(company-directory,ranking)→2026-06-25・deploy両push・本番でfilter/CTA/相互リンクをcache回避curl検証
 - 残③候補: 各社の確認日を個別表示・対応エリア列追加・GSC観測後CTR。①索引はGSCコンソール(ユーザー操作)
+
+## 2026-06-25 戦略A 内部リンク強化（MediaXAI「Aで」＝全記事→収益核/moat導線）✅
+- GSC実データで判明: factoringは集客前(barely indexed・主要40-99位・imp1桁)で刈り取り対象ほぼ0。よってUI微調整でなく「moatへの権威集約=内部リンク」を選択。監査結果: 全115記事が/ranking/にはリンク済だが、moat2つが孤立(company-directory=1記事のみ・simulator=本文0/Headerのみ)
+- 対応: ①Header navに「会社一覧(company-directory)」追加・Footerコンテンツ列に「審査済み業者DB」「手数料シミュレーター」追加→全156ページからmoatへsite-wideリンク ②71記事(関連記事コメント有)の本文にスクリプトで「あわせて使いたいツール・データ」=simulator/業者DB/ranking導線ブロックを一括挿入
+- 結果: company-directoryへのリンク 1→72記事+Header/Footer、simulatorも本文71+Header/Footer。架空データ/料金/業者文言不変更・導線追加のみ。build156/sitemap lastmod71記事→2026-06-25・deploy両push・GSC sitemap再送信済(indexing促進)
+- ※正直な現状: 本施策は土台強化で、効果はindexing/評価が育ってから。中長期の本丸はドメイン不一致(hyogo-shihoushoshi.jp=司法書士)の解消(要MediaXAI判断)
