@@ -216,6 +216,9 @@ export default function CompanyDirectoryPage() {
           <p className="mb-4 leading-relaxed text-text-light">
             この記事では、国内の主要ファクタリング会社49社以上を網羅的にリスト化し、手数料・入金速度・買取可能額・対象者・オンライン対応・特徴の6項目で一覧比較しています。この一覧表を参考に、自社のニーズに合ったファクタリング会社を見つけてください。
           </p>
+          <p className="mb-4 leading-relaxed text-text-light">
+            当サイトでは社数の役割を分けています。<strong>この業者データベース（49社以上）</strong>で全体を俯瞰し、特におすすめの<Link href="/ranking/" className="text-primary underline">15社をランキング</Link>で、主要な<Link href="/reviews/" className="text-primary underline">28社を詳細レビュー</Link>で深掘りしています。掲載・確認の基準は<Link href="/verification-policy/" className="text-primary underline">調査・検証ポリシー</Link>をご覧ください。
+          </p>
           <div className="rounded-lg border border-accent/30 bg-orange-50 p-6">
             <p className="mb-2 font-bold text-accent">本一覧表のご利用にあたって</p>
             <p className="text-sm text-text-light">
