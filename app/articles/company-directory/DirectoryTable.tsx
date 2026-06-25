@@ -70,6 +70,8 @@ export default function DirectoryTable({ companies }: { companies: Company[] }) 
   const [target, setTarget] = useState("すべて");
   const [onlineOnly, setOnlineOnly] = useState(false);
   const [feeOpenOnly, setFeeOpenOnly] = useState(false);
+  const [confirmedOnly, setConfirmedOnly] = useState(false);
+  const [feeMax, setFeeMax] = useState("all");
   const [sort, setSort] = useState("default");
 
   const rows = useMemo(() => {
@@ -78,13 +80,15 @@ export default function DirectoryTable({ companies }: { companies: Company[] }) 
       if (target !== "すべて" && !c.target.includes(target)) return false;
       if (onlineOnly && c.online !== "◎") return false;
       if (feeOpenOnly && (c.fee.includes("非公開") || c.fee.includes("要相談") || c.fee.includes("要確認"))) return false;
+      if (confirmedOnly && !REVIEW_SLUG[c.name]) return false;
+      if (feeMax !== "all" && feeMin(c.fee) > parseFloat(feeMax)) return false;
       return true;
     });
     if (sort === "fee") r = [...r].sort((a, b) => feeMin(a.fee) - feeMin(b.fee));
     else if (sort === "speed") r = [...r].sort((a, b) => speedRank(a.speed) - speedRank(b.speed));
     else if (sort === "name") r = [...r].sort((a, b) => a.name.localeCompare(b.name, "ja"));
     return r;
-  }, [companies, q, target, onlineOnly, feeOpenOnly, sort]);
+  }, [companies, q, target, onlineOnly, feeOpenOnly, confirmedOnly, feeMax, sort]);
 
   return (
     <div>
@@ -130,6 +134,20 @@ export default function DirectoryTable({ companies }: { companies: Company[] }) 
               ))}
             </select>
           </div>
+          <div>
+            <label className="mb-1 block text-xs font-semibold text-text-main">手数料の下限</label>
+            <select
+              value={feeMax}
+              onChange={(e) => setFeeMax(e.target.value)}
+              className="rounded-md border border-border bg-white px-3 py-2 text-sm focus:border-primary focus:outline-none"
+            >
+              <option value="all">すべて</option>
+              <option value="1">1%以下</option>
+              <option value="2">2%以下</option>
+              <option value="3">3%以下</option>
+              <option value="5">5%以下</option>
+            </select>
+          </div>
         </div>
         <div className="mt-3 flex flex-wrap gap-4">
           <label className="flex items-center gap-2 text-xs text-text-light">
@@ -139,6 +157,10 @@ export default function DirectoryTable({ companies }: { companies: Company[] }) 
           <label className="flex items-center gap-2 text-xs text-text-light">
             <input type="checkbox" checked={feeOpenOnly} onChange={(e) => setFeeOpenOnly(e.target.checked)} className="accent-primary" />
             手数料が公開されている会社のみ
+          </label>
+          <label className="flex items-center gap-2 text-xs text-text-light">
+            <input type="checkbox" checked={confirmedOnly} onChange={(e) => setConfirmedOnly(e.target.checked)} className="accent-primary" />
+            手数料 公式確認済みの会社のみ
           </label>
         </div>
       </div>

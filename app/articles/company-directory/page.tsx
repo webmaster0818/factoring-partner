@@ -272,6 +272,14 @@ export default function CompanyDirectoryPage() {
           <p className="mt-4 text-xs text-gray-400">
             ※手数料は2026年6月に各社公式サイトで確認した表記、その他の情報は公開情報に基づきます。最新の手数料・サービス内容は各社公式サイトでご確認ください。
           </p>
+          <div className="mt-6 rounded-lg bg-primary-light p-5 text-center md:p-6">
+            <p className="mb-3 text-sm text-text-light">
+              選びきれない場合は、編集部が手数料・入金速度・審査通過率などで厳選した順位もご活用ください。
+            </p>
+            <Link href="/ranking/" className="btn-cta text-sm">
+              おすすめファクタリング会社ランキングを見る
+            </Link>
+          </div>
         </section>
 
         {/* ── 選び方 ─── */}

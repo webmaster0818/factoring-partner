@@ -733,6 +733,13 @@ export default function RankingPage() {
               </Link>
             ))}
           </div>
+          <p className="mt-4 text-center text-sm text-text-light">
+            もっと多くの会社を条件で比較したい方は、
+            <Link href="/articles/company-directory/" className="font-semibold text-primary underline">
+              49社+の審査済み業者データベース
+            </Link>
+            で手数料・対応・オンライン対応から絞り込めます。
+          </p>
         </div>
       </section>
 
