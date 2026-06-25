@@ -5,6 +5,8 @@ const footerNav = [
     title: "コンテンツ",
     links: [
       { label: "おすすめ比較ランキング", href: "/ranking/" },
+      { label: "審査済み業者データベース", href: "/articles/company-directory/" },
+      { label: "手数料シミュレーター", href: "/simulator/" },
       { label: "法人向けファクタリング", href: "/articles/for-corporation/" },
       { label: "個人事業主向け", href: "/articles/for-sole-proprietor/" },
       { label: "ファクタリングとは", href: "/articles/what-is-factoring/" },
