@@ -97,3 +97,10 @@
 - 対応: ①Header navに「会社一覧(company-directory)」追加・Footerコンテンツ列に「審査済み業者DB」「手数料シミュレーター」追加→全156ページからmoatへsite-wideリンク ②71記事(関連記事コメント有)の本文にスクリプトで「あわせて使いたいツール・データ」=simulator/業者DB/ranking導線ブロックを一括挿入
 - 結果: company-directoryへのリンク 1→72記事+Header/Footer、simulatorも本文71+Header/Footer。架空データ/料金/業者文言不変更・導線追加のみ。build156/sitemap lastmod71記事→2026-06-25・deploy両push・GSC sitemap再送信済(indexing促進)
 - ※正直な現状: 本施策は土台強化で、効果はindexing/評価が育ってから。中長期の本丸はドメイン不一致(hyogo-shihoushoshi.jp=司法書士)の解消(要MediaXAI判断)
+
+## 2026-06-25 P1-1 インデックス棚卸し（MediaXAI「推奨進めよう」＝P1-1着手）✅
+- GSC URL Inspection API(gsc-api/gsc_inspect.py新設・全153URL実査定)で実態判明: indexed51(33%)/crawled-not-indexed24(16%)/unknown未クロール78(51%)。★収益核/moatが全て未index=ranking(crawled未登録)・simulator(未クロール)・company-directory業者DB(未クロール)。トップのみindex
+- タイプ別: reviews 9/4/16・articles 39/16/60・固定 2/3/0。問題2種=「発見」(unknown78→内部リンク[本日実施]+sitemap分割+登録リクエスト)と「品質/信頼」(crawled-not-indexed24→P1-2 E-E-A-Tで採用させる)
+- 実施: sitemap種類別4分割(sitemapindex+core8/reviews29/articles116)してGSCへ4本再送信・deploy両push。CFのbot403回避でinspectは公開sitemapでなくローカルpublic/sitemap.xmlを読む実装
+- MediaXAIにコンソール作業依頼: 登録リクエスト(API無・コンソール限定)を収益核→moat→主要レビュー/記事の優先順10件。私側は登録リクエスト不可のためここだけ手作業
+- 次推奨: P1-2 E-E-A-T(運営者=情報メディア明示/methodologyページ/実在監修)でcrawled-not-indexed24本を採用させる。GSCトークンにURL Inspection API有効と判明=今後の各サイトindex診断に使える
