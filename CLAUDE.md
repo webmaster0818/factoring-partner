@@ -111,3 +111,9 @@
 - Footerに運営者明示(株式会社MediaX＝情報メディアであり業者・貸金業者でない＋手数料は2026年6月公式確認)＋検証ポリシーリンクを全156ページ表示。Footerサイト情報・ranking状況ナビにもリンク。about(運営者情報)は6/14時点で既に位置づけ/編集方針/基準/免責/広告開示を完備
 - build157/sitemap-coreにverification-policy追加・再送信・deploy両push
 - ※新設verification-policyも初期はunknown→次回indexリクエスト対象に追加。残P1: P1-3ハブ&スポーク(6クラスタpillar+残44記事moat導線+社数基準明示)・P1-4意図別内部リンク再配線。MediaXAI側コンソールの登録リクエスト10件と並行で収益核の再評価が早まる
+
+## 2026-06-26 P1-3 ハブ&スポーク/moat導線網羅（MediaXAI「続けてください」）✅
+- 残43記事へ「あわせて使いたいツール・データ」(simulator/業者DB/ranking)ブロックをスクリプト挿入(関連セクション/rankingCTAをアンカーに堅牢挿入)→全115中114記事(DB自身除く)にmoat導線が網羅。前回71＋今回43
+- 業者DB冒頭に社数の役割を明示=「DB49社で俯瞰→ranking15社(厳選)→reviews28社(詳細)」+検証ポリシーへの導線(社数基準の明確化＝fusion指摘の15/28/49不整合を解消、かつ意図別内部リンク)
+- build157/sitemap-articles lastmod44件→2026-06-26・再送信・deploy両push。架空データ/料金/文言不変更・導線追加のみ
+- 残P1: P1-4(内部リンクの意図別“分岐”=手数料記事→DB/simulator、即日→ranking、法律→注意喚起＋DB を記事タイプ別にmoatブロックを出し分け)。MediaXAI側コンソール登録リクエスト(収益核10件+verification-policy)と並行で再評価が早まる
