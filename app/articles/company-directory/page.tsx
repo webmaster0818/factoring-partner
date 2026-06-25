@@ -266,7 +266,7 @@ export default function CompanyDirectoryPage() {
             ファクタリング会社一覧表（49社+）
           </h2>
           <p className="mb-6 text-sm text-text-light">
-            会社名で検索、対象・オンライン対応で絞り込み、手数料の安い順や入金の速い順に並び替えできます。表は横スクロールにも対応しています。
+            会社名で検索、対象・オンライン対応で絞り込み、手数料の安い順や入金の速い順に並び替えできます。「<span className="font-semibold text-secondary">&#10003; 手数料 公式確認済</span>」が付いた会社名はタップで詳しいレビュー（手数料を2026年6月に各社公式サイトで確認）に進めます。表は横スクロールにも対応しています。
           </p>
           <DirectoryTable companies={companies} />
           <p className="mt-4 text-xs text-gray-400">

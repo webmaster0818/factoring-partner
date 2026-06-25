@@ -1,6 +1,39 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import Link from "next/link";
+
+// 当サイトに詳細レビューがあり、手数料を2026年6月に公式確認した会社 → レビューへ送客＋確認済バッジ
+const REVIEW_SLUG: Record<string, string> = {
+  "ビートレーディング": "betrading",
+  "QuQuMo（ククモ）": "ququmo",
+  "ペイトナー": "paytner",
+  "ラボル": "labol",
+  "アクセルファクター": "accelfactor",
+  "日本中小企業金融サポート機構": "support-org",
+  "OLTA（オルタ）": "olta",
+  "PMG": "pmg",
+  "ベストファクター": "bestfactor",
+  "トップ・マネジメント": "top-management",
+  "FREENANCE（フリーナンス）": "freenance",
+  "AGビジネスサポート": "ag-business",
+  "みんなのファクタリング": "minnano",
+  "GoodPlus": "goodplus",
+  "PAYTODAY": "paytoday",
+  "メンターキャピタル": "mentor",
+  "JTC": "jtc",
+  "ジャパンマネジメント": "japan-management",
+  "マネーフォワード アーリーペイメント": "moneyforward",
+  "GMO BtoB早払い": "gmo-btob",
+  "バイオン": "baion",
+  "えんナビ": "ennavi",
+  "ファクトル": "factoru",
+  "株式会社No.1": "no1",
+  "けんせつくん": "kensetsukun",
+  "土建くん": "dokenkun",
+  "SHIKIN+": "shikinplus",
+  "MSFJ": "msfj",
+};
 
 type Company = {
   name: string;
@@ -131,7 +164,18 @@ export default function DirectoryTable({ companies }: { companies: Company[] }) 
             {rows.map((company, i) => (
               <tr key={company.name} className={`${i % 2 === 0 ? "bg-section-bg" : "bg-white"} hover:bg-blue-50/50 transition-colors`}>
                 <td className="sticky left-0 z-10 px-4 py-3 font-semibold text-primary" style={{ backgroundColor: i % 2 === 0 ? "#f7f9fc" : "#ffffff" }}>
-                  {company.name}
+                  {REVIEW_SLUG[company.name] ? (
+                    <Link href={`/reviews/${REVIEW_SLUG[company.name]}/`} className="text-primary hover:underline">
+                      {company.name}
+                    </Link>
+                  ) : (
+                    company.name
+                  )}
+                  {REVIEW_SLUG[company.name] && (
+                    <span className="mt-0.5 block text-[10px] font-bold text-secondary">
+                      &#10003; 手数料 公式確認済
+                    </span>
+                  )}
                 </td>
                 <td className="px-4 py-3 text-text-light">{company.fee}</td>
                 <td className="px-4 py-3 text-text-light">{company.speed}</td>
