@@ -85,3 +85,9 @@
 - 残21社(うりかけ堂/Next One/JPS等=レビュー未作成)はリンク無し・バッジ無し(正直表示)。架空データ/料金/業者文言不変更
 - build156/sitemap lastmod(company-directory)→2026-06-25・deploy両push・本番でバッジ/reviewリンク/送客先200をcurl検証
 - 残③候補: 絞り込みに「手数料◯%以下」レンジ・確認済のみ表示トグル / DB↔ranking相互リンク / GSC観測後CTR
+
+## 2026-06-25 ③moat続き: DB絞り込み拡張＋DB↔ranking相互リンク✅（MediaXAI「進めよう」）
+- DirectoryTable: 「手数料 公式確認済みの会社のみ」トグル＋「手数料の下限(すべて/1/2/3/5%以下)」フィルタを追加(非公開はしきい値指定時に自動除外)。絞り込み軸が会社名/対象/オンライン/公開のみ/確認済のみ/手数料下限＋4並び替えに
+- DB↔ranking相互リンク開通: company-directory末に「おすすめランキングを見る」CTA、ranking状況ナビ末に「49社+の審査済み業者データベースで絞り込む」導線。収益核⇔DBの回遊強化
+- build156/sitemap lastmod(company-directory,ranking)→2026-06-25・deploy両push・本番でfilter/CTA/相互リンクをcache回避curl検証
+- 残③候補: 各社の確認日を個別表示・対応エリア列追加・GSC観測後CTR。①索引はGSCコンソール(ユーザー操作)
