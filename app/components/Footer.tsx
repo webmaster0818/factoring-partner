@@ -25,6 +25,7 @@ const footerNav = [
     title: "サイト情報",
     links: [
       { label: "運営者情報", href: "/about/" },
+      { label: "調査・検証ポリシー", href: "/verification-policy/" },
       { label: "プライバシーポリシー", href: "/privacy-policy/" },
       { label: "お問い合わせ", href: "/contact/" },
     ],
@@ -44,6 +45,11 @@ export default function Footer() {
             </Link>
             <p className="mt-3 text-sm leading-relaxed text-gray-400">
               ファクタリング会社49社以上を徹底比較。あなたに最適なファクタリング会社が見つかる比較サイトです。
+            </p>
+            <p className="mt-3 text-xs leading-relaxed text-gray-500">
+              運営：株式会社MediaX。当サイトは情報メディアであり、ファクタリング業者・貸金業者ではありません。手数料は2026年6月に各社公式サイトで確認しています（
+              <Link href="/verification-policy/" className="text-gray-400 underline hover:text-white">調査・検証ポリシー</Link>
+              ）。
             </p>
           </div>
 

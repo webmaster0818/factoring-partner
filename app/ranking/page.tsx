@@ -707,7 +707,9 @@ export default function RankingPage() {
             状況・目的から選ぶ｜あなたに合う1社
           </h2>
           <p className="mx-auto mt-2 mb-7 max-w-2xl text-center text-sm text-text-light">
-            当てはまる状況をタップすると、相性の良い会社の詳しいレビューに移動できます。手数料はいずれも各社の公式表記（2026年6月確認）に基づいています。
+            当てはまる状況をタップすると、相性の良い会社の詳しいレビューに移動できます。手数料はいずれも各社の公式表記（2026年6月確認）に基づいています。調査・確認の方法は
+            <Link href="/verification-policy/" className="font-semibold text-primary underline">調査・検証ポリシー</Link>
+            をご覧ください。
           </p>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
             {situationNav.map((s) => (
