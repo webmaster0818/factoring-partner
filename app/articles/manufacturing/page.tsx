@@ -570,16 +570,16 @@ export default function ManufacturingPage() {
         </section>
 
                 {/* ── 関連ツール・データ ─── */}
-        <section className="mb-12">
-          <div className="rounded-lg border border-primary/20 bg-primary-light p-6">
-            <p className="mb-3 font-bold text-primary">あわせて使いたいツール・データ</p>
-            <ul className="space-y-2 text-sm text-text-light">
-              <li><Link href="/simulator/" className="font-medium text-primary underline">手数料シミュレーター</Link>｜売掛金額から手数料・入金額の目安を計算できます。</li>
-              <li><Link href="/articles/company-directory/" className="font-medium text-primary underline">審査済み業者データベース（49社+）</Link>｜手数料・対応・オンラインで絞り込み（手数料は2026年6月に各社公式確認済み）。</li>
-              <li><Link href="/ranking/" className="font-medium text-primary underline">おすすめファクタリング会社ランキング</Link>｜編集部が厳選した順位で比較できます。</li>
-            </ul>
-          </div>
-        </section>
+                <section className="mb-12">
+                  <div className="rounded-lg border border-primary/20 bg-primary-light p-6">
+                    <p className="mb-3 font-bold text-primary">あなたの業種・状況に合う会社を探す</p>
+                    <ul className="space-y-2 text-sm text-text-light">
+                    <li><Link href="/articles/company-directory/" className="font-medium text-primary underline">審査済み業者データベース（49社+）</Link>｜手数料・対応・オンラインで絞り込み（手数料は2026年6月に各社公式確認済み）。</li>
+                    <li><Link href="/ranking/" className="font-medium text-primary underline">おすすめファクタリング会社ランキング</Link>｜編集部が厳選した順位で比較できます。</li>
+                    <li><Link href="/simulator/" className="font-medium text-primary underline">手数料シミュレーター</Link>｜売掛金額から手数料・入金額の目安を計算できます。</li>
+                    </ul>
+                  </div>
+                </section>
 
 {/* ── 関連記事 ─── */}
         <section className="mb-16">
