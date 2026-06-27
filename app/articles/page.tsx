@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title:
     "ファクタリング記事一覧｜基礎知識・手数料・審査・業種別ガイドまとめ",
   description:
-    "ファクタリングパートナーの記事一覧ページです。ファクタリングの基礎知識、対象者別ガイド、手数料・審査、即日・スピード、業種別、エリア別、お悩み・トラブル、会社比較・ランキングまで116記事をカテゴリ別に整理しています。",
+    "ファクタリングパートナーの記事一覧ページです。ファクタリングの基礎知識、対象者別ガイド、手数料・審査、即日・スピード、業種別、エリア別、お悩み・トラブル、会社比較・ランキングまで117記事をカテゴリ別に整理しています。",
   alternates: {
     canonical: "https://hyogo-shihoushoshi.jp/articles/",
   },
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title:
       "ファクタリング記事一覧｜基礎知識・手数料・審査・業種別ガイドまとめ",
     description:
-      "ファクタリングの基礎知識から手数料・審査・業種別・エリア別・会社比較まで、116記事をカテゴリ別に整理した記事一覧ページです。",
+      "ファクタリングの基礎知識から手数料・審査・業種別・エリア別・会社比較まで、117記事をカテゴリ別に整理した記事一覧ページです。",
     url: "https://hyogo-shihoushoshi.jp/articles/",
     type: "website",
   },
@@ -67,6 +67,7 @@ const categories: Category[] = [
     description: "手数料の相場・計算方法・内訳から、コストを下げる交渉術まで解説します。",
     articles: [
       { slug: "factoring-fee-survey-2026", label: "【独自調査】ファクタリング手数料 実態調査2026（49社を公式確認）" },
+      { slug: "fee-disclosed-companies", label: "手数料を公式に公表しているファクタリング会社一覧（44社）" },
       { slug: "fee-guide", label: "手数料の相場と計算方法｜安くするコツ5選" },
       { slug: "fee-breakdown", label: "手数料の内訳を徹底解説（買取・事務・登記費用）" },
       { slug: "fee-negotiation", label: "手数料を下げる交渉術5選" },
