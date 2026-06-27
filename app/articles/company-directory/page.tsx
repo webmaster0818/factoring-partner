@@ -260,6 +260,11 @@ export default function CompanyDirectoryPage() {
               <a href="#caution" className="font-medium text-primary underline">「選ぶ際の注意点」</a>
               もあわせてご確認ください。
             </p>
+            <p className="mt-3 text-sm leading-relaxed text-text-light">
+              この49社の手数料を集計した独自調査
+              <Link href="/articles/factoring-fee-survey-2026/" className="font-medium text-primary underline">「ファクタリング手数料 実態調査2026」</Link>
+              では、手数料の公表率（90%）・公表下限の中央値（2.0%）・分布を出典つきで公開しています。
+            </p>
           </div>
         </section>
 

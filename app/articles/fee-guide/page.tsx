@@ -269,6 +269,14 @@ export default function FeeGuidePage() {
             手数料は売掛金額に対する割合で設定されるのが一般的です。例えば、100万円の売掛金に対して手数料が10%の場合、10万円が手数料として差し引かれ、90万円を受け取ることになります。なお、下記の相場はあくまで一般的な目安であり、実際の手数料率は<strong className="text-text-main">ファクタリング会社ごとに異なります</strong>。各社の具体的な手数料は公式サイトの表記でご確認ください。
           </p>
 
+          <div className="mb-8 rounded-lg border border-primary/30 bg-section-bg p-4 text-sm leading-relaxed text-text-light">
+            <p>
+              <strong className="text-text-main">実データで見たい方へ：</strong>当サイトが掲載49社の手数料を2026年6月に各社公式確認した
+              <Link href="/articles/factoring-fee-survey-2026/" className="text-primary underline">ファクタリング手数料 実態調査2026</Link>
+              では、手数料の公表率（90%）・公表下限の中央値（2.0%）・分布を、出典つきで公開しています。
+            </p>
+          </div>
+
           <div className="mb-8 overflow-x-auto rounded-lg border border-border">
             <table className="w-full text-sm">
               <thead>
