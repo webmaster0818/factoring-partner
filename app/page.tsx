@@ -532,6 +532,44 @@ export default function Home() {
         </div>
       </section>
 
+      {/* 重要ページ・ツール（発見性強化＝収益核/検証への内部導線） */}
+      <section className="py-16">
+        <div className="mx-auto max-w-5xl px-4">
+          <h2 className="text-center text-2xl font-bold text-text-main md:text-3xl">
+            ファクタリング会社選びに役立つツール・データ
+          </h2>
+          <p className="mx-auto mt-3 max-w-2xl text-center text-sm text-text-light">
+            当サイトが2026年6月に全社の手数料を公式確認した比較・検証コンテンツです。目的に合わせてご活用ください。
+          </p>
+          <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            <Link href="/ranking/" className="block rounded-lg border border-border bg-white p-5 transition-colors hover:border-primary">
+              <p className="font-bold text-text-main">おすすめ比較ランキング（厳選15社）</p>
+              <p className="mt-1 text-sm text-text-light">手数料・入金速度・審査など6項目で比較した編集部の厳選ランキング。</p>
+            </Link>
+            <Link href="/articles/company-directory/" className="block rounded-lg border border-border bg-white p-5 transition-colors hover:border-primary">
+              <p className="font-bold text-text-main">審査済み業者データベース（49社）</p>
+              <p className="mt-1 text-sm text-text-light">49社を対象・手数料・オンライン対応などの条件で絞り込み・並び替え。</p>
+            </Link>
+            <Link href="/simulator/" className="block rounded-lg border border-border bg-white p-5 transition-colors hover:border-primary">
+              <p className="font-bold text-text-main">手数料シミュレーター</p>
+              <p className="mt-1 text-sm text-text-light">売掛金額から手数料・入金額の目安をその場で試算できます。</p>
+            </Link>
+            <Link href="/articles/factoring-fee-survey-2026/" className="block rounded-lg border border-border bg-white p-5 transition-colors hover:border-primary">
+              <p className="font-bold text-text-main">ファクタリング手数料 実態調査2026</p>
+              <p className="mt-1 text-sm text-text-light">49社の手数料を公式確認して集計した独自調査（公表率・下限の分布）。</p>
+            </Link>
+            <Link href="/articles/fee-disclosed-companies/" className="block rounded-lg border border-border bg-white p-5 transition-colors hover:border-primary">
+              <p className="font-bold text-text-main">手数料を公表している会社一覧（44社）</p>
+              <p className="mt-1 text-sm text-text-light">手数料が明確な会社と非公開の会社の違いを一覧で確認できます。</p>
+            </Link>
+            <Link href="/verification-policy/" className="block rounded-lg border border-border bg-white p-5 transition-colors hover:border-primary">
+              <p className="font-bold text-text-main">情報の調査・検証ポリシー</p>
+              <p className="mt-1 text-sm text-text-light">手数料の公式確認プロセス・掲載基準・編集体制を公開しています。</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section className="section-light py-16">
         <div className="mx-auto max-w-3xl px-4">

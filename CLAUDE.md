@@ -130,3 +130,10 @@
 - 内部リンク: 記事一覧ハブ(手数料カテゴリ先頭)・fee-guide(相場節にcallout)・company-directory(透明化box)から本調査へ。hub totalCount計算値が116になり metadata「115記事」→「116記事」に整合
 - 架空データ/料金/業者文言不変更(新規+導線のみ)。build/sitemap-articles 116→117(index lastmod更新)・deploy=factoring-partner-deploy両push・本番200/sitemap/fee-guideリンクをcache回避curl検証・GSC再送信
 - 残P2: P2-1 striking-distance(11-40位集中最適化・但し再クロール前は母数薄)/P2-2 既存記事SERP適合・カニバリ統合/P2-3 DB条件ページ静的化(実質情報ある場合のみ)。推奨=コンソール登録リクエスト(収益核+本調査URL)→gsc_inspect再計測→striking-distance
+
+## 2026-06-27 P2-3 DB条件ページ静的化（MediaXAI「③」）✅
+- ★カニバリ判断: 絞り込み条件の大半(個人事業主/オンライン/即日/手数料安い/審査通りやすい等)は既に専用記事あり→DB絞り込みで量産すると立ち上げ初期サイトで自社カニバリ→逆効果。よって「実質情報がある場合のみ・薄い量産しない」の条件どおり、未カバー&moat活用の1インテントに限定
+- /articles/fee-disclosed-companies/ 新設＝「手数料の透明性で選ぶ」条件ページ(low-fee=安さ とは別インテント、役割を明示分離してカニバリ回避)。公表44社を手数料下限の低い順に静的レンダリング(会社名/手数料/対象/online/speed・実データ公式確認値のみ)＋非公開5社(セゾン/三菱UFJ/請求QUICK/ファクタリングベスト/見直し本舗)を実名で正直掲載+理由(大手/3社間/個別査定)。「公表手数料の読み方(下限≠実料率)」で景表法配慮。FAQ+Article schema(★Review星なし)
+- ★技術改善: 49社配列が company-directory にベタ書き→app/lib/companies.ts に単一ソース化(export companies + isFeeUndisclosed)。company-directory と fee-disclosed-companies で共用。DBは本番で従来どおり全社表示=リファクタ後も無傷を検証
+- survey↔fee-disclosed相互リンク。hub 117→118記事(metadata整合)。build/sitemap-articles 117→118・deploy両push・本番200/実データ描画/DB無傷をcache回避curl検証・GSC再送信
+- 残P2推奨: コンソール登録リクエスト(収益核+調査レポート+本一覧)→gsc_inspect再計測→P2-1 striking-distance。これ以上のDB条件ページ量産はカニバリのため非推奨

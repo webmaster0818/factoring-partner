@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Breadcrumb from "../components/Breadcrumb";
 
 export const metadata: Metadata = {
@@ -166,6 +167,24 @@ export default function AboutPage() {
               </li>
             </ul>
           </div>
+        </section>
+
+        {/* 関連ページ・ツール */}
+        <section className="mt-10">
+          <h2 className="text-xl font-bold text-gray-800 border-b-2 border-blue-600 pb-2">
+            比較・検証コンテンツ（ツール・データ）
+          </h2>
+          <p className="mt-4 text-sm leading-relaxed text-gray-700">
+            当サイトが2026年6月に全社の手数料を公式確認したうえで作成している、主な比較・検証コンテンツです。
+          </p>
+          <ul className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
+            <li><Link href="/ranking/" className="text-blue-600 hover:underline">おすすめ比較ランキング（厳選15社）</Link></li>
+            <li><Link href="/articles/company-directory/" className="text-blue-600 hover:underline">審査済み業者データベース（49社）</Link></li>
+            <li><Link href="/simulator/" className="text-blue-600 hover:underline">手数料シミュレーター</Link></li>
+            <li><Link href="/articles/factoring-fee-survey-2026/" className="text-blue-600 hover:underline">ファクタリング手数料 実態調査2026（49社公式確認）</Link></li>
+            <li><Link href="/articles/fee-disclosed-companies/" className="text-blue-600 hover:underline">手数料を公表している会社一覧（44社）</Link></li>
+            <li><Link href="/verification-policy/" className="text-blue-600 hover:underline">情報の調査・検証ポリシー</Link></li>
+          </ul>
         </section>
 
         {/* 免責事項 */}
