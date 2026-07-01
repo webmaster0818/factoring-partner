@@ -26,6 +26,7 @@ const footerNav = [
     links: [
       { label: "運営者情報", href: "/about/" },
       { label: "調査・検証ポリシー", href: "/verification-policy/" },
+      { label: "サイトマップ", href: "/sitemap/" },
       { label: "プライバシーポリシー", href: "/privacy-policy/" },
       { label: "お問い合わせ", href: "/contact/" },
     ],

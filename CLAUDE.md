@@ -144,3 +144,8 @@
 - フュージョン: codex認証失効(401 refresh token expired)＋gemini読取タイムアウトで実質claude単独＋judge。[[reference_fusion_codex_timeout_fix]]に追記。次アクション=①コンソール登録リクエスト(taro不可・MediaXAIへURL10件リスト提示済)②indexed→money page内部リンク③ranking採用後押し④moat資産化/sameAsエンティティ。新規ページ追加は一旦停止(クロール予算分散回避)
 - P2-②実装: indexed済みの/(トップFAQ手前に「ツール・データ」ハブ新設)・/about(Link import追加+関連ページ節)から収益核6ページへ説明的アンカー直リンク(深度1)。従来トップは/rankingのみ・aboutは0だった=孤立解消。build/sitemap-core lastmod2件・deploy両push・本番でトップ/about→6リンクcurl検証・GSC再送信
 - 残: MediaXAI①登録リクエスト待ち→数日後gsc_inspect再計測。③/ranking採用後押し(49社調査に基づく選定根拠明記+survey相互リンク)。④P3(手数料調査の引用資産化・Organization sameAsでMediaX公式紐付け・HTMLサイトマップ・unknown薄い重複のみ最小限noindex)
+
+## 2026-07-01 P2-③ /ranking採用後押し（MediaXAI「続けてください」）✅
+- /ranking=crawled-not-indexed(見られたが独自性/信頼性弱く未採用)への一意性シグナル付与。ヒーロー直下に「このランキングの根拠・作成方針」box新設: 手数料評価は2026年6月に49社公式確認した独自調査に基づくと明記+survey(factoring-fee-survey-2026)へリンク・5評価項目/PR無影響/検証ポリシー・役割差別化3カード(ランキング=厳選15社順位/DB=全49社絞り込み/実態調査=集計データ)でcompany-directoryとの重複認定回避。ヒーローラベル「2026年4月最新」→「2026年6月 手数料を全社公式確認」
+- 副次: ranking→survey/DB(未発見)への内部リンクで未クロールmoney pageの発見も後押し。build/sitemap-core lastmod・deploy両push・本番curl検証・GSC再送信
+- ★P2の②③完了。最大律速=①GSCコンソール登録リクエスト(MediaXAI・10URL提示済)待ち→数日後gsc_inspect再計測。次候補P3(手数料調査の引用クレジット整備/Organization sameAsでMediaX公式紐付け/HTMLサイトマップ)

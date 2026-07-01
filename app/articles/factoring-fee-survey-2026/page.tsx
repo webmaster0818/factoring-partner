@@ -283,12 +283,15 @@ export default function FeeSurvey2026Page() {
             <p>
               本調査のデータは、<strong>出典の明記を条件に引用・転載いただけます</strong>。記事・資料でご利用の際は、次のようにクレジットを記載してください。
             </p>
+            <p className="text-xs font-semibold text-gray-700">■ テキストで引用する場合</p>
             <div className="rounded border border-gray-300 bg-white p-3 text-xs text-gray-600">
               出典：ファクタリングパートナー「ファクタリング手数料 実態調査2026（49社・公式確認）」（2026年6月時点）<br />
               https://hyogo-shihoushoshi.jp/articles/factoring-fee-survey-2026/
             </div>
+            <p className="text-xs font-semibold text-gray-700">■ Webサイトで引用する場合（HTMLをコピーしてご利用ください）</p>
+            <pre className="overflow-x-auto whitespace-pre-wrap break-all rounded border border-gray-300 bg-white p-3 text-xs text-gray-600">{`<p>出典：<a href="https://hyogo-shihoushoshi.jp/articles/factoring-fee-survey-2026/">ファクタリング手数料 実態調査2026（ファクタリングパートナー・2026年6月）</a></p>`}</pre>
             <p className="text-xs text-gray-500">
-              ※掲載数値は2026年6月時点で各社公式サイトを確認したものです。手数料は変更される場合があるため、最新の料率は各社公式サイトでご確認ください。本調査は定期的に再確認し、更新時には取得時点を更新します。
+              数値・図表の引用、リンク付きでの紹介を歓迎します。掲載数値は2026年6月時点で各社公式サイトを確認したもので、手数料は変更される場合があるため、最新の料率は各社公式サイトでご確認ください。本調査は定期的に再確認し、更新時には取得時点を更新します。
             </p>
           </div>
         </section>
