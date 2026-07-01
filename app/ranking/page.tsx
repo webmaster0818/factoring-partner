@@ -687,7 +687,7 @@ export default function RankingPage() {
       <section className="section-primary-light py-12 md:py-16">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <p className="mb-3 inline-block rounded-full bg-accent px-4 py-1 text-sm font-bold text-white">
-            2026年4月最新
+            2026年6月 手数料を全社公式確認
           </p>
           <h1 className="text-2xl font-bold leading-tight text-primary md:text-4xl">
             ファクタリング会社おすすめ15選を徹底比較！
@@ -697,6 +697,39 @@ export default function RankingPage() {
           <p className="mx-auto mt-4 max-w-2xl text-base text-text-light md:text-lg">
             手数料・入金速度・審査通過率・買取可能額・オンライン対応の5つの基準で15社を徹底比較。あなたに最適なファクタリング会社が見つかります。
           </p>
+        </div>
+      </section>
+
+      {/* ── このランキングの根拠・作成方針（独自調査に基づく＝一意性/信頼性シグナル） ─── */}
+      <section className="py-10">
+        <div className="mx-auto max-w-4xl px-4">
+          <div className="rounded-lg border border-primary/30 bg-section-bg p-5 md:p-6">
+            <h2 className="text-lg font-bold text-text-main md:text-xl">このランキングの根拠・作成方針</h2>
+            <p className="mt-3 text-sm leading-relaxed text-text-light">
+              本ランキングの手数料評価は、当サイト編集部が<strong>2026年6月に掲載49社の手数料を各社公式サイトで確認した独自調査</strong>に基づいています（第三者サイトの推定値は不採用、非公開は「非公開」と明記）。調査の全体像は
+              <Link href="/articles/factoring-fee-survey-2026/" className="text-primary hover:underline">ファクタリング手数料 実態調査2026（49社公式確認）</Link>
+              で公開しています。
+            </p>
+            <p className="mt-3 text-sm leading-relaxed text-text-light">
+              評価は<strong>手数料・入金速度・審査通過率・買取可能額・オンライン対応の5項目</strong>で行い、編集部が厳選した15社を順位化しています。順位は各社の公式情報と当サイトの基準に基づく編集判断であり、広告（PR）提携の有無や報酬額が順位・評価に影響することはありません（掲載基準・検証プロセスは
+              <Link href="/verification-policy/" className="text-primary hover:underline">調査・検証ポリシー</Link>
+              をご覧ください）。
+            </p>
+            <div className="mt-4 grid grid-cols-1 gap-2 text-sm sm:grid-cols-3">
+              <div className="rounded border border-border bg-white p-3">
+                <p className="font-bold text-text-main">このランキング</p>
+                <p className="mt-1 text-xs text-text-light">編集部が厳選した15社の順位（今ページ）</p>
+              </div>
+              <Link href="/articles/company-directory/" className="rounded border border-border bg-white p-3 hover:border-primary">
+                <p className="font-bold text-text-main">審査済み業者データベース</p>
+                <p className="mt-1 text-xs text-text-light">全49社を条件で絞り込み・並び替え</p>
+              </Link>
+              <Link href="/articles/factoring-fee-survey-2026/" className="rounded border border-border bg-white p-3 hover:border-primary">
+                <p className="font-bold text-text-main">手数料 実態調査2026</p>
+                <p className="mt-1 text-xs text-text-light">49社の手数料を集計した独自データ</p>
+              </Link>
+            </div>
+          </div>
         </div>
       </section>
 

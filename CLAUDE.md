@@ -137,3 +137,10 @@
 - ★技術改善: 49社配列が company-directory にベタ書き→app/lib/companies.ts に単一ソース化(export companies + isFeeUndisclosed)。company-directory と fee-disclosed-companies で共用。DBは本番で従来どおり全社表示=リファクタ後も無傷を検証
 - survey↔fee-disclosed相互リンク。hub 117→118記事(metadata整合)。build/sitemap-articles 117→118・deploy両push・本番200/実データ描画/DB無傷をcache回避curl検証・GSC再送信
 - 残P2推奨: コンソール登録リクエスト(収益核+調査レポート+本一覧)→gsc_inspect再計測→P2-1 striking-distance。これ以上のDB条件ページ量産はカニバリのため非推奨
+
+## 2026-07-01 フルフュージョンでネクストアクション策定＋P2-②内部リンク（MediaXAI「フルフュージョンでやって」→「②進めて」）✅
+- ★インデックス再計測(URL検査API・全156URL): indexed 51/crawled-not-indexed 24/unknown 81。6/25からほぼ横ばい=再クロール進まず。★収益核が未indexのまま(/ranking=crawled未登録、/simulator・company-directory・新設の手数料調査/公表会社一覧・verification-policy=すべてunknown未発見)。コンソール登録リクエスト未実施の可能性大。※URL検査APIのsiteUrlは`https://hyogo-shihoushoshi.jp/`(URL-prefix property)。sc-domain:だと403「You do not own this site」
+- ★技術監査を実機先行→ブロッカー無しと確定: /ranking/静的HTMLに会社名描画あり(JSのみでない)・canonical自己参照正・robotsメタindex,follow・robots.txt=Content-Signal search=yes/Allow:/(ブロックはGPTBot等AI学習ボットのみ、Googlebot許可)・GooglebotUAで200。→原因は新規/低権威/ドメイン不一致の"後回し"。技術でなく発見・採用の問題
+- フュージョン: codex認証失効(401 refresh token expired)＋gemini読取タイムアウトで実質claude単独＋judge。[[reference_fusion_codex_timeout_fix]]に追記。次アクション=①コンソール登録リクエスト(taro不可・MediaXAIへURL10件リスト提示済)②indexed→money page内部リンク③ranking採用後押し④moat資産化/sameAsエンティティ。新規ページ追加は一旦停止(クロール予算分散回避)
+- P2-②実装: indexed済みの/(トップFAQ手前に「ツール・データ」ハブ新設)・/about(Link import追加+関連ページ節)から収益核6ページへ説明的アンカー直リンク(深度1)。従来トップは/rankingのみ・aboutは0だった=孤立解消。build/sitemap-core lastmod2件・deploy両push・本番でトップ/about→6リンクcurl検証・GSC再送信
+- 残: MediaXAI①登録リクエスト待ち→数日後gsc_inspect再計測。③/ranking採用後押し(49社調査に基づく選定根拠明記+survey相互リンク)。④P3(手数料調査の引用資産化・Organization sameAsでMediaX公式紐付け・HTMLサイトマップ・unknown薄い重複のみ最小限noindex)
