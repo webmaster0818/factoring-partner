@@ -236,6 +236,19 @@ export default function AccelfactorReviewPage() {
       </section>
 
       <div className="mx-auto max-w-4xl px-4 py-10 md:py-14">
+        {/* ── 結論ファースト ─── */}
+        <div className="mb-8 rounded-xl border-2 border-primary/30 bg-primary-light/40 p-5 md:p-6">
+          <p className="mb-2 text-sm font-bold text-primary">結論</p>
+          <p className="text-sm leading-relaxed text-text-main">
+            アクセルファクターは、審査通過率93.3%（公式発表）の柔軟な審査で、赤字決算や税金滞納があり他社で断られた経験のある事業者に向いたサービスです。手数料は0.5%〜（3社間0.5%〜10.5%／2社間1.0%〜12.0%・公式サイトにて2026年6月確認）と幅が広いため、実際の料率は必ず見積もりで確認が必要です。一方、確実に即日入金を受けたい方や、完全オンライン完結を求める方には不向きです。
+          </p>
+          <p className="mt-3 text-sm font-semibold text-primary">
+            <a href="#recommended" className="hover:underline">向き・不向きの詳細</a>
+            <span className="mx-2 text-text-light">／</span>
+            <a href="/ranking/" className="hover:underline">他社と条件で比較</a>
+          </p>
+        </div>
+
         {/* ── 目次 ─── */}
         <nav className="mb-12 rounded-lg border border-border bg-section-bg p-6">
           <p className="mb-4 text-lg font-bold text-text-main">この記事の目次</p>

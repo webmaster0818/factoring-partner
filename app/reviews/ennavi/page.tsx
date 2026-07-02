@@ -249,6 +249,19 @@ export default function EnnaviReviewPage() {
       </section>
 
       <div className="mx-auto max-w-4xl px-4 py-10 md:py-14">
+        {/* ── 結論ファースト ─── */}
+        <div className="mb-8 rounded-xl border-2 border-primary/30 bg-primary-light/40 p-5 md:p-6">
+          <p className="mb-2 text-sm font-bold text-primary">結論</p>
+          <p className="text-sm leading-relaxed text-text-main">
+            えんナビは、24時間365日対応で深夜・休日でも相談でき、売掛先に知られずに最短即日で資金化したい法人・個人事業主に向いた2社間ファクタリング専門サービスです。手数料は公式サイトで5%と記載されています（公式サイトにて2026年6月確認）が、実際の手数料は案件ごとに変動するため見積もりでの確認が必要です。買取可能額は50万〜5,000万円で、5,000万円超の大口案件や3社間ファクタリングには対応していません。
+          </p>
+          <p className="mt-3 text-sm font-semibold text-primary">
+            <a href="#recommended" className="hover:underline">向き・不向きの詳細</a>
+            <span className="mx-2 text-text-light">／</span>
+            <a href="/ranking/" className="hover:underline">他社と条件で比較</a>
+          </p>
+        </div>
+
         {/* ── 目次 ─── */}
         <nav className="mb-12 rounded-lg border border-border bg-section-bg p-6">
           <p className="mb-4 text-lg font-bold text-text-main">この記事の目次</p>
@@ -269,6 +282,7 @@ export default function EnnaviReviewPage() {
         <p className="mb-10 rounded-lg border border-gray-200 bg-gray-50 px-4 py-3 text-xs leading-relaxed text-gray-500">
           ※本ページには広告（アフィリエイトリンク）が含まれます。当サイトは一部の事業者と提携し、リンク経由のお申し込みで報酬を受け取る場合があります。ただし、報酬の有無や金額が評価・順位に影響することはなく、各社の公式・公開情報にもとづいて公平に解説しています。掲載内容は調査時点のものであり、手数料・条件などの最新情報は各公式サイトでご確認ください。
         </p>
+
 
         <section id="basic-info" className="mb-16">
           <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">

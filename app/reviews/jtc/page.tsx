@@ -249,6 +249,19 @@ export default function JtcReviewPage() {
       </section>
 
       <div className="mx-auto max-w-4xl px-4 py-10 md:py-14">
+        {/* ── 結論ファースト ─── */}
+        <div className="mb-8 rounded-xl border-2 border-primary/30 bg-primary-light/40 p-5 md:p-6">
+          <p className="mb-2 text-sm font-bold text-primary">結論</p>
+          <p className="text-sm leading-relaxed text-text-main">
+            JTCは、100万円以上の大口売掛債権を資金化したい法人に向いた、法人専門のファクタリングサービスです。手数料は公式サイトで1.2%〜10%（2社間・取引先に知らせない場合）と記載されており（公式サイトにて2026年6月確認）、実際の適用率は事前審査にて算出されます。最短即日入金・2社間・3社間対応で名古屋・東京・大阪の3拠点で対面相談も可能ですが、個人事業主や100万円未満の少額案件は利用できません。
+          </p>
+          <p className="mt-3 text-sm font-semibold text-primary">
+            <a href="#recommended" className="hover:underline">向き・不向きの詳細</a>
+            <span className="mx-2 text-text-light">／</span>
+            <a href="/ranking/" className="hover:underline">他社と条件で比較</a>
+          </p>
+        </div>
+
         {/* ── 目次 ─── */}
         <nav className="mb-12 rounded-lg border border-border bg-section-bg p-6">
           <p className="mb-4 text-lg font-bold text-text-main">この記事の目次</p>
@@ -269,6 +282,7 @@ export default function JtcReviewPage() {
         <p className="mb-10 rounded-lg border border-gray-200 bg-gray-50 px-4 py-3 text-xs leading-relaxed text-gray-500">
           ※本ページには広告（アフィリエイトリンク）が含まれます。当サイトは一部の事業者と提携し、リンク経由のお申し込みで報酬を受け取る場合があります。ただし、報酬の有無や金額が評価・順位に影響することはなく、各社の公式・公開情報にもとづいて公平に解説しています。掲載内容は調査時点のものであり、手数料・条件などの最新情報は各公式サイトでご確認ください。
         </p>
+
 
         <section id="basic-info" className="mb-16">
           <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">

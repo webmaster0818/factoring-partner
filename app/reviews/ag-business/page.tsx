@@ -249,6 +249,19 @@ export default function AgBusinessReviewPage() {
       </section>
 
       <div className="mx-auto max-w-4xl px-4 py-10 md:py-14">
+        {/* ── 結論ファースト ─── */}
+        <div className="mb-8 rounded-xl border-2 border-primary/30 bg-primary-light/40 p-5 md:p-6">
+          <p className="mb-2 text-sm font-bold text-primary">結論</p>
+          <p className="text-sm leading-relaxed text-text-main">
+            AGビジネスサポートは、アイフルグループ（東証プライム上場）の信頼性と、3社間ファクタリングによる手数料2%〜9.9%（公式サイトにて2026年6月確認）の低コストを重視する法人に向いたサービスです。買取額に上限がなく、大口の売掛金にも対応します。一方、入金は最短2日で即日入金には対応せず、法人限定のため、急ぎの資金調達や個人事業主・フリーランスには不向きです。
+          </p>
+          <p className="mt-3 text-sm font-semibold text-primary">
+            <a href="#recommended" className="hover:underline">向き・不向きの詳細</a>
+            <span className="mx-2 text-text-light">／</span>
+            <a href="/ranking/" className="hover:underline">他社と条件で比較</a>
+          </p>
+        </div>
+
         {/* ── 目次 ─── */}
         <nav className="mb-12 rounded-lg border border-border bg-section-bg p-6">
           <p className="mb-4 text-lg font-bold text-text-main">この記事の目次</p>

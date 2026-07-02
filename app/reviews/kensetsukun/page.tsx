@@ -256,6 +256,19 @@ export default function KensetsukunnReviewPage() {
       </section>
 
       <div className="mx-auto max-w-4xl px-4 py-10 md:py-14">
+        {/* ── 結論ファースト ─── */}
+        <div className="mb-8 rounded-xl border-2 border-primary/30 bg-primary-light/40 p-5 md:p-6">
+          <p className="mb-2 text-sm font-bold text-primary">結論</p>
+          <p className="text-sm leading-relaxed text-text-main">
+            けんせつくんは、注文書（発注書）の段階で資金調達できる建設業特化のファクタリングで、工事着手前の材料費・外注費を確保したい建設業の法人・個人事業主（一人親方）に向いたサービスです。手数料は2%〜（上限非公開・公式サイトにて2026年6月確認）で、最短即日入金に対応します。一方、建設業以外の業種の方や、手数料を事前に明確に知りたい方、完全オンライン完結を求める方には不向きです。
+          </p>
+          <p className="mt-3 text-sm font-semibold text-primary">
+            <a href="#recommended" className="hover:underline">向き・不向きの詳細</a>
+            <span className="mx-2 text-text-light">／</span>
+            <a href="/ranking/" className="hover:underline">他社と条件で比較</a>
+          </p>
+        </div>
+
         {/* ── 目次 ─── */}
         <nav className="mb-12 rounded-lg border border-border bg-section-bg p-6">
           <p className="mb-4 text-lg font-bold text-text-main">この記事の目次</p>
