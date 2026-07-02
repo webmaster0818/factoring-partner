@@ -309,7 +309,7 @@ export default function PreventBankruptcyPage() {
           </p>
         </section>
 
-        {/* ── おす��めの会社 ─── */}
+        {/* ── おすすめの会社 ─── */}
         <section className="mb-16">
           <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">黒字倒産防止におすすめのファクタリング会社</h2>
           <p className="mb-8 leading-relaxed text-text-light">即日入金に対応し、資金繰り改善に実績のあるファクタリング会社を紹介します。</p>
@@ -335,7 +335,7 @@ export default function PreventBankruptcyPage() {
 
         {/* ── まとめ ─── */}
         <section className="mb-16">
-          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">まとめ：黒字倒産を防ぐため��3つの行動</h2>
+          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">まとめ：黒字倒産を防ぐための3つの行動</h2>
           <div className="rounded-lg border border-primary/30 bg-blue-50 p-6">
             <ol className="space-y-4 text-sm leading-relaxed text-text-light">
               <li className="flex items-start gap-3">
@@ -348,15 +348,15 @@ export default function PreventBankruptcyPage() {
               <li className="flex items-start gap-3">
                 <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary text-xs font-bold text-white">2</span>
                 <div>
-                  <strong className="text-text-main">入金サイ��の長い売掛金はファクタリングで早期現金化</strong>
-                  <p className="mt-1">入金サイ���が45日以上の売掛金がある場合、ファクタリングで即日現金化することを検討しましょう。特に大口の売掛金は影響が大きいため、優先的に対応しましょう。</p>
+                  <strong className="text-text-main">入金サイトの長い売掛金はファクタリングで早期現金化</strong>
+                  <p className="mt-1">入金サイトが45日以上の売掛金がある場合、ファクタリングで即日現金化することを検討しましょう。特に大口の売掛金は影響が大きいため、優先的に対応しましょう。</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-primary text-xs font-bold text-white">3</span>
                 <div>
                   <strong className="text-text-main">複数の資金調達手段を確保しておく</strong>
-                  <p className="mt-1">ファクタリング・銀行融資・保証付き融資など、複数の資金調達手段を平時のうちに確保しておきまし���う。緊急時に「使える手段がない」という状況を防ぐことが重要です。</p>
+                  <p className="mt-1">ファクタリング・銀行融資・保証付き融資など、複数の資金調達手段を平時のうちに確保しておきましょう。緊急時に「使える手段がない」という状況を防ぐことが重要です。</p>
                 </div>
               </li>
             </ol>

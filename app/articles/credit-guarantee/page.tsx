@@ -301,11 +301,11 @@ export default function CreditGuaranteePage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-0.5 text-primary">&#9679;</span>
-                <span><strong className="text-text-main">長期の運転資金・設備投資</strong>→ 保証付き融資を利用。年利1〜3%＋保証料で低コスト。審査に2〜4週間かかるが、��ァクタリングよりコスト効率が高い。</span>
+                <span><strong className="text-text-main">長期の運転資金・設備投資</strong>→ 保証付き融資を利用。年利1〜3%＋保証料で低コスト。審査に2〜4週間かかるが、ファクタリングよりコスト効率が高い。</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-0.5 text-primary">&#9679;</span>
-                <span><strong className="text-text-main">融資審査中のつなぎ</strong>→ ファクタリングでつなぎ、融資実行後にファ���タリングを終了。コストを最小化。</span>
+                <span><strong className="text-text-main">融資審査中のつなぎ</strong>→ ファクタリングでつなぎ、融資実行後にファクタリングを終了。コストを最小化。</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-0.5 text-primary">&#9679;</span>
@@ -313,7 +313,7 @@ export default function CreditGuaranteePage() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-0.5 text-primary">&#9679;</span>
-                <span><strong className="text-text-main">併用のポイント</strong>→ フ��クタリングは借入れではないため保証枠に影響しない。両者は競合せず補完関係���ある。組み合わせることで資金繰りの安定性が大幅に向上。</span>
+                <span><strong className="text-text-main">併用のポイント</strong>→ ファクタリングは借入れではないため保証枠に影響しない。両者は競合せず補完関係にある。組み合わせることで資金繰りの安定性が大幅に向上。</span>
               </li>
             </ul>
           </div>
@@ -328,13 +328,13 @@ export default function CreditGuaranteePage() {
               <div className="space-y-2 text-sm text-text-light">
                 <p><strong className="text-text-main">状況：</strong>公共工事の受注が増加し運転資金2,000万円が必要。保証付き融資を申請したが審査に3週間かかる。来週の外注費500万円の支払いが迫っている。</p>
                 <p><strong className="text-text-main">対応：</strong>まずファクタリングで売掛金500万円を即日現金化（手数料5%＝25万円）し、外注費を支払い。3週間後に保証付き融資2,000万円が実行され、運転資金を安定化。</p>
-                <p><strong className="text-text-main">結果：</strong>工事を中断することなく完了。ファクタリングは1回のみの利用で、以降は保証付き融資で資金���りを管理。</p>
+                <p><strong className="text-text-main">結果：</strong>工事を中断することなく完了。ファクタリングは1回のみの利用で、以降は保証付き融資で資金繰りを管理。</p>
               </div>
             </div>
             <div className="rounded-lg border border-border bg-white p-6">
-              <h3 className="mb-3 text-lg font-bold text-primary">事例2：IT企業 C��（従業員10名）</h3>
+              <h3 className="mb-3 text-lg font-bold text-primary">事例2：IT企業 C社（従業員10名）</h3>
               <div className="space-y-2 text-sm text-text-light">
-                <p><strong className="text-text-main">状況：</strong>SES事業の急拡大で月間売上が500万円から1,500万円に成長。エンジニア給与が先行するため資金繰り���厳しい。保証付き融資の枠を拡大したいが審査中。</p>
+                <p><strong className="text-text-main">状況：</strong>SES事業の急拡大で月間売上が500万円から1,500万円に成長。エンジニア給与が先行するため資金繰りが厳しい。保証付き融資の枠を拡大したいが審査中。</p>
                 <p><strong className="text-text-main">対応：</strong>毎月の確定売掛金のうち500万円をファクタリングで現金化（手数料4%）。同時に保証協会の枠拡大を申請。1ヶ月後に融資枠が3,000万円に拡大。</p>
                 <p><strong className="text-text-main">結果：</strong>融資枠拡大後はファクタリングの利用頻度を減らし、コストを最適化。急成長期の資金ショートを回避。</p>
               </div>

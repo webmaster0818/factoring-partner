@@ -357,28 +357,45 @@ export default function HiroshimaPage() {
         {/* ── 中国地方の支援機関 ─── */}
         <section className="mb-16">
           <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">中国地方の中小企業支援機関</h2>
-          <p className="mb-4 leading-relaxed text-text-light">ファクタリングと併せて活用したい、中国地方の支援機関を紹介します���</p>
+          <p className="mb-4 leading-relaxed text-text-light">ファクタリングと併せて活用したい、中国地方の支援機関を紹介します。</p>
           <div className="space-y-4">
             <div className="rounded-lg border border-border bg-white p-6">
               <h3 className="mb-2 font-bold text-primary">広島県中小企業支援センター</h3>
-              <p className="text-sm text-text-light">広島県の中小企業向け経営相談窓口。資金調達・経営改善の無料相談が可能。専門家による個別支援も利用できます。</p>
+              <p className="mb-3 text-sm text-text-light">広島県の中小企業向け経営相談窓口。資金調達・経営改善の無料相談が可能。専門家による個別支援も利用できます。</p>
+              <a href="https://www.hiwave.or.jp/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-primary underline">ひろしま産業振興機構（広島県中小企業支援センター）公式サイト</a>
             </div>
             <div className="rounded-lg border border-border bg-white p-6">
               <h3 className="mb-2 font-bold text-primary">広島県信用保証協会</h3>
-              <p className="text-sm text-text-light">銀行融資の保証を担う公的機関。保証付き融資とファクタリングの併用が可能です。製造業向けの特別保証制度もあります。</p>
+              <p className="mb-3 text-sm text-text-light">銀行融資の保証を担う公的機関。保証付き融資とファクタリングの併用が可能です。製造業向けの特別保証制度もあります。</p>
+              <a href="https://hiroshima-shinpo.or.jp/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-primary underline">広島県信用保証協会 公式サイト</a>
             </div>
             <div className="rounded-lg border border-border bg-white p-6">
               <h3 className="mb-2 font-bold text-primary">広島商工会議所</h3>
-              <p className="text-sm text-text-light">経営相談・融資あっせん・補助金情報の提供。自動車関連産業に強い支援体制を持ってい��す。</p>
+              <p className="mb-3 text-sm text-text-light">経営相談・融資あっせん・補助金情報の提供。自動車関連産業に強い支援体制を持っています。</p>
+              <a href="https://www.hiroshimacci.or.jp/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-primary underline">広島商工会議所 公式サイト</a>
             </div>
             <div className="rounded-lg border border-border bg-white p-6">
               <h3 className="mb-2 font-bold text-primary">中国経済産業局</h3>
               <p className="text-sm text-text-light">各種補助金の窓口。ものづくり補助金やIT導入補助金の申請支援も行っています。補助金入金待ちにはファクタリングを活用。</p>
             </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">広島県よろず支援拠点</h3>
+              <p className="mb-3 text-sm text-text-light">国が全国に設置する無料の経営相談所の広島拠点（広島市中区・広島県情報プラザ内）。資金繰りを含む経営全般の悩みを専門家に何度でも無料で相談できます。</p>
+              <a href="https://www.yorozu-hiroshima.go.jp/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-primary underline">広島県よろず支援拠点 公式サイト</a>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">日本政策金融公庫（広島支店）</h3>
+              <p className="mb-3 text-sm text-text-light">政府系金融機関。広島市中区紙屋町の広島支店で、小規模事業者・個人事業主向けの創業融資や運転資金の相談が可能です。申込から融資実行までは通常数週間かかります。</p>
+              <a href="https://www.jfc.go.jp/n/branch/index.html" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-primary underline">日本政策金融公庫 店舗案内</a>
+            </div>
           </div>
+          <p className="mt-4 leading-relaxed text-text-light">
+            なお、<a href="https://www.pref.hiroshima.lg.jp/soshiki/75/1168838262945.html" target="_blank" rel="noopener noreferrer" className="font-medium text-primary underline">広島県の中小企業向け融資制度（制度融資）</a>や公庫融資は中長期の運転資金・設備資金の確保に、ファクタリングは売掛金の入金待ちをつなぐ短期資金にと、資金の性質に応じて併用すると資金繰りが安定します。
+          </p>
+          <p className="mt-2 text-xs text-text-light">※各機関の情報は2026年7月に公式サイトで確認しています。</p>
         </section>
 
-        {/* ── 利用手順 ──��� */}
+        {/* ── 利用手順 ─── */}
         <section className="mb-16">
           <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">広島でファクタリングを利用する手順</h2>
           <div className="space-y-3">
@@ -425,7 +442,7 @@ export default function HiroshimaPage() {
               <li className="flex items-start gap-2"><span className="mt-0.5 text-primary">&#9679;</span><span><strong className="text-text-main">製造業に強い会社を選ぶ</strong>：自動車・造船・鉄鋼など広島の主要業種に対応できる会社を選ぶと審査がスムーズ。</span></li>
               <li className="flex items-start gap-2"><span className="mt-0.5 text-primary">&#9679;</span><span><strong className="text-text-main">高額案件対応力を確認</strong>：造船業など大型案件は数千万円〜数億円規模。買取上限額が十分な会社を選ぶ。</span></li>
               <li className="flex items-start gap-2"><span className="mt-0.5 text-primary">&#9679;</span><span><strong className="text-text-main">最低3社以上の見積もりを比較</strong>：手数料の総額で比較し、最も条件の良い会社を選ぶ。</span></li>
-              <li className="flex items-start gap-2"><span className="mt-0.5 text-primary">&#9679;</span><span><strong className="text-text-main">地域の支援機関も活用</strong>：広島銀行・信用保証協会・公庫など��併用して資金繰りを安定させる。</span></li>
+              <li className="flex items-start gap-2"><span className="mt-0.5 text-primary">&#9679;</span><span><strong className="text-text-main">地域の支援機関も活用</strong>：広島銀行・信用保証協会・公庫などを併用して資金繰りを安定させる。</span></li>
             </ul>
           </div>
         </section>

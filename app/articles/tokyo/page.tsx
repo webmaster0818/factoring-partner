@@ -548,6 +548,67 @@ export default function TokyoPage() {
           </div>
         </section>
 
+        {/* ── 東京都の公的支援窓口 ─── */}
+        <section id="public-support" className="mb-16">
+          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">
+            東京都の公的な資金繰り支援・制度融資の窓口
+          </h2>
+          <p className="mb-4 leading-relaxed text-text-light">
+            ファクタリングと併せて検討したい、東京都の公的な資金繰り支援・制度融資の窓口を紹介します。
+          </p>
+          <div className="space-y-4">
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">東京都中小企業制度融資（東京都産業労働局）</h3>
+              <p className="mb-3 text-sm leading-relaxed text-text-light">
+                東京都・東京信用保証協会・金融機関の三者が連携する制度融資の案内窓口。低利で長期の資金調達が可能ですが、保証審査を経るため入金までに一定の時間がかかります。
+              </p>
+              <a href="https://www.sangyo-rodo.metro.tokyo.lg.jp/chushou/kinyu/yuushi/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-primary underline">
+                東京都産業労働局 融資ページ
+              </a>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">東京信用保証協会</h3>
+              <p className="mb-3 text-sm leading-relaxed text-text-light">
+                中小企業が銀行融資を受ける際の公的な保証機関。保証付き融資の相談窓口が都内各地にあり、創業や経営改善に関する相談にも対応しています。
+              </p>
+              <a href="https://www.cgc-tokyo.or.jp/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-primary underline">
+                東京信用保証協会 公式サイト
+              </a>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">東京都よろず支援拠点</h3>
+              <p className="mb-3 text-sm leading-relaxed text-text-light">
+                国が全国に設置する無料の経営相談窓口の東京拠点。資金繰りを含む経営全般の悩みを、中小企業診断士などの専門家に何度でも無料で相談できます。
+              </p>
+              <a href="https://www.tokyoyorozu.go.jp/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-primary underline">
+                東京都よろず支援拠点 公式サイト
+              </a>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">日本政策金融公庫（都内支店）</h3>
+              <p className="mb-3 text-sm leading-relaxed text-text-light">
+                政府系金融機関で、小規模事業者・個人事業主向けの融資を低利で提供。都内に多数の支店があり、創業融資や運転資金の相談が可能です。申込から融資実行までは通常数週間かかります。
+              </p>
+              <a href="https://www.jfc.go.jp/n/branch/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-primary underline">
+                日本政策金融公庫 店舗案内
+              </a>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">東京都中小企業振興公社</h3>
+              <p className="mb-3 text-sm leading-relaxed text-text-light">
+                東京都の中小企業支援機関。経営相談・助成金・専門家派遣など幅広い支援メニューがあり、資金繰り改善を含む経営課題をワンストップで相談できます。
+              </p>
+              <a href="https://www.tokyo-kosha.or.jp/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-primary underline">
+                東京都中小企業振興公社 公式サイト
+              </a>
+            </div>
+          </div>
+          <p className="mt-4 leading-relaxed text-text-light">
+            制度融資・公的融資は金利面で有利ですが、審査に時間がかかります。入金までの急ぎのつなぎにはファクタリング、中長期の資金は公的融資、という使い分けが現実的です。
+          </p>
+          <p className="mt-2 text-xs text-text-light">※各機関の情報は2026年7月に公式サイトで確認しています。</p>
+        </section>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-8 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">

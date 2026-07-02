@@ -354,40 +354,77 @@ export default function SapporoPage() {
           </div>
         </section>
 
-        {/* ── 北海道の支援機関 ─── */}
-        <section className="mb-16">
-          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">北海道の中小企業支援���関</h2>
-          <p className="mb-4 leading-relaxed text-text-light">ファクタリングと併せて活用したい、北海道の中小企業支援機関を紹介します。</p>
+        {/* ── 北海道の支援機関・公的支援 ─── */}
+        <section id="public-support" className="mb-16">
+          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">北海道・札幌の中小企業支援機関と公的支援窓口</h2>
+          <p className="mb-4 leading-relaxed text-text-light">ファクタリングと併せて活用したい、北海道・札幌の中小企業支援機関と公的な資金繰り支援の窓口を紹介します。</p>
           <div className="space-y-4">
             <div className="rounded-lg border border-border bg-white p-6">
-              <h3 className="mb-2 font-bold text-primary">北海道中小企業総合支援セ���ター</h3>
-              <p className="text-sm text-text-light">北海道の中小企業向け経営相談窓口。資金調達・経営改善の相談が可能。無料で専門家に相談できます。</p>
+              <h3 className="mb-2 font-bold text-primary">北海道中小企業総合支援センター</h3>
+              <p className="mb-3 text-sm leading-relaxed text-text-light">北海道の中小企業支援の中核を担う公益財団法人（札幌市中央区・北海道経済センタービル）。経営相談のほか、北海道の制度融資「中小企業総合振興資金」の融資あっせんも行っています。</p>
+              <a href="https://www.hsc.or.jp/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-primary underline">
+                北海道中小企業総合支援センター 公式サイト
+              </a>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">北海道よろず支援拠点</h3>
+              <p className="mb-3 text-sm leading-relaxed text-text-light">国が全国に設置する無料の経営相談窓口の北海道拠点（運営：北海道中小企業総合支援センター）。札幌本部のほか函館・旭川・帯広・釧路・北見・室蘭にもブランチがあり、資金繰りを含む経営全般を専門家に何度でも無料で相談できます。</p>
+              <a href="https://yorozu-hokkaido.go.jp/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-primary underline">
+                北海道よろず支援拠点 公式サイト
+              </a>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">北海道の制度融資「中小企業総合振興資金」（北海道経済部）</h3>
+              <p className="mb-3 text-sm leading-relaxed text-text-light">北海道が金融機関に資金を預託して実施する低利の融資制度。道内の中小企業者なら、どの地域・どの取扱金融機関からでも同一条件で利用できます。低利ですが保証・審査を経るため、入金までに一定の時間がかかります。</p>
+              <a href="https://www.pref.hokkaido.lg.jp/kz/csk/kny/yuushi/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-primary underline">
+                北海道 中小企業向け融資制度ページ（北海道庁）
+              </a>
             </div>
             <div className="rounded-lg border border-border bg-white p-6">
               <h3 className="mb-2 font-bold text-primary">北海道信用保証協会</h3>
-              <p className="text-sm text-text-light">銀行融資の保証を担う公的機関。ファクタリングと保証付き融資の併用が可能。札幌に本部、道内各地に支所があります。</p>
+              <p className="mb-3 text-sm leading-relaxed text-text-light">銀行融資の保証を担う公的機関。ファクタリングと保証付き融資の併用が可能。札幌に本部、道内各地に支店があります。</p>
+              <a href="https://www.cgc-hokkaido.or.jp/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-primary underline">
+                北海道信用保証協会 公式サイト
+              </a>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">札幌中小企業支援センター（さっぽろ産業振興財団）</h3>
+              <p className="mb-3 text-sm leading-relaxed text-text-light">札幌市内の中小企業・小規模事業者を対象とした金融・経営の相談窓口。札幌市の融資制度や創業資金の相談、中小企業診断士など専門家への相談に対応しています。</p>
+              <a href="https://chusho.center.sec.or.jp/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-primary underline">
+                札幌中小企業支援センター 公式サイト
+              </a>
             </div>
             <div className="rounded-lg border border-border bg-white p-6">
               <h3 className="mb-2 font-bold text-primary">札幌商工会議所</h3>
-              <p className="text-sm text-text-light">経営相談・融資あっせん・補助金情報の提供。マル経融資の窓口としても機能。創業支援も積極的に行ってい��す。</p>
+              <p className="mb-3 text-sm leading-relaxed text-text-light">経営相談・融資あっせん・補助金情報の提供。マル経融資の窓口としても機能。創業支援も積極的に行っています。</p>
+              <a href="https://www.sapporo-cci.or.jp/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-primary underline">
+                札幌商工会議所 公式サイト
+              </a>
             </div>
             <div className="rounded-lg border border-border bg-white p-6">
-              <h3 className="mb-2 font-bold text-primary">日本���策金融公庫 札幌支店</h3>
-              <p className="text-sm text-text-light">政府系金融機関の道内拠点。低金利融資が特徴。農業・水産業向けの融資制度も充実。ファクタリングと併用して資金繰りを安定させましょう。</p>
+              <h3 className="mb-2 font-bold text-primary">日本政策金融公庫 札幌支店</h3>
+              <p className="mb-3 text-sm leading-relaxed text-text-light">政府系金融機関の道内拠点（札幌市中央区・北海道経済センタービル）。低金利融資が特徴。農業・水産業向けの融資制度も充実。申込から融資実行までは通常数週間かかります。</p>
+              <a href="https://www.jfc.go.jp/n/branch/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-primary underline">
+                日本政策金融公庫 店舗案内
+              </a>
             </div>
           </div>
+          <p className="mt-4 leading-relaxed text-text-light">
+            制度融資・公的融資は金利面で有利ですが審査に時間がかかるため、急ぎのつなぎ資金にはファクタリング、中長期の資金は公的融資・公的相談窓口、という使い分けが現実的です。
+          </p>
+          <p className="mt-2 text-xs text-text-light">※各機関の情報は2026年7月に公式サイトで確認しています。</p>
         </section>
 
         {/* ── 利用手順 ─── */}
         <section className="mb-16">
-          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">札幌でファク��リングを利用す��手順</h2>
+          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">札幌でファクタリングを利用する手順</h2>
           <div className="space-y-3">
             {[
               { step: "オンラインで複数社に見積もり依頼", description: "東京の大手ファクタリング会社を含め、最低3社以上に見積もりを依頼。オンラインで簡単に申し込めます。" },
-              { step: "必要書類をオンラインで提出", description: "請��書・通帳コピー・身分証明書などをスマホやPCでアップロード。来店不要で手続きが完結しま���。" },
+              { step: "必要書類をオンラインで提出", description: "請求書・通帳コピー・身分証明書などをスマホやPCでアップロード。来店不要で手続きが完結します。" },
               { step: "審査結果・見積もり比較", description: "各社から提示された手数料・条件を比較。手数料の総額で比較し、最も条件の良い会社を選びましょう。" },
-              { step: "オンラインで契約・即日入���", description: "電子契約でオンライン完結。契約後、最短即日〜2時間で指定口座に入金されます。" },
-              { step: "売掛金回収後にファクタリング会社へ送金", description: "入金予定日に売掛先から入金があったら、フ��クタリング会社に送金して完了です。" },
+              { step: "オンラインで契約・即日入金", description: "電子契約でオンライン完結。契約後、最短即日〜2時間で指定口座に入金されます。" },
+              { step: "売掛金回収後にファクタリング会社へ送金", description: "入金予定日に売掛先から入金があったら、ファクタリング会社に送金して完了です。" },
             ].map((item, index) => (
               <div key={item.step} className="flex items-start gap-4 rounded-lg border border-border bg-white p-4">
                 <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-bold text-white">{index + 1}</span>

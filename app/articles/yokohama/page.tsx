@@ -205,7 +205,8 @@ export default function YokohamaPage() {
             <li><a href="#industries" className="hover:underline">3. 神奈川の業種別ニーズ</a></li>
             <li><a href="#how-to-choose" className="hover:underline">4. 横浜での業者選びのポイント</a></li>
             <li><a href="#capital-region" className="hover:underline">5. 首都圏の資金調達事情</a></li>
-            <li><a href="#faq" className="hover:underline">6. よくある質問</a></li>
+            <li><a href="#public-support" className="hover:underline">6. 横浜・神奈川の公的支援機関・制度融資</a></li>
+            <li><a href="#faq" className="hover:underline">7. よくある質問</a></li>
           </ol>
         </nav>
 
@@ -323,6 +324,9 @@ export default function YokohamaPage() {
                 <span><strong className="text-text-main">横浜銀行・スルガ銀行との関係</strong>：地方銀行との取引がある場合、銀行系ファクタリングサービスを利用できる可能性もあります。メインバンクに相談してみましょう</span>
               </li>
             </ul>
+            <p className="mt-4 text-sm text-text-light">
+              制度融資・信用保証協会など各機関の詳細と公式サイトは、<a href="#public-support" className="text-primary underline">横浜・神奈川の公的支援機関・制度融資</a>のセクションにまとめています。
+            </p>
           </div>
         </section>
 
@@ -377,30 +381,61 @@ export default function YokohamaPage() {
           </div>
         </section>
 
-        {/* ── 横浜の支援機関 ─── */}
-        <section className="mb-16">
-          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">横浜・神奈川の中小企業支援機関</h2>
+        {/* ── 横浜・神奈川の公的支援機関 ─── */}
+        <section id="public-support" className="mb-16">
+          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">横浜・神奈川の公的支援機関・制度融資</h2>
           <p className="mb-4 leading-relaxed text-text-light">
-            ファクタリングだけでなく、横浜・神奈川エリアの中小企業が利用できる支援機関も活用しましょう。
+            ファクタリングだけでなく、横浜・神奈川エリアの中小企業が利用できる公的な支援機関・融資制度も活用しましょう。相談は無料の窓口が多く、資金繰りの選択肢を広げられます。
           </p>
           <div className="space-y-4">
             <div className="rounded-lg border border-border bg-white p-6">
-              <h3 className="mb-2 font-bold text-primary">横浜市中小企業支援センター</h3>
-              <p className="text-sm text-text-light">横浜市の中小企業向け経営相談窓口。資金調達の相談も可能。無料で中小企業診断士に相談できます。</p>
+              <h3 className="mb-2 font-bold text-primary">神奈川県中小企業制度融資（神奈川県）</h3>
+              <p className="text-sm text-text-light">
+                神奈川県・神奈川県信用保証協会・金融機関の三者が連携して県内中小企業の資金調達を支援する融資制度。創業支援融資や経営力強化サポート融資など、資金ニーズ別のメニューが用意されています。
+                <a href="https://www.pref.kanagawa.jp/docs/m6c/cnt/f5782/" target="_blank" rel="noopener noreferrer" className="ml-1 text-primary underline">神奈川県公式サイト</a>
+              </p>
             </div>
             <div className="rounded-lg border border-border bg-white p-6">
-              <h3 className="mb-2 font-bold text-primary">神奈川県信用保証協会</h3>
-              <p className="text-sm text-text-light">銀行融資の保証を担う公的機関。ファクタリングと保証付き融資の併用も可能です。横浜市に本部があります。</p>
+              <h3 className="mb-2 font-bold text-primary">神奈川県信用保証協会・横浜市信用保証協会</h3>
+              <p className="text-sm text-text-light">
+                中小企業が金融機関から融資を受ける際の「公的な保証人」となる公的機関。県協会に加え、横浜市内の事業者は横浜市信用保証協会も利用できます。保証付き融資はファクタリングと併用可能で、融資枠とは別の資金調達手段として組み合わせられます。
+                <a href="https://www.cgc-kanagawa.or.jp/" target="_blank" rel="noopener noreferrer" className="ml-1 text-primary underline">神奈川県信用保証協会</a>／
+                <a href="https://www.sinpo-yokohama.or.jp/" target="_blank" rel="noopener noreferrer" className="text-primary underline">横浜市信用保証協会</a>
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">神奈川県よろず支援拠点</h3>
+              <p className="text-sm text-text-light">
+                国が全国47都道府県に設置している無料の経営相談所。神奈川県では公益財団法人神奈川産業振興センターが運営しており、資金繰り・売上拡大・経営改善などを何度でも無料で相談できます（横浜市中区・神奈川中小企業センタービル内）。
+                <a href="https://www.kanagawa-yorozu.go.jp/" target="_blank" rel="noopener noreferrer" className="ml-1 text-primary underline">公式サイト</a>
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">日本政策金融公庫 横浜支店・横浜中央支店</h3>
+              <p className="text-sm text-text-light">
+                政府系金融機関。横浜市内には横浜支店（中区南仲通）と横浜中央支店（西区みなとみらい）の窓口があり、低金利の事業資金融資や創業融資に対応しています。ファクタリングで急ぎの資金を確保しつつ、中長期的に公庫の融資を活用するのが効果的です。
+                <a href="https://www.jfc.go.jp/n/branch/index.html" target="_blank" rel="noopener noreferrer" className="ml-1 text-primary underline">店舗案内（公式サイト）</a>
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">IDEC横浜（公益財団法人横浜企業経営支援財団）</h3>
+              <p className="text-sm text-text-light">
+                横浜市中小企業支援センターの機能を担う横浜市の中小企業支援の中核機関。経営相談・起業支援・マッチング・海外ビジネス支援などを提供しており、資金調達を含む経営課題を相談できます。
+                <a href="https://www.idec.or.jp/" target="_blank" rel="noopener noreferrer" className="ml-1 text-primary underline">公式サイト</a>
+              </p>
             </div>
             <div className="rounded-lg border border-border bg-white p-6">
               <h3 className="mb-2 font-bold text-primary">横浜商工会議所</h3>
-              <p className="text-sm text-text-light">会員企業向けの経営相談・融資あっせん・補助金情報の提供を行っています。マル経融資（小規模事業者経営改善資金融資）の窓口にもなっています。</p>
-            </div>
-            <div className="rounded-lg border border-border bg-white p-6">
-              <h3 className="mb-2 font-bold text-primary">日本政策金融公庫 横浜支店</h3>
-              <p className="text-sm text-text-light">政府系金融機関。低金利の融資が特徴で、創業融資にも積極的です。ファクタリングで急ぎの資金を確保しつつ、中長期的に公庫の融資を活用するのが効果的です。</p>
+              <p className="text-sm text-text-light">
+                会員企業向けの経営相談・融資あっせん・補助金情報の提供を行っています。マル経融資（小規模事業者経営改善資金融資）の窓口にもなっています。
+                <a href="https://www.yokohama-cci.or.jp/" target="_blank" rel="noopener noreferrer" className="ml-1 text-primary underline">公式サイト</a>
+              </p>
             </div>
           </div>
+          <p className="mt-6 rounded-lg border border-primary/30 bg-blue-50 p-4 text-sm leading-relaxed text-text-light">
+            公的融資は低コストな一方で審査・実行までに時間がかかるため、急ぎの資金はファクタリングで確保し、中長期の運転資金は制度融資・公庫融資でまかなうという使い分けが効果的です。
+          </p>
+          <p className="mt-3 text-xs text-text-light">※各機関の情報は2026年7月に公式サイトで確認したものです。最新の制度内容・窓口は各公式サイトでご確認ください。</p>
         </section>
 
         {/* ── FAQ ─── */}

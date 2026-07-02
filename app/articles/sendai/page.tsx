@@ -205,7 +205,8 @@ export default function SendaiPage() {
             <li><a href="#industries" className="hover:underline">3. 東北の業種別ニーズ</a></li>
             <li><a href="#how-to-choose" className="hover:underline">4. 仙台での業者選びのポイント</a></li>
             <li><a href="#tohoku-finance" className="hover:underline">5. 東北の資金調達事情</a></li>
-            <li><a href="#faq" className="hover:underline">6. よくある質問</a></li>
+            <li><a href="#public-support" className="hover:underline">6. 仙台・宮城で使える公的支援機関・制度</a></li>
+            <li><a href="#faq" className="hover:underline">7. よくある質問</a></li>
           </ol>
         </nav>
 
@@ -354,28 +355,52 @@ export default function SendaiPage() {
           </div>
         </section>
 
-        {/* ── 東北の支援機関 ─── */}
-        <section className="mb-16">
-          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">東北の中小企業支援機関</h2>
-          <p className="mb-4 leading-relaxed text-text-light">ファクタリングと併せて活用したい、東北の中小企業支援機関を紹介��ます。</p>
+        {/* ── 仙台・宮城の公的支援機関・制度 ─── */}
+        <section id="public-support" className="mb-16">
+          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">仙台・宮城で使える公的支援機関・制度</h2>
+          <p className="mb-4 leading-relaxed text-text-light">ファクタリングと併せて活用したい、仙台・宮城の公的支援機関と制度を紹介します。相談はいずれも原則無料です。急ぎの資金ギャップはファクタリング、中長期の資金計画は公的支援という使い分けが基本です。</p>
           <div className="space-y-4">
             <div className="rounded-lg border border-border bg-white p-6">
-              <h3 className="mb-2 font-bold text-primary">宮城県中小企業支援センター</h3>
-              <p className="text-sm text-text-light">宮城県の中小企業向け経営相談窓口。資金調達・経営改善の無料相談が可能です。専門家派遣制度も利用できます。</p>
+              <h3 className="mb-2 font-bold text-primary">宮城県中小企業融資制度（制度融資）</h3>
+              <p className="text-sm text-text-light">宮城県・金融機関・宮城県信用保証協会が協調して行う中小企業者向けの融資制度。固定金利・低利で事業資金を借りられます。申込から実行まで時間がかかるため、急ぎの支払いはファクタリングでつなぎ、中長期の運転資金は制度融資でまかなうのが有効です。</p>
+              <p className="mt-2 text-sm"><a href="https://www.pref.miyagi.jp/soshiki/syokokin/syokinhan-index-2.html" target="_blank" rel="noopener noreferrer" className="font-medium text-primary underline">宮城県公式サイト：中小企業融資制度のご案内</a></p>
             </div>
             <div className="rounded-lg border border-border bg-white p-6">
               <h3 className="mb-2 font-bold text-primary">宮城県信用保証協会</h3>
-              <p className="text-sm text-text-light">銀行融資の保証を担う公的機関。保証付き融資とファクタリングの併用が可能。復興支援特別保証も利用可能です。</p>
+              <p className="text-sm text-text-light">中小企業が金融機関から融資を受ける際の保証を担う公的機関（本店：仙台市青葉区）。保証付き融資は低コストですが審査に時間を要するため、入金までのつなぎにファクタリングを併用する使い分けが可能です。</p>
+              <p className="mt-2 text-sm"><a href="https://www.miyagi-shinpo.or.jp/" target="_blank" rel="noopener noreferrer" className="font-medium text-primary underline">宮城県信用保証協会 公式サイト</a></p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">宮城県よろず支援拠点</h3>
+              <p className="text-sm text-text-light">国が全都道府県に設置した無料の経営相談所（仙台市青葉区上杉）。資金繰り・売上拡大など経営全般を何度でも無料で相談できます。ファクタリング利用の前に資金繰り全体を専門家に整理してもらいたいときの相談先です。</p>
+              <p className="mt-2 text-sm"><a href="https://yorozu-miyagi.go.jp/" target="_blank" rel="noopener noreferrer" className="font-medium text-primary underline">宮城県よろず支援拠点 公式サイト</a></p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">日本政策金融公庫 仙台支店</h3>
+              <p className="text-sm text-text-light">政府系金融機関の宮城県内窓口（仙台市青葉区中央）。小規模事業者や創業期でも利用しやすい低利融資を扱います。融資実行までの期間を要するため、即日性が必要な場面はファクタリング、恒常的な資金は公庫融資と役割を分けましょう。</p>
+              <p className="mt-2 text-sm"><a href="https://www.jfc.go.jp/n/branch/index.html" target="_blank" rel="noopener noreferrer" className="font-medium text-primary underline">日本政策金融公庫 店舗案内（仙台支店）</a></p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">公益財団法人みやぎ産業振興機構</h3>
+              <p className="text-sm text-text-light">宮城県の中核的な産業支援機関。経営相談・専門家派遣・販路開拓支援・取引相談などを行っています。資金調達だけでなく経営改善や新事業展開まで含めて支援を受けたい中小企業の窓口です。</p>
+              <p className="mt-2 text-sm"><a href="https://www.joho-miyagi.or.jp/" target="_blank" rel="noopener noreferrer" className="font-medium text-primary underline">みやぎ産業振興機構 公式サイト</a></p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">公益財団法人仙台市産業振興事業団</h3>
+              <p className="text-sm text-text-light">仙台市の中小企業支援機関（仙台市青葉区中央・AER内）。経営相談は無料で、対面・電話・オンラインに対応しています。仙台市内の事業者が身近に経営・資金繰りの相談をしたい場合の窓口です。</p>
+              <p className="mt-2 text-sm"><a href="https://www.siip.city.sendai.jp/" target="_blank" rel="noopener noreferrer" className="font-medium text-primary underline">仙台市産業振興事業団 公式サイト</a></p>
             </div>
             <div className="rounded-lg border border-border bg-white p-6">
               <h3 className="mb-2 font-bold text-primary">仙台商工会議所</h3>
-              <p className="text-sm text-text-light">経営相談・融資あっせん・補助金情報の提供。マル経融資や創業支援も積極的に行っています。</p>
+              <p className="text-sm text-text-light">経営相談・融資あっせん・補助金情報の提供を行う地域総合経済団体。マル経融資（小規模事業者経営改善資金）や創業支援も行っています。会員・地域の小規模事業者が低利融資のあっせんを受けたいときの相談先です。</p>
+              <p className="mt-2 text-sm"><a href="https://www.sendaicci.or.jp/" target="_blank" rel="noopener noreferrer" className="font-medium text-primary underline">仙台商工会議所 公式サイト</a></p>
             </div>
             <div className="rounded-lg border border-border bg-white p-6">
               <h3 className="mb-2 font-bold text-primary">東北経済産業局</h3>
-              <p className="text-sm text-text-light">ものづくり補助金・IT導入補助金など各種補助金の窓口。補助金入金待ちのつなぎ資金にはファクタリングを活用しま��ょう。</p>
+              <p className="text-sm text-text-light">ものづくり補助金・IT導入補助金など各種補助金の窓口。補助金は入金までの待ち期間があるため、つなぎ資金にはファクタリングを活用しましょう。</p>
             </div>
           </div>
+          <p className="mt-4 text-xs text-text-light">※掲載している各機関・制度の情報とリンク先は、2026年7月に公式サイトで確認しています。最新の受付状況・条件は各公式サイトをご確認ください。</p>
         </section>
 
         {/* ── 利用手順 ─── */}
@@ -384,10 +409,10 @@ export default function SendaiPage() {
           <div className="space-y-3">
             {[
               { step: "複数社に見積もり依頼", description: "東京の大手とオンライン完結型を含め最低3社以上に見積もりを依頼。オンラインで簡単に申し込めます。" },
-              { step: "必要書類の提出", description: "請求書・通帳コピー・身分証明書などをオンラインでアップロード。来店不要で手続きが完結しま���。" },
+              { step: "必要書類の提出", description: "請求書・通帳コピー・身分証明書などをオンラインでアップロード。来店不要で手続きが完結します。" },
               { step: "審査・見積もり比較", description: "各社の手数料・条件を比較。手数料の総額で判断し、最も条件の良い会社を選びましょう。" },
               { step: "契約・入金", description: "電子契約でオンライン完結。最短即日で指定口座に入金されます。" },
-              { step: "売掛金回収後の送金", description: "売掛先からの入金後、ファクタリング会社に送金して��了です。" },
+              { step: "売掛金回収後の送金", description: "売掛先からの入金後、ファクタリング会社に送金して完了です。" },
             ].map((item, index) => (
               <div key={item.step} className="flex items-start gap-4 rounded-lg border border-border bg-white p-4">
                 <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-bold text-white">{index + 1}</span>
@@ -421,10 +446,10 @@ export default function SendaiPage() {
           <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">まとめ：仙台でファクタリングを選ぶポイント</h2>
           <div className="rounded-lg border border-primary/30 bg-blue-50 p-6">
             <ul className="space-y-3 text-sm leading-relaxed text-text-light">
-              <li className="flex items-start gap-2"><span className="mt-0.5 text-primary">&#9679;</span><span><strong className="text-text-main">東京の大手もオンラインで利用可能</strong>：仙台から東京へは新幹線で約1.5時間���が、オンライン完結型なら来店不要。</span></li>
+              <li className="flex items-start gap-2"><span className="mt-0.5 text-primary">&#9679;</span><span><strong className="text-text-main">東京の大手もオンラインで利用可能</strong>：仙台から東京へは新幹線で約1.5時間だが、オンライン完結型なら来店不要。</span></li>
               <li className="flex items-start gap-2"><span className="mt-0.5 text-primary">&#9679;</span><span><strong className="text-text-main">建設業・復興関連に強い会社を選ぶ</strong>：東北は建設業の比率が高い。建設業への理解がある会社を選ぶと審査がスムーズ。</span></li>
-              <li className="flex items-start gap-2"><span className="mt-0.5 text-primary">&#9679;</span><span><strong className="text-text-main">最低3社以上の見積もりを比較</strong>：��数料の総額で比較し、最も条件の良い会社を選ぶ。オンラインで簡単に見積もりが取れる。</span></li>
-              <li className="flex items-start gap-2"><span className="mt-0.5 text-primary">&#9679;</span><span><strong className="text-text-main">地域の支援機関も併用</strong>：ファクタリングに加え、七十七銀行・信用保証���会・公庫なども活用して資金繰りを安定させる。</span></li>
+              <li className="flex items-start gap-2"><span className="mt-0.5 text-primary">&#9679;</span><span><strong className="text-text-main">最低3社以上の見積もりを比較</strong>：手数料の総額で比較し、最も条件の良い会社を選ぶ。オンラインで簡単に見積もりが取れる。</span></li>
+              <li className="flex items-start gap-2"><span className="mt-0.5 text-primary">&#9679;</span><span><strong className="text-text-main">地域の支援機関も併用</strong>：ファクタリングに加え、七十七銀行・信用保証協会・公庫なども活用して資金繰りを安定させる。</span></li>
               <li className="flex items-start gap-2"><span className="mt-0.5 text-primary">&#9679;</span><span><strong className="text-text-main">ノンリコースを確認</strong>：償還請求権なし（ノンリコース）の会社を選び、安全な取引を心がける。</span></li>
             </ul>
           </div>

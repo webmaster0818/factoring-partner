@@ -316,6 +316,41 @@ export default function NagoyaPage() {
           </div>
         </section>
 
+        {/* ── 公的支援窓口 ─── */}
+        <section id="public-support" className="mb-16">
+          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">名古屋・愛知の公的な資金繰り支援・制度融資の窓口</h2>
+          <p className="mb-4 leading-relaxed text-text-light">ファクタリングと併せて検討したい、名古屋・愛知県の公的な資金繰り支援窓口を紹介します。</p>
+          <div className="space-y-4">
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">愛知県中小企業融資制度（愛知県 中小企業金融課）</h3>
+              <p className="text-sm text-text-light">愛知県が金融機関・信用保証協会と連携して設けている制度融資。経営の安定や活性化に必要な資金調達を低利で支援する複数の資金メニューがあり、セーフティネット保証の認定案内も掲載されています。</p>
+              <p className="mt-2 text-sm"><a href="https://www.pref.aichi.jp/soshiki/kinyu/yushi2024.html" target="_blank" rel="noopener noreferrer" className="font-medium text-primary underline">愛知県の融資制度（愛知県公式サイト）</a></p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">愛知県信用保証協会</h3>
+              <p className="text-sm text-text-light">中小企業・小規模事業者が金融機関から融資を受ける際に保証人となる公的機関。保証付き融資のほか、創業支援や経営に関する相談にも対応しています。</p>
+              <p className="mt-2 text-sm"><a href="https://www.cgc-aichi.or.jp/" target="_blank" rel="noopener noreferrer" className="font-medium text-primary underline">愛知県信用保証協会（公式サイト）</a></p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">名古屋市信用保証協会</h3>
+              <p className="text-sm text-text-light">名古屋市内の中小企業者を対象とする信用保証協会。各種の保証制度を用意し、金融機関からスムーズに融資を受けられるよう創業・経営支援・資金調達をサポートしています。</p>
+              <p className="mt-2 text-sm"><a href="https://www.cgc-nagoya.or.jp/" target="_blank" rel="noopener noreferrer" className="font-medium text-primary underline">名古屋市信用保証協会（公式サイト）</a></p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">愛知県よろず支援拠点（あいち産業振興機構）</h3>
+              <p className="text-sm text-text-light">公益財団法人あいち産業振興機構が運営する、国の設置による経営相談窓口。資金繰りを含む経営全般の悩みを専門家に無料で相談できます。所在地は名古屋駅前のウインクあいち（愛知県産業労働センター）内です。</p>
+              <p className="mt-2 text-sm"><a href="https://www.aibsc.jp/supports/aichi_prefectural_support_center/" target="_blank" rel="noopener noreferrer" className="font-medium text-primary underline">愛知県よろず支援拠点（あいち産業振興機構公式サイト）</a></p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">日本政策金融公庫（名古屋支店・名古屋中支店）</h3>
+              <p className="text-sm text-text-light">政府系金融機関。名古屋市内には名古屋支店（中村区名駅）・名古屋中支店（中区錦）などの窓口があり、国民生活事業・中小企業事業の融資相談に対応しています。</p>
+              <p className="mt-2 text-sm"><a href="https://www.jfc.go.jp/n/branch/index.html" target="_blank" rel="noopener noreferrer" className="font-medium text-primary underline">日本政策金融公庫 店舗案内（公式サイト）</a></p>
+            </div>
+          </div>
+          <p className="mt-4 text-sm leading-relaxed text-text-light">時間に余裕があれば低利の制度融資・公庫融資を本命に、入金待ちの売掛金を今すぐ資金化したい場合はファクタリングを、と資金が必要になるまでの時間で使い分けるのが基本です。</p>
+          <p className="mt-2 text-xs text-text-light">※各機関の情報は2026年7月に公式サイトで確認しています。最新の制度内容は各公式サイトをご確認ください。</p>
+        </section>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-8 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">よくある質問</h2>

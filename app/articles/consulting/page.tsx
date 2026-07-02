@@ -387,12 +387,12 @@ export default function ConsultingPage() {
           <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">コンサル・士業のファクタリング利用の流れ</h2>
           <div className="space-y-3">
             {[
-              { step: "業務完了・請求書発行", description: "コンサルティング業務の完了後���または月次顧問料の請求書を発行した時点で、ファクタリングの対象になります。" },
-              { step: "ファクタリング会社に見積もり依頼", description: "請求書の金額・クライアン���企業名・入金予定日を伝え、3社以上に見積もりを依頼します。" },
+              { step: "業務完了・請求書発行", description: "コンサルティング業務の完了後、または月次顧問料の請求書を発行した時点で、ファクタリングの対象になります。" },
+              { step: "ファクタリング会社に見積もり依頼", description: "請求書の金額・クライアント企業名・入金予定日を伝え、3社以上に見積もりを依頼します。" },
               { step: "必要書類の提出", description: "請求書・通帳コピー・身分証明書・業務委託契約書などをオンラインで提出します。" },
-              { step: "審査・契約", description: "クライアント企業の信用力を中心に審査。通過後、ノンリコースの契約書を確認し���締結。" },
+              { step: "審査・契約", description: "クライアント企業の信用力を中心に審査。通過後、ノンリコースの契約書を確認して締結。" },
               { step: "即日入金", description: "契約完了後、最短即日で指定口座に入金。スタッフの給与や事務所経費の支払いに活用。" },
-              { step: "クライアントからの入金後に送金", description: "入金予定日にクライアン���から入金があったら、ファクタリング会社に送金して完了です。" },
+              { step: "クライアントからの入金後に送金", description: "入金予定日にクライアントから入金があったら、ファクタリング会社に送金して完了です。" },
             ].map((item, index) => (
               <div key={item.step} className="flex items-start gap-4 rounded-lg border border-border bg-white p-4">
                 <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-bold text-white">{index + 1}</span>

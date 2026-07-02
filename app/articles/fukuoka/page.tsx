@@ -311,6 +311,67 @@ export default function FukuokaPage() {
           </div>
         </section>
 
+        {/* ── 福岡の公的支援窓口 ─── */}
+        <section id="public-support" className="mb-16">
+          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">
+            福岡の公的な資金繰り支援・制度融資の窓口
+          </h2>
+          <p className="mb-4 leading-relaxed text-text-light">
+            ファクタリングと併せて検討したい、福岡の公的な資金繰り支援・制度融資の窓口を紹介します。
+          </p>
+          <div className="space-y-4">
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">福岡県中小企業融資制度（福岡県庁）</h3>
+              <p className="mb-3 text-sm leading-relaxed text-text-light">
+                福岡県・福岡県信用保証協会・金融機関が連携する制度融資の案内窓口。県内中小企業の事業資金を低利で調達できますが、保証審査を経るため入金までに一定の時間がかかります。
+              </p>
+              <a href="https://www.pref.fukuoka.lg.jp/life/4/32/134/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-primary underline">
+                福岡県庁 中小企業支援・融資制度ページ
+              </a>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">福岡県信用保証協会</h3>
+              <p className="mb-3 text-sm leading-relaxed text-text-light">
+                中小企業が銀行融資を受ける際の公的な保証機関。保証付き融資のほか、創業支援・経営支援・事業承継の相談にも対応しています。
+              </p>
+              <a href="https://www.fukuoka-cgc.or.jp/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-primary underline">
+                福岡県信用保証協会 公式サイト
+              </a>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">福岡県よろず支援拠点</h3>
+              <p className="mb-3 text-sm leading-relaxed text-text-light">
+                国が全国に設置する無料の経営・創業相談所の福岡拠点。資金繰りを含む経営全般の悩みを専門家に何度でも無料で相談でき、オンライン相談にも対応しています。
+              </p>
+              <a href="https://yorozu-fukuoka.go.jp/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-primary underline">
+                福岡県よろず支援拠点 公式サイト
+              </a>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">日本政策金融公庫（福岡支店ほか県内支店）</h3>
+              <p className="mb-3 text-sm leading-relaxed text-text-light">
+                政府系金融機関で、小規模事業者・個人事業主向けの融資を低利で提供。福岡市の福岡支店・福岡西支店をはじめ県内に支店があり、創業融資や運転資金の相談が可能です。申込から融資実行までは通常数週間かかります。
+              </p>
+              <a href="https://www.jfc.go.jp/n/branch/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-primary underline">
+                日本政策金融公庫 店舗案内
+              </a>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">福岡県中小企業振興センター</h3>
+              <p className="mb-3 text-sm leading-relaxed text-text-light">
+                福岡県内の中小企業の経営課題を総合的に支援する機関（福岡市博多区吉塚）。経営相談・専門家派遣・販路拡大支援など幅広い支援メニューを無料で利用できます。
+              </p>
+              <a href="https://www.joho-fukuoka.or.jp/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-primary underline">
+                福岡県中小企業振興センター 公式サイト
+              </a>
+            </div>
+          </div>
+          <p className="mt-4 leading-relaxed text-text-light">
+            制度融資・公的融資は金利面で有利ですが、審査に時間がかかります。入金までの急ぎのつなぎにはファクタリング、中長期の資金は公的融資、という使い分けが現実的です。
+          </p>
+          <p className="mt-2 text-xs text-text-light">※各機関の情報は2026年7月に公式サイトで確認しています。</p>
+        </section>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-8 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">よくある質問</h2>

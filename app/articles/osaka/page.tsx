@@ -410,6 +410,59 @@ export default function OsakaPage() {
           </div>
         </section>
 
+        {/* ── 大阪の公的支援窓口 ─── */}
+        <section id="public-support" className="mb-16">
+          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">
+            大阪の公的な資金繰り支援・制度融資の窓口
+          </h2>
+          <p className="mb-4 leading-relaxed text-text-light">
+            ファクタリングと併せて検討したい、大阪の公的な資金繰り支援・制度融資の窓口を紹介します。低コストの資金調達や無料の経営相談を利用できます。
+          </p>
+          <div className="space-y-4">
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">大阪府 制度融資（信用保証付き）</h3>
+              <p className="text-sm text-text-light">
+                大阪府が金融機関・大阪信用保証協会と連携して実施する中小企業向けの融資制度。開業資金や小規模企業サポート資金など複数のメニューがあり、経営者保証を提供しない選択ができる保証制度の取扱いもあります。詳細は
+                <a href="https://www.pref.osaka.lg.jp/o110080/kinyushien/seido001/index.html" target="_blank" rel="noopener noreferrer" className="font-medium text-primary underline">大阪府「制度融資（信用保証付き）のご案内」</a>
+                で確認できます。
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">大阪信用保証協会</h3>
+              <p className="text-sm text-text-light">
+                中小企業が金融機関から融資を受ける際の公的な保証機関（本店：大阪市北区梅田）。保証制度の案内のほか、資金調達や経営に関する相談にも対応しています。
+                <a href="https://www.cgc-osaka.jp/" target="_blank" rel="noopener noreferrer" className="font-medium text-primary underline">大阪信用保証協会 公式サイト</a>
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">大阪府よろず支援拠点（公益財団法人大阪産業局）</h3>
+              <p className="text-sm text-text-light">
+                国が全国に設置した無料の経営相談所の大阪拠点で、公益財団法人大阪産業局が運営（大阪産業創造館2階）。資金繰りを含む経営全般の相談に、回数制限なく無料で応じています。
+                <a href="https://www.yorozu-osaka.jp/" target="_blank" rel="noopener noreferrer" className="font-medium text-primary underline">大阪府よろず支援拠点 公式サイト</a>
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">日本政策金融公庫（大阪の各支店）</h3>
+              <p className="text-sm text-text-light">
+                政府系金融機関。大阪支店（大阪市北区曽根崎）をはじめ、大阪西・大阪南・阿倍野・堺・東大阪など府内に複数の支店があり、小規模事業者・個人事業主向けの国民生活事業、中小企業向けの中小企業事業の融資窓口を設けています。最寄りの窓口は
+                <a href="https://www.jfc.go.jp/n/branch/" target="_blank" rel="noopener noreferrer" className="font-medium text-primary underline">日本政策金融公庫 店舗案内</a>
+                から検索できます。
+              </p>
+            </div>
+            <div className="rounded-lg border border-border bg-white p-6">
+              <h3 className="mb-2 font-bold text-primary">大阪市 中小企業向け融資制度</h3>
+              <p className="text-sm text-text-light">
+                大阪市（経済戦略局）による市内中小企業向けの各種融資制度の案内。資金調達の円滑化や経営の安定化を支援する制度がまとめられています。
+                <a href="https://www.city.osaka.lg.jp/keizaisenryaku/page/0000295589.html" target="_blank" rel="noopener noreferrer" className="font-medium text-primary underline">大阪市「中小企業向け融資制度のご案内」</a>
+              </p>
+            </div>
+          </div>
+          <p className="mt-4 text-sm leading-relaxed text-text-light">
+            公的融資は低コストな一方で審査・実行までに時間がかかるため、中長期の資金は公的融資、入金までのつなぎなど急ぎの資金はファクタリング、と使い分けるのが基本です。
+          </p>
+          <p className="mt-2 text-xs text-text-light">※各機関の情報は2026年7月に公式サイトで確認しています。最新の制度内容は各公式サイトをご確認ください。</p>
+        </section>
+
         {/* ── FAQ ─── */}
         <section id="faq" className="mb-16">
           <h2 className="mb-8 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">

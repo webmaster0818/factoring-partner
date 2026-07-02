@@ -382,7 +382,7 @@ export default function LogisticsPage() {
               <li className="flex items-start gap-2"><span className="mt-0.5 text-primary">&#9679;</span><span><strong className="text-text-main">2024年問題への投資資金にも活用</strong>：ドライバーの働き方改革に伴うシステム投資・人材確保の費用にファクタリングが使える。</span></li>
               <li className="flex items-start gap-2"><span className="mt-0.5 text-primary">&#9679;</span><span><strong className="text-text-main">手数料コストを利益率に織り込む</strong>：低利益率の配送案件でファクタリングを使うと赤字になるリスクあり。手数料込みの収支計算を行う。</span></li>
               <li className="flex items-start gap-2"><span className="mt-0.5 text-primary">&#9679;</span><span><strong className="text-text-main">複数社の見積もりを必ず比較</strong>：最低3社以上の見積もりを取り、手数料の総額で比較する。継続利用で手数料が下がる会社もある。</span></li>
-              <li className="flex items-start gap-2"><span className="mt-0.5 text-primary">&#9679;</span><span><strong className="text-text-main">荷主との支払い条件改善も並行して検討</strong>：ファクタリングだけに頼ら��、荷主との支払いサイト短縮交渉も行い、根本的な資金繰り改善を目指す。</span></li>
+              <li className="flex items-start gap-2"><span className="mt-0.5 text-primary">&#9679;</span><span><strong className="text-text-main">荷主との支払い条件改善も並行して検討</strong>：ファクタリングだけに頼らず、荷主との支払いサイト短縮交渉も行い、根本的な資金繰り改善を目指す。</span></li>
             </ul>
           </div>
         </section>
@@ -394,10 +394,10 @@ export default function LogisticsPage() {
             {[
               { step: "荷主への配送完了・請求書発行", description: "配送業務が完了し、荷主企業に請求書を発行した時点で、ファクタリングの対象となります。" },
               { step: "ファクタリング会社に見積もり依頼", description: "請求書の金額・荷主企業名・入金予定日を伝え、3社以上に見積もりを依頼します。" },
-              { step: "必要書類の提出", description: "請求書���通帳コピー（荷主からの入金実績）・身分証明書・運送契約書などを提出します。" },
+              { step: "必要書類の提出", description: "請求書・通帳コピー（荷主からの入金実績）・身分証明書・運送契約書などを提出します。" },
               { step: "審査・契約", description: "荷主企業の信用力を中心に審査。通過後、ノンリコースの契約書を確認してサインします。" },
-              { step: "即日入金", description: "契約完了後、最短即日〜2時間で指定口座に入金されます。燃料���・人件費の支払いに活用。" },
-              { step: "荷��からの入金後に送金", description: "入金予定日に荷主から入金があったら、ファクタリング会社に送金して完了です。" },
+              { step: "即日入金", description: "契約完了後、最短即日〜2時間で指定口座に入金されます。燃料費・人件費の支払いに活用。" },
+              { step: "荷主からの入金後に送金", description: "入金予定日に荷主から入金があったら、ファクタリング会社に送金して完了です。" },
             ].map((item, index) => (
               <div key={item.step} className="flex items-start gap-4 rounded-lg border border-border bg-white p-4">
                 <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-bold text-white">{index + 1}</span>
