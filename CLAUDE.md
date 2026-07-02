@@ -149,3 +149,9 @@
 - /ranking=crawled-not-indexed(見られたが独自性/信頼性弱く未採用)への一意性シグナル付与。ヒーロー直下に「このランキングの根拠・作成方針」box新設: 手数料評価は2026年6月に49社公式確認した独自調査に基づくと明記+survey(factoring-fee-survey-2026)へリンク・5評価項目/PR無影響/検証ポリシー・役割差別化3カード(ランキング=厳選15社順位/DB=全49社絞り込み/実態調査=集計データ)でcompany-directoryとの重複認定回避。ヒーローラベル「2026年4月最新」→「2026年6月 手数料を全社公式確認」
 - 副次: ranking→survey/DB(未発見)への内部リンクで未クロールmoney pageの発見も後押し。build/sitemap-core lastmod・deploy両push・本番curl検証・GSC再送信
 - ★P2の②③完了。最大律速=①GSCコンソール登録リクエスト(MediaXAI・10URL提示済)待ち→数日後gsc_inspect再計測。次候補P3(手数料調査の引用クレジット整備/Organization sameAsでMediaX公式紐付け/HTMLサイトマップ)
+
+## 2026-07-01 P3（MediaXAI「p3進めて」）✅
+- ①HTMLサイトマップ /sitemap/ 新設(app/sitemap/page.tsx・XMLの/sitemap.xmlとは別ルート)。主要ツール+レビュー28+記事116をカテゴリ別にflat索引化。Footerに導線追加=indexed(/,about)→/sitemap/→全URLの浅いクロール経路でunknown発見を補完。記事カテゴリをlib/articleCategories.tsに単一ソース化(articles hubと共用)
+- ②手数料調査レポートの引用資産化: 引用セクションにコピー用HTMLスニペット(リンク付き出典)を追加=媒体が貼りやすく被リンク獲得しやすく(白帽)
+- ③Organization sameAs は保留: mediax.biz が「近日中に公開」仮ページ=実体無いURLへのsameAsは逆効果のため付けず。MediaXAIに公式URL/LinkedIn/法人番号ページの提供を依頼(架空URL紐付けは方針上回避)
+- build/sitemap-core 10URL(/sitemap/追加)・deploy両push・本番/sitemap/200・117記事リンク・Footer導線・引用スニペットcurl検証・GSC再送信。★P2〜P3のサイト側土台工事ほぼ完了。最大律速=①コンソール登録リクエスト(MediaXAI)待ち→再クロール後gsc_inspect再計測で効果測定

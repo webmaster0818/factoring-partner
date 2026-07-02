@@ -734,7 +734,7 @@ export default function RankingPage() {
       </section>
 
       {/* ── 状況・目的から選ぶ クイックナビ ─── */}
-      <section className="border-b border-border bg-section-bg py-10 md:py-12">
+      <section id="quick-nav" className="border-b border-border bg-section-bg py-10 md:py-12">
         <div className="mx-auto max-w-4xl px-4">
           <h2 className="text-center text-lg font-bold text-text-main md:text-xl">
             状況・目的から選ぶ｜あなたに合う1社

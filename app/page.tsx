@@ -208,14 +208,14 @@ export default function Home() {
                 いますぐ使える<br className="md:hidden" />ファクタリングを
               </span>
               <br />
-              <span className="text-accent">30秒診断。</span>
+              <span className="text-accent">30秒で絞り込み。</span>
             </h1>
             <p className="mt-5 max-w-lg text-base leading-relaxed text-blue-100 md:text-lg md:ml-auto">
-              請求書の金額・希望入金日・重視する条件を選ぶだけ。あなたの会社に合う候補を探せます。
+              状況・目的を選ぶだけで、あなたの会社に合う候補が見つかります。手数料の概算はシミュレーターで確認できます。
             </p>
             <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row md:justify-end">
-              <a href="#" className="btn-cta text-lg">
-                条件に合う会社を無料診断する
+              <a href="/ranking/#quick-nav" className="btn-cta text-lg">
+                状況・目的から合う会社を探す（無料）
               </a>
             </div>
           </div>
