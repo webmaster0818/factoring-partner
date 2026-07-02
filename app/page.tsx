@@ -214,8 +214,8 @@ export default function Home() {
               状況・目的を選ぶだけで、あなたの会社に合う候補が見つかります。手数料の概算はシミュレーターで確認できます。
             </p>
             <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row md:justify-end">
-              <a href="/ranking/#quick-nav" className="btn-cta text-lg">
-                状況・目的から合う会社を探す（無料）
+              <a href="/diagnosis/" className="btn-cta text-lg">
+                30秒無料診断で合う会社を絞り込む
               </a>
             </div>
           </div>

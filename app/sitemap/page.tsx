@@ -14,6 +14,7 @@ const mainPages: { href: string; label: string }[] = [
   { href: "/ranking/", label: "おすすめファクタリング会社ランキング（厳選15社）" },
   { href: "/articles/company-directory/", label: "審査済み業者データベース（49社）" },
   { href: "/simulator/", label: "手数料シミュレーター" },
+  { href: "/diagnosis/", label: "ファクタリング会社 無料診断（7問・30秒）" },
   { href: "/articles/factoring-fee-survey-2026/", label: "ファクタリング手数料 実態調査2026（49社公式確認）" },
   { href: "/articles/fee-disclosed-companies/", label: "手数料を公表している会社一覧（44社）" },
   { href: "/verification-policy/", label: "情報の調査・検証ポリシー" },

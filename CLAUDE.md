@@ -155,3 +155,12 @@
 - ②手数料調査レポートの引用資産化: 引用セクションにコピー用HTMLスニペット(リンク付き出典)を追加=媒体が貼りやすく被リンク獲得しやすく(白帽)
 - ③Organization sameAs は保留: mediax.biz が「近日中に公開」仮ページ=実体無いURLへのsameAsは逆効果のため付けず。MediaXAIに公式URL/LinkedIn/法人番号ページの提供を依頼(架空URL紐付けは方針上回避)
 - build/sitemap-core 10URL(/sitemap/追加)・deploy両push・本番/sitemap/200・117記事リンク・Footer導線・引用スニペットcurl検証・GSC再送信。★P2〜P3のサイト側土台工事ほぼ完了。最大律速=①コンソール登録リクエスト(MediaXAI)待ち→再クロール後gsc_inspect再計測で効果測定
+
+## 2026-07-02 戦略v2承認→トップ死リンク修正+優先30URL提示+地域8都市強化✅（MediaXAI「進めてください」×2）
+- 実測v2: URL検査サンプル36/157=indexed31%/unknown50%/crawled-not-indexed19%。/ranking/=crawled未登録・/simulator/・survey-2026=unknown継続。地域が唯一の芽(hiroshima 2.3位/nagoya 32位)
+- 🐛トップのヒーローCTA「無料診断する」がhref="#"死リンクだった→/ranking/#quick-nav(アンカー新設)へ接続、文言「30秒診断」→「30秒で絞り込み」に整合(実体のない診断表現を解消)
+- 登録リクエスト優先30URLリスト(実在確認済み・3日分)をDiscord提示(id 1522161648129806356)
+- 地域8都市(tokyo/osaka/nagoya/fukuoka/yokohama/sapporo/sendai/hiroshima)に「公的な資金繰り支援・制度融資の窓口」を並列agent8体で強化: 各都市の制度融資/信用保証協会/よろず支援拠点/公庫/産業振興系の実在機関に**公式URL到達確認済みリンク+確認日2026年7月**付与(推測URL不採用の実例: 横浜cgc誤URL→sinpo-yokohama.or.jp是正、東北/中国経済産業局はタイムアウトでリンク見送り)。hiroshima(勝ちページ)は既存セクション内強化のみ
+- 🐛文字化け「�」を全サイトから一掃: 地域3(hiroshima/sapporo/sendai 計21箇所)+記事4(consulting/credit-guarantee/logistics/prevent-bankruptcy 計13箇所)→sitewide残存0
+- sitemap-articles lastmod12件+core2件・deploy=factoring-partner-deploy両push・本番7都市の確認日文言/広島リンク/文字化け0をcache回避curl検証・GSC再送信
+- 残: MediaXAI登録リクエスト実施→3-4日後gsc_inspect再計測/corp-factoring方針回答待ち/mediax.biz実体化後にOrganization sameAs
