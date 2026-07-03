@@ -175,3 +175,9 @@
 - ★MediaXAIが優先30URLのうち23件の登録リクエスト実施→URL検査APIで30件全数再計測: **18/30(60%)インデックス済み**。収益核が突破=/ranking/✅(7/1はcrawled未登録)・/diagnosis/✅(新設翌日)・地域7/8✅(福岡のみ未)・fee-guide/what-is✅
 - 残12: unknown8(simulator/company-directory/survey-2026/fee-disclosed/verification-policy/sitemap/fukuoka/freenance)→追加リクエスト依頼済み(id 1522524666629980220)、crawled-not-indexed4(articles・reviewsハブ/betrading/low-fee)=品質評価待ち・リクエスト不要と判断
 - 次: 来週アタマに全157URLをgsc_inspectで再計測し31%からの改善幅を報告
+
+## 2026-07-04 地域クラスタ第1弾10都市新設（MediaXAI「新規追加有効では」→taro提案→承認）✅
+- kyoto/kobe/kawasaki/saitama/chiba/shizuoka/okayama/kumamoto/kitakyushu/niigata を並列agent5体で新設(sendaiテンプレ厳密踏襲・canonical/JSON-LD/FAQ完備)。公的支援窓口は各4-5機関を**実URL到達確認**(推測URL不採用の実例: 新潟よろず=niigata-yorozu.go.jpが正・yorozu-niigataは不達)+確認日2026年7月。業者手数料は既存確認値の転記のみ・地域経済は既知事実のみ(無出典統計なし=薄いテンプレ回避)
+- 🐛agent指摘で発見: **地域ページ群のアクセルファクター「2%〜」が旧値**(6/22公式統一の漏れ)→全18都市で公式「0.5%〜」に統一(ranking表記と一致)
+- articleCategories地域カテゴリ+10・sitemap-articles 118→128・deploy両push・本番10/10 200+sendai修正+sitemap128をcache回避curl検証・GSC再送信
+- 次: 1週間インデックス観測→良好なら第2弾(残り政令市・主要県)提案。FAQ相場表記は新規10都市=統一値(2社間8-18%/3社間1-9%)採用、既存8都市の旧5-18%表記は未統一(次回まとめて是正候補)
