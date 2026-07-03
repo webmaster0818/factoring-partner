@@ -169,3 +169,9 @@
 - ①【新規】無料診断ツール /diagnosis/ 新設: Diagnosis.tsx(use client・7問=事業形態/急ぎ度/金額/重視点/進め方/業種/タイミング→8社スコアリング・1位+次点提案・相見積もり2-3社推奨)+page.tsx(FAQ schema4問/8社特徴グリッド/検証ポリシーリンク)。スコア根拠は全て公式確認値(2026年6月)のみ・「広告報酬が結果に影響しない」明記。トップヒーローCTA→/diagnosis/(「30秒で絞り込み」の実体化)・Headerナビ「無料診断」・HTMLサイトマップ掲載・sitemap-core 10→11URL
 - ②【修正】残20社レビューに結論ファーストbox(全28社完備): 並列agent5体×4社。各ページ既載の公式確認値のみで「向く/向かない」2-3文+#recommended/ranking2リンク。agent間で挿入位置が2パターンに割れた(8=目次前/12=PR開示後)→host側scriptで既存8社と同じコンテンツ先頭に統一(box数=各1・tsc0を機械確認)。sitemap-reviews lastmod20件
 - 本番検証(cache回避curl)・GSC再送信・Discord報告済(id 1522249572716515368 / 1522255382842577001)。残: ③ranking業種別セクションにレビュー直リンク(次の指示待ち)/登録リクエスト後3-4日でgsc_inspect再計測
+
+## 2026-07-03 ③業種別リンク+★インデックス激変（MediaXAI登録リクエスト23件実施）✅
+- ③ranking業種別おすすめ5ブロックの13社名をレビュー直リンク化(文言不変更)・本番検証済み。※検証時の注意: rankingのHTMLで「業種別おすすめ」の初出は目次アンカー=セクション本体は約85KB後方。grep窓を狭めると偽陰性になる
+- ★MediaXAIが優先30URLのうち23件の登録リクエスト実施→URL検査APIで30件全数再計測: **18/30(60%)インデックス済み**。収益核が突破=/ranking/✅(7/1はcrawled未登録)・/diagnosis/✅(新設翌日)・地域7/8✅(福岡のみ未)・fee-guide/what-is✅
+- 残12: unknown8(simulator/company-directory/survey-2026/fee-disclosed/verification-policy/sitemap/fukuoka/freenance)→追加リクエスト依頼済み(id 1522524666629980220)、crawled-not-indexed4(articles・reviewsハブ/betrading/low-fee)=品質評価待ち・リクエスト不要と判断
+- 次: 来週アタマに全157URLをgsc_inspectで再計測し31%からの改善幅を報告
