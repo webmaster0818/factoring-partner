@@ -1469,7 +1469,7 @@ export default function RankingPage() {
               </p>
               <div className="rounded bg-section-bg p-3">
                 <p className="text-sm font-semibold text-text-main">
-                  おすすめ：ビートレーディング、PMG、トップ・マネジメント
+                  おすすめ：<Link href="/reviews/betrading/" className="underline hover:text-primary">ビートレーディング</Link>、<Link href="/reviews/pmg/" className="underline hover:text-primary">PMG</Link>、<Link href="/reviews/top-management/" className="underline hover:text-primary">トップ・マネジメント</Link>
                 </p>
                 <p className="mt-1 text-xs text-text-light">
                   理由：買取金額に制限がない or 数億円対応。建設業の実績も豊富で、大口案件に強い。
@@ -1486,7 +1486,7 @@ export default function RankingPage() {
               </p>
               <div className="rounded bg-section-bg p-3">
                 <p className="text-sm font-semibold text-text-main">
-                  おすすめ：ビートレーディング、アクセルファクター、OLTA
+                  おすすめ：<Link href="/reviews/betrading/" className="underline hover:text-primary">ビートレーディング</Link>、<Link href="/reviews/accelfactor/" className="underline hover:text-primary">アクセルファクター</Link>、<Link href="/reviews/olta/" className="underline hover:text-primary">OLTA</Link>
                 </p>
                 <p className="mt-1 text-xs text-text-light">
                   理由：継続利用で手数料優遇あり。審査通過率が高く安定した資金調達が可能。
@@ -1503,7 +1503,7 @@ export default function RankingPage() {
               </p>
               <div className="rounded bg-section-bg p-3">
                 <p className="text-sm font-semibold text-text-main">
-                  おすすめ：ペイトナー、ラボル、FREENANCE、QuQuMo
+                  おすすめ：<Link href="/reviews/paytner/" className="underline hover:text-primary">ペイトナー</Link>、<Link href="/reviews/labol/" className="underline hover:text-primary">ラボル</Link>、<Link href="/reviews/freenance/" className="underline hover:text-primary">FREENANCE</Link>、<Link href="/reviews/ququmo/" className="underline hover:text-primary">QuQuMo</Link>
                 </p>
                 <p className="mt-1 text-xs text-text-light">
                   理由：フリーランス対応、少額から利用可能、オンライン完結で手軽に利用できる。
@@ -1520,7 +1520,7 @@ export default function RankingPage() {
               </p>
               <div className="rounded bg-section-bg p-3">
                 <p className="text-sm font-semibold text-text-main">
-                  おすすめ：日本中小企業金融サポート機構、PMG、マネーフォワード アーリーペイメント
+                  おすすめ：<Link href="/reviews/support-org/" className="underline hover:text-primary">日本中小企業金融サポート機構</Link>、<Link href="/reviews/pmg/" className="underline hover:text-primary">PMG</Link>、<Link href="/reviews/moneyforward/" className="underline hover:text-primary">マネーフォワード アーリーペイメント</Link>
                 </p>
                 <p className="mt-1 text-xs text-text-light">
                   理由：手数料が低く大口対応可能。非営利法人や大手グループの信頼性がある。
@@ -1537,7 +1537,7 @@ export default function RankingPage() {
               </p>
               <div className="rounded bg-section-bg p-3">
                 <p className="text-sm font-semibold text-text-main">
-                  おすすめ：日本中小企業金融サポート機構、ビートレーディング
+                  おすすめ：<Link href="/reviews/support-org/" className="underline hover:text-primary">日本中小企業金融サポート機構</Link>、<Link href="/reviews/betrading/" className="underline hover:text-primary">ビートレーディング</Link>
                 </p>
                 <p className="mt-1 text-xs text-text-light">
                   理由：医療報酬ファクタリングに対応。公的機関向け債権で低手数料が期待できる。

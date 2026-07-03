@@ -164,3 +164,8 @@
 - 🐛文字化け「�」を全サイトから一掃: 地域3(hiroshima/sapporo/sendai 計21箇所)+記事4(consulting/credit-guarantee/logistics/prevent-bankruptcy 計13箇所)→sitewide残存0
 - sitemap-articles lastmod12件+core2件・deploy=factoring-partner-deploy両push・本番7都市の確認日文言/広島リンク/文字化け0をcache回避curl検証・GSC再送信
 - 残: MediaXAI登録リクエスト実施→3-4日後gsc_inspect再計測/corp-factoring方針回答待ち/mediax.biz実体化後にOrganization sameAs
+
+## 2026-07-02 インデックス以外の残タスク①②（MediaXAI「更新性・時間で解決になるのでそれ以外を進めたい」→承認）✅
+- ①【新規】無料診断ツール /diagnosis/ 新設: Diagnosis.tsx(use client・7問=事業形態/急ぎ度/金額/重視点/進め方/業種/タイミング→8社スコアリング・1位+次点提案・相見積もり2-3社推奨)+page.tsx(FAQ schema4問/8社特徴グリッド/検証ポリシーリンク)。スコア根拠は全て公式確認値(2026年6月)のみ・「広告報酬が結果に影響しない」明記。トップヒーローCTA→/diagnosis/(「30秒で絞り込み」の実体化)・Headerナビ「無料診断」・HTMLサイトマップ掲載・sitemap-core 10→11URL
+- ②【修正】残20社レビューに結論ファーストbox(全28社完備): 並列agent5体×4社。各ページ既載の公式確認値のみで「向く/向かない」2-3文+#recommended/ranking2リンク。agent間で挿入位置が2パターンに割れた(8=目次前/12=PR開示後)→host側scriptで既存8社と同じコンテンツ先頭に統一(box数=各1・tsc0を機械確認)。sitemap-reviews lastmod20件
+- 本番検証(cache回避curl)・GSC再送信・Discord報告済(id 1522249572716515368 / 1522255382842577001)。残: ③ranking業種別セクションにレビュー直リンク(次の指示待ち)/登録リクエスト後3-4日でgsc_inspect再計測
