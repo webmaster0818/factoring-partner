@@ -181,3 +181,9 @@
 - 🐛agent指摘で発見: **地域ページ群のアクセルファクター「2%〜」が旧値**(6/22公式統一の漏れ)→全18都市で公式「0.5%〜」に統一(ranking表記と一致)
 - articleCategories地域カテゴリ+10・sitemap-articles 118→128・deploy両push・本番10/10 200+sendai修正+sitemap128をcache回避curl検証・GSC再送信
 - 次: 1週間インデックス観測→良好なら第2弾(残り政令市・主要県)提案。FAQ相場表記は新規10都市=統一値(2社間8-18%/3社間1-9%)採用、既存8都市の旧5-18%表記は未統一(次回まとめて是正候補)
+## 2026-07-04 地域クラスタ第2弾10都市（MediaXAI「第二弾も進めたい」）✅
+- hamamatsu/sakai/sagamihara/kanazawa/utsunomiya/gifu/takamatsu/matsuyama/kagoshima/naha を並列agent5体で新設(sendaiテンプレ・第1弾と同品質)。地域=計28都市
+- 到達確認の成果: 那覇=**沖縄振興開発金融公庫**(日本公庫でない)を正確反映・公式よろず502のため運営元ページ採用/香川保証協会=.comが正/愛媛・岐阜・石川の404・誤URL排除/「yorozu.okinawa」=無関係サイトへの301の罠URL排除
+- 手数料は全ページsendai現行(アクセル0.5%〜)と機械照合・地域限定実績主張なし・FAQ相場は統一値。ビートレーディングfeatures地域句は「四国/九州/全国エリア」等に正規化
+- categories+10・sitemap-articles 128→138・deploy両push・本番10/10 200+naha沖縄公庫+sitemap138検証・GSC再送信
+- 残: 来週の全URL再計測(第1+2弾のインデックス含む)/既存8都市FAQの旧5-18%相場表記の統一(是正候補)

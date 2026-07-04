@@ -108,12 +108,12 @@ const faqs = [
   {
     question: "名古屋でファクタリング会社を選ぶ際のポイントは？",
     answer:
-      "名古屋で選ぶ際は、①名古屋に拠点があり対面相談が可能か②製造業など東海エリアの業種に精通しているか③手数料が相場（2社間5〜18%、3社間1〜9%）の範囲内か④即日入金に対応しているか⑤売掛先が大手メーカーの場合に好条件を出してくれるか、の5点を確認しましょう。",
+      "名古屋で選ぶ際は、①名古屋に拠点があり対面相談が可能か②製造業など東海エリアの業種に精通しているか③手数料が相場（2社間8〜18%、3社間1〜9%）の範囲内か④即日入金に対応しているか⑤売掛先が大手メーカーの場合に好条件を出してくれるか、の5点を確認しましょう。",
   },
   {
     question: "名古屋のファクタリング手数料の相場は？",
     answer:
-      "名古屋のファクタリング手数料は2社間で5%〜18%、3社間で1%〜9%程度が相場です。東海エリアは売掛先がトヨタなど信用力の高い大手メーカーであるケースが多いため、審査通過率が高く、手数料も安くなる傾向にあります。複数社の見積もりを比較して交渉しましょう。",
+      "名古屋のファクタリング手数料は2社間で8%〜18%、3社間で1%〜9%程度が相場です。東海エリアは売掛先がトヨタなど信用力の高い大手メーカーであるケースが多いため、審査通過率が高く、手数料も安くなる傾向にあります。複数社の見積もりを比較して交渉しましょう。",
   },
   {
     question: "愛知県以外（岐阜・三重・静岡）からも利用できますか？",
@@ -373,6 +373,7 @@ export default function NagoyaPage() {
                     <p className="mb-3 font-bold text-primary">あわせて使いたいツール・データ</p>
                     <ul className="space-y-2 text-sm text-text-light">
                     <li><Link href="/simulator/" className="font-medium text-primary underline">手数料シミュレーター</Link>｜売掛金額から手数料・入金額の目安を計算できます。</li>
+                    <li><Link href="/diagnosis/" className="font-medium text-primary underline">無料診断（7つの質問・30秒）</Link>｜事業形態・金額・急ぎ度からあなたに合う1社を絞り込めます。</li>
                     <li><Link href="/articles/company-directory/" className="font-medium text-primary underline">審査済み業者データベース（49社+）</Link>｜手数料・対応・オンラインで絞り込み（手数料は2026年6月に各社公式確認済み）。</li>
                     <li><Link href="/ranking/" className="font-medium text-primary underline">おすすめファクタリング会社ランキング</Link>｜編集部が厳選した順位で比較できます。</li>
                     </ul>

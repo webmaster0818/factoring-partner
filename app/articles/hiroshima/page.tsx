@@ -117,7 +117,7 @@ const faqs = [
   {
     question: "広島でファクタリング会社を選ぶ際のポイントは？",
     answer:
-      "広島で選ぶ際は、①オンラインで完結できるか②手数料が相場範囲内（2社間5〜18%、3社間1〜9%）か③製造業・建設業など地元の主要業種に対応しているか④即日入金に対応しているか⑤実績と口コミが豊富かの5点を確認しましょう。東京・大阪の大手もオンラインで利用できるため、広く比較することが重要です。",
+      "広島で選ぶ際は、①オンラインで完結できるか②手数料が相場範囲内（2社間8〜18%、3社間1〜9%）か③製造業・建設業など地元の主要業種に対応しているか④即日入金に対応しているか⑤実績と口コミが豊富かの5点を確認しましょう。東京・大阪の大手もオンラインで利用できるため、広く比較することが重要です。",
   },
   {
     question: "中国地方の他県（岡山・山口など）からも利用できますか？",
@@ -127,7 +127,7 @@ const faqs = [
   {
     question: "広島のファクタリング手数料の相場は？",
     answer:
-      "広島のファクタリング手数料は、2社間で5%〜18%、3社間で1%〜9%程度で、東京・大阪とほぼ同水準です。オンライン対応の全国展開型会社を利用することで、地域差なく競争力のある手数料で利用できます。",
+      "広島のファクタリング手数料は、2社間で8%〜18%、3社間で1%〜9%程度で、東京・大阪とほぼ同水準です。オンライン対応の全国展開型会社を利用することで、地域差なく競争力のある手数料で利用できます。",
   },
   {
     question: "広島で即日入金は可能ですか？",
@@ -453,6 +453,7 @@ export default function HiroshimaPage() {
                     <p className="mb-3 font-bold text-primary">あわせて使いたいツール・データ</p>
                     <ul className="space-y-2 text-sm text-text-light">
                     <li><Link href="/simulator/" className="font-medium text-primary underline">手数料シミュレーター</Link>｜売掛金額から手数料・入金額の目安を計算できます。</li>
+                    <li><Link href="/diagnosis/" className="font-medium text-primary underline">無料診断（7つの質問・30秒）</Link>｜事業形態・金額・急ぎ度からあなたに合う1社を絞り込めます。</li>
                     <li><Link href="/articles/company-directory/" className="font-medium text-primary underline">審査済み業者データベース（49社+）</Link>｜手数料・対応・オンラインで絞り込み（手数料は2026年6月に各社公式確認済み）。</li>
                     <li><Link href="/ranking/" className="font-medium text-primary underline">おすすめファクタリング会社ランキング</Link>｜編集部が厳選した順位で比較できます。</li>
                     </ul>

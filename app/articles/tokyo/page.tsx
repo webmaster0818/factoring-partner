@@ -153,7 +153,7 @@ const faqs = [
   {
     question: "東京でファクタリング会社を選ぶ際のポイントは？",
     answer:
-      "東京には多くのファクタリング会社がありますが、選ぶ際のポイントは①手数料の安さ（相場：2社間5〜18%、3社間1〜9%）②即日入金の可否③対面相談の可否④業種への理解度⑤口コミ・実績の5点です。東京は競争が激しいため、必ず3社以上の見積もりを比較しましょう。",
+      "東京には多くのファクタリング会社がありますが、選ぶ際のポイントは①手数料の安さ（相場：2社間8〜18%、3社間1〜9%）②即日入金の可否③対面相談の可否④業種への理解度⑤口コミ・実績の5点です。東京は競争が激しいため、必ず3社以上の見積もりを比較しましょう。",
   },
   {
     question: "東京のファクタリング会社は地方の企業でも利用できますか？",
@@ -173,7 +173,7 @@ const faqs = [
   {
     question: "東京のファクタリング手数料の相場は？",
     answer:
-      "東京のファクタリング手数料の相場は、2社間で5%〜18%、3社間で1%〜9%程度です。東京は業者間の競争が激しいため、全国平均よりやや安い傾向があります。特に複数社の見積もりを比較交渉することで、さらに有利な条件を引き出せる可能性が高いです。",
+      "東京のファクタリング手数料の相場は、2社間で8%〜18%、3社間で1%〜9%程度です。東京は業者間の競争が激しいため、全国平均よりやや安い傾向があります。特に複数社の見積もりを比較交渉することで、さらに有利な条件を引き出せる可能性が高いです。",
   },
 ];
 
@@ -640,6 +640,7 @@ export default function TokyoPage() {
                     <p className="mb-3 font-bold text-primary">あわせて使いたいツール・データ</p>
                     <ul className="space-y-2 text-sm text-text-light">
                     <li><Link href="/simulator/" className="font-medium text-primary underline">手数料シミュレーター</Link>｜売掛金額から手数料・入金額の目安を計算できます。</li>
+                    <li><Link href="/diagnosis/" className="font-medium text-primary underline">無料診断（7つの質問・30秒）</Link>｜事業形態・金額・急ぎ度からあなたに合う1社を絞り込めます。</li>
                     <li><Link href="/articles/company-directory/" className="font-medium text-primary underline">審査済み業者データベース（49社+）</Link>｜手数料・対応・オンラインで絞り込み（手数料は2026年6月に各社公式確認済み）。</li>
                     <li><Link href="/ranking/" className="font-medium text-primary underline">おすすめファクタリング会社ランキング</Link>｜編集部が厳選した順位で比較できます。</li>
                     </ul>

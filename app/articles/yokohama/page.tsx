@@ -127,7 +127,7 @@ const faqs = [
   {
     question: "横浜のファクタリング手数料の相場は？",
     answer:
-      "横浜のファクタリング手数料は、2社間で5%〜18%、3社間で1%〜9%程度で、東京とほぼ同水準です。首都圏エリアのため、オンライン対応の会社も含め選択肢が豊富で、複数社の見積もりを比較することでより安い手数料を引き出しやすい環境です。最低3社以上の見積もりを取ることをおすすめします。",
+      "横浜のファクタリング手数料は、2社間で8%〜18%、3社間で1%〜9%程度で、東京とほぼ同水準です。首都圏エリアのため、オンライン対応の会社も含め選択肢が豊富で、複数社の見積もりを比較することでより安い手数料を引き出しやすい環境です。最低3社以上の見積もりを取ることをおすすめします。",
   },
   {
     question: "横浜で即日入金は可能ですか？",
@@ -474,6 +474,7 @@ export default function YokohamaPage() {
                     <p className="mb-3 font-bold text-primary">あわせて使いたいツール・データ</p>
                     <ul className="space-y-2 text-sm text-text-light">
                     <li><Link href="/simulator/" className="font-medium text-primary underline">手数料シミュレーター</Link>｜売掛金額から手数料・入金額の目安を計算できます。</li>
+                    <li><Link href="/diagnosis/" className="font-medium text-primary underline">無料診断（7つの質問・30秒）</Link>｜事業形態・金額・急ぎ度からあなたに合う1社を絞り込めます。</li>
                     <li><Link href="/articles/company-directory/" className="font-medium text-primary underline">審査済み業者データベース（49社+）</Link>｜手数料・対応・オンラインで絞り込み（手数料は2026年6月に各社公式確認済み）。</li>
                     <li><Link href="/ranking/" className="font-medium text-primary underline">おすすめファクタリング会社ランキング</Link>｜編集部が厳選した順位で比較できます。</li>
                     </ul>
