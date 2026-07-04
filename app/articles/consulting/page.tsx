@@ -52,7 +52,7 @@ const recommendedCompanies = [
   {
     name: "アクセルファクター",
     features: "審査通過率93%以上。少額（30万円〜）対応。個人事業主の士業もOK。即日入金対応。",
-    fee: "2%〜",
+    fee: "0.5%〜",
     speed: "最短即日",
   },
   {

@@ -3,16 +3,16 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "歯科医院向けファクタリング｜自費診療の売掛債権を現金化",
+  title: "宿泊業向けファクタリング｜ホテル・旅館の売掛金を早期現金化",
   description:
-    "歯科医院向けファクタリングを徹底解説。自費診療の売掛債権や社保・国保のレセプト債権を早期現金化する方法、メリット・デメリット、おすすめ3社、実際の活用事例を紹介します。",
+    "宿泊業（ホテル・旅館）向けファクタリングを徹底解説。OTA経由の売上の入金待ちや季節変動、改装費の先行負担など宿泊業特有の資金繰り課題と、おすすめ3社、活用シーンを紹介します。",
   alternates: {
-    canonical: "https://hyogo-shihoushoshi.jp/articles/dental/",
+    canonical: "https://hyogo-shihoushoshi.jp/articles/hotel/",
   },
   openGraph: {
-    title: "歯科医院向けファクタリング｜自費診療の売掛債権を現金化",
-    description: "歯科医院の資金繰り課題とファクタリング活用法。レセプト債権の早期現金化を解説。",
-    url: "https://hyogo-shihoushoshi.jp/articles/dental/",
+    title: "宿泊業向けファクタリング｜ホテル・旅館の売掛金を早期現金化",
+    description: "ホテル・旅館の資金繰り課題とファクタリング活用法。OTA売掛金の早期現金化を解説。",
+    url: "https://hyogo-shihoushoshi.jp/articles/hotel/",
     type: "article",
   },
 };
@@ -21,121 +21,121 @@ export const metadata: Metadata = {
 
 const challenges = [
   {
-    title: "診療報酬の入金が2ヶ月先",
+    title: "OTA経由の売上は入金が後日",
     description:
-      "保険診療の報酬は、レセプト請求後に社会保険診療報酬支払基金（社保）や国民健康保険団体連合会（国保）から入金されますが、診療月の翌々月末の入金が一般的です。約2ヶ月の入金待ちが発生するため、運転資金が不足しがちです。",
+      "楽天トラベルやじゃらん、Booking.comなどのOTA（オンライン旅行代理店）経由の予約は、宿泊者が事前決済しても宿泊施設への入金は後日まとめて行われる仕組みが一般的です。締め日・支払日はOTA各社の規約によって異なるため、売上が立ってから入金までのタイムラグが運転資金を圧迫します。",
   },
   {
-    title: "自費診療の未収金リスク",
+    title: "季節変動が大きい",
     description:
-      "インプラント・矯正・ホワイトニングなどの自費診療は、治療費が高額になるため分割払いやクレジット決済が多くなります。カード会社からの入金サイクルのずれや、分割払いの未収リスクが資金繰りを圧迫します。",
+      "宿泊業は観光シーズン・大型連休・イベント時期に売上が集中する一方、閑散期は稼働率が大きく落ち込みます。閑散期でも人件費・光熱費・施設維持費などの固定費は発生し続けるため、繁忙期と閑散期の資金ギャップへの備えが欠かせません。",
   },
   {
-    title: "設備投資の負担が大きい",
+    title: "改装費・設備投資が先行する",
     description:
-      "歯科用CT、マイクロスコープ、CAD/CAMシステムなど高額な設備投資が必要です。最新機器の導入は患者獲得の競争力を左右しますが、リース料や借入の返済が経営を圧迫することがあります。",
+      "客室のリニューアル、空調・給湯設備の更新、大浴場の改修など、宿泊業は施設の魅力を維持するための投資が定期的に必要です。改装費用は支払いが先行し、投資回収は稼働率の回復を待つことになるため、手元資金に大きな負担がかかります。",
   },
   {
-    title: "人件費・材料費の先払い",
+    title: "人件費・仕入れ費の先払い",
     description:
-      "歯科衛生士・歯科助手の人件費、歯科材料（セラミック・レジンなど）の仕入れ費用は毎月確実に発生します。入金前に支出が必要なため、手元資金に余裕がないとキャッシュフローが逼迫します。",
+      "フロント・客室清掃・調理スタッフの人件費、食材やリネン・アメニティの仕入れ費用は毎月確実に発生します。OTAや旅行会社からの入金前に支出が必要なため、手元資金に余裕がないとキャッシュフローが逼迫します。",
   },
 ];
 
 const factoringTypes = [
   {
-    title: "診療報酬ファクタリング（レセプト債権）",
+    title: "2社間ファクタリング（OTA・法人売掛金）",
     description:
-      "社保・国保に請求済みの診療報酬（レセプト債権）を売却して早期現金化する方法です。売掛先が公的機関のため信用力が非常に高く、手数料は1%〜5%程度と低水準です。3社間ファクタリングが一般的で、基金・連合会に通知が必要です。",
-    merit: "手数料が安い・審査が通りやすい・高額にも対応",
-    demerit: "3社間のため通知が必要・入金まで数日かかることがある",
+      "OTA運営会社や旅行会社に対する売掛金、法人契約（社員研修・宴会・長期滞在など）の未入金分をファクタリング会社に売却して現金化する方法です。取引先への通知なしで利用でき、最短即日での資金調達も可能です。",
+    merit: "取引先に知られない・最短即日入金・繁忙期の売上を先取りできる",
+    demerit: "3社間より手数料が高い（8%〜18%程度が目安）",
   },
   {
-    title: "一般ファクタリング（自費診療の売掛金）",
+    title: "3社間ファクタリング",
     description:
-      "自費診療の売掛金（法人・企業との契約による歯科検診・企業健診の未収金など）をファクタリング会社に売却して現金化します。2社間ファクタリングも可能で、取引先に知られずに利用できます。",
-    merit: "2社間で取引先に知られない・最短即日入金",
-    demerit: "手数料が診療報酬ファクタリングより高い（5%〜18%）",
+      "売掛先（OTA運営会社や旅行会社・法人取引先）の承諾を得て債権を譲渡する方法です。ファクタリング会社が売掛先から直接回収するため回収リスクが低く、手数料は2社間より安くなります。継続的な取引がある売掛先の債権に向いています。",
+    merit: "手数料が安い（1%〜9%程度が目安）・高額にも対応しやすい",
+    demerit: "売掛先の承諾が必要・入金まで数日かかることがある",
   },
 ];
 
 const recommendedCompanies = [
   {
     name: "ビートレーディング",
-    features: "業界最大手級。医療業界の利用実績が豊富。レセプト債権・一般売掛金の両方に対応。2社間・3社間対応。最短2時間入金。",
+    features: "業界最大手級。幅広い業種の利用実績が豊富。2社間・3社間対応。最短2時間入金。",
     fee: "2%〜",
     speed: "最短2時間",
-    merit: "医療業界の審査ノウハウが豊富で審査がスムーズ。高額案件にも対応。全国の歯科医院から利用可能。",
+    merit: "幅広い業種の審査ノウハウが豊富で審査がスムーズ。改装費のつなぎなど高額案件にも対応。全国の宿泊施設から利用可能。",
   },
   {
     name: "日本中小企業金融サポート機構",
     features: "一般社団法人が運営する非営利型。経済産業大臣認定。診療報酬ファクタリングに対応。法人・個人事業主対応。",
     fee: "1.5%〜",
     speed: "最短即日",
-    merit: "非営利法人のため手数料が業界最安水準。認定機関の安心感。歯科医院の利用実績あり。",
+    merit: "非営利法人のため手数料が業界最安水準。認定機関の安心感。家族経営の旅館など個人事業主でも相談しやすい。",
   },
   {
     name: "アクセルファクター",
-    features: "審査通過率93%以上。少額（30万円〜）対応。オンライン完結型。個人開業医にも対応。最短即日入金。",
+    features: "審査通過率93%以上。少額（30万円〜）対応。オンライン完結型。個人事業主にも対応。最短即日入金。",
     fee: "0.5%〜",
     speed: "最短即日",
-    merit: "審査通過率が高く、開業間もない歯科医院でも利用可能。少額の自費診療売掛金にも対応。",
+    merit: "審査通過率が高く、開業間もないホテル・ゲストハウスでも利用しやすい。閑散期の少額調達にも対応。",
   },
 ];
 
 const useCases = [
   {
-    title: "事例1：開業直後の運転資金確保",
-    problem: "歯科医院を開業して3ヶ月目。診療報酬の入金が2ヶ月遅れで入るため、開業直後は収入がほぼゼロの状態が続く。スタッフの人件費・歯科材料費の支払いに困窮。",
-    solution: "1ヶ月目・2ヶ月目のレセプト債権（合計300万円）を診療報酬ファクタリングで早期現金化。手数料3%で291万円を10日で調達。",
-    result: "人件費・材料費の支払いを滞りなく行い、安定した医院運営のスタートを切れた。3ヶ月目以降は通常の入金サイクルが回り始め、ファクタリングの利用頻度も低下。",
+    title: "シーン1：閑散期の固定費支払い",
+    problem: "観光シーズンが終わり稼働率が低下。売上は減少する一方で、スタッフの人件費や光熱費・施設維持費などの固定費は変わらず発生し、繁忙期の入金を待つ間の資金繰りが厳しい。",
+    solution: "繁忙期に発生したOTA・旅行会社への売掛金をファクタリングで早期現金化し、閑散期の固定費支払いに充当する。",
+    result: "入金サイクルのずれによる資金ギャップを埋め、閑散期も安定した施設運営を続けられる。借入ではないため負債を増やさずに済む。",
   },
   {
-    title: "事例2：高額設備投資のつなぎ資金",
-    problem: "歯科用CTスキャナー（1,500万円）の導入を決定。リース契約を締結したが、初期費用300万円が必要。銀行融資の審査に3週間かかると言われ、納品スケジュールに間に合わない。",
-    solution: "直近のレセプト債権500万円をファクタリングで現金化。手数料2.5%で487万5千円を受け取り、設備の初期費用に充当。",
-    result: "予定通り歯科用CTを導入でき、インプラント治療の精度が向上。新規患者の獲得にもつながり、月の売上が15%増加。",
+    title: "シーン2：改装・設備更新のつなぎ資金",
+    problem: "客室リニューアルや設備更新の支払いが先行し、手元資金が減少。銀行融資は審査に時間がかかり、工事スケジュールに間に合わない恐れがある。",
+    solution: "OTA経由の予約で確定している売掛金をファクタリングで現金化し、改装費用の支払いに充てる。融資の実行を待つ間のつなぎ資金として活用する。",
+    result: "工事を予定通り進めながら資金繰りを維持できる。改装後の集客強化につなげ、通常の入金サイクルに戻ったらファクタリングの利用を終了する。",
   },
 ];
 
 const faqs = [
   {
-    question: "歯科医院でファクタリングを利用するメリットは？",
+    question: "宿泊業でファクタリングを利用するメリットは？",
     answer:
-      "歯科医院がファクタリングを利用するメリットは、①診療報酬の入金待ち（約2ヶ月）を解消できる②担保・保証人不要③銀行融資の審査に落ちても利用可能④最短即日で資金調達可能⑤開業直後でも利用可能、の5点です。特に診療報酬ファクタリングは売掛先が公的機関のため、手数料が安く審査も通りやすいです。",
+      "宿泊業がファクタリングを利用するメリットは、①OTAや旅行会社からの入金待ちを解消できる②担保・保証人不要③借入ではないため負債にならない④最短即日で資金調達可能⑤季節変動による資金ギャップに柔軟に対応できる、の5点です。売掛先の信用力が重視されるため、自社の業歴が浅くても利用しやすいのが特徴です。",
   },
   {
-    question: "診療報酬ファクタリングの手数料相場は？",
+    question: "OTA経由の売上もファクタリングの対象になりますか？",
     answer:
-      "診療報酬ファクタリング（レセプト債権）の手数料は1%〜5%程度が相場で、一般的なファクタリングよりも大幅に安いです。売掛先が社会保険診療報酬支払基金や国保連合会という公的機関であるため、回収リスクが極めて低いことが理由です。3社間ファクタリングが一般的です。",
+      "OTA運営会社や旅行会社に対する売掛債権（入金待ちの売上）は、ファクタリングの対象になり得ます。ただし、対象となる債権の範囲や条件はファクタリング会社ごとに判断が異なります。宿泊者から直接受け取る現金・当日カード決済分は対象外となるのが一般的です。利用前に各社へ売掛先と債権の内容を伝えて確認しましょう。",
   },
   {
-    question: "自費診療の売掛金もファクタリングに使えますか？",
+    question: "宿泊業向けファクタリングの手数料相場は？",
     answer:
-      "はい、自費診療の売掛金もファクタリングに利用できます。ただし、個人患者への直接的な治療費の未収金は対象外となることが多いです。法人との契約による企業歯科検診、歯科矯正のローン会社からの入金予定額などが主な対象となります。手数料は5%〜18%程度で、レセプト債権より高くなります。",
+      "手数料の一般的な目安は、2社間ファクタリングで8%〜18%、3社間ファクタリングで1%〜9%程度です（会社により異なります）。売掛先の信用力・債権額・利用実績によって変動するため、複数社から見積もりを取って比較することをおすすめします。",
   },
   {
-    question: "開業直後でもファクタリングは利用できますか？",
+    question: "閑散期の資金繰り対策として使えますか？",
     answer:
-      "はい、開業直後でも利用可能です。ファクタリングは利用者自身の業歴よりも売掛先の信用力を重視するため、開業直後でもレセプト請求の実績があれば利用できます。開業1ヶ月目からレセプト債権のファクタリングを利用して運転資金を確保する歯科医院もあります。",
+      "はい、活用できます。繁忙期に発生した売掛金（OTA・旅行会社・法人契約分）を早期現金化することで、閑散期の人件費や固定費の支払いに充てられます。ただしファクタリングは売掛金の前倒しであり、継続利用は手数料負担が積み上がるため、季節変動の平準化には融資や公的支援制度との併用も検討しましょう。",
   },
   {
-    question: "ファクタリングの利用は患者に知られますか？",
+    question: "OTAや旅行会社に知られずに利用できますか？",
     answer:
-      "患者にファクタリングの利用が知られることはありません。診療報酬ファクタリング（3社間）の場合、通知先は社保の基金や国保連合会であり、患者への通知は一切ありません。自費診療の売掛金で2社間ファクタリングを利用する場合も、取引先（法人）への通知なしで利用可能です。",
+      "2社間ファクタリングであれば、売掛先（OTA運営会社・旅行会社・法人取引先）への通知なしで利用できます。宿泊客に知られることもありません。一方、3社間ファクタリングは売掛先の承諾が必要な代わりに手数料が安くなります。取引関係への影響と手数料のバランスで選びましょう。",
   },
 ];
 
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
-  headline: "歯科医院向けファクタリング｜自費診療の売掛債権を現金化",
-  description: "歯科医院の資金繰り課題とファクタリング活用法。レセプト債権の早期現金化を解説。",
-  datePublished: "2026-04-26",
-  dateModified: "2026-04-26",
+  headline: "宿泊業向けファクタリング｜ホテル・旅館の売掛金を早期現金化",
+  description: "ホテル・旅館の資金繰り課題とファクタリング活用法。OTA売掛金の早期現金化を解説。",
+  datePublished: "2026-07-04",
+  dateModified: "2026-07-04",
   author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
   publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
-  mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/dental/" },
+  mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/hotel/" },
 };
 
 const faqSchema = {
@@ -150,32 +150,32 @@ const breadcrumbSchema = {
   itemListElement: [
     { "@type": "ListItem", position: 1, name: "ホーム", item: "https://hyogo-shihoushoshi.jp/" },
     { "@type": "ListItem", position: 2, name: "コラム", item: "https://hyogo-shihoushoshi.jp/articles/" },
-    { "@type": "ListItem", position: 3, name: "歯科医院向けファクタリング", item: "https://hyogo-shihoushoshi.jp/articles/dental/" },
+    { "@type": "ListItem", position: 3, name: "宿泊業向けファクタリング", item: "https://hyogo-shihoushoshi.jp/articles/hotel/" },
   ],
 };
 
 /* ── Component ────────────────────────────────────── */
 
-export default function DentalPage() {
+export default function HotelPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
-      <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "コラム", href: "/articles/" }, { label: "歯科医院向けファクタリング" }]} />
+      <Breadcrumb items={[{ label: "ホーム", href: "/" }, { label: "コラム", href: "/articles/" }, { label: "宿泊業向けファクタリング" }]} />
 
       {/* Hero */}
       <section className="section-primary-light py-12 md:py-16">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <p className="mb-3 inline-block rounded-full bg-primary px-4 py-1 text-sm font-bold text-white">業種特化ガイド</p>
           <h1 className="text-2xl font-bold leading-tight text-primary md:text-4xl">
-            歯科医院向けファクタリング
+            宿泊業向けファクタリング
             <br className="hidden md:block" />
-            自費診療の売掛債権を現金化
+            ホテル・旅館の売掛金を早期現金化
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-base text-text-light md:text-lg">
-            診療報酬の入金待ちや自費診療の未収金など、歯科医院特有の資金繰り課題をファクタリングで解決。レセプト債権の早期現金化の仕組みとおすすめサービスを紹介します。
+            OTA経由の入金待ちや季節変動、改装費の先行負担など、ホテル・旅館特有の資金繰り課題をファクタリングで解決。売掛金の早期現金化の仕組みとおすすめサービスを紹介します。
           </p>
         </div>
       </section>
@@ -185,10 +185,10 @@ export default function DentalPage() {
         <nav className="mb-12 rounded-lg border border-border bg-section-bg p-6">
           <p className="mb-4 text-lg font-bold text-text-main">この記事の目次</p>
           <ol className="space-y-2 text-sm text-primary">
-            <li><a href="#challenges" className="hover:underline">1. 歯科医院の資金繰り課題</a></li>
-            <li><a href="#types" className="hover:underline">2. 歯科医院で使えるファクタリングの種類</a></li>
+            <li><a href="#challenges" className="hover:underline">1. 宿泊業の資金繰り課題</a></li>
+            <li><a href="#types" className="hover:underline">2. 宿泊業で使えるファクタリングの種類</a></li>
             <li><a href="#recommended" className="hover:underline">3. おすすめファクタリング会社3選</a></li>
-            <li><a href="#cases" className="hover:underline">4. 活用事例</a></li>
+            <li><a href="#cases" className="hover:underline">4. 活用シーン</a></li>
             <li><a href="#flow" className="hover:underline">5. 利用の流れ</a></li>
             <li><a href="#faq" className="hover:underline">6. よくある質問</a></li>
           </ol>
@@ -196,8 +196,8 @@ export default function DentalPage() {
 
         {/* ── 課題 ─── */}
         <section id="challenges" className="mb-16">
-          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">歯科医院の資金繰り課題</h2>
-          <p className="mb-8 leading-relaxed text-text-light">歯科医院は一般企業とは異なる資金繰りの課題を抱えています。特に診療報酬の入金サイクルと自費診療の未収金が大きな問題です。</p>
+          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">宿泊業の資金繰り課題</h2>
+          <p className="mb-8 leading-relaxed text-text-light">ホテル・旅館などの宿泊業は一般企業とは異なる資金繰りの課題を抱えています。特にOTA経由の入金サイクルと季節変動が大きな問題です。</p>
           <div className="space-y-4">
             {challenges.map((item) => (
               <div key={item.title} className="rounded-lg border border-accent/30 bg-orange-50 p-6">
@@ -210,8 +210,8 @@ export default function DentalPage() {
 
         {/* ── 種類 ─── */}
         <section id="types" className="mb-16">
-          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">歯科医院で使えるファクタリングの種類</h2>
-          <p className="mb-8 leading-relaxed text-text-light">歯科医院で利用できるファクタリングは大きく2種類あります。それぞれの特徴を理解して、自院に最適な方法を選びましょう。</p>
+          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">宿泊業で使えるファクタリングの種類</h2>
+          <p className="mb-8 leading-relaxed text-text-light">宿泊業で利用できるファクタリングは大きく2種類あります。それぞれの特徴を理解して、自社に最適な方法を選びましょう。</p>
           <div className="space-y-6">
             {factoringTypes.map((type) => (
               <div key={type.title} className="rounded-lg border border-border bg-white p-6">
@@ -235,7 +235,7 @@ export default function DentalPage() {
         {/* ── おすすめ3選 ─── */}
         <section id="recommended" className="mb-16">
           <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">おすすめファクタリング会社3選</h2>
-          <p className="mb-8 leading-relaxed text-text-light">歯科医院のファクタリングに対応している会社を厳選して3社紹介します。</p>
+          <p className="mb-8 leading-relaxed text-text-light">宿泊業のファクタリングに対応している会社を厳選して3社紹介します。</p>
           <div className="space-y-6">
             {recommendedCompanies.map((company, index) => (
               <div key={company.name} className="rounded-lg border border-border bg-white p-6">
@@ -264,10 +264,10 @@ export default function DentalPage() {
           </div>
         </section>
 
-        {/* ── 活用事例 ─── */}
+        {/* ── 活用シーン ─── */}
         <section id="cases" className="mb-16">
-          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">活用事例</h2>
-          <p className="mb-8 leading-relaxed text-text-light">実際に歯科医院でファクタリングを活用したケースを紹介します。</p>
+          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">活用シーン</h2>
+          <p className="mb-8 leading-relaxed text-text-light">宿泊業でファクタリングが活用される一般的なパターン（想定例）を紹介します。</p>
           <div className="space-y-6">
             {useCases.map((uc) => (
               <div key={uc.title} className="rounded-lg border border-border bg-white p-6">
@@ -282,7 +282,7 @@ export default function DentalPage() {
                     <p className="text-sm text-text-light">{uc.solution}</p>
                   </div>
                   <div className="rounded-lg bg-teal-50 p-4">
-                    <p className="mb-1 text-sm font-semibold text-secondary">結果</p>
+                    <p className="mb-1 text-sm font-semibold text-secondary">期待できる効果</p>
                     <p className="text-sm text-text-light">{uc.result}</p>
                   </div>
                 </div>
@@ -294,62 +294,62 @@ export default function DentalPage() {
         {/* ── 利用の流れ ─── */}
         <section id="flow" className="mb-16">
           <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">利用の流れ</h2>
-          <p className="mb-8 leading-relaxed text-text-light">歯科医院が診療報酬ファクタリングを利用する際の一般的な流れを解説します。</p>
+          <p className="mb-8 leading-relaxed text-text-light">宿泊業がファクタリングを利用する際の一般的な流れを解説します。</p>
           <div className="space-y-4">
             <div className="flex items-start gap-4 rounded-lg border border-border bg-white p-6">
               <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-secondary text-lg font-bold text-white">1</span>
               <div>
                 <h3 className="font-bold text-text-main">ファクタリング会社に相談・申し込み</h3>
-                <p className="mt-2 text-sm leading-relaxed text-text-light">電話またはWebで問い合わせ。レセプト債権の金額、希望入金日を伝えます。複数社に同時に相談して見積もりを比較することをおすすめします。</p>
+                <p className="mt-2 text-sm leading-relaxed text-text-light">電話またはWebで問い合わせ。売掛先（OTA・旅行会社・法人取引先）、売掛金額、希望入金日を伝えます。複数社に同時に相談して見積もりを比較することをおすすめします。</p>
               </div>
             </div>
             <div className="flex items-start gap-4 rounded-lg border border-border bg-white p-6">
               <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-secondary text-lg font-bold text-white">2</span>
               <div>
                 <h3 className="font-bold text-text-main">必要書類の提出</h3>
-                <p className="mt-2 text-sm leading-relaxed text-text-light">身分証明書、レセプト（診療報酬明細書）、通帳コピー、保険医療機関の届出書などを提出します。自費診療の場合は請求書・契約書が必要です。</p>
+                <p className="mt-2 text-sm leading-relaxed text-text-light">身分証明書、売掛金の存在を示す書類（OTA管理画面の売上明細・精算書・請求書・契約書など）、通帳コピーなどを提出します。必要書類は会社により異なるため事前に確認しましょう。</p>
               </div>
             </div>
             <div className="flex items-start gap-4 rounded-lg border border-border bg-white p-6">
               <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-secondary text-lg font-bold text-white">3</span>
               <div>
                 <h3 className="font-bold text-text-main">審査・見積もり</h3>
-                <p className="mt-2 text-sm leading-relaxed text-text-light">レセプト債権の内容、返戻率、過去の実績などを審査。診療報酬ファクタリングは審査通過率が非常に高いです。見積もりで手数料率と受取額を確認しましょう。</p>
+                <p className="mt-2 text-sm leading-relaxed text-text-light">売掛先の信用力、取引実績、債権の内容などを審査。売掛先が大手OTAや旅行会社の場合は信用力が評価されやすいです。見積もりで手数料率と受取額を必ず確認しましょう。</p>
               </div>
             </div>
             <div className="flex items-start gap-4 rounded-lg border border-border bg-white p-6">
               <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-secondary text-lg font-bold text-white">4</span>
               <div>
                 <h3 className="font-bold text-text-main">契約・入金</h3>
-                <p className="mt-2 text-sm leading-relaxed text-text-light">見積もりに同意したら契約を締結。3社間の場合は社保・国保への通知手続きも行います。契約後、最短即日〜数日で指定口座に入金されます。</p>
+                <p className="mt-2 text-sm leading-relaxed text-text-light">見積もりに同意したら契約を締結。3社間の場合は売掛先への通知・承諾手続きも行います。契約後、最短即日〜数日で指定口座に入金されます。</p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* ── 診療報酬ファクタリングの詳細 ─── */}
+        {/* ── OTA売掛金ファクタリングのポイント ─── */}
         <section className="mb-16">
-          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">診療報酬ファクタリングの仕組み</h2>
+          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">OTA売掛金ファクタリングのポイント</h2>
           <p className="mb-4 leading-relaxed text-text-light">
-            診療報酬ファクタリングは、歯科医院が社保・国保に請求した診療報酬（レセプト債権）をファクタリング会社に売却し、入金予定日よりも早く現金を受け取る仕組みです。
+            宿泊業のファクタリングで中心となるのは、OTA運営会社や旅行会社に対する売掛債権です。利用前に押さえておきたいポイントをまとめます。
           </p>
           <div className="rounded-lg border border-border bg-white p-6">
             <ul className="space-y-3 text-sm leading-relaxed text-text-light">
               <li className="flex items-start gap-2">
                 <span className="mt-0.5 text-primary">&#9679;</span>
-                <span><strong className="text-text-main">対象となる債権</strong>：社会保険診療報酬支払基金（社保）や国民健康保険団体連合会（国保）に対するレセプト請求権</span>
+                <span><strong className="text-text-main">対象となる債権</strong>：OTA運営会社・旅行会社への売掛金、法人契約（研修・宴会・長期滞在など）の未入金分。宿泊客からの直接の現金・当日決済分は対象外が一般的</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-0.5 text-primary">&#9679;</span>
-                <span><strong className="text-text-main">手数料の目安</strong>：1%〜5%程度。一般のファクタリング（5%〜18%）と比べて大幅に安い</span>
+                <span><strong className="text-text-main">手数料の目安</strong>：2社間8%〜18%、3社間1%〜9%程度（会社により異なる）。売掛先の信用力が高いほど有利になりやすい</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-0.5 text-primary">&#9679;</span>
-                <span><strong className="text-text-main">審査のポイント</strong>：レセプトの返戻率（低いほど有利）、過去の請求実績、医院の運営状況など</span>
+                <span><strong className="text-text-main">審査のポイント</strong>：売掛先の信用力、取引の継続性、精算書・売上明細で債権の実在を確認できるかなど</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="mt-0.5 text-primary">&#9679;</span>
-                <span><strong className="text-text-main">注意点</strong>：返戻（差し戻し）が発生した場合、その分の調整が必要になることがあります</span>
+                <span><strong className="text-text-main">注意点</strong>：キャンセルや返金が発生した場合の取り扱いは契約により異なるため、契約前に必ず確認しましょう。OTAとの契約で債権譲渡に関する定めがある場合もあるため、規約の確認も重要です</span>
               </li>
             </ul>
           </div>
@@ -388,13 +388,13 @@ export default function DentalPage() {
         <section className="mb-16">
           <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
-            <Link href="/articles/medical/" className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md">
-              <p className="font-bold text-primary">医療業界向けファクタリング</p>
-              <p className="mt-1 text-sm text-text-light">診療報酬の早期現金化ガイド</p>
+            <Link href="/articles/restaurant/" className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md">
+              <p className="font-bold text-primary">飲食業向けファクタリング</p>
+              <p className="mt-1 text-sm text-text-light">クレジットカード債権で資金調達</p>
             </Link>
-            <Link href="/articles/pharmacy/" className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md">
-              <p className="font-bold text-primary">薬局向けファクタリング</p>
-              <p className="mt-1 text-sm text-text-light">調剤報酬の早期現金化ガイド</p>
+            <Link href="/articles/ec-commerce/" className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md">
+              <p className="font-bold text-primary">EC・通販業向けファクタリング</p>
+              <p className="mt-1 text-sm text-text-light">モール売上の早期入金ガイド</p>
             </Link>
             <Link href="/articles/fee-guide/" className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md">
               <p className="font-bold text-primary">手数料の相場と計算方法</p>
@@ -409,9 +409,9 @@ export default function DentalPage() {
 
         {/* ── CTA ─── */}
         <section className="rounded-lg bg-primary p-8 text-center text-white md:p-12">
-          <h2 className="text-xl font-bold md:text-2xl">歯科医院に最適なファクタリング会社を比較する</h2>
+          <h2 className="text-xl font-bold md:text-2xl">宿泊業に最適なファクタリング会社を比較する</h2>
           <p className="mx-auto mt-4 max-w-xl text-sm text-blue-100">
-            診療報酬ファクタリング対応の会社を手数料・入金スピードで徹底比較。あなたの医院に最適なサービスが見つかります。
+            宿泊業の売掛金に対応する会社を手数料・入金スピードで徹底比較。あなたの施設に最適なサービスが見つかります。
           </p>
           <Link href="/ranking/" className="btn-cta mt-6 text-base">おすすめランキングを見る</Link>
         </section>
