@@ -175,6 +175,76 @@ const documentChecklist = [
   },
 ];
 
+const contractTypeDocs = [
+  {
+    doc: "請求書",
+    twoParty: "必須",
+    threeParty: "必須",
+    note: "どちらの契約形態でも売掛債権の証明として必要",
+  },
+  {
+    doc: "本人確認書類",
+    twoParty: "必須",
+    threeParty: "必須",
+    note: "犯罪収益移転防止法に基づきすべての形態で必要",
+  },
+  {
+    doc: "通帳コピー（入出金明細）",
+    twoParty: "ほぼ必須",
+    threeParty: "会社による",
+    note: "2社間は入金実績の確認が審査の中心になるため重要度が高い",
+  },
+  {
+    doc: "登記簿謄本（法人）",
+    twoParty: "会社による",
+    threeParty: "求められやすい",
+    note: "3社間は契約関係者が増えるため実在性確認が厳格になりやすい",
+  },
+  {
+    doc: "決算書・確定申告書",
+    twoParty: "会社による",
+    threeParty: "求められやすい",
+    note: "3社間・大口案件では提出を求められる傾向",
+  },
+  {
+    doc: "取引基本契約書",
+    twoParty: "会社による",
+    threeParty: "求められやすい",
+    note: "売掛先も契約に関与するため取引実在性の確認が丁寧に行われる",
+  },
+  {
+    doc: "売掛先の承諾書（債権譲渡の通知・承諾）",
+    twoParty: "不要",
+    threeParty: "必須",
+    note: "3社間特有。売掛先が債権譲渡を承諾する手続きが必要",
+  },
+  {
+    doc: "印鑑証明書",
+    twoParty: "電子契約なら不要",
+    threeParty: "求められる場合あり",
+    note: "書面契約や債権譲渡登記を行う場合に必要になることがある",
+  },
+];
+
+const alternativeDocs = [
+  {
+    missing: "通帳コピーが用意できない（ネット銀行のみ等）",
+    alternative: "ネットバンキングの入出金明細画面のスクリーンショットやCSV明細で代用できる会社が多い",
+  },
+  {
+    missing: "取引基本契約書を交わしていない",
+    alternative: "発注書・注文書・業務委託のメールのやり取りなど、取引の実在を示す資料で代用できる場合がある",
+  },
+  {
+    missing: "決算書がない（設立・開業1年未満）",
+    alternative: "試算表（月次決算）や直近の確定申告書で代用できることがある。創業間もない場合は対応可否を事前に確認",
+  },
+  {
+    missing: "登記簿謄本の取得が間に合わない",
+    alternative: "オンライン請求は到着まで数日かかるため、急ぎなら法務局窓口で即日取得。登記簿謄本不要の会社を選ぶ方法もある",
+  },
+];
+
 const documentPreparationTips = [
   {
     title: "請求書は正確な情報で作成する",
@@ -239,7 +309,7 @@ const articleSchema = {
   description:
     "ファクタリングの必要書類を解説。請求書のみでOKな会社や書類準備のチェックリストも紹介。",
   datePublished: "2026-04-23",
-  dateModified: "2026-04-23",
+  dateModified: "2026-07-05",
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
@@ -364,13 +434,18 @@ export default function RequiredDocumentsPage() {
               </a>
             </li>
             <li>
+              <a href="#by-contract-type" className="hover:underline">
+                5. 2社間・3社間別の書類チェックリスト
+              </a>
+            </li>
+            <li>
               <a href="#preparation-tips" className="hover:underline">
-                5. 書類準備のコツ
+                6. 書類準備のコツ
               </a>
             </li>
             <li>
               <a href="#faq" className="hover:underline">
-                6. よくある質問
+                7. よくある質問
               </a>
             </li>
           </ol>
@@ -549,6 +624,56 @@ export default function RequiredDocumentsPage() {
             <p className="text-sm leading-relaxed text-text-light">
               必要書類が揃わない場合でも、ファクタリング会社に相談すれば代替書類で対応してもらえるケースがあります。例えば、通帳コピーの代わりにネットバンキングの明細、契約書の代わりにメールのやり取りで代用できる場合があります。まずは相談してみましょう。
             </p>
+          </div>
+        </section>
+
+        {/* ── 2社間・3社間別チェックリスト ─── */}
+        <section id="by-contract-type" className="mb-16">
+          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">
+            2社間・3社間別の書類チェックリスト
+          </h2>
+          <p className="mb-8 leading-relaxed text-text-light">
+            必要書類は契約形態（2社間・3社間）によっても変わります。3社間ファクタリングは売掛先が契約に関与するため、売掛先の承諾に関する書類が追加で必要になり、実在性確認の書類も求められやすくなります。以下の一覧で違いを確認しましょう。
+          </p>
+          <div className="overflow-x-auto rounded-lg border border-border">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-primary text-left text-white">
+                  <th className="px-3 py-3 font-semibold whitespace-nowrap">書類</th>
+                  <th className="px-3 py-3 font-semibold whitespace-nowrap">2社間</th>
+                  <th className="px-3 py-3 font-semibold whitespace-nowrap">3社間</th>
+                  <th className="px-3 py-3 font-semibold">ポイント</th>
+                </tr>
+              </thead>
+              <tbody>
+                {contractTypeDocs.map((row, idx) => (
+                  <tr
+                    key={row.doc}
+                    className={idx % 2 === 0 ? "bg-white" : "bg-hover-bg"}
+                  >
+                    <td className="px-3 py-3 font-medium text-text-main">{row.doc}</td>
+                    <td className="px-3 py-3 text-text-light whitespace-nowrap">{row.twoParty}</td>
+                    <td className="px-3 py-3 text-text-light whitespace-nowrap">{row.threeParty}</td>
+                    <td className="px-3 py-3 text-text-light">{row.note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="mt-4 text-sm leading-relaxed text-text-light">
+            ※必要書類の詳細は会社ごとに異なります。上記は一般的な傾向の整理であり、申し込み前に利用する会社の案内を必ず確認してください。
+          </p>
+          <div className="mt-8 space-y-4">
+            <h3 className="text-lg font-bold text-text-main">書類がそろわない場合の代替手段</h3>
+            {alternativeDocs.map((item) => (
+              <div
+                key={item.missing}
+                className="rounded-lg border border-border bg-white p-6"
+              >
+                <h4 className="mb-2 font-bold text-primary">{item.missing}</h4>
+                <p className="text-sm leading-relaxed text-text-light">{item.alternative}</p>
+              </div>
+            ))}
           </div>
         </section>
 

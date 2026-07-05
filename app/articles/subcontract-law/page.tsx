@@ -64,6 +64,57 @@ const practicalPoints = [
   },
 ];
 
+const paymentRules = [
+  {
+    item: "支払期日の設定",
+    rule: "親事業者は、下請事業者の給付を受領した日から起算して60日以内の、できる限り短い期間内で支払期日を定めなければならない",
+    basis: "下請法 第2条の2",
+  },
+  {
+    item: "起算日の考え方",
+    rule: "起算日は「給付を受領した日（役務提供委託では役務の提供を受けた日）」。検収の完了を待たずに受領日から起算される",
+    basis: "下請法 第2条の2",
+  },
+  {
+    item: "支払遅延の禁止",
+    rule: "定められた支払期日までに下請代金を支払わないことは、親事業者の禁止行為（支払遅延）に該当する",
+    basis: "下請法 第4条第1項第2号",
+  },
+  {
+    item: "遅延利息",
+    rule: "受領日から60日を経過した日以降の未払期間について、親事業者は年率14.6%の遅延利息を支払う義務を負う",
+    basis: "下請法 第4条の2・公正取引委員会規則",
+  },
+  {
+    item: "割引困難な手形の交付の禁止",
+    rule: "一般の金融機関で割引を受けることが困難な手形（サイトが著しく長い手形など）で下請代金を支払うことは禁止行為に該当する",
+    basis: "下請法 第4条第2項第2号",
+  },
+];
+
+const factoringRelation = [
+  {
+    situation: "支払サイトは60日以内だが、入金前に資金が必要",
+    view: "下請法上の問題はない通常の取引です。入金待ちの売掛金を早期に資金化したい場合、ファクタリング（債権譲渡）は下請事業者が自らの意思で使える選択肢の一つです。",
+  },
+  {
+    situation: "支払サイトが受領日から60日を超えている",
+    view: "下請法の適用対象取引であれば、支払期日の定め方自体に問題がある可能性があります。当面の資金繰りにはファクタリングも使えますが、根本解決にはならないため、公正取引委員会や下請かけこみ寺への相談も併せて検討しましょう。",
+  },
+  {
+    situation: "支払期日を過ぎても入金されない（支払遅延）",
+    view: "下請法違反の可能性がある状況です。遅延中の売掛金はファクタリング審査で不利になったり買取対象外になることがあります。相談窓口の活用を優先しつつ、他の売掛金の資金化を検討するのが現実的です。",
+  },
+  {
+    situation: "手形払いでサイトが長く、現金が必要",
+    view: "手形の現金化はファクタリングではなく「手形割引」という別の手段になります。なお、割引困難な手形の交付は下請法の禁止行為類型の一つです。",
+  },
+  {
+    situation: "親事業者からファクタリングの利用を求められた",
+    view: "ファクタリングは下請事業者の自由意思で利用するものです。親事業者による利用の強制は下請法上問題となるおそれがあるため、相談窓口に相談してください。",
+  },
+];
+
 const faqs = [
   {
     question: "下請代金をファクタリングで早期現金化することは合法ですか？",
@@ -93,7 +144,7 @@ const articleSchema = {
   headline: "ファクタリングと下請法の関係｜下請代金の早期現金化は合法？",
   description: "下請代金のファクタリングは合法？下請法との関係を法的根拠から解説。",
   datePublished: "2026-04-26",
-  dateModified: "2026-04-26",
+  dateModified: "2026-07-05",
   author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
   publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/subcontract-law/" },
@@ -147,8 +198,9 @@ export default function SubcontractLawPage() {
             <li><a href="#basics" className="hover:underline">1. 下請法の基本</a></li>
             <li><a href="#legal" className="hover:underline">2. ファクタリングと下請法の法的関係</a></li>
             <li><a href="#practical" className="hover:underline">3. 実務上のポイント</a></li>
-            <li><a href="#cases" className="hover:underline">4. 具体的なケーススタディ</a></li>
-            <li><a href="#faq" className="hover:underline">5. よくある質問</a></li>
+            <li><a href="#payment-rules" className="hover:underline">4. 支払期日ルールとファクタリングの整理表</a></li>
+            <li><a href="#cases" className="hover:underline">5. 具体的なケーススタディ</a></li>
+            <li><a href="#faq" className="hover:underline">6. よくある質問</a></li>
           </ol>
         </nav>
 
@@ -188,6 +240,58 @@ export default function SubcontractLawPage() {
                 <p className="text-sm leading-relaxed text-text-light">{item.description}</p>
               </div>
             ))}
+          </div>
+        </section>
+
+        <section id="payment-rules" className="mb-16">
+          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">下請法の支払期日ルールとファクタリングの整理表</h2>
+          <p className="mb-6 leading-relaxed text-text-light">
+            下請法の支払期日に関する基本的なルール（条文ベース）と、資金繰りの場面でファクタリングがどう関わるかを整理します。
+          </p>
+          <h3 className="mb-4 text-lg font-bold text-text-main">支払期日に関する法定ルール（条文ベース）</h3>
+          <div className="overflow-x-auto rounded-lg border border-border">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-primary text-left text-white">
+                  <th className="px-3 py-3 font-semibold whitespace-nowrap">項目</th>
+                  <th className="px-3 py-3 font-semibold">内容</th>
+                  <th className="px-3 py-3 font-semibold whitespace-nowrap">根拠</th>
+                </tr>
+              </thead>
+              <tbody>
+                {paymentRules.map((row, idx) => (
+                  <tr key={row.item} className={idx % 2 === 0 ? "bg-white" : "bg-section-bg"}>
+                    <td className="px-3 py-3 font-medium text-text-main">{row.item}</td>
+                    <td className="px-3 py-3 text-text-light">{row.rule}</td>
+                    <td className="px-3 py-3 text-text-light whitespace-nowrap">{row.basis}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <h3 className="mb-4 mt-8 text-lg font-bold text-text-main">状況別：下請法とファクタリングの関係</h3>
+          <div className="space-y-4">
+            {factoringRelation.map((item) => (
+              <div key={item.situation} className="rounded-lg border border-border bg-white p-6">
+                <h4 className="mb-2 font-bold text-primary">{item.situation}</h4>
+                <p className="text-sm leading-relaxed text-text-light">{item.view}</p>
+              </div>
+            ))}
+          </div>
+          <div className="mt-6 rounded-lg border border-accent/30 bg-orange-50 p-6">
+            <p className="mb-2 font-bold text-accent">最新情報の確認について</p>
+            <p className="text-sm leading-relaxed text-text-light">
+              上記は下請法の一般的なルールの整理であり、個別の取引が下請法の適用対象かどうか、違反に該当するかどうかの判断を示すものではありません。下請法は適用対象や支払手段のルールを含めて改正が行われることがあるため、最新の制度内容や個別の該当性は、公正取引委員会・中小企業庁の公表資料（
+              <a
+                href="https://www.chusho.meti.go.jp/keiei/torihiki/index.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-primary underline"
+              >
+                中小企業庁「取引適正化」ページ
+              </a>
+              など）や専門家への相談で必ず確認してください。
+            </p>
           </div>
         </section>
 

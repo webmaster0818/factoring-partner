@@ -155,6 +155,55 @@ const situationRecommendations = [
   },
 ];
 
+const monthlyChecklist = [
+  {
+    category: "入金（売掛金）の管理",
+    timing: "毎月月初",
+    items: [
+      "売掛金の一覧（取引先別・金額・入金予定日）を最新化した",
+      "入金予定日を過ぎている売掛金がないか確認した",
+      "入金遅延がある取引先には請求書の再送・入金確認の連絡をした",
+      "請求書の発行漏れ・金額誤りがないか締め日に確認した",
+    ],
+  },
+  {
+    category: "支払い（買掛金・経費）の管理",
+    timing: "毎月月初",
+    items: [
+      "今月の支払い予定（仕入・外注費・家賃・税金・社会保険料）を一覧化した",
+      "支払日が特定の日に集中していないか確認した（可能なら分散を検討）",
+      "支払いサイトの延長・分割を交渉できる取引先がないか検討した",
+    ],
+  },
+  {
+    category: "入金・支払いサイトの棚卸し",
+    timing: "四半期に1回",
+    items: [
+      "取引先ごとの入金サイト（締め日・支払日）を一覧にして把握した",
+      "入金サイトが長い取引先に短縮交渉の余地がないか検討した",
+      "新規契約時の支払い条件（サイト）の社内基準を見直した",
+    ],
+  },
+  {
+    category: "固定費・在庫の見直し",
+    timing: "四半期に1回",
+    items: [
+      "家賃・保険料・通信費・サブスクリプションの明細を確認し、不要な契約を解約した",
+      "在庫の滞留（長期間動いていない在庫）がないか確認した",
+      "リース・ローンなど毎月の固定支出の総額を把握した",
+    ],
+  },
+  {
+    category: "資金繰り予測",
+    timing: "毎月",
+    items: [
+      "3ヶ月先までの資金繰り表（入金予定・支払予定・残高予測）を更新した",
+      "資金が最も少なくなる月・日を特定した",
+      "不足が見込まれる場合の調達手段（融資枠・ファクタリング等）を事前に確認した",
+    ],
+  },
+];
+
 const faqs = [
   {
     question: "最も速く資金を調達できる方法は何ですか？",
@@ -191,7 +240,7 @@ const articleSchema = {
   description:
     "資金繰り改善方法7選を比較表で解説。状況別おすすめも紹介。",
   datePublished: "2026-04-21",
-  dateModified: "2026-04-21",
+  dateModified: "2026-07-05",
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
@@ -320,8 +369,13 @@ export default function CashflowTipsPage() {
               </a>
             </li>
             <li>
+              <a href="#monthly-checklist" className="hover:underline">
+                6. 資金繰り改善の月次チェックリスト
+              </a>
+            </li>
+            <li>
               <a href="#faq" className="hover:underline">
-                6. よくある質問
+                7. よくある質問
               </a>
             </li>
           </ol>
@@ -579,6 +633,47 @@ export default function CashflowTipsPage() {
                 <span><strong className="text-text-main">ファクタリングは最も即効性の高い手段</strong>：入金を早める方法として、ファクタリングは最短即日で売掛金を現金化でき、最も即効性が高い資金繰り改善策です</span>
               </li>
             </ul>
+          </div>
+        </section>
+
+        {/* ── 月次チェックリスト ─── */}
+        <section id="monthly-checklist" className="mb-16">
+          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">
+            資金繰り改善の月次チェックリスト
+          </h2>
+          <p className="mb-8 leading-relaxed text-text-light">
+            資金繰りの悪化は、日々の管理の積み重ねで防げる部分が大きいものです。以下は一般的な実務で使われる確認項目を、実施タイミング別にチェックリスト化したものです。月初の経理業務や資金繰り表の更新時に活用してください。
+          </p>
+          <div className="space-y-6">
+            {monthlyChecklist.map((group) => (
+              <div
+                key={group.category}
+                className="rounded-lg border border-border bg-white p-6"
+              >
+                <div className="mb-4 flex flex-wrap items-center gap-3">
+                  <h3 className="text-lg font-bold text-primary">{group.category}</h3>
+                  <span className="rounded-full bg-secondary/10 px-3 py-0.5 text-xs font-bold text-secondary">
+                    {group.timing}
+                  </span>
+                </div>
+                <ul className="space-y-2">
+                  {group.items.map((item) => (
+                    <li key={item} className="flex items-start gap-3 text-sm text-text-light">
+                      <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded border border-border bg-white text-xs text-text-light">
+                        &#9744;
+                      </span>
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+          <div className="mt-6 rounded-lg bg-primary-light p-6">
+            <p className="mb-2 font-bold text-primary">チェックリスト活用のポイント</p>
+            <p className="text-sm leading-relaxed text-text-light">
+              すべてを一度に完璧にする必要はありません。まずは「売掛金の入金予定の把握」と「3ヶ月先までの資金繰り表」の2つから始めるのがおすすめです。資金不足が見えた時点で早めに手を打てば、ファクタリング・融資など選択肢に余裕が生まれ、条件の良い調達がしやすくなります。
+            </p>
           </div>
         </section>
 

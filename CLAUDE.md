@@ -187,3 +187,17 @@
 - 手数料は全ページsendai現行(アクセル0.5%〜)と機械照合・地域限定実績主張なし・FAQ相場は統一値。ビートレーディングfeatures地域句は「四国/九州/全国エリア」等に正規化
 - categories+10・sitemap-articles 128→138・deploy両push・本番10/10 200+naha沖縄公庫+sitemap138検証・GSC再送信
 - 残: 来週の全URL再計測(第1+2弾のインデックス含む)/既存8都市FAQの旧5-18%相場表記の統一(是正候補)
+
+## 2026-07-04 集客最大化P1-P3（MediaXAI「うん、進めて！」）✅
+- P1: 既存8都市FAQの旧「2社間5〜18%」を統一値8〜18%へ(残存ゼロ機械確認)=全28都市一貫
+- P2: 全134記事の「あわせて使いたいツール」ブロックに無料診断リンクを一括挿入(script・/simulator/ li行の直後・局所800字でdiagnosis既存判定)
+- P3: 業種第1弾10本新設(security/cleaning/painting/demolition/hotel/childcare/taxi/event/welfare/apparel)。並列agent5体・dentalテンプレ・業種固有商習慣のみ・**架空金額入り事例は「想定シーン(数値なし)」に転換**・welfareはnursing-care/medicalと給付費文脈で棲み分け
+- 🐛アクセルファクター旧値の第2波: 業種・記事系22ファイル+amount-hub(OLTA併記行0.5%〜9%へ)に2%〜残存→ブロック限定置換で公式0.5%〜に統一(地域18都市は7/4済み)。**教訓: 6/22の公式統一はranking/reviews/比較記事のみで、テンプレ転記系(地域・業種)のrecommendedCompanies配列が全て漏れていた。新テンプレページ作成時は業者feeの出所を必ずranking現行値と照合**
+- hotel/childcareのfeatures医療文言(レセプト等)もホスト側是正。categories+10・sitemap-articles 138→148・deploy両push・本番10/10+dental是正+sitemap148検証・GSC再送信
+- 残: P4=来週頭の全URL再計測(31%ベースライン比)/登録リクエスト残8件(MediaXAI)/corp-factoring方針
+
+## 2026-07-04 全188URL再計測→次期計画提出（MediaXAI「次の実行計画を策定したい」）
+- URL検査API全数計測: **インデックス率72%(137/188)**=7/1の33%(51/153)から倍増以上。crawled-not-indexed 24→11に半減。インデックス問題は峠越え
+- 未発見40のうち約30は当日新設の都市10+業種10等=自然。真に埋まっているのは約10件で**収益核3(company-directory/survey-2026/fee-disclosed)が依然unknown**
+- 次期計画提出(id 1522955413710962720): P1=登録リクエスト第2弾10件(収益核3+simulator/verification-policy/sitemap/レビュー3+fee-breakdown) P2=crawled-not-indexed 11件の品質テコ入れ(simulator本文増強/レビュー3社一意性/記事4本点検) P3=来週半ば再計測(目標85%+収益核発見)
+- ※計測の運用メモ: 188URL全数は約15-20分。heredoc+nohup+&のバックグラウンドは親shell終了で死ぬ→**Bash tool の run_in_background:true を使う**

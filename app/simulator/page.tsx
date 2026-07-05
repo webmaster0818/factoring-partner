@@ -117,6 +117,70 @@ export default function SimulatorPage() {
           </div>
         </section>
 
+        {/* 手数料以外の費用 */}
+        <section className="mt-12">
+          <h2 className="border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">
+            手数料以外にかかる可能性がある費用
+          </h2>
+          <div className="mt-4 overflow-x-auto">
+            <table className="w-full border-collapse text-sm">
+              <thead>
+                <tr className="bg-primary text-white">
+                  <th className="px-4 py-3 text-left">費用項目</th>
+                  <th className="px-4 py-3 text-left">かかるケース</th>
+                  <th className="px-4 py-3 text-left">確認ポイント</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-border bg-white">
+                  <td className="px-4 py-3 font-bold text-text-main">事務手数料</td>
+                  <td className="px-4 py-3 text-text-light">会社により有無が分かれる</td>
+                  <td className="px-4 py-3 text-text-light">見積書に含まれているか（手数料率と別建てか）</td>
+                </tr>
+                <tr className="bg-[#f8fafc]">
+                  <td className="px-4 py-3 font-bold text-text-main">債権譲渡登記の費用</td>
+                  <td className="px-4 py-3 text-text-light">2社間で登記を求められる場合（法人）</td>
+                  <td className="px-4 py-3 text-text-light">登記の要否自体が会社で異なる。登記不要の会社もある</td>
+                </tr>
+                <tr className="border-b border-border bg-white">
+                  <td className="px-4 py-3 font-bold text-text-main">振込手数料・印紙代</td>
+                  <td className="px-4 py-3 text-text-light">契約・入金時</td>
+                  <td className="px-4 py-3 text-text-light">少額だが総額比較には含める</td>
+                </tr>
+                <tr className="bg-[#f8fafc]">
+                  <td className="px-4 py-3 font-bold text-text-main">出張・面談費用</td>
+                  <td className="px-4 py-3 text-text-light">対面契約の一部会社</td>
+                  <td className="px-4 py-3 text-text-light">オンライン完結の会社なら発生しない</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="mt-3 text-sm leading-relaxed text-text-light">
+            同じ「手数料10%」でも、諸費用の有無で実際の手取り額は変わります。見積もりは必ず「差し引かれる総額」で比較してください。
+          </p>
+        </section>
+
+        {/* 手数料を下げる実務 */}
+        <section className="mt-12">
+          <h2 className="border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">
+            手数料を下げるためにできる5つのこと
+          </h2>
+          <ul className="mt-4 space-y-3 text-sm leading-relaxed text-text-light">
+            {[
+              ["複数社で相見積もりを取る", "同じ売掛金でも会社によって提示は大きく変わります。2〜3社の比較が最も確実な交渉材料になります。"],
+              ["信用力の高い売掛先の債権を選ぶ", "審査対象は主に売掛先です。大手企業・官公庁向けの売掛金ほど手数料は下がりやすくなります。"],
+              ["3社間ファクタリングを検討する", "売掛先の承諾を得られるなら、3社間は2社間より大幅に低い料率が期待できます。"],
+              ["入金実績のある継続取引の債権を使う", "過去の入金実績が確認できる売掛金は回収リスクが低く評価されます。"],
+              ["2回目以降の利用で交渉する", "同じ会社での利用実績が積み上がると、料率の引き下げ余地が生まれやすくなります。"],
+            ].map(([t, d]) => (
+              <li key={t} className="rounded-lg border border-border bg-white p-4">
+                <p className="font-bold text-text-main">{t}</p>
+                <p className="mt-1">{d}</p>
+              </li>
+            ))}
+          </ul>
+        </section>
+
         {/* FAQ */}
         <section className="mt-12">
           <h2 className="border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">

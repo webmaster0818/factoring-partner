@@ -66,6 +66,57 @@ const recommendedCompanies = [
   },
 ];
 
+const judgmentCases = [
+  {
+    stage: "見積書を提出した段階（受注未確定）",
+    judgment: "使えない",
+    color: "ng",
+    reason: "売掛債権がまだ発生する見込みの段階にすらないため、買取の対象になりません。正式受注を待ちましょう。",
+  },
+  {
+    stage: "口頭やメール本文のみで発注を受けた",
+    judgment: "原則使えない",
+    color: "ng",
+    reason: "金額・納期・支払条件が明記された正式な注文書・発注書がないと審査できません。取引先に書面（またはPDF）の発行を依頼しましょう。",
+  },
+  {
+    stage: "正式な注文書・発注書を受領済み（着手前〜作業中）",
+    judgment: "使える可能性が高い",
+    color: "ok",
+    reason: "注文書ファクタリングの本来の対象です。売掛先の信用力や過去の取引実績が審査のポイントになります。",
+  },
+  {
+    stage: "納品済み・検収前（請求書は未発行）",
+    judgment: "会社による",
+    color: "mid",
+    reason: "注文書ベースで対応する会社と、検収・請求書発行を待つよう求める会社に分かれます。事前に確認しましょう。",
+  },
+  {
+    stage: "検収済み・請求書発行済み",
+    judgment: "通常のファクタリングを利用",
+    color: "ok",
+    reason: "請求書ベースの通常ファクタリングの方が手数料が安く、対応会社も多いため、あえて注文書型を使う理由はありません。",
+  },
+  {
+    stage: "初めて取引する売掛先からの注文",
+    judgment: "難しい場合が多い",
+    color: "mid",
+    reason: "過去の入金実績がないため審査が厳しくなりがちです。売掛先が上場企業・官公庁なら通る可能性があります。",
+  },
+  {
+    stage: "納品まで6ヶ月以上かかる長期案件",
+    judgment: "対応不可の会社が多い",
+    color: "mid",
+    reason: "期間が長いほどキャンセル・変更リスクが高く敬遠されます。マイルストーンごとに注文書を分割できないか検討しましょう。",
+  },
+  {
+    stage: "キャンセル・仕様変更の可能性が高い案件",
+    judgment: "避けた方が安全",
+    color: "ng",
+    reason: "キャンセル時に返金義務を負う契約が多く、資金繰りをかえって悪化させるリスクがあります。納品後の通常ファクタリングを待つ方が安全です。",
+  },
+];
+
 const faqs = [
   {
     question: "注文書ファクタリングと通常のファクタリングの違いは何ですか？",
@@ -100,7 +151,7 @@ const articleSchema = {
   headline: "注文書ファクタリングとは？請求書発行前でも資金化できる仕組みを解説",
   description: "注文書（発注書）で請求書前に資金化できるファクタリングの仕組みとおすすめ会社を解説。",
   datePublished: "2026-04-24",
-  dateModified: "2026-04-24",
+  dateModified: "2026-07-05",
   author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
   publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/purchase-order/" },
@@ -157,10 +208,11 @@ export default function PurchaseOrderPage() {
             <li><a href="#mechanism" className="hover:underline">2. 仕組みと流れ</a></li>
             <li><a href="#difference" className="hover:underline">3. 通常ファクタリングとの違い</a></li>
             <li><a href="#merit-demerit" className="hover:underline">4. メリット・デメリット</a></li>
-            <li><a href="#recommended" className="hover:underline">5. おすすめ会社5選</a></li>
-            <li><a href="#cases" className="hover:underline">6. 活用事例</a></li>
-            <li><a href="#caution" className="hover:underline">7. 利用時の注意点</a></li>
-            <li><a href="#faq" className="hover:underline">8. よくある質問</a></li>
+            <li><a href="#judgment-table" className="hover:underline">5. 使える／使えないケースの判断表</a></li>
+            <li><a href="#recommended" className="hover:underline">6. おすすめ会社5選</a></li>
+            <li><a href="#cases" className="hover:underline">7. 活用事例</a></li>
+            <li><a href="#caution" className="hover:underline">8. 利用時の注意点</a></li>
+            <li><a href="#faq" className="hover:underline">9. よくある質問</a></li>
           </ol>
         </nav>
 
@@ -260,6 +312,39 @@ export default function PurchaseOrderPage() {
               </ul>
             </div>
           </div>
+        </section>
+
+        {/* ── 使える/使えないケースの判断表 ─── */}
+        <section id="judgment-table" className="mb-16">
+          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">注文書ファクタリングが使える／使えないケースの判断表</h2>
+          <p className="mb-8 leading-relaxed text-text-light">
+            注文書ファクタリングは「受注段階」という特殊なタイミングで使うサービスのため、案件の状態によって使える・使えないがはっきり分かれます。自社の案件がどの段階にあるかを以下の表で確認してから申し込みましょう。
+          </p>
+          <div className="overflow-x-auto rounded-lg border border-border">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-primary text-left text-white">
+                  <th className="px-3 py-3 font-semibold">案件の状態</th>
+                  <th className="px-3 py-3 font-semibold whitespace-nowrap">利用可否の目安</th>
+                  <th className="px-3 py-3 font-semibold">理由・対処</th>
+                </tr>
+              </thead>
+              <tbody>
+                {judgmentCases.map((row, idx) => (
+                  <tr key={row.stage} className={idx % 2 === 0 ? "bg-white" : "bg-section-bg"}>
+                    <td className="px-3 py-3 font-medium text-text-main">{row.stage}</td>
+                    <td className={`px-3 py-3 font-bold whitespace-nowrap ${row.color === "ok" ? "text-secondary" : row.color === "ng" ? "text-accent" : "text-primary"}`}>
+                      {row.judgment}
+                    </td>
+                    <td className="px-3 py-3 text-text-light">{row.reason}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="mt-4 text-sm leading-relaxed text-text-light">
+            ※利用可否の最終判断は各ファクタリング会社の審査によります。上記は一般的な傾向の整理であり、迷う場合は「注文書の段階だが利用できるか」を申し込み前に問い合わせるのが確実です。
+          </p>
         </section>
 
         {/* ── おすすめ5選 ─── */}
