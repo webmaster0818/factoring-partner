@@ -7,34 +7,106 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://hyogo-shihoushoshi.jp/reviews/betrading/shinsa/</loc>
+    <lastmod>2026-07-05</lastmod>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/reviews/betrading/documents/</loc>
+    <lastmod>2026-07-05</lastmod>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/reviews/betrading/fee/</loc>
+    <lastmod>2026-07-05</lastmod>
+  </url>
+  <url>
     <loc>https://hyogo-shihoushoshi.jp/reviews/paytner/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/reviews/paytner/shinsa/</loc>
+    <lastmod>2026-07-05</lastmod>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/reviews/paytner/documents/</loc>
+    <lastmod>2026-07-05</lastmod>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/reviews/paytner/fee/</loc>
+    <lastmod>2026-07-05</lastmod>
   </url>
   <url>
     <loc>https://hyogo-shihoushoshi.jp/reviews/labol/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/reviews/labol/shinsa/</loc>
+    <lastmod>2026-07-05</lastmod>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/reviews/labol/documents/</loc>
+    <lastmod>2026-07-05</lastmod>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/reviews/labol/fee/</loc>
+    <lastmod>2026-07-05</lastmod>
   </url>
   <url>
     <loc>https://hyogo-shihoushoshi.jp/reviews/accelfactor/</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/reviews/accelfactor/shinsa/</loc>
+    <lastmod>2026-07-05</lastmod>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/reviews/accelfactor/documents/</loc>
+    <lastmod>2026-07-05</lastmod>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/reviews/accelfactor/fee/</loc>
+    <lastmod>2026-07-05</lastmod>
   </url>
   <url>
     <loc>https://hyogo-shihoushoshi.jp/reviews/ququmo/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://hyogo-shihoushoshi.jp/reviews/ququmo/shinsa/</loc>
+    <lastmod>2026-07-05</lastmod>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/reviews/ququmo/documents/</loc>
+    <lastmod>2026-07-05</lastmod>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/reviews/ququmo/fee/</loc>
+    <lastmod>2026-07-05</lastmod>
+  </url>
+  <url>
     <loc>https://hyogo-shihoushoshi.jp/reviews/olta/</loc>
-    <lastmod>2026-06-23</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/reviews/olta/shinsa/</loc>
+    <lastmod>2026-07-05</lastmod>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/reviews/olta/documents/</loc>
+    <lastmod>2026-07-05</lastmod>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/reviews/olta/fee/</loc>
+    <lastmod>2026-07-05</lastmod>
   </url>
   <url>
     <loc>https://hyogo-shihoushoshi.jp/reviews/support-org/</loc>
@@ -50,9 +122,21 @@
   </url>
   <url>
     <loc>https://hyogo-shihoushoshi.jp/reviews/freenance/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/reviews/freenance/shinsa/</loc>
+    <lastmod>2026-07-05</lastmod>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/reviews/freenance/documents/</loc>
+    <lastmod>2026-07-05</lastmod>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/reviews/freenance/fee/</loc>
+    <lastmod>2026-07-05</lastmod>
   </url>
   <url>
     <loc>https://hyogo-shihoushoshi.jp/reviews/paytoday/</loc>
@@ -152,9 +236,21 @@
   </url>
   <url>
     <loc>https://hyogo-shihoushoshi.jp/reviews/gmo-btob/</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/reviews/gmo-btob/shinsa/</loc>
+    <lastmod>2026-07-05</lastmod>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/reviews/gmo-btob/documents/</loc>
+    <lastmod>2026-07-05</lastmod>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/reviews/gmo-btob/fee/</loc>
+    <lastmod>2026-07-05</lastmod>
   </url>
   <url>
     <loc>https://hyogo-shihoushoshi.jp/reviews/dokenkun/</loc>

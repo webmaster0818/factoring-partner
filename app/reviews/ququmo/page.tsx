@@ -248,6 +248,16 @@ export default function QuqumoReviewPage() {
           </p>
         </div>
 
+        {/* ── サブページ導線 ─── */}
+        <section className="mb-10 rounded-xl border border-primary/30 bg-primary/5 p-6">
+          <p className="mb-3 text-sm font-bold text-primary">QuQuMoをさらに詳しく</p>
+          <ul className="grid gap-2 text-sm md:grid-cols-3">
+            <li><Link href="/reviews/ququmo/shinsa/" className="font-bold text-primary underline underline-offset-2 hover:opacity-80">審査は厳しい？通過のコツ</Link></li>
+            <li><Link href="/reviews/ququmo/documents/" className="font-bold text-primary underline underline-offset-2 hover:opacity-80">必要書類と入金までの流れ</Link></li>
+            <li><Link href="/reviews/ququmo/fee/" className="font-bold text-primary underline underline-offset-2 hover:opacity-80">手数料の実際と他社比較</Link></li>
+          </ul>
+        </section>
+
         {/* ── 目次 ─── */}
         <nav className="mb-12 rounded-lg border border-border bg-section-bg p-6">
           <p className="mb-4 text-lg font-bold text-text-main">この記事の目次</p>
