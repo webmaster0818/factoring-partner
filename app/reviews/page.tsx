@@ -4,17 +4,17 @@ import Breadcrumb from "../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
-    "ファクタリング会社の口コミ・評判レビュー一覧｜28社を徹底検証",
+    "ファクタリング会社の口コミ・評判レビュー一覧｜34社を徹底検証",
   description:
-    "ファクタリングパートナーが調査したファクタリング会社28社の口コミ・評判レビュー一覧です。フリーランス向け・法人向け大口・オンライン完結・業種特化など、各社の手数料・審査・入金スピードを検証しています。",
+    "ファクタリングパートナーが調査したファクタリング会社34社の口コミ・評判レビュー一覧です。フリーランス向け・法人向け大口・オンライン完結・業種特化など、各社の手数料・審査・入金スピードを検証しています。",
   alternates: {
     canonical: "https://hyogo-shihoushoshi.jp/reviews/",
   },
   openGraph: {
     title:
-      "ファクタリング会社の口コミ・評判レビュー一覧｜28社を徹底検証",
+      "ファクタリング会社の口コミ・評判レビュー一覧｜34社を徹底検証",
     description:
-      "ファクタリング会社28社の口コミ・評判レビュー一覧。手数料・審査・入金スピードを各社ごとに検証しています。",
+      "ファクタリング会社34社の口コミ・評判レビュー一覧。手数料・審査・入金スピードを各社ごとに検証しています。",
     url: "https://hyogo-shihoushoshi.jp/reviews/",
     type: "website",
   },
@@ -49,6 +49,9 @@ const groups: ReviewGroup[] = [
       { slug: "goodplus", name: "GoodPlus", note: "最短90分のオンライン" },
       { slug: "shikinplus", name: "SHIKIN+", note: "オンライン完結" },
       { slug: "minnano", name: "みんなのファクタリング", note: "法人・個人事業主のオンライン" },
+      { slug: "urikakedo", name: "うりかけ堂", note: "最短90分・2社間オンライン" },
+      { slug: "kaisoku", name: "買速", note: "オンラインで最短30分" },
+      { slug: "sokuderu", name: "ソクデル", note: "最短60分・信用情報照会なし" },
     ],
   },
   {
@@ -73,6 +76,7 @@ const groups: ReviewGroup[] = [
       { slug: "ennavi", name: "えんナビ", note: "24時間対応" },
       { slug: "msfj", name: "MSFJ", note: "手数料の安さと柔軟審査" },
       { slug: "mentor", name: "メンターキャピタル", note: "300万円以下の小口" },
+      { slug: "js-agent", name: "事業資金エージェント", note: "1,000万円以下に特化" },
     ],
   },
   {
@@ -94,6 +98,8 @@ const groups: ReviewGroup[] = [
       { slug: "kensetsukun", name: "けんせつくん", note: "建設業特化" },
       { slug: "dokenkun", name: "土建くん", note: "建設業特化" },
       { slug: "japan-management", name: "ジャパンマネジメント", note: "九州発のファクタリング会社" },
+      { slug: "nishinihon-factor", name: "西日本ファクター", note: "福岡拠点・九州/中国地方密着" },
+      { slug: "trustgateway", name: "トラストゲートウェイ", note: "福岡本社・九州/関西密着" },
     ],
   },
 ];
@@ -105,7 +111,7 @@ const collectionSchema = {
   "@type": "CollectionPage",
   name: "ファクタリング会社の口コミ・評判レビュー一覧",
   description:
-    "ファクタリング会社28社の口コミ・評判レビュー一覧ページです。手数料・審査・入金スピードを各社ごとに検証しています。",
+    "ファクタリング会社34社の口コミ・評判レビュー一覧ページです。手数料・審査・入金スピードを各社ごとに検証しています。",
   url: "https://hyogo-shihoushoshi.jp/reviews/",
   isPartOf: {
     "@type": "WebSite",
