@@ -186,7 +186,7 @@ const articleSchema = {
   description:
     "土日祝日に即日入金できるファクタリング会社5社を比較。休日に資金調達を成功させるコツも解説。",
   datePublished: "2026-04-23",
-  dateModified: "2026-04-23",
+  dateModified: "2026-07-06",
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
@@ -611,6 +611,24 @@ export default function WeekendFactoringPage() {
             関連記事
           </h2>
           <div className="grid gap-4 md:grid-cols-2">
+            <Link
+              href="/reviews/labol/documents/"
+              className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
+            >
+              <p className="font-bold text-primary">ラボルの必要書類と入金までの流れ</p>
+              <p className="mt-1 text-sm text-text-light">
+                24時間365日入金対応の使い方を詳しく解説
+              </p>
+            </Link>
+            <Link
+              href="/reviews/paytner/documents/"
+              className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
+            >
+              <p className="font-bold text-primary">ペイトナーの必要書類と入金までの流れ</p>
+              <p className="mt-1 text-sm text-text-light">
+                最短10分入金までの準備を詳しく解説
+              </p>
+            </Link>
             <Link
               href="/articles/instant-factoring/"
               className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"

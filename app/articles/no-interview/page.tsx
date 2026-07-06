@@ -3,16 +3,16 @@ import Link from "next/link";
 import Breadcrumb from "../../components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "面談なし・電話なしのファクタリング5選｜完全非対面で資金調達",
+  title: "面談不要のファクタリング5選｜来店不要・完全非対面で資金調達【2026年】",
   description:
-    "面談なし・電話なしで完全非対面のファクタリング会社を5社厳選。オンライン完結で来店不要、電話対応も不要なサービスの特徴、メリット・デメリット、利用の流れを詳しく解説。忙しい事業者や対面が苦手な方に最適な資金調達方法です。",
+    "面談不要・来店不要で完全非対面のファクタリング会社を5社厳選。オンライン完結サービスの特徴、メリット・デメリット、利用の流れを詳しく解説。忙しい事業者や対面が苦手な方に最適な資金調達方法です。",
   alternates: {
     canonical: "https://hyogo-shihoushoshi.jp/articles/no-interview/",
   },
   openGraph: {
-    title: "面談なし・電話なしのファクタリング5選｜完全非対面で資金調達",
+    title: "面談不要のファクタリング5選｜来店不要・完全非対面で資金調達【2026年】",
     description:
-      "完全非対面のファクタリング会社5選。面談も電話も不要で、オンラインだけで資金調達する方法。",
+      "面談不要・来店不要のファクタリング会社5選。完全非対面・オンラインだけで資金調達する方法。",
     url: "https://hyogo-shihoushoshi.jp/articles/no-interview/",
     type: "article",
   },
@@ -112,11 +112,11 @@ const faqs = [
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
-  headline: "面談なし・電話なしのファクタリング5選｜完全非対面で資金調達",
+  headline: "面談不要のファクタリング5選｜来店不要・完全非対面で資金調達【2026年】",
   description:
     "完全非対面のファクタリング会社5選。面談も電話も不要で、オンラインだけで資金調達する方法。",
   datePublished: "2026-04-26",
-  dateModified: "2026-04-26",
+  dateModified: "2026-07-06",
   author: { "@type": "Person", name: "ファクタリングパートナー 編集部", url: "https://hyogo-shihoushoshi.jp/about/" },
   publisher: { "@type": "Organization", name: "ファクタリングパートナー", url: "https://hyogo-shihoushoshi.jp" },
   mainEntityOfPage: { "@type": "WebPage", "@id": "https://hyogo-shihoushoshi.jp/articles/no-interview/" },
@@ -158,12 +158,12 @@ export default function NoInterviewPage() {
         <div className="mx-auto max-w-4xl px-4 text-center">
           <p className="mb-3 inline-block rounded-full bg-primary px-4 py-1 text-sm font-bold text-white">比較ガイド</p>
           <h1 className="text-2xl font-bold leading-tight text-primary md:text-4xl">
-            面談なし・電話なしのファクタリング5選
+            面談不要のファクタリング5選
             <br className="hidden md:block" />
-            完全非対面で資金調達
+            来店不要・完全非対面で資金調達
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-base text-text-light md:text-lg">
-            来店不要・面談不要・電話不要。オンラインだけで完結するファクタリングサービスを厳選して比較します。
+            面談不要・来店不要。オンラインだけで完結するファクタリングサービスを厳選して比較します。電話・ヒアリングも無くしたい方向けの解説は<a href="/articles/denwa-nashi/" className="underline font-bold">電話なし・ヒアリングなし完結ガイド</a>をご覧ください。
           </p>
         </div>
       </section>
