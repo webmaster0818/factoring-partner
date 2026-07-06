@@ -92,7 +92,7 @@ const factoringRecommendations = [
   { name: "ペイトナー", speed: "最短10分", fee: "一律10%", target: "フリーランス・個人事業主", point: "業界最速の入金スピード" },
   { name: "QuQuMo", speed: "最短2時間", fee: "1%〜", target: "法人・個人事業主", point: "手数料が業界最安水準" },
   { name: "ビートレーディング", speed: "最短2時間", fee: "2%〜", target: "法人・個人事業主", point: "大手の安心感と大口対応" },
-  { name: "ラボル", speed: "最短30分", fee: "一律10%", target: "フリーランス・個人事業主", point: "土日祝日も24時間対応" },
+  { name: "ラボル", speed: "最短60分", fee: "一律10%", target: "フリーランス・個人事業主", point: "土日祝日も24時間対応" },
   { name: "アクセルファクター", speed: "最短即日", fee: "0.5%〜", target: "法人・個人事業主", point: "審査通過率93.3%" },
 ];
 

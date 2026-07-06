@@ -53,7 +53,7 @@ const amountGuides = [
 
 const amountComparison = [
   { range: "1万円〜30万円", service: "ペイトナー・ラボル", fee: "一律10%", speed: "最短10分", target: "フリーランス" },
-  { range: "30万円〜100万円", service: "ペイトナー・ラボル・OLTA", fee: "2%〜10%", speed: "最短30分", target: "個人事業主" },
+  { range: "30万円〜100万円", service: "ペイトナー・ラボル・OLTA", fee: "2%〜10%", speed: "最短10分〜", target: "個人事業主" },
   { range: "100万円〜500万円", service: "OLTA・アクセルファクター", fee: "0.5%〜9%", speed: "最短即日", target: "小規模法人" },
   { range: "500万円〜1000万円", service: "ビートレーディング・PMG", fee: "2%〜8%", speed: "最短即日", target: "中小企業" },
   { range: "1000万円〜5000万円", service: "ビートレーディング・PMG", fee: "1%〜5%", speed: "最短即日", target: "中堅企業" },

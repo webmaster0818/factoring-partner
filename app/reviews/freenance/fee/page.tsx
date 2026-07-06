@@ -31,7 +31,7 @@ const feeFacts = [
 const comparisonData = [
   { name: "FREENANCE", fee: "3%〜10%", speed: "最短即日", amount: "1万円〜" },
   { name: "ペイトナー", fee: "一律10%", speed: "最短10分", amount: "1万円〜" },
-  { name: "ラボル", fee: "一律10%", speed: "最短30分", amount: "1万円〜" },
+  { name: "ラボル", fee: "一律10%", speed: "最短60分", amount: "1万円〜" },
   { name: "QuQuMo", fee: "1%〜", speed: "最短2時間", amount: "制限なし" },
 ];
 

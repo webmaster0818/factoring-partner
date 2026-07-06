@@ -201,7 +201,7 @@ const breadcrumbSchema = {
 const comparisonData = [
   { name: "みんなのファクタリング", fee: "7%〜15%", speed: "最短3時間", amount: "10万円〜", online: "◎" },
   { name: "ペイトナー", fee: "一律10%", speed: "最短10分", amount: "1万〜300万円", online: "◎" },
-  { name: "ラボル", fee: "一律10%", speed: "最短30分", amount: "1万〜制限なし", online: "◎" },
+  { name: "ラボル", fee: "一律10%", speed: "最短60分", amount: "1万〜制限なし", online: "◎" },
   { name: "OLTA", fee: "2%〜9%", speed: "最短即日", amount: "制限なし", online: "◎" },
 ];
 
@@ -614,7 +614,7 @@ export default function MinnanoReviewPage() {
             <div className="rounded-lg border border-border bg-white p-5">
               <p className="mb-2 font-semibold text-text-main">入金スピードの違い</p>
               <p className="text-sm leading-relaxed text-text-light">
-                ペイトナーは最短10分、ラボルは最短30分で入金されますが、みんなのファクタリングは最短3時間です。スピードだけを重視するならペイトナーやラボルが優位ですが、手数料を含めた総合コストで判断することが重要です。
+                ペイトナーは最短10分、ラボルは最短60分で入金されますが、みんなのファクタリングは最短3時間です。スピードだけを重視するならペイトナーやラボルが優位ですが、手数料を含めた総合コストで判断することが重要です。
               </p>
             </div>
             <div className="rounded-lg border border-border bg-white p-5">

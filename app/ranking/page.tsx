@@ -1119,7 +1119,7 @@ export default function RankingPage() {
                 <tbody>
                   {[
                     { name: "ペイトナー", speed: "最短10分", stars: "★★★★★" },
-                    { name: "ラボル", speed: "最短30分", stars: "★★★★★" },
+                    { name: "ラボル", speed: "最短60分", stars: "★★★★★" },
                     { name: "PAYTODAY", speed: "最短30分", stars: "★★★★★" },
                     { name: "GoodPlus", speed: "最短90分", stars: "★★★★☆" },
                     {
