@@ -302,6 +302,10 @@ export default function FeeSurvey2026Page() {
             関連ページ
           </h2>
           <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
+            <Link href="/articles/zenkoku-shikinguri-shien/" className="block rounded-lg border border-gray-200 p-4 hover:bg-gray-50">
+              <p className="font-bold text-blue-700">47都道府県 公的資金繰り支援窓口マップ</p>
+              <p className="mt-1 text-xs text-gray-500">よろず支援拠点・信用保証協会の全一覧（引用可）</p>
+            </Link>
             <Link href="/articles/fee-disclosed-companies/" className="block rounded-lg border border-gray-200 p-4 hover:bg-gray-50">
               <p className="text-sm font-semibold text-gray-900">手数料を公表している会社一覧（44社）</p>
               <p className="mt-1 text-xs text-gray-500">手数料が明確な会社と非公開の会社の違い</p>

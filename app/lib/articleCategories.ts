@@ -127,6 +127,7 @@ export const categories: Category[] = [
     title: "エリア別ガイド",
     description: "全国の主要エリアに対応したファクタリング会社をエリア別に紹介します。",
     articles: [
+      { slug: "zenkoku-shikinguri-shien", label: "【47都道府県】公的資金繰り支援窓口マップ" },
       { slug: "area-hub", label: "エリア別ファクタリング会社一覧" },
       { slug: "tokyo", label: "ファクタリング 東京のおすすめ業者10選" },
       { slug: "osaka", label: "ファクタリング 大阪のおすすめ業者8選" },

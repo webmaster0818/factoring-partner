@@ -389,6 +389,9 @@ export default function AreaHubPage() {
           <div className="max-w-3xl mx-auto">
             <h3 className="text-lg font-bold text-[#1e3a5f] mb-4">関連ガイド</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              <Link href="/articles/zenkoku-shikinguri-shien/" className="block p-3 border border-[#d4dbe6] rounded-lg hover:bg-[#f7f9fc] transition-colors">
+                <p className="text-sm font-semibold text-[#1e3a5f]">47都道府県 公的資金繰り支援窓口マップ →</p>
+              </Link>
               <Link href="/articles/industry-hub/" className="block p-3 border border-[#d4dbe6] rounded-lg hover:bg-[#f7f9fc] transition-colors">
                 <p className="text-sm font-semibold text-[#1e3a5f]">業種別ファクタリングガイド一覧 →</p>
               </Link>

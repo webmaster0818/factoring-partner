@@ -235,3 +235,9 @@
 - 【修正】weekend-factoring: 関連記事にlabol/paytnerのdocumentsサブページカード2枚(ペイトナー土日68位との接続)。⚠️教訓: **JSデータ配列内の文字列にHTMLアンカーを追記するとクオート衝突で構文エラー**→JSX部分(関連記事欄)に追加する
 - articleCategories+1・sitemap-articles 148→149(no-interview/weekendのlastmodも)・deploy両push・本番検証(denwa-nashi 200+バッジ表記/no-interview新title/weekendカード/sitemap149)・GSC再送信。サイト219URL
 - 残: P2(別語彙12本)→P4(47都道府県マップ+survey引用スニペット)。P1/P3の順位変化は1-2週後に観測
+
+## 2026-07-06 拡張v2 P2: 別語彙クラスタ12本+🐛ラボル速度是正（MediaXAI「p2進めよう」）✅
+- 並列agent3体で「ファクタリング」と検索しない層向け12本新設: 請求書系4(seikyusho-kaitori=ピラー/kaitori-app/sakibarai/genkinka)+売掛金系4(urikakekin-genkinka=ピラー/kaishu-hayameru/urikake-saiken/tsunagi-shikin)+前払い系4(hoshu-maebarai/nyukin-maedaoshi/kyuyo-maebarai-chigai/kakeuri-risk)。全て「=法的にはファクタリング」の橋渡し+既存記事へ委譲(重複解説なし)・数値は公式確認値転記のみ・交渉が本筋系は中立構成・給与FT区別記事はsalary-factoring-illegal既載範囲のみで断定
+- 🐛重要是正: **ラボル入金速度「最短30分」がサイト内26箇所で誤り**(公式は「最短60分後、あなたのお金の悩みは0になる」=labol.co.jp 2026年7月確認)。ranking/instant-factoring/weekend-factoring/paytner-vs-labol等15ファイルを60分へ一括是正(行単位+複数行ブロック個別)。PAYTODAY(最短30分)等の他社帰属は誤置換せず文脈確認済み。※労力泉: 7/5にagentが「親レビュー60分vsランキング30分の衝突」を申し送り→公式確認で決着
+- articleCategoriesに新カテゴリ「請求書買取・売掛金の資金化(別語彙ガイド)」+12。12本間の内部リンク実在チェック全通過。sitemap-articles 149→161+是正9記事lastmod・reviews/core lastmod・deploy両push・本番12/12 200+ラボル残存0+カテゴリ+sitemap161検証・GSC3種再送信。サイト231URL
+- 残: P4(47都道府県公的支援マップ+survey引用スニペット)のみ。P1/P2/P3の順位観測は7月中旬

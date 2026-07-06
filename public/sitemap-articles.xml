@@ -260,7 +260,7 @@
   </url>
   <url>
     <loc>https://hyogo-shihoushoshi.jp/articles/factoring-fee-survey-2026/</loc>
-    <lastmod>2026-07-04</lastmod>
+    <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -636,7 +636,7 @@
   </url>
   <url>
     <loc>https://hyogo-shihoushoshi.jp/articles/area-hub/</loc>
-    <lastmod>2026-07-04</lastmod>
+    <lastmod>2026-07-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -938,6 +938,10 @@
   </url>
   <url>
     <loc>https://hyogo-shihoushoshi.jp/articles/kakeuri-risk/</loc>
+    <lastmod>2026-07-06</lastmod>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/articles/zenkoku-shikinguri-shien/</loc>
     <lastmod>2026-07-06</lastmod>
   </url>
 </urlset>
