@@ -246,6 +246,34 @@ export default function AreaHubPage() {
           </div>
         </section>
 
+        {/* ── その他の対応エリア（全都市一覧） ─── */}
+        <section className="mb-12">
+          <h2 className="mb-4 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">その他の都市別ガイド</h2>
+          <p className="mb-4 text-sm text-text-light">上記の主要8エリアに加え、以下の都市の地域別ガイド（各都市の公的支援窓口つき）も用意しています。全国の公的な資金繰り相談先は<Link href="/articles/zenkoku-shikinguri-shien/" className="text-primary underline">47都道府県 公的支援マップ</Link>もご覧ください。</p>
+          <div className="grid grid-cols-3 gap-2 sm:grid-cols-5">
+              <Link href="/articles/kyoto/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">京都</Link>
+              <Link href="/articles/kobe/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">神戸</Link>
+              <Link href="/articles/kawasaki/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">川崎</Link>
+              <Link href="/articles/saitama/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">さいたま</Link>
+              <Link href="/articles/chiba/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">千葉</Link>
+              <Link href="/articles/shizuoka/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">静岡</Link>
+              <Link href="/articles/hamamatsu/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">浜松</Link>
+              <Link href="/articles/okayama/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">岡山</Link>
+              <Link href="/articles/kumamoto/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">熊本</Link>
+              <Link href="/articles/niigata/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">新潟</Link>
+              <Link href="/articles/sakai/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">堺</Link>
+              <Link href="/articles/sagamihara/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">相模原</Link>
+              <Link href="/articles/kanazawa/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">金沢</Link>
+              <Link href="/articles/utsunomiya/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">宇都宮</Link>
+              <Link href="/articles/gifu/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">岐阜</Link>
+              <Link href="/articles/takamatsu/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">高松</Link>
+              <Link href="/articles/matsuyama/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">松山</Link>
+              <Link href="/articles/kagoshima/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">鹿児島</Link>
+              <Link href="/articles/naha/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">那覇</Link>
+              <Link href="/articles/kitakyushu/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">北九州</Link>
+          </div>
+        </section>
+
         {/* ── エリア別比較表 ─── */}
         <section className="mb-12">
           <h2 className="mb-6 border-l-4 border-[#1e3a5f] pl-4 text-xl font-bold text-[#1e3a5f]">

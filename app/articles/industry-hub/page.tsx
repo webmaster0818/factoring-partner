@@ -136,6 +136,66 @@ const industries = [
     description: "収穫・出荷サイクルに合わせた資金調達。農業特有の季節変動に対応するファクタリング活用法を解説。",
     icon: "🌾",
   },
+  {
+    slug: "security",
+    name: "警備業",
+    description: "警備員の人件費が先行しやすい警備業の資金繰りに対応。",
+    icon: "🛡️",
+  },
+  {
+    slug: "cleaning",
+    name: "清掃業",
+    description: "定期清掃・スポット清掃の入金待ちをファクタリングで平準化。",
+    icon: "🧹",
+  },
+  {
+    slug: "painting",
+    name: "塗装業",
+    description: "材料費・外注費が先行する塗装業の資金繰りを支援。",
+    icon: "🎨",
+  },
+  {
+    slug: "demolition",
+    name: "解体業",
+    description: "重機・処分費の先行支出が大きい解体業向け。",
+    icon: "🏚️",
+  },
+  {
+    slug: "hotel",
+    name: "宿泊業",
+    description: "繁閑差の大きい宿泊業のキャッシュフロー対策に。",
+    icon: "🏨",
+  },
+  {
+    slug: "childcare",
+    name: "保育・福祉",
+    description: "委託費・給付費の入金サイクルに合わせた資金化。",
+    icon: "🧸",
+  },
+  {
+    slug: "taxi",
+    name: "タクシー・運送",
+    description: "車両維持費・燃料費の先行負担に対応。",
+    icon: "🚕",
+  },
+  {
+    slug: "event",
+    name: "イベント・興行",
+    description: "開催前の先行支出と入金待ちのギャップを埋める。",
+    icon: "🎪",
+  },
+  {
+    slug: "welfare",
+    name: "介護・福祉サービス",
+    description: "介護報酬・給付費の入金前の運転資金に。",
+    icon: "♿",
+  },
+  {
+    slug: "apparel",
+    name: "アパレル",
+    description: "仕入れ先行・季節性の強いアパレルの資金繰りに。",
+    icon: "👗",
+  },
 ];
 
 const faqs = [
