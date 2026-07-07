@@ -249,3 +249,10 @@
 - P4-b引用スニペット: survey-2026は既に完備(6月実装済み)と確認→重複作成せず、survey⇄マップ相互リンク+area-hub関連ガイドに追加のみ。カテゴリ=area先頭+sitemap-articles 161→162
 - deploy両push・本番検証(47/51リンク・スニペット・相互リンク・sitemap162)・GSC再送信。サイト232URL
 - ★拡張v2完了サマリ: P1指名30本(7/5)+P3条件KW分離(7/6)+P2別語彙12本(7/6)+P4マップ1本(7/6)=+44本・188→232URL。順位観測は7月中旬(P1指名クエリ・面談不要17位→10位内・別語彙の立ち上がり)
+
+## 2026-07-07 トピッククラスター戦略 P1+P2第1波（MediaXAI「p1から進めて」）✅
+- ★P1クラスタ地図確定: 全162記事の内部リンクを機械分析し13クラスタ×ピラーの配線完成度(up=スポーク→ピラー/down=ピラー→スポーク)を可視化。判明した穴: エリア3%/3%(ほぼ未配線・最大の穴かつ唯一の勝ち筋)・up0%が4クラスタ(業種/資金調達比較/会社比較/会計)・対象者別はピラー不在
+- ★P2第1波=エリア+業種を双方向配線: 上りリンク=28都市→area-hub・29業種→industry-hub を各ページの「あわせて使いたいツール」欄にPython一括挿入(ranking行アンカー・テンプレ共通性を利用)。下りリンク=area-hubに「その他の都市別ガイド」20都市+47都道府県マップ節を新設・industry-hubに欠けていた10業種(security/cleaning/painting/demolition/hotel/childcare/taxi/event/welfare/apparel)を追加。**up 0-3%→100%**に改善
+- 架空説明を作らず既存ページへの単純リンクで構造のみ通す。sitemap-articles lastmod59件・deploy両push・本番(都市→hub 5/5・業種→hub 5/5・hub下り全数)cache回避curl検証・GSC再送信
+- ※検証注意: industry-hub/area-hubの.map()はテンプレリテラル`/articles/${slug}/`のため正規表現のdown計測は偽の低値。実描画HTMLをcurlすれば全リンク存在
+- 残(P2第2波): up0%の残3クラスタ(compare/ranking/accounting)+各ピラー下り補完+対象者別ピラー新設(P4)。承認待ち

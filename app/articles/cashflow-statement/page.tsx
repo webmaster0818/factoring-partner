@@ -197,6 +197,19 @@ export default function CashflowStatementPage() {
           </div>
         </section>
 
+        <section className="mb-16">
+          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">会計・税務・資金繰りの関連記事</h2>
+          <div className="grid gap-3 sm:grid-cols-2">
+            <Link href="/articles/accounting/" className="rounded-lg border border-border bg-white p-4 transition-shadow hover:shadow-md"><p className="text-sm font-bold text-primary">ファクタリングの会計処理・仕訳</p></Link>
+            <Link href="/articles/expense/" className="rounded-lg border border-border bg-white p-4 transition-shadow hover:shadow-md"><p className="text-sm font-bold text-primary">ファクタリング手数料の勘定科目</p></Link>
+            <Link href="/articles/tax-return/" className="rounded-lg border border-border bg-white p-4 transition-shadow hover:shadow-md"><p className="text-sm font-bold text-primary">確定申告とファクタリング</p></Link>
+            <Link href="/articles/cashflow-sheet/" className="rounded-lg border border-border bg-white p-4 transition-shadow hover:shadow-md"><p className="text-sm font-bold text-primary">資金繰り表の作り方</p></Link>
+            <Link href="/articles/cashflow-tips/" className="rounded-lg border border-border bg-white p-4 transition-shadow hover:shadow-md"><p className="text-sm font-bold text-primary">資金繰り改善のコツ</p></Link>
+            <Link href="/articles/ar-management/" className="rounded-lg border border-border bg-white p-4 transition-shadow hover:shadow-md"><p className="text-sm font-bold text-primary">売掛金管理の基本</p></Link>
+            <Link href="/articles/receivables-management/" className="rounded-lg border border-border bg-white p-4 transition-shadow hover:shadow-md"><p className="text-sm font-bold text-primary">債権管理と回収</p></Link>
+          </div>
+        </section>
+
         <section className="rounded-lg bg-primary p-8 text-center text-white md:p-12">
           <h2 className="text-xl font-bold md:text-2xl">ファクタリング会社を比較する</h2>
           <p className="mx-auto mt-4 max-w-xl text-sm text-blue-100">手数料・入金スピード・審査通過率で主要ファクタリング会社を徹底比較。</p>

@@ -412,6 +412,22 @@ export default function FundingMethodsPage() {
           </div>
         </section>
 
+        <section className="mb-16">
+          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">他の資金調達方法との比較（詳しく知る）</h2>
+          <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3">
+            <Link href="/articles/vs-bank-loan/" className="rounded-lg border border-border bg-white p-4 transition-shadow hover:shadow-md"><p className="text-sm font-bold text-primary">ファクタリング vs 銀行融資との違い</p></Link>
+            <Link href="/articles/vs-business-loan/" className="rounded-lg border border-border bg-white p-4 transition-shadow hover:shadow-md"><p className="text-sm font-bold text-primary">ファクタリング vs ビジネスローンとの違い</p></Link>
+            <Link href="/articles/vs-bill-discount/" className="rounded-lg border border-border bg-white p-4 transition-shadow hover:shadow-md"><p className="text-sm font-bold text-primary">ファクタリング vs 手形割引との違い</p></Link>
+            <Link href="/articles/vs-densai/" className="rounded-lg border border-border bg-white p-4 transition-shadow hover:shadow-md"><p className="text-sm font-bold text-primary">ファクタリング vs でんさいとの違い</p></Link>
+            <Link href="/articles/vs-abl/" className="rounded-lg border border-border bg-white p-4 transition-shadow hover:shadow-md"><p className="text-sm font-bold text-primary">ファクタリング vs ABL（動産担保融資）との違い</p></Link>
+            <Link href="/articles/vs-card-payment/" className="rounded-lg border border-border bg-white p-4 transition-shadow hover:shadow-md"><p className="text-sm font-bold text-primary">ファクタリング vs 請求書カード払いとの違い</p></Link>
+            <Link href="/articles/vs-crowdfunding/" className="rounded-lg border border-border bg-white p-4 transition-shadow hover:shadow-md"><p className="text-sm font-bold text-primary">ファクタリング vs クラウドファンディングとの違い</p></Link>
+            <Link href="/articles/vs-subsidy/" className="rounded-lg border border-border bg-white p-4 transition-shadow hover:shadow-md"><p className="text-sm font-bold text-primary">ファクタリング vs 補助金・助成金との違い</p></Link>
+            <Link href="/articles/no-guarantee/" className="rounded-lg border border-border bg-white p-4 transition-shadow hover:shadow-md"><p className="text-sm font-bold text-primary">経営者保証なしの資金調達</p></Link>
+            <Link href="/articles/subsidy-bridge/" className="rounded-lg border border-border bg-white p-4 transition-shadow hover:shadow-md"><p className="text-sm font-bold text-primary">補助金入金待ちのつなぎ資金</p></Link>
+          </div>
+        </section>
+
         <section className="rounded-lg bg-primary p-8 text-center text-white md:p-12">
           <h2 className="text-xl font-bold md:text-2xl">即日資金調達が可能なファクタリング会社を比較</h2>
           <p className="mx-auto mt-4 max-w-xl text-sm text-blue-100">
