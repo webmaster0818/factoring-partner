@@ -260,6 +260,11 @@ export default function FeeDisclosedCompaniesPage() {
             関連ページ
           </h2>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            <Link href="/articles/fee-guide/" className="block rounded-lg border border-gray-200 p-4 hover:bg-gray-50">
+              <p className="text-sm font-semibold text-gray-900">ファクタリング手数料の相場ガイド</p>
+              <p className="mt-1 text-xs text-gray-500">相場・内訳・安く抑えるコツの総まとめ</p>
+            </Link>
+
             <Link href="/articles/factoring-fee-survey-2026/" className="block rounded-lg border border-border p-4 hover:bg-section-bg">
               <p className="text-sm font-semibold text-text-main">ファクタリング手数料 実態調査2026（49社）</p>
               <p className="mt-1 text-xs text-text-light">公表率・下限の分布など集計データ</p>

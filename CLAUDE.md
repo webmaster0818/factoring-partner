@@ -256,3 +256,9 @@
 - 架空説明を作らず既存ページへの単純リンクで構造のみ通す。sitemap-articles lastmod59件・deploy両push・本番(都市→hub 5/5・業種→hub 5/5・hub下り全数)cache回避curl検証・GSC再送信
 - ※検証注意: industry-hub/area-hubの.map()はテンプレリテラル`/articles/${slug}/`のため正規表現のdown計測は偽の低値。実描画HTMLをcurlすれば全リンク存在
 - 残(P2第2波): up0%の残3クラスタ(compare/ranking/accounting)+各ピラー下り補完+対象者別ピラー新設(P4)。承認待ち
+
+## 2026-07-07 トピッククラスター P2第2波（MediaXAI「第二波進めて」）✅
+- 資金調達比較(11)→funding-methods・会計税務(8)→cashflow-statement を双方向配線(上り0%→100%・ピラー下りリンク節も新設)。Python一括(ranking行アンカー利用)
+- ★会社比較クラスタは配線不要判明: 測定時ピラーをhow-to-chooseで見て0%だったが**実際は全記事が/ranking/(真のハブ=金ページ)へ既にリンク済み**。ピラー割当の学び=測定は真のハブ(/ranking/等の実ページ)基準で
+- 配線到達: エリア/業種/比較/会計=up100%・会社比較=既済。残=基礎/手数料/審査/対象者/別語彙の部分配線(42-77%)+対象者別ピラー不在(P4候補)
+- sitemap-articles lastmod19件・deploy両push・本番(compare/accounting上り5/5・下り反映)cache回避curl検証・GSC再送信

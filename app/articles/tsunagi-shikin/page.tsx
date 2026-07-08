@@ -595,6 +595,7 @@ export default function TsunagiShikinPage() {
             <p className="mb-3 font-bold text-primary">あわせて使いたいツール・データ</p>
             <ul className="space-y-2 text-sm text-text-light">
               <li><Link href="/ranking/" className="font-medium text-primary underline">おすすめファクタリング会社ランキング</Link>｜編集部が厳選した順位で比較できます。</li>
+                    <li><Link href="/articles/seikyusho-kaitori/" className="font-medium text-primary underline">請求書買取とは（別語彙の基本）</Link>｜呼び方の違いと仕組みをまとめています。</li>
               <li><Link href="/diagnosis/" className="font-medium text-primary underline">無料診断（7つの質問・30秒）</Link>｜事業形態・金額・急ぎ度からあなたに合う1社を絞り込めます。</li>
               <li><Link href="/simulator/" className="font-medium text-primary underline">手数料シミュレーター</Link>｜売掛金額から手数料・入金額の目安を計算できます。</li>
               <li><Link href="/articles/company-directory/" className="font-medium text-primary underline">審査済み業者データベース（49社+）</Link>｜手数料・対応・オンラインで絞り込み（手数料は2026年6月に各社公式確認済み）。</li>
