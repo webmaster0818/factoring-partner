@@ -271,6 +271,30 @@ export default function AreaHubPage() {
               <Link href="/articles/kagoshima/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">鹿児島</Link>
               <Link href="/articles/naha/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">那覇</Link>
               <Link href="/articles/kitakyushu/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">北九州</Link>
+              <Link href="/articles/aomori-city/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">青森</Link>
+              <Link href="/articles/morioka/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">盛岡</Link>
+              <Link href="/articles/akita-city/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">秋田</Link>
+              <Link href="/articles/yamagata-city/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">山形</Link>
+              <Link href="/articles/fukushima-city/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">福島</Link>
+              <Link href="/articles/mito/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">水戸</Link>
+              <Link href="/articles/maebashi/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">前橋</Link>
+              <Link href="/articles/kofu/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">甲府</Link>
+              <Link href="/articles/nagano-city/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">長野</Link>
+              <Link href="/articles/toyama-city/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">富山</Link>
+              <Link href="/articles/fukui-city/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">福井</Link>
+              <Link href="/articles/otsu/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">大津</Link>
+              <Link href="/articles/tsu/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">津</Link>
+              <Link href="/articles/nara-city/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">奈良</Link>
+              <Link href="/articles/wakayama-city/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">和歌山</Link>
+              <Link href="/articles/tottori-city/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">鳥取</Link>
+              <Link href="/articles/matsue/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">松江</Link>
+              <Link href="/articles/yamaguchi-city/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">山口</Link>
+              <Link href="/articles/tokushima-city/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">徳島</Link>
+              <Link href="/articles/kochi-city/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">高知</Link>
+              <Link href="/articles/saga-city/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">佐賀</Link>
+              <Link href="/articles/nagasaki-city/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">長崎</Link>
+              <Link href="/articles/oita-city/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">大分</Link>
+              <Link href="/articles/miyazaki-city/" className="rounded-lg border border-border bg-white px-3 py-2 text-center text-sm text-primary underline hover:shadow-sm">宮崎</Link>
           </div>
         </section>
 

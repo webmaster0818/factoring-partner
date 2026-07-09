@@ -62,6 +62,14 @@ const schemaOrg = {
         addressRegion: "東京都",
         addressCountry: "JP",
       },
+      publishingPrinciples: "https://hyogo-shihoushoshi.jp/verification-policy/",
+      knowsAbout: [
+        "ファクタリング",
+        "売掛金の資金化",
+        "中小企業の資金調達",
+        "請求書買取",
+        "資金繰り改善",
+      ],
     },
   ],
 };
