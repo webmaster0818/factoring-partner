@@ -8,19 +8,19 @@
   </url>
   <url>
     <loc>https://hyogo-shihoushoshi.jp/articles/for-corporation/</loc>
-    <lastmod>2026-07-04</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://hyogo-shihoushoshi.jp/articles/for-sole-proprietor/</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://hyogo-shihoushoshi.jp/articles/for-freelance/</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -194,7 +194,7 @@
   </url>
   <url>
     <loc>https://hyogo-shihoushoshi.jp/articles/startup/</loc>
-    <lastmod>2026-07-04</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -306,7 +306,7 @@
   </url>
   <url>
     <loc>https://hyogo-shihoushoshi.jp/articles/individual-clients/</loc>
-    <lastmod>2026-07-04</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -552,7 +552,7 @@
   </url>
   <url>
     <loc>https://hyogo-shihoushoshi.jp/articles/before-incorporation/</loc>
-    <lastmod>2026-07-04</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -943,5 +943,9 @@
   <url>
     <loc>https://hyogo-shihoushoshi.jp/articles/zenkoku-shikinguri-shien/</loc>
     <lastmod>2026-07-06</lastmod>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/articles/target-hub/</loc>
+    <lastmod>2026-07-09</lastmod>
   </url>
 </urlset>

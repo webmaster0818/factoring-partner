@@ -30,6 +30,7 @@ export const categories: Category[] = [
     title: "対象者別ガイド（法人・個人事業主・フリーランス）",
     description: "あなたの立場に合ったファクタリングの選び方・おすすめサービスを紹介します。",
     articles: [
+      { slug: "target-hub", label: "対象者別ファクタリングガイド（誰が使える？）" },
       { slug: "for-corporation", label: "法人向けファクタリングおすすめ5選" },
       { slug: "for-sole-proprietor", label: "個人事業主向けファクタリングおすすめ5選" },
       { slug: "for-freelance", label: "フリーランス向けファクタリング5選" },
