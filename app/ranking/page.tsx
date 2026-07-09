@@ -4,17 +4,17 @@ import Breadcrumb from "../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
-    "【2026年最新】ファクタリング会社おすすめ15選を徹底比較！手数料・入金速度・審査で選ぶ",
+    "ファクタリング会社おすすめランキング15選【2026年最新】手数料・入金速度・審査で徹底比較",
   description:
-    "ファクタリング会社おすすめ15社を手数料・入金速度・審査通過率・買取可能額・オンライン対応の5項目で徹底比較。法人・個人事業主・フリーランスに最適なファクタリング会社をランキング形式で紹介します。",
+    "ファクタリング会社おすすめランキング。15社を手数料・入金速度・審査通過率・買取可能額・オンライン対応の5項目で徹底比較。法人・個人事業主・フリーランスに最適なファクタリング会社が見つかります。",
   alternates: {
     canonical: "https://hyogo-shihoushoshi.jp/ranking/",
   },
   openGraph: {
     title:
-      "【2026年最新】ファクタリング会社おすすめ15選を徹底比較！手数料・入金速度・審査で選ぶ",
+      "ファクタリング会社おすすめランキング15選【2026年最新】手数料・入金速度・審査で徹底比較",
     description:
-      "ファクタリング会社おすすめ15社を手数料・入金速度・審査通過率・買取可能額・オンライン対応の5項目で徹底比較。",
+      "ファクタリング会社おすすめランキング。15社を5項目で徹底比較。",
     url: "https://hyogo-shihoushoshi.jp/ranking/",
     type: "article",
   },
@@ -628,11 +628,11 @@ const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article", image: "https://hyogo-shihoushoshi.jp/og-image.png",
   headline:
-    "【2026年最新】ファクタリング会社おすすめ15選を徹底比較！手数料・入金速度・審査で選ぶ",
+    "ファクタリング会社おすすめランキング15選【2026年最新】手数料・入金速度・審査で徹底比較",
   description:
     "ファクタリング会社おすすめ15社を手数料・入金速度・審査通過率・買取可能額・オンライン対応の5項目で徹底比較。",
   datePublished: "2026-04-21",
-  dateModified: "2026-04-21",
+  dateModified: "2026-07-09",
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
@@ -690,7 +690,7 @@ export default function RankingPage() {
             2026年6月 手数料を全社公式確認
           </p>
           <h1 className="text-2xl font-bold leading-tight text-primary md:text-4xl">
-            ファクタリング会社おすすめ15選を徹底比較！
+            ファクタリング会社おすすめランキング15選
             <br className="hidden md:block" />
             手数料・入金速度・審査で選ぶ
           </h1>
