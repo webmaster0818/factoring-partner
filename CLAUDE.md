@@ -279,3 +279,10 @@
 - 「ファクタリングランキング」19位(実測)との表記一致: title/og/headline/h1を「ファクタリング会社おすすめランキング15選【2026年最新】…」へ(「ランキング」の語を明示)。description冒頭も「おすすめランキング」に
 - 順位・社数(15社)・紹介文言は不変更。dateModified 07-09・sitemap-core lastmod・deploy両push・本番title反映curl検証・GSC再送信
 - 残: v4 P2(E-E-A-T移植)/P3(地域第3弾~20県都)/P4(ニッチ指名第2弾)/P5(被リンク配布=協働)/P6(登録リクエスト第3弾+再計測)承認待ち
+
+## 2026-07-09 v4 P2+P3: E-E-A-T差分+24県都新設（MediaXAI「続けてください」）✅→★47県都フルカバー完成
+- P2: Organization schema(layout)にpublishingPrinciples(→/verification-policy/)+knowsAbout 5領域を追加(運営者MediaX/住所/Footer方針は既存)。women-engineer型の差分移植
+- P3: 未カバー県庁所在地は20でなく**24**と判明→並列agent6体×4県都で全て新設(aomori-city/morioka/akita-city/yamagata-city/fukushima-city/mito/maebashi/kofu/nagano-city/toyama-city/fukui-city/otsu/tsu/nara-city/wakayama-city/tottori-city/matsue/yamaguchi-city/tokushima-city/kochi-city/saga-city/nagasaki-city/oita-city/miyazaki-city)。**地域=28都市+24県都=52ページで47都道府県の県都フルカバー**
+- 品質担保の実例: 全agentが手数料10値をsendai現行と機械照合(アクセル0.5%〜)・公的URLは47マップ確認済み8本/agent+商工会議所を自力curl+title照合(長崎=県連合会と単会を区別/宮崎=ドメイン直下は県連で/miyazaki/採用/水戸=推測URL不採用で実URL特定/松江=7候補全滅で掲載見送り=推測禁止遵守/高知=httpのみ200を実測掲載)・制度融資はURL未確認でリンクなしカード・地域統計創作ゼロ・FAQ相場統一値・文字化けゼロ
+- ホスト: categories area+24・sitemap-articles 163→187・area-hub「その他の都市別ガイド」+24(計44都市リンク)・deploy両push・本番24/24 200+品質サンプル+schema+sitemap検証・GSC再送信。サイト257URL
+- 残: v4 P4(ニッチ指名第2弾~8社)/P5(被リンク配布=協働)/P6(登録リクエスト第3弾+再計測)承認待ち

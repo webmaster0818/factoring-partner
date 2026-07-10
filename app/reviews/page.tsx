@@ -4,17 +4,17 @@ import Breadcrumb from "../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
-    "ファクタリング会社の口コミ・評判レビュー一覧｜34社を徹底検証",
+    "ファクタリング会社の口コミ・評判レビュー一覧｜41社を徹底検証",
   description:
-    "ファクタリングパートナーが調査したファクタリング会社34社の口コミ・評判レビュー一覧です。フリーランス向け・法人向け大口・オンライン完結・業種特化など、各社の手数料・審査・入金スピードを検証しています。",
+    "ファクタリングパートナーが調査したファクタリング会社41社の口コミ・評判レビュー一覧です。フリーランス向け・法人向け大口・オンライン完結・業種特化など、各社の手数料・審査・入金スピードを検証しています。",
   alternates: {
     canonical: "https://hyogo-shihoushoshi.jp/reviews/",
   },
   openGraph: {
     title:
-      "ファクタリング会社の口コミ・評判レビュー一覧｜34社を徹底検証",
+      "ファクタリング会社の口コミ・評判レビュー一覧｜41社を徹底検証",
     description:
-      "ファクタリング会社34社の口コミ・評判レビュー一覧。手数料・審査・入金スピードを各社ごとに検証しています。",
+      "ファクタリング会社41社の口コミ・評判レビュー一覧。手数料・審査・入金スピードを各社ごとに検証しています。",
     url: "https://hyogo-shihoushoshi.jp/reviews/",
     type: "website",
   },
@@ -49,6 +49,7 @@ const groups: ReviewGroup[] = [
       { slug: "goodplus", name: "GoodPlus", note: "最短90分のオンライン" },
       { slug: "shikinplus", name: "SHIKIN+", note: "オンライン完結" },
       { slug: "minnano", name: "みんなのファクタリング", note: "法人・個人事業主のオンライン" },
+      { slug: "wit", name: "ウィット", note: "小口特化・LINE対応の完全オンライン" },
       { slug: "urikakedo", name: "うりかけ堂", note: "最短90分・2社間オンライン" },
       { slug: "kaisoku", name: "買速", note: "オンラインで最短30分" },
       { slug: "sokuderu", name: "ソクデル", note: "最短60分・信用情報照会なし" },
@@ -65,6 +66,9 @@ const groups: ReviewGroup[] = [
       { slug: "bestfactor", name: "ベストファクター", note: "買取額30万〜1億円" },
       { slug: "no1", name: "株式会社No.1", note: "最短即日・手数料1%〜" },
       { slug: "top-management", name: "トップ・マネジメント", note: "手数料0.5%〜の老舗" },
+      { slug: "jbl", name: "JBL", note: "365日契約・振込対応、最大1億円" },
+      { slug: "acetrust", name: "エーストラスト", note: "原則法人・上限まで手数料公表" },
+      { slug: "nextone", name: "ネクストワン", note: "法人専門・買取上限なし" },
     ],
   },
   {
@@ -77,6 +81,9 @@ const groups: ReviewGroup[] = [
       { slug: "msfj", name: "MSFJ", note: "手数料の安さと柔軟審査" },
       { slug: "mentor", name: "メンターキャピタル", note: "300万円以下の小口" },
       { slug: "js-agent", name: "事業資金エージェント", note: "1,000万円以下に特化" },
+      { slug: "otti", name: "OTTI（オッティ）", note: "最短3時間審査・創業期も相談可" },
+      { slug: "try", name: "ファクタリングのTRY", note: "乗り換え優遇・登記不要" },
+      { slug: "rising", name: "ライジング", note: "医療・介護報酬債権にも対応" },
     ],
   },
   {
@@ -111,7 +118,7 @@ const collectionSchema = {
   "@type": "CollectionPage",
   name: "ファクタリング会社の口コミ・評判レビュー一覧",
   description:
-    "ファクタリング会社34社の口コミ・評判レビュー一覧ページです。手数料・審査・入金スピードを各社ごとに検証しています。",
+    "ファクタリング会社41社の口コミ・評判レビュー一覧ページです。手数料・審査・入金スピードを各社ごとに検証しています。",
   url: "https://hyogo-shihoushoshi.jp/reviews/",
   isPartOf: {
     "@type": "WebSite",
