@@ -4,17 +4,17 @@ import Breadcrumb from "../components/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
-    "ファクタリング会社の口コミ・評判レビュー一覧｜41社を徹底検証",
+    "ファクタリング会社の口コミ・評判レビュー一覧｜42社を徹底検証",
   description:
-    "ファクタリングパートナーが調査したファクタリング会社41社の口コミ・評判レビュー一覧です。フリーランス向け・法人向け大口・オンライン完結・業種特化など、各社の手数料・審査・入金スピードを検証しています。",
+    "ファクタリングパートナーが調査したファクタリング会社42社の口コミ・評判レビュー一覧です。フリーランス向け・法人向け大口・オンライン完結・業種特化など、各社の手数料・審査・入金スピードを検証しています。",
   alternates: {
     canonical: "https://hyogo-shihoushoshi.jp/reviews/",
   },
   openGraph: {
     title:
-      "ファクタリング会社の口コミ・評判レビュー一覧｜41社を徹底検証",
+      "ファクタリング会社の口コミ・評判レビュー一覧｜42社を徹底検証",
     description:
-      "ファクタリング会社41社の口コミ・評判レビュー一覧。手数料・審査・入金スピードを各社ごとに検証しています。",
+      "ファクタリング会社42社の口コミ・評判レビュー一覧。手数料・審査・入金スピードを各社ごとに検証しています。",
     url: "https://hyogo-shihoushoshi.jp/reviews/",
     type: "website",
   },
@@ -69,6 +69,7 @@ const groups: ReviewGroup[] = [
       { slug: "jbl", name: "JBL", note: "365日契約・振込対応、最大1億円" },
       { slug: "acetrust", name: "エーストラスト", note: "原則法人・上限まで手数料公表" },
       { slug: "nextone", name: "ネクストワン", note: "法人専門・買取上限なし" },
+      { slug: "factor-associates", name: "ファクターアソシエイツ", note: "注文書・発注書の資金化に対応" },
     ],
   },
   {
@@ -118,7 +119,7 @@ const collectionSchema = {
   "@type": "CollectionPage",
   name: "ファクタリング会社の口コミ・評判レビュー一覧",
   description:
-    "ファクタリング会社41社の口コミ・評判レビュー一覧ページです。手数料・審査・入金スピードを各社ごとに検証しています。",
+    "ファクタリング会社42社の口コミ・評判レビュー一覧ページです。手数料・審査・入金スピードを各社ごとに検証しています。",
   url: "https://hyogo-shihoushoshi.jp/reviews/",
   isPartOf: {
     "@type": "WebSite",
