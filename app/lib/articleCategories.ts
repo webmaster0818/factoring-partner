@@ -218,6 +218,7 @@ export const categories: Category[] = [
       { slug: "nyukin-maedaoshi", label: "入金を前倒しする方法（法人）" },
       { slug: "kyuyo-maebarai-chigai", label: "給与前払いサービスと報酬前払いの違い" },
       { slug: "kakeuri-risk", label: "掛け売りの資金繰りリスクと対策" },
+      { slug: "sakibarai-kaitori", label: "先払い買取とは？違法性と危険性（金融庁等が注意喚起）" },
     ],
   },
   {

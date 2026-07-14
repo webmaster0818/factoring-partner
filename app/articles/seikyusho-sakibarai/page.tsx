@@ -91,6 +91,14 @@ const differences = [
     note:
       "「給与の買取」をうたうが、実質は貸付。無登録業者による違法な高利貸しの被害が多発しており、利用してはいけない。",
   },
+  {
+    name: "先払い買取・現金化（個人向け・要注意）",
+    who: "個人",
+    what: "手元にない商品の画像など",
+    legal: "実態が貸付なら無登録貸金業のおそれ（金融庁・消費者庁・警察庁等が注意喚起）",
+    note:
+      "商品売買を装いキャンセル（契約解除）を前提に現金を渡し、高額な違約金名目で回収する手口。事業者向けの請求書先払いとは別物で、利用してはいけない。",
+  },
 ];
 
 const faqs = [
@@ -580,6 +588,15 @@ export default function SeikyushoSakibaraiPage() {
               <p className="font-bold text-primary">請求書を現金化する方法</p>
               <p className="mt-1 text-sm text-text-light">
                 違法性の不安に正面から回答。安全な進め方
+              </p>
+            </Link>
+            <Link
+              href="/articles/sakibarai-kaitori/"
+              className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
+            >
+              <p className="font-bold text-primary">先払い買取とは？違法性と危険性</p>
+              <p className="mt-1 text-sm text-text-light">
+                名前が似ていても別物。金融庁等が注意喚起する現金化手口の解説
               </p>
             </Link>
           </div>
