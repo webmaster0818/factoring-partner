@@ -219,6 +219,10 @@ export const categories: Category[] = [
       { slug: "kyuyo-maebarai-chigai", label: "給与前払いサービスと報酬前払いの違い" },
       { slug: "kakeuri-risk", label: "掛け売りの資金繰りリスクと対策" },
       { slug: "sakibarai-kaitori", label: "先払い買取とは？違法性と危険性（金融庁等が注意喚起）" },
+      { slug: "sakibarai-kaitori-cancel", label: "先払い買取のキャンセル料が払えない場合の対処法" },
+      { slug: "sakibarai-kaitori-tekihatsu", label: "先払い買取の摘発事例と通報先" },
+      { slug: "atobarai-genkinka", label: "後払い現金化・ツケ払い現金化の違法性" },
+      { slug: "sakibarai-kaitori-gyosha", label: "先払い買取に「優良・おすすめ業者」は存在するか" },
     ],
   },
   {

@@ -147,6 +147,16 @@ const faqs = [
       "名前は似ていますが別物です。フリーランス向けの「報酬前払い・請求書先払い」サービスは、発行済みの請求書（売掛債権）を買い取るファクタリングであり、正規の事業者向けサービスです。一方、個人の給与を対象とする「給与ファクタリング」は金融庁の見解で貸金業に該当するとされており、無登録業者の利用は避けるべきです。「先払い」という言葉だけで判断せず、対象が事業の売掛債権かどうかを確認してください。",
   },
   {
+    question: "スマホやiPhoneの先払い買取なら安全ですか？",
+    answer:
+      "商材がスマホ・iPhoneであっても、仕組みが同じであればリスクは変わりません。警察庁等の注意喚起資料が示すとおり、問題の本質は「実際には商品を売買せず、キャンセル前提で現金を渡し高額な違約金で回収する」という構造にあります。むしろスマホ・ゲーム機は『ネット上の商品画像』を使った申し込みが典型例として名指しされている商材です。実際に手元にある端末を通常の買取店（店頭・宅配)で売却することとは全く別の取引である点にご注意ください。",
+  },
+  {
+    question: "手元に商品がなくても（無職でも）利用できると聞きましたが本当ですか？",
+    answer:
+      "「手元に商品がなくてもOK」は、この取引が商品売買ではないことを自ら示すサインです。警察庁等の資料は、業者が商品の価値に関心がなく、契約にあたって主に利用者の収入等による審査を行うことを特徴として挙げています。つまり行われているのは買取の査定ではなく、貸付の審査に近いものです。収入がない方に対しても現金を渡す業者は、その後の高額な違約金の回収を前提としている可能性が高く、生活がさらに悪化する危険があります。利用せず、まず消費者ホットライン（188）等の公的窓口にご相談ください。",
+  },
+  {
     question: "今すぐ現金が必要です。先払い買取の代わりになる方法はありますか？",
     answer:
       "事業を営んでいて売掛金（請求書）があるなら、正規のファクタリングで最短即日の資金化が可能です（フリーランスは1万円から使えるサービスもあります）。事業資金全般は、よろず支援拠点や信用保証協会などの公的窓口でも相談できます。個人の生活資金の場合は、危険な現金化に頼る前に、まず消費者ホットライン（188）や市区町村の相談窓口で、公的な支援制度や債務整理を含めた選択肢を確認することを強くおすすめします。",
@@ -162,7 +172,7 @@ const articleSchema = {
   description:
     "先払い買取現金化は金融庁・消費者庁・警察庁等が注意喚起する取引。仕組み・違約金リスク・相談窓口・正規の資金調達との違いを一次情報で解説。",
   datePublished: "2026-07-15",
-  dateModified: "2026-07-15",
+  dateModified: "2026-07-19",
   author: {
     "@type": "Person",
     name: "ファクタリングパートナー 編集部",
@@ -754,6 +764,42 @@ export default function SakibaraiKaitoriPage() {
               <p className="font-bold text-primary">つなぎ資金の調達方法</p>
               <p className="mt-1 text-sm text-text-light">
                 入金までの数週間を乗り切る選択肢をコスト・スピード別に比較
+              </p>
+            </Link>
+            <Link
+              href="/articles/sakibarai-kaitori-cancel/"
+              className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
+            >
+              <p className="font-bold text-primary">キャンセル料が払えない場合の対処法</p>
+              <p className="mt-1 text-sm text-text-light">
+                法テラス・公的窓口の使い分けと証拠保全。支払う前に読む
+              </p>
+            </Link>
+            <Link
+              href="/articles/sakibarai-kaitori-tekihatsu/"
+              className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
+            >
+              <p className="font-bold text-primary">先払い買取の摘発事例と通報先</p>
+              <p className="mt-1 text-sm text-text-light">
+                警察庁公表の検挙事例と、何罪に問われるかの法的整理
+              </p>
+            </Link>
+            <Link
+              href="/articles/atobarai-genkinka/"
+              className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
+            >
+              <p className="font-bold text-primary">後払い現金化・ツケ払い現金化の違法性</p>
+              <p className="mt-1 text-sm text-text-light">
+                現金が先か後かが違うだけの兄弟スキーム。金融庁も注意喚起
+              </p>
+            </Link>
+            <Link
+              href="/articles/sakibarai-kaitori-gyosha/"
+              className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
+            >
+              <p className="font-bold text-primary">「優良・おすすめ業者」は存在するか</p>
+              <p className="mt-1 text-sm text-text-light">
+                当サイトが業者を紹介しない理由と、正規の代替
               </p>
             </Link>
           </div>
