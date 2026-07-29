@@ -581,6 +581,33 @@ export default function IsItLegalPage() {
           </h2>
           <div className="grid gap-4 md:grid-cols-2">
             <Link
+              href="/articles/double-assignment/"
+              className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
+            >
+              <p className="font-bold text-primary">ファクタリングの二重譲渡とは？</p>
+              <p className="mt-1 text-sm text-text-light">
+                同じ売掛金の二重売却は詐欺罪にあたりうる重大リスク。回避方法を解説
+              </p>
+            </Link>
+            <Link
+              href="/articles/no-guarantee/"
+              className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
+            >
+              <p className="font-bold text-primary">償還請求権なし（ノンリコース）とは？</p>
+              <p className="mt-1 text-sm text-text-light">
+                売掛先が倒産しても返済義務なし。健全な契約の見分け方
+              </p>
+            </Link>
+            <Link
+              href="/articles/fraud-patterns/"
+              className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
+            >
+              <p className="font-bold text-primary">悪質業者の手口と見分け方</p>
+              <p className="mt-1 text-sm text-text-light">
+                偽装ファクタリング・詐欺的な勧誘のパターンを具体的に解説
+              </p>
+            </Link>
+            <Link
               href="/articles/what-is-factoring/"
               className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
             >

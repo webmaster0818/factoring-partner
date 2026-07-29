@@ -429,7 +429,27 @@ export default function NoInterviewPage() {
                   </div>
                 </section>
 
-{/* ── 関連記事 ─── */}
+{/* ── 会社別審査ガイド ─── */}
+        <section className="mb-16">
+          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">
+            会社別に審査・必要書類・手数料を確認する
+          </h2>
+          <p className="mb-6 text-sm leading-relaxed text-text-light">
+            入金スピードや土日の扱いは最終的に各社の審査・契約フローで決まります。主要8社は審査基準・必要書類・手数料を会社別ページで公式情報ベースに整理しています。
+          </p>
+          <div className="grid gap-3 sm:grid-cols-2">
+            <Link href="/reviews/betrading/shinsa/" className="rounded-lg border border-border bg-white px-4 py-3 text-sm font-medium text-primary transition-colors hover:bg-section-bg">ビートレーディングの審査ガイド</Link>
+            <Link href="/reviews/paytner/shinsa/" className="rounded-lg border border-border bg-white px-4 py-3 text-sm font-medium text-primary transition-colors hover:bg-section-bg">ペイトナーファクタリングの審査ガイド</Link>
+            <Link href="/reviews/ququmo/shinsa/" className="rounded-lg border border-border bg-white px-4 py-3 text-sm font-medium text-primary transition-colors hover:bg-section-bg">QuQuMoの審査ガイド</Link>
+            <Link href="/reviews/labol/shinsa/" className="rounded-lg border border-border bg-white px-4 py-3 text-sm font-medium text-primary transition-colors hover:bg-section-bg">ラボルの審査ガイド</Link>
+            <Link href="/reviews/accelfactor/shinsa/" className="rounded-lg border border-border bg-white px-4 py-3 text-sm font-medium text-primary transition-colors hover:bg-section-bg">アクセルファクターの審査ガイド</Link>
+            <Link href="/reviews/olta/shinsa/" className="rounded-lg border border-border bg-white px-4 py-3 text-sm font-medium text-primary transition-colors hover:bg-section-bg">OLTAの審査ガイド</Link>
+            <Link href="/reviews/freenance/shinsa/" className="rounded-lg border border-border bg-white px-4 py-3 text-sm font-medium text-primary transition-colors hover:bg-section-bg">FREENANCEの審査ガイド</Link>
+            <Link href="/reviews/gmo-btob/shinsa/" className="rounded-lg border border-border bg-white px-4 py-3 text-sm font-medium text-primary transition-colors hover:bg-section-bg">GMO BtoB早払いの審査ガイド</Link>
+          </div>
+        </section>
+
+        {/* ── 関連記事 ─── */}
         <section className="mb-16">
           <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">

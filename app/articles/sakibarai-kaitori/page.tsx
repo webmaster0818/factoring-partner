@@ -803,6 +803,19 @@ export default function SakibaraiKaitoriPage() {
               </p>
             </Link>
           </div>
+
+          <div className="mt-8 rounded-lg border border-border bg-section-bg p-6">
+            <p className="mb-3 font-bold text-text-main">商品券・ギフト券の現金化サービスの検証記事</p>
+            <p className="mb-4 text-sm leading-relaxed text-text-light">
+              「商品券買取」をうたう次のサービスは、いずれも本記事で解説した「先払い買取（現金化）」の仕組みに当たります。それぞれの公式表記を確認したうえで、注意点を一次情報で検証しています。
+            </p>
+            <div className="grid gap-3 md:grid-cols-2">
+              <Link href="/articles/sheep-ticket/" className="rounded-lg border border-border bg-white p-4 text-sm font-medium text-primary transition-shadow hover:shadow-md">シープチケット（SHEEP TICKET）の検証</Link>
+              <Link href="/articles/turtle-ticket/" className="rounded-lg border border-border bg-white p-4 text-sm font-medium text-primary transition-shadow hover:shadow-md">タートルチケット（TURTLE TICKET）の検証</Link>
+              <Link href="/articles/rese-ticket/" className="rounded-lg border border-border bg-white p-4 text-sm font-medium text-primary transition-shadow hover:shadow-md">リセチケットの検証</Link>
+              <Link href="/articles/ticket-center/" className="rounded-lg border border-border bg-white p-4 text-sm font-medium text-primary transition-shadow hover:shadow-md">チケットセンターの検証</Link>
+            </div>
+          </div>
         </section>
 
         {/* ── CTA ─── */}

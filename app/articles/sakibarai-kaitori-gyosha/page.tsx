@@ -496,6 +496,15 @@ export default function SakibaraiKaitoriGyoshaPage() {
           </h2>
           <div className="grid gap-4 md:grid-cols-2">
             <Link
+              href="/articles/fraud-patterns/"
+              className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
+            >
+              <p className="font-bold text-primary">悪質業者の手口と見分け方</p>
+              <p className="mt-1 text-sm text-text-light">
+                偽装ファクタリング・詐欺的な勧誘のパターンを具体的に解説
+              </p>
+            </Link>
+            <Link
               href="/articles/sakibarai-kaitori/"
               className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
             >

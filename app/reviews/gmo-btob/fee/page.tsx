@@ -373,6 +373,20 @@ export default function GmoBtobFeePage() {
               <p className="mt-1 text-sm text-text-light">審査前に揃える5点セットを確認</p>
             </Link>
             <Link
+              href="/articles/weekend-factoring/"
+              className="rounded-lg border border-border bg-white p-4 transition-colors hover:bg-section-bg"
+            >
+              <p className="font-semibold text-primary">土日・祝日に使えるファクタリングの探し方</p>
+              <p className="mt-1 text-sm text-text-light">休日対応の可否と申込みの注意点</p>
+            </Link>
+            <Link
+              href="/articles/instant-factoring/"
+              className="rounded-lg border border-border bg-white p-4 transition-colors hover:bg-section-bg"
+            >
+              <p className="font-semibold text-primary">即日入金を狙う申込みのコツ</p>
+              <p className="mt-1 text-sm text-text-light">申込み時間帯と書類準備で入金スピードは変わる</p>
+            </Link>
+            <Link
               href="/ranking/"
               className="rounded-lg border border-border bg-white p-4 transition-colors hover:bg-section-bg"
             >

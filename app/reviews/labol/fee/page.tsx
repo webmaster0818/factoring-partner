@@ -346,6 +346,14 @@ export default function LabolFeePage() {
               <p className="font-semibold text-primary">ラボルの必要書類と入金までの流れ</p>
               <p className="mt-1 text-sm text-text-light">通帳コピー不要の書類と4ステップ</p>
             </Link>
+            <Link href="/articles/weekend-factoring/" className="rounded-lg border border-border bg-white p-4 transition-colors hover:bg-section-bg">
+              <p className="font-semibold text-primary">土日・祝日に使えるファクタリングの探し方</p>
+              <p className="mt-1 text-sm text-text-light">休日対応の可否と申込みの注意点</p>
+            </Link>
+            <Link href="/articles/instant-factoring/" className="rounded-lg border border-border bg-white p-4 transition-colors hover:bg-section-bg">
+              <p className="font-semibold text-primary">即日入金を狙う申込みのコツ</p>
+              <p className="mt-1 text-sm text-text-light">申込み時間帯と書類準備で入金スピードは変わる</p>
+            </Link>
             <Link href="/diagnosis/" className="rounded-lg border border-border bg-white p-4 transition-colors hover:bg-section-bg">
               <p className="font-semibold text-primary">無料診断ツール</p>
               <p className="mt-1 text-sm text-text-light">7つの質問であなたに合う会社を絞り込み</p>

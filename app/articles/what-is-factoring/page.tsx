@@ -834,6 +834,12 @@ export default function WhatIsFactoringPage() {
               <Link href="/articles/faq-all/" className="block p-3 border border-[#d4dbe6] rounded-lg hover:bg-[#f7f9fc] transition-colors">
                 <p className="text-sm font-semibold text-[#1e3a5f]">ファクタリングよくある質問50選 →</p>
               </Link>
+              <Link href="/articles/no-guarantee/" className="block p-3 border border-[#d4dbe6] rounded-lg hover:bg-[#f7f9fc] transition-colors">
+                <p className="text-sm font-semibold text-[#1e3a5f]">償還請求権なし（ノンリコース）とは →</p>
+              </Link>
+              <Link href="/articles/market-trends/" className="block p-3 border border-[#d4dbe6] rounded-lg hover:bg-[#f7f9fc] transition-colors">
+                <p className="text-sm font-semibold text-[#1e3a5f]">ファクタリング市場の最新動向 →</p>
+              </Link>
               <Link href="/articles/glossary/" className="block p-3 border border-[#d4dbe6] rounded-lg hover:bg-[#f7f9fc] transition-colors">
                 <p className="text-sm font-semibold text-[#1e3a5f]">ファクタリング用語集 →</p>
               </Link>

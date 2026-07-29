@@ -393,6 +393,15 @@ export default function FundingMethodsPage() {
         <section className="mb-16">
           <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">関連記事</h2>
           <div className="grid gap-4 md:grid-cols-2">
+            <Link
+              href="/articles/market-trends/"
+              className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
+            >
+              <p className="font-bold text-primary">ファクタリング市場の最新動向</p>
+              <p className="mt-1 text-sm text-text-light">
+                市場規模の推移と業界の変化をデータで整理
+              </p>
+            </Link>
             <Link href="/articles/beginners-guide/" className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md">
               <p className="font-bold text-primary">初めてのファクタリング完全ガイド</p>
               <p className="mt-1 text-sm text-text-light">仕組みから選び方まで</p>

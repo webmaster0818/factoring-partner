@@ -713,6 +713,15 @@ export default function TwoVsThreePage() {
           </h2>
           <div className="grid gap-4 md:grid-cols-2">
             <Link
+              href="/articles/no-guarantee/"
+              className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
+            >
+              <p className="font-bold text-primary">償還請求権なし（ノンリコース）とは？</p>
+              <p className="mt-1 text-sm text-text-light">
+                売掛先が倒産しても返済義務なし。健全な契約の見分け方
+              </p>
+            </Link>
+            <Link
               href="/articles/low-fee/"
               className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
             >

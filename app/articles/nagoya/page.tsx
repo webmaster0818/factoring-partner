@@ -105,6 +105,7 @@ const tokaiIndustries = [
 ];
 
 const faqs = [
+  { question: "名古屋で即日入金は可能ですか？", answer: "オンライン完結型の会社であれば来店不要で、最短即日入金に対応するサービスがあります（対応可否・条件は本ページの比較表と各社公式サイトをご確認ください）。午前中の申込みと、請求書・入出金明細など書類の事前準備が当日入金の実務上の鍵になります。" },
   {
     question: "名古屋でファクタリング会社を選ぶ際のポイントは？",
     answer:
@@ -349,6 +350,19 @@ export default function NagoyaPage() {
           </div>
           <p className="mt-4 text-sm leading-relaxed text-text-light">時間に余裕があれば低利の制度融資・公庫融資を本命に、入金待ちの売掛金を今すぐ資金化したい場合はファクタリングを、と資金が必要になるまでの時間で使い分けるのが基本です。</p>
           <p className="mt-2 text-xs text-text-light">※各機関の情報は2026年7月に公式サイトで確認しています。最新の制度内容は各公式サイトをご確認ください。</p>
+        </section>
+
+        {/* ── 即日入金 ─── */}
+        <section className="mb-16">
+          <h2 className="mb-6 border-l-4 border-primary pl-4 text-xl font-bold text-text-main md:text-2xl">名古屋で即日入金を狙うなら</h2>
+          <p className="mb-4 leading-relaxed text-text-light">
+            名古屋からでも、オンライン完結型のファクタリングなら来店不要で申し込めます。本ページの比較表にある「最短即日」対応の会社を選び、<strong className="text-text-main">午前中の早い時間に申し込む・請求書と入出金明細を事前に揃えておく</strong>ことが、当日中の入金可否を分ける実務上のポイントです。
+          </p>
+          <div className="flex flex-wrap gap-3">
+            <Link href="/articles/instant-factoring/" className="rounded-lg border border-border bg-white px-4 py-3 text-sm font-medium text-primary transition-colors hover:bg-section-bg">即日入金を狙う申込みのコツ</Link>
+            <Link href="/articles/weekend-factoring/" className="rounded-lg border border-border bg-white px-4 py-3 text-sm font-medium text-primary transition-colors hover:bg-section-bg">土日・祝日対応の探し方</Link>
+            <Link href="/diagnosis/" className="rounded-lg border border-border bg-white px-4 py-3 text-sm font-medium text-primary transition-colors hover:bg-section-bg">30秒無料診断で絞り込む</Link>
+          </div>
         </section>
 
         {/* ── FAQ ─── */}

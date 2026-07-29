@@ -361,6 +361,15 @@ export default function KakeuriRiskPage() {
           </h2>
           <div className="grid gap-4 md:grid-cols-2">
             <Link
+              href="/articles/double-assignment/"
+              className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
+            >
+              <p className="font-bold text-primary">ファクタリングの二重譲渡とは？</p>
+              <p className="mt-1 text-sm text-text-light">
+                同じ売掛金の二重売却は詐欺罪にあたりうる重大リスク。回避方法を解説
+              </p>
+            </Link>
+            <Link
               href="/articles/receivables-management/"
               className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
             >

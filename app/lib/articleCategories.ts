@@ -223,6 +223,10 @@ export const categories: Category[] = [
       { slug: "sakibarai-kaitori-tekihatsu", label: "先払い買取の摘発事例と通報先" },
       { slug: "atobarai-genkinka", label: "後払い現金化・ツケ払い現金化の違法性" },
       { slug: "sakibarai-kaitori-gyosha", label: "先払い買取に「優良・おすすめ業者」は存在するか" },
+      { slug: "sheep-ticket", label: "シープチケットとは？口コミ・評判と「先払い買取」の注意点" },
+      { slug: "turtle-ticket", label: "タートルチケットとは？口コミ・評判と「先払い買取」の注意点" },
+      { slug: "rese-ticket", label: "リセチケットとは？口コミ・評判と「先払い買取」の注意点" },
+      { slug: "ticket-center", label: "チケットセンターとは？口コミ・評判と「先払い買取」の注意点" },
     ],
   },
   {
