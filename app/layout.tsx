@@ -92,6 +92,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col">
         <Header />
+        <p className="bg-gray-50 border-b border-gray-100 text-center text-[11px] text-gray-500 py-1 px-4">本サイトはプロモーション（PR）を含みます。</p>
         <main className="flex-1">{children}</main>
         <Footer />
       </body>

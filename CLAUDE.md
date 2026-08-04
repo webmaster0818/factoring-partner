@@ -322,3 +322,10 @@
 - 【修正】seikyusho-sakibarai: 比較表に先払い買取行+関連記事カード追加(正規の請求書先払いとの混同分離・相互リンク)
 - vocabularyカテゴリ+1(hub 132記事)・sitemap-articles 187→188(index lastmod 2026-07-15)・deploy=factoring-partner-deploy両push・本番検証(先払い買取92箇所/FAQPage/相互リンク2/ハブ3/sitemap188)・GSC再送信
 - 残: 新URLを次回登録リクエストリストへ追加
+
+## 2026-07-29 do/know/go戦略①②実装（MediaXAI「①②進めて」）✅
+- ①指名×doサブ面: 8社×3サブ24本の関連ページ欄に条件面カード2枚(weekend-factoring/instant-factoring)追加。土日の可否は公式明示なし→事実追記せず既存記事へ接続する安全設計。条件系4記事(instant/weekend/no-interview/denwa-nashi)に8社審査ガイド導線ブロック新設=サブ面の被リンク太線化
+- ①地域×即日: 9都市(nagoya/kobe/mito/hiroshima/sapporo/sendai/fukuoka/kochi-city/sagamihara)に「◯◯で即日入金を狙うなら」節+FAQ1問(一般安全表現・比較表参照誘導)
+- ②know勝ちページ内部リンク集中: FAQ点検で勝ち4頁は5-8問完備と判明→真のギャップ=被内部リンク1-2本。8記事(is-it-legal/2sha-vs-3sha/screening-criteria/salary-factoring-illegal/funding-methods/kakeuri-risk/sakibarai-kaitori-gyosha/what-is-factoring)から勝ち4頁(double-assignment/no-guarantee/market-trends/fraud-patterns)へカード集中配置。★救済系新規は作らず=詐欺系は既存fraud-patternsが受け皿(棚卸し教訓の適用)
+- 計45ページ修正・新規URL0。build成功・sitemap lastmod45件(reviews24+articles21)→2026-07-29・deploy=factoring-partner-deploy両push・本番cache回避curl全項目検証・GSC3種再送信。報告id 1531912762970734682
+- 挿入スクリプトの学び: サブページの関連ページ欄は3形式(複数行Link/単一行Link/diagnosisカードのみ)→アンカーを/ranking/カード→/diagnosis/カードの順でフォールバック
