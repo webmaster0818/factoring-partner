@@ -776,6 +776,24 @@ export default function SakibaraiKaitoriPage() {
               </p>
             </Link>
             <Link
+              href="/articles/sakibarai-kaitori-shiharaenai/"
+              className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
+            >
+              <p className="font-bold text-primary">支払えない・遅れそうなときの対処法</p>
+              <p className="mt-1 text-sm text-text-light">
+                放置も自転車操業もNG。司法書士・弁護士など相談窓口の一覧
+              </p>
+            </Link>
+            <Link
+              href="/articles/sakibarai-kaitori-temoto-ni-nai/"
+              className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
+            >
+              <p className="font-bold text-primary">商品が手元にないのに使える？</p>
+              <p className="mt-1 text-sm text-text-light">
+                「手元にない」前提の買取は貸付仮装の典型。仕組みと危険性
+              </p>
+            </Link>
+            <Link
               href="/articles/sakibarai-kaitori-tekihatsu/"
               className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
             >
