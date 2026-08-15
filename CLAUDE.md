@@ -336,3 +336,9 @@
 - 品質: 並列agent2体にホワイトリスト方式(既存実取得の電話3種/罰則/npa PDF2本のみ使用可)で発注→ホスト機械照合パス(ホワイトリスト外数値ゼロ)
 - 配線: pillar+2カード・articleCategories+2・sitemap-articles 196→198(index lastmod)・deploy=factoring-partner-deploy・本番200/FAQ schema/canonical/導線4検証・GSC再送信。サイト235URL
 - ※sitemapのCF反映は~3分ラグ(初回196→再検証198)。報告id 1535238682439847937
+
+## 2026-08-16 先払いKW拡張TierA2本: 商品券+スマホ（MediaXAI「進めて」）✅
+- 【新規】shohinken-sakibarai=商品券・ギフト券(救済意図: 違法/弁護士/写真・番号だけ・電子ギフト券の価値移転)・sakibarai-kaitori-sumaho=スマホ・iPhone(FAQ8問格上げ構成・「使いながらでOK」の構造解説・分割中端末は断定なし)
+- 並列agent2体×ホワイトリスト方式(窓口5件/罰則/npa PDFのみ)→ホスト機械照合パス(全数値=CSS/日付/ホワイトリストのみ・業者名/キャリア名/機種名ゼロ)
+- 配線: pillarカード2枚+articleCategories+2・sitemap-articles 198→200(index/pillar lastmod)・deploy=factoring-partner-deploy両push・本番2/2検証(200/title/FAQPage/pillarカード/sitemap200)・GSC2種再送信。報告id 1538201908181868564
+- 先払い買取クラスタ=13本。保留: アクア(実在確認待ち)/おすすめ面は作らない。次: 登録リクエストリストに2URL追加・8/19頃S帯観測
