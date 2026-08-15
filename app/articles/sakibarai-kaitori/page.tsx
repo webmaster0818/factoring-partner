@@ -794,6 +794,24 @@ export default function SakibaraiKaitoriPage() {
               </p>
             </Link>
             <Link
+              href="/articles/shohinken-sakibarai/"
+              className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
+            >
+              <p className="font-bold text-primary">商品券・ギフト券の先払い買取は違法？</p>
+              <p className="mt-1 text-sm text-text-light">
+                金券が使われやすい理由と通常の金券ショップ買取との違い
+              </p>
+            </Link>
+            <Link
+              href="/articles/sakibarai-kaitori-sumaho/"
+              className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
+            >
+              <p className="font-bold text-primary">スマホ・iPhoneの先払い買取の危険性</p>
+              <p className="mt-1 text-sm text-text-light">
+                「使いながらでOK」の意味と分割払い中端末の注意点をFAQで解説
+              </p>
+            </Link>
+            <Link
               href="/articles/sakibarai-kaitori-tekihatsu/"
               className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
             >

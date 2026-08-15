@@ -329,3 +329,10 @@
 - ②know勝ちページ内部リンク集中: FAQ点検で勝ち4頁は5-8問完備と判明→真のギャップ=被内部リンク1-2本。8記事(is-it-legal/2sha-vs-3sha/screening-criteria/salary-factoring-illegal/funding-methods/kakeuri-risk/sakibarai-kaitori-gyosha/what-is-factoring)から勝ち4頁(double-assignment/no-guarantee/market-trends/fraud-patterns)へカード集中配置。★救済系新規は作らず=詐欺系は既存fraud-patternsが受け皿(棚卸し教訓の適用)
 - 計45ページ修正・新規URL0。build成功・sitemap lastmod45件(reviews24+articles21)→2026-07-29・deploy=factoring-partner-deploy両push・本番cache回避curl全項目検証・GSC3種再送信。報告id 1531912762970734682
 - 挿入スクリプトの学び: サブページの関連ページ欄は3形式(複数行Link/単一行Link/diagnosisカードのみ)→アンカーを/ranking/カード→/diagnosis/カードの順でフォールバック
+
+## 2026-08-07 S1拡張: 先払い買取クラスタ+2本（MediaXAI「S1進めよう」）✅
+- 需要ゲート再実測: 提案時の「キャンセル料/摘発」は7/19実装済みと棚卸しで判明→サジェスト実測で真のギャップ2本に確定(司法書士/弁護士/支払い遅れ=救済意図最上位・手元にない+知恵袋)
+- 【新規】sakibarai-kaitori-shiharaenai(691行)=支払えない対処法(多重化NG/専門家相談価値/窓口5件表・断定なし)・sakibarai-kaitori-temoto-ni-nai(708行)=手元にない危険性(利用指南にならない構成・業者名なし)
+- 品質: 並列agent2体にホワイトリスト方式(既存実取得の電話3種/罰則/npa PDF2本のみ使用可)で発注→ホスト機械照合パス(ホワイトリスト外数値ゼロ)
+- 配線: pillar+2カード・articleCategories+2・sitemap-articles 196→198(index lastmod)・deploy=factoring-partner-deploy・本番200/FAQ schema/canonical/導線4検証・GSC再送信。サイト235URL
+- ※sitemapのCF反映は~3分ラグ(初回196→再検証198)。報告id 1535238682439847937

@@ -1046,7 +1046,7 @@
   </url>
   <url>
     <loc>https://hyogo-shihoushoshi.jp/articles/sakibarai-kaitori/</loc>
-    <lastmod>2026-08-07</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1107,6 +1107,18 @@
   <url>
     <loc>https://hyogo-shihoushoshi.jp/articles/sakibarai-kaitori-temoto-ni-nai/</loc>
     <lastmod>2026-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/articles/shohinken-sakibarai/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://hyogo-shihoushoshi.jp/articles/sakibarai-kaitori-sumaho/</loc>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
