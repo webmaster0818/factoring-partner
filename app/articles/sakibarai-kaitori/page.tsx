@@ -812,6 +812,33 @@ export default function SakibaraiKaitoriPage() {
               </p>
             </Link>
             <Link
+              href="/articles/sakibarai-kaitori-shinsa-nashi/"
+              className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
+            >
+              <p className="font-bold text-primary">審査がないのはなぜか</p>
+              <p className="mt-1 text-sm text-text-light">
+                「審査なし」は便利さでなく規制の外で行われる構造のサイン
+              </p>
+            </Link>
+            <Link
+              href="/articles/sakibarai-kaitori-zaiseki-kakunin/"
+              className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
+            >
+              <p className="font-bold text-primary">在籍確認・職場への連絡はある？</p>
+              <p className="mt-1 text-sm text-text-light">
+                本当のリスクは申込時でなく支払えなくなったときの連絡
+              </p>
+            </Link>
+            <Link
+              href="/articles/sakibarai-kaitori-5ch-hyoban/"
+              className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
+            >
+              <p className="font-bold text-primary">5ch・知恵袋の評判は信用できる？</p>
+              <p className="mt-1 text-sm text-text-light">
+                匿名口コミとランキングサイトの読み方・一次情報の当たり方
+              </p>
+            </Link>
+            <Link
               href="/articles/sakibarai-kaitori-tekihatsu/"
               className="rounded-lg border border-border bg-white p-5 transition-shadow hover:shadow-md"
             >
