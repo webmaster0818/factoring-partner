@@ -342,3 +342,8 @@
 - 並列agent2体×ホワイトリスト方式(窓口5件/罰則/npa PDFのみ)→ホスト機械照合パス(全数値=CSS/日付/ホワイトリストのみ・業者名/キャリア名/機種名ゼロ)
 - 配線: pillarカード2枚+articleCategories+2・sitemap-articles 198→200(index/pillar lastmod)・deploy=factoring-partner-deploy両push・本番2/2検証(200/title/FAQPage/pillarカード/sitemap200)・GSC2種再送信。報告id 1538201908181868564
 - 先払い買取クラスタ=13本。保留: アクア(実在確認待ち)/おすすめ面は作らない。次: 登録リクエストリストに2URL追加・8/19頃S帯観測
+
+## 2026-08-16 変換移植P1: 注意喚起3記事（MediaXAI「進めて」）✅
+- okanenoerabikata-deploy.pages.dev(推奨型比較サイト・49URL)の需要面をhyogo流に変換移植: shinsa-nashi(審査なし=規制外構造・総量規制を貸金業協会一次ソース実確認で新規採用 j-fsa.or.jp/association/money_lending/law/annual_income.php)/zaiseki-kakunin(バレる不安→支払えない時の督促が本当のリスク)/5ch-hyoban(口コミの読み方・利益相反の見分け方)
+- 実在確認不能11社(ゴールドチケット/サクラバイヤー等=公式サイト準備中・検索実査でも不在)・おすすめランキング・監修者(実在未確認)は移植せず
+- agent3体×ホワイトリスト→機械照合パス。pillarカード3+カテゴリ3+sitemap 200→203・両repo push・本番3/3検証・GSC再送信。報告id 1538550438247399566。クラスタ16本。次回登録リクエストに5URL追加予定
